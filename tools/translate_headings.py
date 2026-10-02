@@ -166,6 +166,11 @@ TR = {
 # 目录里非标题但也要汉化的短句
 RAW_TR = {
     "<summary>Expand contents</summary>": "<summary>展开目录</summary>",
+    # 尾部贡献指南 / 许可证两段（2026-10-03 用户指出漏译）
+    "We welcome contributions! Please refer to our [CONTRIBUTING.md](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md) for guidelines.":
+        "欢迎贡献！请阅读上游的[贡献指南](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md)了解具体规范。",
+    "This project is licensed under the [MIT License](https://github.com/avelino/awesome-go/blob/main/LICENSE) - see the LICENSE file for details.":
+        "本项目采用 [MIT 许可证](https://github.com/avelino/awesome-go/blob/main/LICENSE) 发布，详见 LICENSE 文件。",
 }
 
 _PUNCT = re.compile(r"[^\w\s-]", re.UNICODE)
@@ -181,7 +186,14 @@ def gh_slug(t: str) -> str:
 blocks = json.loads(Path("blocks.json").read_text(encoding="utf-8"))
 
 translated = untranslated = 0
+toc_done = toc_miss = 0
 out: list[dict] = []
+
+# 目录条目：显示文字译中文，url 锚点保持英文不动
+tr_by_name = {k: v for k, v in TR.items()}
+# 目录里 “Awesome Go” 指向本仓库自身，显示名随 L1 标题
+tr_by_name["Awesome Go"] = "Awesome Go 中文版"
+tr_by_name["Contents"] = "目录"
 
 for b in blocks:
     if b["type"] == "heading":
@@ -196,12 +208,24 @@ for b in blocks:
         else:
             untranslated += 1
             print(f"  ⚠️ 未翻译标题: {en!r}")
+    elif b["type"] == "entry":
+        if b.get("url", "").startswith("#"):
+            # 目录条目：只改显示名，url 一字不动
+            zh = tr_by_name.get(b["name"])
+            if zh:
+                b["name"] = zh
+                toc_done += 1
+            else:
+                toc_miss += 1
+                print(f"  ⚠️ 未翻译目录项: {b['name']!r}")
     elif b["type"] == "raw" and b["text"] in RAW_TR:
         b["text"] = RAW_TR[b["text"]]
         translated += 1
     out.append(b)
 
 Path("blocks.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-print(f"已翻译标题/文本: {translated}")
-print(f"未翻译        : {untranslated}")
-print(f"已钉锚点      : {sum(1 for b in out if b.get('anchor'))}")
+print(f"已翻译标题/文本 : {translated}")
+print(f"未翻译         : {untranslated}")
+print(f"已钉锚点       : {sum(1 for b in out if b.get('anchor'))}")
+print(f"已译目录条目   : {toc_done}")
+print(f"未译目录条目   : {toc_miss}")

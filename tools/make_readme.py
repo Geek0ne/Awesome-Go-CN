@@ -20,11 +20,11 @@ HEADER = """<a id="awesome-go"></a>
 [![Last Commit](https://img.shields.io/github/last-commit/avelino/awesome-go)](https://github.com/avelino/awesome-go/commits/main)
 
 > **[Awesome Go](https://github.com/avelino/awesome-go) 的中文汉化版本** ——
-> 收录 Go 生态中优秀的库、框架与工具，共 **87 个分类、3000+ 条目**。
+> 收录 Go 生态中优秀的库、框架与工具，共 **87 个分类、3200+ 条目**。
 
 ## 关于本项目
 
-这是对上游项目 [avelino/awesome-go](https://github.com/avelino/awesome-go)（18.6k stars）的**中文翻译版本**。
+这是对上游项目 [avelino/awesome-go](https://github.com/avelino/awesome-go)（**18.6 万 stars**）的**中文翻译版本**。
 
 - **分类标题、条目描述已汉化**为中文，**库名、框架名、命令、字段等专有名词保持英文原样**，方便检索与对照
 - 每条目的**链接均指向原项目地址**，功能与上游完全一致

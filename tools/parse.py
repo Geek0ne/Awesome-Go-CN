@@ -22,7 +22,7 @@ from pathlib import Path
 # 条目：`- [Name](url) - Description.`
 # desc 内部可能含 [文字](链接)，必须原样保留
 ENTRY_RE = re.compile(
-    r"^(?P<indent>\s*)-\s+"
+    r"^(?P<indent>\s*)(?P<bullet>[-*+])\s+"
     r"\[(?P<name>[^\]]*)\]\((?P<url>[^)]*)\)"
     r"(?P<gap>\s*(?:-\s+|:\s+|—\s+)?)"
     r"(?P<desc>.*)$"
@@ -41,6 +41,7 @@ def parse(md_text: str) -> list[dict]:
                 "type": "entry",
                 "lineno": lineno,
                 "indent": m.group("indent"),
+                "bullet": m.group("bullet"),
                 "name": m.group("name"),
                 "url": m.group("url"),
                 "gap": m.group("gap"),
@@ -73,7 +74,10 @@ def render(blocks: list[dict], anchors: bool = True) -> str:
     out: list[str] = []
     for b in blocks:
         if b["type"] == "entry":
-            out.append(f'{b["indent"]}- [{b["name"]}]({b["url"]}){b["gap"]}{b["desc"]}')
+            # bullet 必须原样还原：上游确实存在 * 开头的条目，
+            # 统一输出 - 会改动原文，往返验证会失败。
+            bl = b.get("bullet", "-")
+            out.append(f'{b["indent"]}{bl} [{b["name"]}]({b["url"]}){b["gap"]}{b["desc"]}')
         elif b["type"] == "heading":
             if anchors and b.get("anchor"):
                 out.append(f'<a id="{b["anchor"]}"></a>')
