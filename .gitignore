@@ -1,0 +1,5 @@
+blocks.json
+blocks.json.bak
+README_CN.md
+__pycache__/
+*.pyc
