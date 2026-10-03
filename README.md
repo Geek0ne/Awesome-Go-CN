@@ -201,11 +201,11 @@
 
 _用于构建 Actor 模型的库。_
 
-- [asyncmachine-go/pkg/machine](https://github.com/pancsta/asyncmachine-go/tree/main/pkg/machine) - Graph control flow library (AOP, actor, state-machine).
-- [Ergo](https://github.com/ergo-services/ergo) - An actor-based Framework with network transparency for creating event-driven architecture in Golang. Inspired by Erlang.
-- [Goakt](https://github.com/Tochemey/goakt) - Fast and Distributed Actor framework using protocol buffers as message for Golang.
-- [Hollywood](https://github.com/anthdm/hollywood) - Blazingly fast and light-weight Actor engine written in Golang.
-- [ProtoActor](https://github.com/asynkron/protoactor-go) - Distributed actors for Go, C#, and Java/Kotlin.
+- [asyncmachine-go/pkg/machine](https://github.com/pancsta/asyncmachine-go/tree/main/pkg/machine) - 图控制流库（支持 AOP、Actor、状态机）。
+- [Ergo](https://github.com/ergo-services/ergo) - 基于 Actor 的框架，具备网络透明性，用于在 Golang 中构建事件驱动架构。灵感源自 Erlang。
+- [Goakt](https://github.com/Tochemey/goakt) - 高性能分布式 Actor 框架，为 Golang 提供基于 Protocol Buffers 的消息传递。
+- [Hollywood](https://github.com/anthdm/hollywood) - 用 Golang 编写的极速轻量级 Actor 引擎。
+- [ProtoActor](https://github.com/asynkron/protoactor-go) - 面向 Go、C# 以及 Java/Kotlin 的分布式 Actor 库。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -214,41 +214,41 @@ _用于构建 Actor 模型的库。_
 
 _用于构建 AI 应用的库。_
 
-- [AegisFlow](https://github.com/saivedant169/AegisFlow) - AI gateway for routing, securing, and monitoring LLM traffic across 10+ providers. OpenAI-compatible API, WASM policy plugins, canary rollouts, real-time dashboard.
-- [Aetheris](https://github.com/Colin4k1024/Aetheris) - AI Agent execution runtime with event sourcing, checkpoint recovery, and At-Most-Once execution guarantee. Written in Go.
-- [agent-sdk-go](https://github.com/agenticenv/agent-sdk-go) - Framework for building stateful AI agents in Go.
-- [agy-mcp](https://github.com/tphakala/agy-mcp) - Model Context Protocol (MCP) server wrapping the Antigravity CLI to run prompts and peer reviews.
-- [ai](https://github.com/joakimcarlsson/ai) - A Go toolkit for building AI agents and applications across multiple providers with unified LLM, embeddings, tool calling, and MCP integration.
-- [ai-gateway](https://github.com/ferro-labs/ai-gateway) - OpenAI-compatible LLM gateway that routes requests across 30 providers with fallback, rate limiting, budgets, guardrails, and observability.
-- [chromem-go](https://github.com/philippgille/chromem-go) - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
-- [claude-code-go](https://github.com/lancekrogers/claude-code-go) - Go library for driving the Claude Code CLI non-interactive prompt surface from Go programs.
-- [crewai-go](https://github.com/rhgs/crewai-go) - Idiomatic Go port of CrewAI (multi-agent orchestration). Zero dependencies, stdlib only.
-- [Cynative](https://github.com/cynative/cynative) - Framework for building security engineering AI agents in Go. Read-only by construction, built-in sandbox, 45 agent blueprints for AWS, GCP, Azure, K8s, GitHub & GitLab deep research.
-- [dakera-go](https://github.com/dakera-ai/dakera-go) - Official Go client SDK for the Dakera self-hosted agent memory server, providing typed interfaces for memory store/recall, session management, namespace operations, and decay configuration.
-- [fun](https://gitlab.com/tozd/go/fun) - The simplest but powerful way to use large language models (LLMs) in Go.
-- [goai](https://github.com/zendev-sh/goai) - Go SDK for building AI applications. One SDK, 20+ providers. Inspired by Vercel AI SDK.
-- [GoModel](https://github.com/ENTERPILOT/GoModel) - AI gateway exposing a unified OpenAI-compatible API across OpenAI, Anthropic, Gemini, Groq, xAI, Ollama and other providers, with routing, usage tracking, rate limits, and guardrails.
-- [hotplex](https://github.com/hrygo/hotplex) - AI Agent runtime engine with long-lived sessions for Claude Code, OpenCode, pi-mono and other CLI AI tools. Provides full-duplex streaming, multi-platform integrations, and secure sandbox.
-- [jargo](https://github.com/gojargo/jargo) - Framework for building real-time voice AI agents over WebRTC, wiring speech-to-text, LLMs, and text-to-speech into a streaming pipeline.
-- [keen-code](https://github.com/mochow13/keen-code) - A context-efficient terminal-based AI coding agent. Provider agnostic, supports MCPs, Agent Skills, Subagents, and more. Comes with a simple and straightforward TUI.
-- [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
-- [langgraphgo](https://github.com/smallnest/langgraphgo) - A Go library for building stateful, multi-actor applications with LLMs, built on the concept of LangGraph，with a lot of builtin Agent architectures.
-- [llm-box](https://github.com/alib8b8/llm-box) - Terminal-based AI workflow engine with YAML-driven pipelines, 20+ LLM providers (DeepSeek, Qwen, GLM, Mistral, etc.), and a TUI for workflow management.
-- [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
-- [localaik](https://github.com/harshaneel/localaik) - LocalStack-style local emulation of OpenAI and Gemini APIs; single Docker container, llama.cpp + Gemma 3 backend.
-- [mcp-go](https://github.com/mark3labs/mcp-go) - Go implementation of the Model Context Protocol for building MCP servers and clients in Go.
-- [Ollama](https://github.com/jmorganca/ollama) - Run large language models locally.
-- [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas.
-- [otellix](https://github.com/oluwajubelo1/otellix) - OpenTelemetry-native LLM observability and budget guardrails for cost-constrained production environments.
-- [routex](https://github.com/Ad3bay0c/routex) - YAML-driven multi-agent AI runtime for Go with Erlang-style supervision, MCP tool server support, and a CLI.
-- [semantic-search](https://github.com/DavidBelicza/semantic-search) - Meaning-based search over PDF, Markdown, DOCX, source code, and other file types, using generative AI embedding models to vectorize files into a vector database.
-- [skillreaper](https://github.com/thousandflowers/skillreaper) - CLI that scans AI agent session transcripts to identify and safely quarantine unused skills, MCP servers, and agents across Claude Code, Codex CLI, Hermes, OpenCode, Cursor, and OpenClaw.
-- [Smeldr](https://github.com/Smeldr/core) - AI-native content backend with typed lifecycle management, native MCP tools for every content type, and zero runtime dependencies.
-- [snip](https://github.com/edouard-claude/snip) - CLI proxy that reduces LLM token usage by 60-90% with declarative YAML filters. Drop-in for Claude Code, Cursor, Copilot, and Gemini. rtk alternative in Go.
-- [thermal](https://github.com/jadmadi/thermal) - Terminal contribution heatmap, streak tracker, and token leaderboard for AI coding assistants.
-- [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) - Framework for building LLM-based multi-agent systems.
-- [web-researcher-mcp](https://github.com/zoharbabin/web-researcher-mcp) - MCP server providing AI assistants with web search, content extraction, and multi-source research capabilities. Single binary, 5 search providers with circuit-breaker failover, 4-tier scraping pipeline.
-- [zenflow](https://github.com/zendev-sh/zenflow) - Multi-agent orchestration & workflow engine. Declarative YAML workflows, LLM coordinator with hub-and-spoke mailboxes, race-safe delivery. One YAML file, one Go binary. Runs on any goai-supported provider.
+- [AegisFlow](https://github.com/saivedant169/AegisFlow) - AI 网关，面向 10+ 服务商统一路由、加固与监控 LLM 流量。兼容 OpenAI API，支持 WASM 策略插件、金丝雀发布与实时仪表盘。
+- [Aetheris](https://github.com/Colin4k1024/Aetheris) - AI Agent 执行运行时，支持事件溯源、检查点恢复，并提供 At-Most-Once 执行保证。以 Go 编写。
+- [agent-sdk-go](https://github.com/agenticenv/agent-sdk-go) - 用于在 Go 中构建有状态 AI 智能体的框架。
+- [agy-mcp](https://github.com/tphakala/agy-mcp) - Model Context Protocol（MCP）服务器，封装 Antigravity CLI 以运行提示词与同行评审。
+- [ai](https://github.com/joakimcarlsson/ai) - Go 工具集，用于跨多家服务商构建 AI 智能体与应用，统一提供 LLM、嵌入、工具调用与 MCP 集成。
+- [ai-gateway](https://github.com/ferro-labs/ai-gateway) - 兼容 OpenAI 的 LLM 网关，在 30 家服务商之间路由请求，支持降级、限流、预算、护栏与可观测性。
+- [chromem-go](https://github.com/philippgille/chromem-go) - 面向 Go 的可嵌入式向量数据库，接口类似 Chroma，且零第三方依赖。内存存储，可选持久化。
+- [claude-code-go](https://github.com/lancekrogers/claude-code-go) - Go 库，可从 Go 程序中以非交互方式驱动 Claude Code CLI 的提示词接口。
+- [crewai-go](https://github.com/rhgs/crewai-go) - CrewAI 的惯用 Go 移植版（多智能体编排）。零依赖，仅用标准库。
+- [Cynative](https://github.com/cynative/cynative) - 用于在 Go 中构建安全工程 AI 智能体的框架。默认只读、内置沙箱，并提供面向 AWS、GCP、Azure、K8s、GitHub 与 GitLab 深度调研的 45 个智能体蓝图。
+- [dakera-go](https://github.com/dakera-ai/dakera-go) - Dakera 自托管智能体记忆服务器的官方 Go 客户端 SDK，为记忆存取、会话管理、命名空间操作与衰减配置提供类型化接口。
+- [fun](https://gitlab.com/tozd/go/fun) - 在 Go 中使用大语言模型（LLM）最简单却强大的方式。
+- [goai](https://github.com/zendev-sh/goai) - 用于构建 AI 应用的 Go SDK。一个 SDK 接入 20+ 服务商。灵感源自 Vercel AI SDK。
+- [GoModel](https://github.com/ENTERPILOT/GoModel) - AI 网关，为 OpenAI、Anthropic、Gemini、Groq、xAI、Ollama 等服务商提供统一的 OpenAI 兼容 API，并支持路由、用量追踪、限流与护栏。
+- [hotplex](https://github.com/hrygo/hotplex) - AI Agent 运行时引擎，为 Claude Code、OpenCode、pi-mono 等 CLI AI 工具提供长生命周期会话。支持全双工流式输出、多平台集成与安全沙箱。
+- [jargo](https://github.com/gojargo/jargo) - 用于在 WebRTC 之上构建实时语音 AI 智能体的框架，将语音转文本、LLM 与文本转语音串联成流式管线。
+- [keen-code](https://github.com/mochow13/keen-code) - 上下文高效的终端 AI 编码智能体。与服务商无关，支持 MCP、Agent Skills、子智能体等，并内置简洁直观的 TUI。
+- [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo 是一个用于开发语言模型驱动应用的框架。
+- [langgraphgo](https://github.com/smallnest/langgraphgo) - 用于在 LLM 之上构建有状态多 Actor 应用的 Go 库，基于 LangGraph 理念，内置大量开箱即用的 Agent 架构。
+- [llm-box](https://github.com/alib8b8/llm-box) - 终端 AI 工作流引擎，采用 YAML 驱动管线，支持 20+ LLM 服务商（DeepSeek、Qwen、GLM、Mistral 等），并提供工作流管理 TUI。
+- [LocalAI](https://github.com/mudler/LocalAI) - 开源的 OpenAI 替代方案，可自托管 AI 模型。
+- [localaik](https://github.com/harshaneel/localaik) - 以 LocalStack 风格在本地模拟 OpenAI 与 Gemini API；单个 Docker 容器，基于 llama.cpp + Gemma 3 后端。
+- [mcp-go](https://github.com/mark3labs/mcp-go) - Model Context Protocol 的 Go 实现，用于在 Go 中构建 MCP 服务器与客户端。
+- [Ollama](https://github.com/jmorganca/ollama) - 在本地运行大语言模型。
+- [OllamaFarm](https://github.com/presbrey/ollamafarm) - 管理、负载均衡与故障转移 Ollama 实例组。
+- [otellix](https://github.com/oluwajubelo1/otellix) - OpenTelemetry 原生的 LLM 可观测性与预算护栏，面向成本受限的生产环境。
+- [routex](https://github.com/Ad3bay0c/routex) - 面向 Go 的 YAML 驱动多智能体 AI 运行时，具备 Erlang 风格的监督机制，支持 MCP 工具服务器并附带 CLI。
+- [semantic-search](https://github.com/DavidBelicza/semantic-search) - 基于语义的搜索，支持 PDF、Markdown、DOCX、源代码等文件类型，利用生成式 AI 嵌入模型将文件向量化后存入向量数据库。
+- [skillreaper](https://github.com/thousandflowers/skillreaper) - 命令行工具，扫描 AI 智能体会话记录，识别并安全隔离在 Claude Code、Codex CLI、Hermes、OpenCode、Cursor 与 OpenClaw 中未被使用的技能、MCP 服务器与智能体。
+- [Smeldr](https://github.com/Smeldr/core) - AI 原生内容后端，具备类型化生命周期管理、为每种内容类型提供原生 MCP 工具，且零运行时依赖。
+- [snip](https://github.com/edouard-claude/snip) - 命令行代理，通过声明式 YAML 过滤器将 LLM token 用量降低 60-90%。可直接用于 Claude Code、Cursor、Copilot 与 Gemini，是 Go 语言版的 rtk 替代方案。
+- [thermal](https://github.com/jadmadi/thermal) - 面向 AI 编码助手的终端贡献热力图、连续打卡追踪与 token 排行榜。
+- [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) - 用于构建基于 LLM 的多智能体系统的框架。
+- [web-researcher-mcp](https://github.com/zoharbabin/web-researcher-mcp) - MCP 服务器，为 AI 助手提供网页搜索、内容抽取与多源调研能力。单一二进制文件，内置 5 家搜索服务商与熔断故障转移、4 级抓取管线。
+- [zenflow](https://github.com/zendev-sh/zenflow) - 多智能体编排与工作流引擎。声明式 YAML 工作流，带中心辐射式邮箱的 LLM 协调器，以及竞态安全投递。仅需一个 YAML 文件、一个 Go 二进制，可在任意受 goai 支持的服务商上运行。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -257,25 +257,25 @@ _用于构建 AI 应用的库。_
 
 _用于处理音频与音乐的库。_
 
-- [beep](https://github.com/gopxl/beep) - A simple library for playback and audio manipulation.
-- [flac](https://github.com/mewkiz/flac) - Native Go FLAC encoder/decoder with support for FLAC streams.
-- [gaad](https://github.com/Comcast/gaad) - Native Go AAC bitstream parser.
-- [go-aac](https://github.com/tphakala/go-aac) - Pure-Go AAC-LC encoder and decoder ported from FFmpeg.
-- [go-audio-resampler](https://github.com/tphakala/go-audio-resampler) - Pure-Go, high-quality audio resampler with SIMD acceleration.
-- [go-flac](https://github.com/tphakala/go-flac) - Native Go FLAC encoder and decoder with SIMD acceleration.
-- [go-mpris](https://github.com/leberKleber/go-mpris) - Client for mpris dbus interfaces.
-- [go-opus](https://github.com/tphakala/go-opus) - Native Go implementation of the Opus audio codec (RFC 6716) with RFC-compliant decoder.
-- [go-resample](https://github.com/gojargo/go-resample) - Pure-Go (no cgo) audio sample-rate converter with sinc, linear, and zero-order-hold converters.
-- [go-wav](https://github.com/tphakala/go-wav) - Pure-Go WAV/RIFF reader and writer with RF64 and BW64 support for files larger than 4 GiB.
-- [GoAudio](https://github.com/DylanMeeus/GoAudio) - Native Go Audio Processing Library.
-- [gocue](https://github.com/iSerganov/gocue) - Audio analysis CLI that detects cue-in, cue-out, and overlay points and measures EBU R128 loudness, emitting JSON for Liquidsoap.
-- [gosamplerate](https://github.com/dh1tw/gosamplerate) - libsamplerate bindings for go.
-- [id3v2](https://github.com/bogem/id3v2) - ID3 decoding and encoding library for Go.
-- [malgo](https://github.com/gen2brain/malgo) - Mini audio library.
-- [minimp3](https://github.com/tosone/minimp3) - Lightweight MP3 decoder library.
-- [music-theory](https://github.com/go-music-theory/music-theory) - Music theory models in Go.
-- [Oto](https://github.com/hajimehoshi/oto) - A low-level library to play sound on multiple platforms.
-- [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
+- [beep](https://github.com/gopxl/beep) - 用于音频播放与音频处理的简单库。
+- [flac](https://github.com/mewkiz/flac) - 原生 Go 实现的 FLAC 编码器/解码器，支持 FLAC 流。
+- [gaad](https://github.com/Comcast/gaad) - 原生 Go AAC 比特流解析器。
+- [go-aac](https://github.com/tphakala/go-aac) - 纯 Go 实现的 AAC-LC 编码器与解码器，移植自 FFmpeg。
+- [go-audio-resampler](https://github.com/tphakala/go-audio-resampler) - 纯 Go 高品质音频重采样器，具备 SIMD 加速。
+- [go-flac](https://github.com/tphakala/go-flac) - 原生 Go FLAC 编码器与解码器，具备 SIMD 加速。
+- [go-mpris](https://github.com/leberKleber/go-mpris) - 用于访问 mpris dbus 接口的客户端。
+- [go-opus](https://github.com/tphakala/go-opus) - Opus 音频编解码器（RFC 6716）的原生 Go 实现，解码器符合 RFC 规范。
+- [go-resample](https://github.com/gojargo/go-resample) - 纯 Go（无 cgo）音频采样率转换器，支持 sinc、线性与零阶保持转换器。
+- [go-wav](https://github.com/tphakala/go-wav) - 纯 Go 的 WAV/RIFF 读写器，支持 RF64 与 BW64，可处理超过 4 GiB 的文件。
+- [GoAudio](https://github.com/DylanMeeus/GoAudio) - 原生 Go 音频处理库。
+- [gocue](https://github.com/iSerganov/gocue) - 音频分析命令行工具，可检测 cue-in、cue-out 与 overlay 点，并测量 EBU R128 响度，输出 JSON 供 Liquidsoap 使用。
+- [gosamplerate](https://github.com/dh1tw/gosamplerate) - libsamplerate 的 Go 绑定。
+- [id3v2](https://github.com/bogem/id3v2) - 面向 Go 的 ID3 解码与编码库。
+- [malgo](https://github.com/gen2brain/malgo) - 迷你音频库。
+- [minimp3](https://github.com/tosone/minimp3) - 轻量级 MP3 解码库。
+- [music-theory](https://github.com/go-music-theory/music-theory) - 用 Go 实现的乐理模型。
+- [Oto](https://github.com/hajimehoshi/oto) - 用于在多平台播放声音的底层库。
+- [PortAudio](https://github.com/gordonklaus/portaudio) - PortAudio 音频 I/O 库的 Go 绑定。
 -[voxrai-ai](https://github.com/Voxray-AI/Voxray) - AI voice agents with a JSON configuration,  STT → LLM → TTS pipelines over WebSocket and WebRTC 
 
 **[⬆ 回到顶部](#contents)**
@@ -285,48 +285,48 @@ _用于处理音频与音乐的库。_
 
 _用于实现认证与授权的库。_
 
-- [authboss](https://github.com/volatiletech/authboss) - Modular authentication system for the web. It tries to remove as much boilerplate and "hard things" as possible so that each time you start a new web project in Go, you can plug it in, configure it, and start building your app without having to build an authentication system each time.
-- [authgate](https://github.com/go-authgate/authgate) - A lightweight OAuth 2.0 Authorization Server supporting Device Authorization Grant ([RFC 8628](https://datatracker.ietf.org/doc/html/rfc8628)), Authorization Code Flow with PKCE ([RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749) + [RFC 7636](https://datatracker.ietf.org/doc/html/rfc7636)), and Client Credentials Grant for machine-to-machine authentication.
-- [branca](https://github.com/essentialkaos/branca) - branca token [specification implementation](https://github.com/tuupola/branca-spec) for Golang 1.15+.
-- [casbin](https://github.com/hsluoyz/casbin) - Authorization library that supports access control models like ACL, RBAC, and ABAC.
-- [cookiestxt](https://github.com/mengzhuo/cookiestxt) - provides a parser of cookies.txt file format.
-- [go-githubauth](https://github.com/jferrl/go-githubauth) - Utilities for GitHub authentication: generate and use GitHub application and installation tokens.
-- [go-guardian](https://github.com/shaj13/go-guardian) - Go-Guardian is a golang library that provides a simple, clean, and idiomatic way to create powerful modern API and web authentication that supports LDAP, Basic, Bearer token, and Certificate based authentication.
-- [go-iam](https://github.com/melvinodsa/go-iam) - Developer-first Identity and Access Management system with a simple UI.
-- [go-jose](https://github.com/go-jose/go-jose) - Fairly complete implementation of the JOSE working group's JSON Web Token, JSON Web Signatures, and JSON Web Encryption specs.
-- [go-jwt](https://github.com/deatil/go-jwt) - A JWT (JSON Web Token) library for Go.
-- [go-jwt](https://github.com/pardnchiu/go-jwt) - JWT authentication package providing access tokens and refresh tokens with fingerprinting, Redis storage, and automatic refresh capabilities.
-- [goiabada](https://github.com/leodip/goiabada) - An open-source authentication and authorization server supporting OAuth2 and OpenID Connect.
-- [gologin](https://github.com/dghubble/gologin) - chainable handlers for login with OAuth1 and OAuth2 authentication providers.
-- [gorbac](https://github.com/mikespook/gorbac) - provides a lightweight role-based access control (RBAC) implementation in Golang.
-- [gosession](https://github.com/Kwynto/gosession) - This is quick session for net/http in GoLang. This package is perhaps the best implementation of the session mechanism, or at least it tries to become one.
-- [goth](https://github.com/markbates/goth) - provides a simple, clean, and idiomatic way to use OAuth and OAuth2. Handles multiple providers out of the box.
-- [jeff](https://github.com/abraithwaite/jeff) - Simple, flexible, secure, and idiomatic web session management with pluggable backends.
-- [jwt](https://github.com/pascaldekloe/jwt) - Lightweight JSON Web Token (JWT) library.
-- [jwt](https://github.com/cristalhq/jwt) - Safe, simple, and fast JSON Web Tokens for Go.
-- [jwt-auth](https://github.com/adam-hanna/jwt-auth) - JWT middleware for Golang http servers with many configuration options.
-- [jwt-go](https://github.com/golang-jwt/jwt) - A full featured implementation of JSON Web Tokens (JWT). This library supports the parsing and verification as well as the generation and signing of JWTs.
-- [jwx](https://github.com/lestrrat-go/jwx) - Go module implementing various JWx (JWA/JWE/JWK/JWS/JWT, otherwise known as JOSE) technologies.
-- [keto](https://github.com/ory/keto) - Open Source (Go) implementation of "Zanzibar: Google's Consistent, Global Authorization System". Ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models.
-- [loginsrv](https://github.com/tarent/loginsrv) - JWT login microservice with pluggable backends such as OAuth2 (Github), htpasswd, osiam.
-- [melange](https://github.com/pthm/melange) - Compiles OpenFGA authorization schemas into PL/pgSQL functions that run fine-grained relationship-based access control checks inside PostgreSQL.
-- [oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine, and App Engine support.
-- [oidc](https://github.com/zitadel/oidc) - Easy to use OpenID Connect client and server library written for Go and certified by the OpenID Foundation.
-- [openfga](https://github.com/openfga/openfga) - Implementation of fine-grained authorization based on the "Zanzibar: Google's Consistent, Global Authorization System" paper. Backed by [CNCF](https://www.cncf.io/).
-- [osin](https://github.com/openshift/osin) - Golang OAuth2 server library.
-- [otpgen](https://github.com/grijul/otpgen) - Library to generate TOTP/HOTP codes.
-- [otpgo](https://github.com/jltorresm/otpgo) - Time-Based One-Time Password (TOTP) and HMAC-Based One-Time Password (HOTP) library for Go.
-- [paseto](https://github.com/o1egl/paseto) - Golang implementation of Platform-Agnostic Security Tokens (PASETO).
-- [permissions](https://github.com/xyproto/permissions) - Library for keeping track of users, login states, and permissions. Uses secure cookies and bcrypt.
-- [scope](https://github.com/SonicRoshan/scope) - Easily Manage OAuth2 Scopes In Go.
-- [scs](https://github.com/alexedwards/scs) - Session Manager for HTTP servers.
-- [securecookie](https://github.com/chmike/securecookie) - Efficient secure cookie encoding/decoding.
-- [session](https://github.com/icza/session) - Go session management for web servers (including support for Google App Engine - GAE).
-- [sessions](https://github.com/adam-hanna/sessions) - Dead simple, highly performant, highly customizable sessions service for go http servers.
-- [sessionup](https://github.com/swithek/sessionup) - Simple, yet effective HTTP session management and identification package.
-- [sjwt](https://github.com/brianvoe/sjwt) - Simple jwt generator and parser.
-- [spicedb](https://github.com/authzed/spicedb) - A Zanzibar-inspired database that enables fine-grained authorization.
-- [x509proxy](https://github.com/vkuznet/x509proxy) - Library to handle X509 proxy certificates.
+- [authboss](https://github.com/volatiletech/authboss) - 面向 Web 的模块化认证系统。它尽可能剔除样板代码与「困难问题」，这样每次在 Go 中开启新的 Web 项目时，只需接入、配置即可开始开发应用，而不必每次都重新构建一套认证系统。
+- [authgate](https://github.com/go-authgate/authgate) - 轻量级 OAuth 2.0 授权服务器，支持设备授权许可（[RFC 8628](https://datatracker.ietf.org/doc/html/rfc8628)）、带 PKCE 的授权码流程（[RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749) + [RFC 7636](https://datatracker.ietf.org/doc/html/rfc7636)），以及用于机器对机器认证的客户端凭据模式。
+- [branca](https://github.com/essentialkaos/branca) - 面向 Golang 1.15+ 的 branca 令牌[规范实现](https://github.com/tuupola/branca-spec)。
+- [casbin](https://github.com/hsluoyz/casbin) - 授权库，支持 ACL、RBAC、ABAC 等访问控制模型。
+- [cookiestxt](https://github.com/mengzhuo/cookiestxt) - 提供 cookies.txt 文件格式的解析器。
+- [go-githubauth](https://github.com/jferrl/go-githubauth) - GitHub 认证工具：生成并使用 GitHub 应用令牌与安装令牌。
+- [go-guardian](https://github.com/shaj13/go-guardian) - Go-Guardian 是一个 Go 库，以简单、干净、惯用的方式实现强大的现代 API 与 Web 认证，支持 LDAP、Basic、Bearer 令牌与证书认证。
+- [go-iam](https://github.com/melvinodsa/go-iam) - 开发者优先的身份与访问管理系统，界面简洁。
+- [go-jose](https://github.com/go-jose/go-jose) - 相当完整地实现了 JOSE 工作组的 JSON Web Token、JSON Web Signatures 与 JSON Web Encryption 规范。
+- [go-jwt](https://github.com/deatil/go-jwt) - 面向 Go 的 JWT（JSON Web Token）库。
+- [go-jwt](https://github.com/pardnchiu/go-jwt) - JWT 认证包，提供访问令牌与刷新令牌，附带指纹识别、Redis 存储与自动刷新能力。
+- [goiabada](https://github.com/leodip/goiabada) - 支持 OAuth2 与 OpenID Connect 的开源认证与授权服务器。
+- [gologin](https://github.com/dghubble/gologin) - 可通过链式调用的处理器，使用 OAuth1 与 OAuth2 认证服务商完成登录。
+- [gorbac](https://github.com/mikespook/gorbac) - 在 Golang 中提供轻量级基于角色的访问控制（RBAC）实现。
+- [gosession](https://github.com/Kwynto/gosession) - 这是 GoLang 中用于 net/http 的快速会话实现。这个包或许是会话机制最好的实现，至少它在努力成为最好的那个。
+- [goth](https://github.com/markbates/goth) - 以简单、干净、惯用的方式使用 OAuth 与 OAuth2，开箱即支持多家服务商。
+- [jeff](https://github.com/abraithwaite/jeff) - 简单、灵活、安全、惯用的 Web 会话管理，后端可插拔。
+- [jwt](https://github.com/pascaldekloe/jwt) - 轻量级 JSON Web Token（JWT）库。
+- [jwt](https://github.com/cristalhq/jwt) - 安全、简单、快速的 Go 版 JSON Web Token。
+- [jwt-auth](https://github.com/adam-hanna/jwt-auth) - 面向 Golang HTTP 服务器的 JWT 中间件，提供丰富的配置选项。
+- [jwt-go](https://github.com/golang-jwt/jwt) - 功能完备的 JSON Web Token（JWT）实现。该库同时支持 JWT 的解析与校验，以及生成与签名。
+- [jwx](https://github.com/lestrrat-go/jwx) - Go 模块，实现多种 JWx（JWA/JWE/JWK/JWS/JWT，即 JOSE）技术。
+- [keto](https://github.com/ory/keto) - 「Zanzibar：Google 全球一致的权限系统」的开源（Go）实现。内置 gRPC、REST API、newSQL，以及一套易用且粒度精细的权限语言。支持 ACL、RBAC 及其他访问模型。
+- [loginsrv](https://github.com/tarent/loginsrv) - JWT 登录微服务，支持 OAuth2（Github）、htpasswd、osiam 等可插拔后端。
+- [melange](https://github.com/pthm/melange) - 将 OpenFGA 授权 schema 编译为 PL/pgSQL 函数，在 PostgreSQL 内部执行细粒度的基于关系的访问控制检查。
+- [oauth2](https://github.com/golang/oauth2) - goauth2 的继任者。通用 OAuth 2.0 包，内置 JWT、Google APIs、Compute Engine 与 App Engine 支持。
+- [oidc](https://github.com/zitadel/oidc) - 易用的 OpenID Connect 客户端与服务器库，为 Go 编写并获 OpenID 基金会认证。
+- [openfga](https://github.com/openfga/openfga) - 基于「Zanzibar：Google 全球一致的权限系统」论文的细粒度授权实现。由 [CNCF](https://www.cncf.io/) 背书。
+- [osin](https://github.com/openshift/osin) - Golang OAuth2 服务器库。
+- [otpgen](https://github.com/grijul/otpgen) - 用于生成 TOTP/HOTP 验证码的库。
+- [otpgo](https://github.com/jltorresm/otpgo) - 面向 Go 的基于时间一次性密码（TOTP）与基于 HMAC 一次性密码（HOTP）库。
+- [paseto](https://github.com/o1egl/paseto) - 平台无关安全令牌（PASETO）的 Golang 实现。
+- [permissions](https://github.com/xyproto/permissions) - 用于跟踪用户、登录状态与权限的库。使用安全 Cookie 与 bcrypt。
+- [scope](https://github.com/SonicRoshan/scope) - 轻松管理 Go 中的 OAuth2 权限范围（Scopes）。
+- [scs](https://github.com/alexedwards/scs) - 面向 HTTP 服务器的会话管理器。
+- [securecookie](https://github.com/chmike/securecookie) - 高效安全的 Cookie 编解码。
+- [session](https://github.com/icza/session) - 面向 Web 服务器的 Go 会话管理（包含对 Google App Engine - GAE 的支持）。
+- [sessions](https://github.com/adam-hanna/sessions) - 简单、高性能、高度可定制的 Go HTTP 服务器会话服务。
+- [sessionup](https://github.com/swithek/sessionup) - 简单却有效的 HTTP 会话管理与身份识别包。
+- [sjwt](https://github.com/brianvoe/sjwt) - 简单的 JWT 生成器与解析器。
+- [spicedb](https://github.com/authzed/spicedb) - 受 Zanzibar 启发的数据库，支持细粒度授权。
+- [x509proxy](https://github.com/vkuznet/x509proxy) - 用于处理 X509 代理证书的库。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -335,19 +335,19 @@ _用于实现认证与授权的库。_
 
 _用于开发区块链的工具。_
 
-- [cometbft](https://github.com/cometbft/cometbft) - A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. It is a fork of Tendermint Core and implements the Tendermint consensus algorithm.
-- [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) - A Framework for Building Public Blockchains in the Cosmos Ecosystem.
-- [gno](https://github.com/gnolang/gno) - A comprehensive smart contract suite built with Golang and Gnolang, a deterministic, purpose-built Go variant for blockchains.
-- [go-ethereum](https://github.com/ethereum/go-ethereum) - Official Go implementation of the Ethereum protocol.
-- [gosemble](https://github.com/LimeChain/gosemble) - A Go-based framework for building Polkadot/Substrate-compatible runtimes.
-- [gossamer](https://github.com/ChainSafe/gossamer) - A Go implementation of the Polkadot Host.
-- [kubo](https://github.com/ipfs/kubo) - An IPFS implementation in Go. It provides content-addressable storage which can be used for decentralized storage in DApps. It is based on the IPFS protocol.
-- [lnd](https://github.com/lightningnetwork/lnd) - A complete implementation of a Lightning Network node.
-- [nview](https://github.com/blinklabs-io/nview) - Local monitoring tool for a Cardano Node. It's a TUI (terminal user interface) designed to fit most screens.
-- [pactus](https://github.com/pactus-project/pactus) - A full-node implementation of the Pactus blockchain in Go.
-- [solana-go](https://github.com/gagliardetto/solana-go) - Go library to interface with Solana JSON RPC and WebSocket interfaces.
-- [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
-- [tronlib](https://github.com/kslamph/tronlib) - A comprehensive, production-ready Go SDK for interacting with the TRON blockchain with TRC20 token support.
+- [cometbft](https://github.com/cometbft/cometbft) - 分布式的拜占庭容错确定性状态机复制引擎。它是 Tendermint Core 的分支，并实现了 Tendermint 共识算法。
+- [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) - 用于在 Cosmos 生态中构建公链的框架。
+- [gno](https://github.com/gnolang/gno) - 使用 Golang 与 Gnolang（专为区块链打造的确定性 Go 变体）构建的全能智能合约套件。
+- [go-ethereum](https://github.com/ethereum/go-ethereum) - 以太坊协议的官方 Go 实现。
+- [gosemble](https://github.com/LimeChain/gosemble) - 基于 Go 的框架，用于构建兼容 Polkadot/Substrate 的运行时。
+- [gossamer](https://github.com/ChainSafe/gossamer) - Polkadot Host 的 Go 实现。
+- [kubo](https://github.com/ipfs/kubo) - Go 实现的 IPFS。它提供内容寻址存储，可用于 DApp 中的去中心化存储，基于 IPFS 协议。
+- [lnd](https://github.com/lightningnetwork/lnd) - 闪电网络节点的完整实现。
+- [nview](https://github.com/blinklabs-io/nview) - Cardano 节点的本地监控工具。它是一个 TUI（终端用户界面），设计为适配大多数屏幕尺寸。
+- [pactus](https://github.com/pactus-project/pactus) - 用 Go 实现的 Pactus 区块链全节点。
+- [solana-go](https://github.com/gagliardetto/solana-go) - 用于对接 Solana JSON RPC 与 WebSocket 接口的 Go 库。
+- [tendermint](https://github.com/tendermint/tendermint) - 高性能中间件，可将任意编程语言编写的状态机转换为基于 Tendermint 共识与区块链协议的拜占庭容错复制状态机。
+- [tronlib](https://github.com/kslamph/tronlib) - 功能完备、可用于生产环境的 Go SDK，用于与 TRON 区块链交互，并支持 TRC20 代币。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -356,24 +356,24 @@ _用于开发区块链的工具。_
 
 _用于开发和运行机器人的库。_
 
-- [arikawa](https://github.com/diamondburned/arikawa) - A library and framework for the Discord API.
-- [bot](https://github.com/go-telegram/bot) - Zero-dependencies Telegram Bot library with additional UI components.
-- [echotron](https://github.com/NicoNex/echotron) - An elegant and concurrent library for Telegram Bots in Go.
-- [go-joe](https://joe-bot.net) - A general-purpose bot library inspired by Hubot but written in Go.
-- [go-sarah](https://github.com/oklahomer/go-sarah) - Framework to build a bot for desired chat services including LINE, Slack, Gitter, and more.
-- [go-tg](https://github.com/mr-linch/go-tg) - Generated from official docs Go client library for accessing Telegram Bot API, with batteries for building complex bots included.
-- [go-twitch-irc](https://github.com/gempir/go-twitch-irc) - Library to write bots for twitch.tv chat
-- [micha](https://github.com/onrik/micha) - Go Library for Telegram bot api.
-- [slack-bot](https://github.com/innogames/slack-bot) - Ready to use Slack Bot for lazy developers: Custom commands, Jenkins, Jira, Bitbucket, Github...
-- [slacker](https://github.com/slack-io/slacker) - Easy to use framework to create Slack bots.
-- [telebot](https://github.com/tucnak/telebot) - Telegram bot framework is written in Go.
-- [teleflow](https://github.com/kslamph/teleflow) - Simple, type-safe Telegram bot framework with fluent flows and automatic state management.
-- [telego](https://github.com/mymmrac/telego) - Telegram Bot API library for Golang with full one-to-one API implementation.
-- [telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) - Simple and clean Telegram bot client.
-- [TG](https://github.com/enetx/tg) - Telegram Bot Framework for Go.
-- [wayback](https://github.com/wabarc/wayback) - A bot for Telegram, Mastodon, Slack, and other messaging platforms archives webpages.
-- [ymsdk](https://github.com/rekurt/ymsdk) - Go SDK for Yandex Messenger Bot API with type-safe models, automatic retry, and rate-limit handling.
-   - [Wisp](https://github.com/wisp-trading/wisp) - Event-driven trading framework for Go. Spot, perpetual futures, prediction markets. Multi-exchange (Bybit, Hyperliquid, Polymarket).
+- [arikawa](https://github.com/diamondburned/arikawa) - 用于 Discord API 的库与框架。
+- [bot](https://github.com/go-telegram/bot) - 零依赖的 Telegram Bot 库，附带额外的 UI 组件。
+- [echotron](https://github.com/NicoNex/echotron) - Go 中优雅且并发安全的 Telegram Bot 库。
+- [go-joe](https://joe-bot.net) - 受 Hubot 启发、用 Go 编写的通用机器人库。
+- [go-sarah](https://github.com/oklahomer/go-sarah) - 用于为 LINE、Slack、Gitter 等聊天服务构建机器人的框架。
+- [go-tg](https://github.com/mr-linch/go-tg) - 根据官方文档生成的 Telegram Bot API Go 客户端库，内置构建复杂机器人所需的「开箱即用」能力。
+- [go-twitch-irc](https://github.com/gempir/go-twitch-irc) - 用于编写 twitch.tv 聊天机器人的库。
+- [micha](https://github.com/onrik/micha) - 面向 Telegram bot API 的 Go 库。
+- [slack-bot](https://github.com/innogames/slack-bot) - 为懒人开发者准备的开箱即用 Slack Bot：自定义命令、Jenkins、Jira、Bitbucket、Github……
+- [slacker](https://github.com/slack-io/slacker) - 易于使用的 Slack 机器人创建框架。
+- [telebot](https://github.com/tucnak/telebot) - 用 Go 编写的 Telegram 机器人框架。
+- [teleflow](https://github.com/kslamph/teleflow) - 简单且类型安全的 Telegram 机器人框架，具备流畅的流程编排与自动状态管理。
+- [telego](https://github.com/mymmrac/telego) - 面向 Golang 的 Telegram Bot API 库，完整实现一对一 API。
+- [telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) - 简单干净的 Telegram 机器人客户端。
+- [TG](https://github.com/enetx/tg) - 面向 Go 的 Telegram 机器人框架。
+- [wayback](https://github.com/wabarc/wayback) - 一个可归档网页的机器人，支持 Telegram、Mastodon、Slack 及其他消息平台。
+- [ymsdk](https://github.com/rekurt/ymsdk) - Yandex Messenger Bot API 的 Go SDK，具备类型安全模型、自动重试与限流处理。
+   - [Wisp](https://github.com/wisp-trading/wisp) - 面向 Go 的事件驱动交易框架。支持现货、永续合约与预测市场，并支持多交易所（Bybit、Hyperliquid、Polymarket）。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -382,20 +382,20 @@ _用于开发和运行机器人的库。_
 
 _有助于构建自动化的库与工具。_
 
-- [1build](https://github.com/gopinath-langote/1build) - Command line tool to frictionlessly manage project-specific commands.
-- [air](https://github.com/cosmtrek/air) - Air - Live reload for Go apps.
-- [anko](https://github.com/GuilhermeCaruso/anko) - Simple application watcher for multiple programming languages.
-- [gaper](https://github.com/maxclaus/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
-- [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
-- [gob](https://github.com/kcmvp/gob) - [Gradle](https://docs.gradle.org/)/[Maven](https://maven.apache.org/) like build tool for Go projects.
-- [goyek](https://github.com/goyek/goyek) - Create build pipelines in Go.
-- [mage](https://github.com/magefile/mage) - Mage is a make/rake-like build tool using Go.
-- [mmake](https://github.com/tj/mmake) - Modern Make.
-- [realize](https://github.com/tockins/realize) - Go build a system with file watchers and live to reload. Run, build and watch file changes with custom paths.
-- [rex](https://github.com/rexrun-dev/rex) - Zero-config universal project runner. Detects your stack (Go, Node, Python, Rust, PHP, Zig, Elixir) and runs the right command.
-- [Task](https://github.com/go-task/task) - simple "Make" alternative.
-- [taskctl](https://github.com/taskctl/taskctl) - Concurrent task runner.
-- [xc](https://github.com/joerdav/xc) - Task runner with README.md defined tasks, executable markdown.
+- [1build](https://github.com/gopinath-langote/1build) - 命令行工具，用于轻松管理项目专属命令。
+- [air](https://github.com/cosmtrek/air) - Air —— Go 应用的热重载工具。
+- [anko](https://github.com/GuilhermeCaruso/anko) - 支持多种编程语言的简易应用监听器。
+- [gaper](https://github.com/maxclaus/gaper) - 当 Go 项目崩溃或被监听的文件发生变化时，自动构建并重启项目。
+- [gilbert](https://go-gilbert.github.io) - 面向 Go 项目的构建系统与任务运行器。
+- [gob](https://github.com/kcmvp/gob) - 类 [Gradle](https://docs.gradle.org/)/[Maven](https://maven.apache.org/) 的 Go 项目构建工具。
+- [goyek](https://github.com/goyek/goyek) - 用 Go 创建构建流水线。
+- [mage](https://github.com/magefile/mage) - Mage 是使用 Go 实现的类 make/rake 构建工具。
+- [mmake](https://github.com/tj/mmake) - 现代化的 Make。
+- [realize](https://github.com/tockins/realize) - 用 Go 构建带文件监听与热重载的系统。可自定义路径，运行、构建并监听文件变化。
+- [rex](https://github.com/rexrun-dev/rex) - 零配置的通用项目运行器。自动识别你的技术栈（Go、Node、Python、Rust、PHP、Zig、Elixir）并执行对应命令。
+- [Task](https://github.com/go-task/task) - 简单的「Make」替代品。
+- [taskctl](https://github.com/taskctl/taskctl) - 并发任务运行器。
+- [xc](https://github.com/joerdav/xc) - 以 README.md 定义任务的可执行 Markdown 任务运行器。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -407,49 +407,49 @@ _有助于构建自动化的库与工具。_
 
 _用于构建控制台应用与终端界面的库。_
 
-- [asciigraph](https://github.com/guptarohit/asciigraph) - Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies.
-- [aurora](https://github.com/logrusorgru/aurora) - ANSI terminal colors that support fmt.Printf/Sprintf.
-- [box-cli-maker](https://github.com/box-cli-maker/box-cli-maker) - Render highly customizable boxes in the terminal.
-- [bubble-table](https://github.com/Evertras/bubble-table) - An interactive table component for bubbletea.
-- [bubbles](https://github.com/charmbracelet/bubbles) - TUI components for bubbletea.
-- [bubbletea](https://github.com/charmbracelet/bubbletea) - Go framework to build terminal apps, based on The Elm Architecture.
-- [chroma16](https://github.com/arceus-7/chroma16) - Generate a harmonious 16-color terminal palette from a single seed color or string.
-- [crab-config-files-templating](https://github.com/alfiankan/crab-config-files-templating) - Dynamic configuration file templating tool for kubernetes manifest or general configuration files.
-- [ctc](https://github.com/wzshiming/ctc) - The non-invasive cross-platform terminal color library does not need to modify the Print method.
-- [fx](https://github.com/antonmedv/fx) - Terminal JSON viewer & processor.
-- [go-ataman](https://github.com/workanator/go-ataman) - Go library for rendering ANSI colored text templates in terminals.
-- [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for windows.
-- [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
-- [go-isatty](https://github.com/mattn/go-isatty) - isatty for golang.
-- [go-palette](https://github.com/abusomani/go-palette) - Go library that provides elegant and convenient style definitions using ANSI colors. Fully compatible & wraps the [fmt library](https://pkg.go.dev/fmt) for nice terminal layouts.
-- [go-prompt](https://github.com/c-bata/go-prompt) - Library for building a powerful interactive prompt, inspired by [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit).
-- [go-tui](https://github.com/grindlemire/go-tui) - A declarative terminal UI framework with templ-like templates, flexbox layout, and a language server for editor support.
-- [gocui](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
-- [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
-- [gookit/color](https://github.com/gookit/color) - Terminal color rendering tool library, support 16 colors, 256 colors, RGB color rendering output, compatible with Windows.
-- [goscaf](https://github.com/iyashjayesh/goscaf) - goscaf generates opinionated, production-quality Go project boilerplate via an interactive CLI. Stop copy-pasting skeleton code between projects.
-- [lazyenv](https://github.com/lazynop/lazyenv) - TUI for browsing, comparing, and editing .env files.
-- [lazyteams](https://github.com/agmonetti/lazyteams) - Keyboard-driven terminal user interface for Microsoft Teams.
-- [lipgloss](https://github.com/charmbracelet/lipgloss) - Declaratively define styles for color, format and layout in the terminal.
-- [loom](https://github.com/loom-go/loom) - Signal-based reactive components framework for building TUIs.
-- [marker](https://github.com/cyucelen/marker) - Easiest way to match and mark strings for colorful terminal outputs.
-- [mpb](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
-- [phoenix](https://github.com/phoenix-tui/phoenix) - High-performance TUI framework with Elm-inspired architecture, perfect Unicode rendering, and zero-allocation event system.
-- [progressbar](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
-- [pterm](https://github.com/pterm/pterm) - A library to beautify console output on every platform with many combinable components.
-- [simpletable](https://github.com/alexeyco/simpletable) - Simple tables in a terminal with Go.
-- [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
-- [tabby](https://github.com/cheynewallace/tabby) - A tiny library for super simple Golang tables.
-- [table](https://github.com/tomlazar/table) - Small library for terminal color based tables.
-- [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
-- [termdash](https://github.com/mum4k/termdash) - Go terminal dashboard based on **termbox-go** and inspired by [termui](https://github.com/gizak/termui).
-- [termenv](https://github.com/muesli/termenv) - Advanced ANSI style & color support for your terminal applications.
-- [termui](https://github.com/gizak/termui) - Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib).
-- [uilive](https://github.com/gosuri/uilive) - Library for updating terminal output in real time.
-- [uiprogress](https://github.com/gosuri/uiprogress) - Flexible library to render progress bars in terminal applications.
-- [uitable](https://github.com/gosuri/uitable) - Library to improve readability in terminal apps using tabular data.
-- [vhs](https://github.com/charmbracelet/vhs) - Your CLI home video recorder - generate terminal GIFs from code for documentation and tutorials.
-- [yacspin](https://github.com/theckman/yacspin) - Yet Another CLi Spinner package, for working with terminal spinners.
+- [asciigraph](https://github.com/guptarohit/asciigraph) - Go 包，可在命令行应用中零依赖地绘制轻量级 ASCII 折线图 ╭┈╯。
+- [aurora](https://github.com/logrusorgru/aurora) - 支持 fmt.Printf/Sprintf 的 ANSI 终端颜色库。
+- [box-cli-maker](https://github.com/box-cli-maker/box-cli-maker) - 在终端中渲染高度可定制的方框。
+- [bubble-table](https://github.com/Evertras/bubble-table) - 用于 bubbletea 的交互式表格组件。
+- [bubbles](https://github.com/charmbracelet/bubbles) - 用于 bubbletea 的 TUI 组件。
+- [bubbletea](https://github.com/charmbracelet/bubbletea) - 基于 Elm 架构的 Go 终端应用框架。
+- [chroma16](https://github.com/arceus-7/chroma16) - 从单一颜色种子或字符串生成和谐的 16 色终端调色板。
+- [crab-config-files-templating](https://github.com/alfiankan/crab-config-files-templating) - 动态配置文件模板工具，适用于 kubernetes manifest 或通用配置文件。
+- [ctc](https://github.com/wzshiming/ctc) - 非侵入式的跨平台终端颜色库，无需修改 Print 方法。
+- [fx](https://github.com/antonmedv/fx) - 终端 JSON 查看器与处理器。
+- [go-ataman](https://github.com/workanator/go-ataman) - 用于在终端中渲染 ANSI 彩色文本模板的 Go 库。
+- [go-colorable](https://github.com/mattn/go-colorable) - 适用于 Windows 的彩色输出 writer。
+- [go-colortext](https://github.com/daviddengcn/go-colortext) - 用于在终端中进行彩色输出的 Go 库。
+- [go-isatty](https://github.com/mattn/go-isatty) - Golang 版 isatty。
+- [go-palette](https://github.com/abusomani/go-palette) - Go 库，使用 ANSI 颜色提供优雅便捷的样式定义。完全兼容并封装了 [fmt 库](https://pkg.go.dev/fmt)，便于在终端中排版。
+- [go-prompt](https://github.com/c-bata/go-prompt) - 用于构建强大交互式提示符的库，灵感源自 [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit)。
+- [go-tui](https://github.com/grindlemire/go-tui) - 声明式终端 UI 框架，具备类 templ 模板、flexbox 布局，以及用于编辑器支持的语言服务器。
+- [gocui](https://github.com/jroimartin/gocui) - 极简 Go 库，专注于创建控制台用户界面。
+- [gommon/color](https://github.com/labstack/gommon/tree/master/color) - 为终端文本添加样式。
+- [gookit/color](https://github.com/gookit/color) - 终端颜色渲染工具库，支持 16 色、256 色与 RGB 真彩色输出，并兼容 Windows。
+- [goscaf](https://github.com/iyashjayesh/goscaf) - goscaf 通过交互式 CLI 生成强约定、生产级的 Go 项目样板代码。不用再在项目间复制粘贴骨架代码。
+- [lazyenv](https://github.com/lazynop/lazyenv) - 用于浏览、对比与编辑 .env 文件的 TUI。
+- [lazyteams](https://github.com/agmonetti/lazyteams) - 面向 Microsoft Teams 的键盘驱动终端用户界面。
+- [lipgloss](https://github.com/charmbracelet/lipgloss) - 以声明式定义终端中的颜色、格式与布局样式。
+- [loom](https://github.com/loom-go/loom) - 基于信号的响应式组件框架，用于构建 TUI。
+- [marker](https://github.com/cyucelen/marker) - 匹配并标记字符串、输出彩色终端内容的最简便方式。
+- [mpb](https://github.com/vbauerster/mpb) - 终端应用的多进度条。
+- [phoenix](https://github.com/phoenix-tui/phoenix) - 高性能 TUI 框架，采用受 Elm 启发的架构，出色的 Unicode 渲染，零分配事件系统。
+- [progressbar](https://github.com/schollz/progressbar) - 基础线程安全进度条，适用于所有操作系统。
+- [pterm](https://github.com/pterm/pterm) - 通过大量可组合组件，美化各平台控制台输出的库。
+- [simpletable](https://github.com/alexeyco/simpletable) - 用 Go 在终端中绘制简单表格。
+- [spinner](https://github.com/briandowns/spinner) - Go 包，可便捷地提供带选项的终端加载动画。
+- [tabby](https://github.com/cheynewallace/tabby) - 用于实现超级简单的 Golang 表格的小型库。
+- [table](https://github.com/tomlazar/table) - 基于终端颜色表格的小型库。
+- [termbox-go](https://github.com/nsf/termbox-go) - Termbox 是用于创建跨平台文本界面的库。
+- [termdash](https://github.com/mum4k/termdash) - 基于 **termbox-go** 的 Go 终端仪表盘，灵感源自 [termui](https://github.com/gizak/termui)。
+- [termenv](https://github.com/muesli/termenv) - 为你的终端应用提供高级 ANSI 样式与颜色支持。
+- [termui](https://github.com/gizak/termui) - 基于 **termbox-go** 的 Go 终端仪表盘，灵感源自 [blessed-contrib](https://github.com/yaronn/blessed-contrib)。
+- [uilive](https://github.com/gosuri/uilive) - 用于实时更新终端输出的库。
+- [uiprogress](https://github.com/gosuri/uiprogress) - 用于在终端应用中渲染进度条的灵活库。
+- [uitable](https://github.com/gosuri/uitable) - 通过表格化数据提升终端应用可读性的库。
+- [vhs](https://github.com/charmbracelet/vhs) - 你的 CLI 家庭录像机 —— 用代码生成终端 GIF，用于文档与教程。
+- [yacspin](https://github.com/theckman/yacspin) - 又一个 CLI 加载动画包，用于处理终端 spinner。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -458,61 +458,61 @@ _用于构建控制台应用与终端界面的库。_
 
 _用于构建标准或基础命令行应用的库。_
 
-- [acmd](https://github.com/cristalhq/acmd) - Simple, useful, and opinionated CLI package in Go.
-- [argparse](https://github.com/akamensky/argparse) - Command line argument parser inspired by Python's argparse module.
-- [argv](https://github.com/cosiner/argv) - Go library to split command line string as arguments array using the bash syntax.
-- [boa](https://github.com/GiGurra/boa) - Declarative flags, env vars, validation, and config files from struct tags. Built on cobra.
-- [carapace](https://github.com/rsteube/carapace) - Command argument completion generator for spf13/cobra.
-- [carapace-bin](https://github.com/rsteube/carapace-bin) - Multi-shell multi-command argument completer.
-- [carapace-spec](https://github.com/rsteube/carapace-spec) - Define simple completions using a spec file.
-- [climax](https://github.com/tucnak/climax) - Alternative CLI with "human face", in spirit of Go command.
-- [clîr](https://github.com/leaanthony/clir) - A Simple and Clear CLI library. Dependency free.
-- [cmd](https://github.com/posener/cmd) - Extends the standard `flag` package to support sub commands and more in idiomatic way.
-- [cmdr](https://github.com/hedzr/cmdr) - A POSIX/GNU style, getopt-like command-line UI Go library.
-- [cobra](https://github.com/spf13/cobra) - Commander for modern Go CLI interactions.
-- [command-chain](https://github.com/rainu/go-command-chain) - A go library for configure and run command chains - such as pipelining in unix shells.
-- [commandeer](https://github.com/jaffee/commandeer) - Dev-friendly CLI apps: sets up flags, defaults, and usage based on struct fields and tags.
-- [complete](https://github.com/posener/complete) - Write bash completions in Go + Go command bash completion.
-- [console](https://github.com/reeflective/console) Closed-loop application library for Cobra commands, with oh-my-posh prompts, and more.
-- [Dnote](https://github.com/dnote/dnote) - A simple command line notebook with multi-device sync.
-- [elvish](https://github.com/elves/elvish) - An expressive programming language and a versatile interactive shell.
-- [env](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
-- [flaggy](https://github.com/integrii/flaggy) - A robust and idiomatic flags package with excellent subcommand support.
-- [flagvar](https://github.com/sgreben/flagvar) - A collection of flag argument types for Go's standard `flag` package.
-- [flash-flags](https://github.com/agilira/flash-flags) - Ultra-fast, zero-dependency, POSIX-compliant flag parsing library that can be used as drop-in stdlib replacement with security hardening.
-- [Fling-CLI](https://github.com/SatyamKumarCS/Fling-CLI) - Terminal-based peer-to-peer file and message transfer tool over custom reliable UDP.
-- [getopt](https://github.com/jon-codes/getopt) - An accurate Go `getopt`, validated against the GNU libc implementation.
-- [go-arch](https://github.com/SalvucciFacundo/go-arch) - CLI tool for scaffolding Go applications with Minimalist, Standard, and Hexagonal architecture patterns.
-- [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go.
-- [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser.
-- [go-getoptions](https://github.com/DavidGamba/go-getoptions) - Go option parser inspired by the flexibility of Perl’s GetOpt::Long.
-- [go-readline-ny](https://github.com/nyaosorg/go-readline-ny) - A customizable line-editing library with Emacs keybindings, Unicode support, completion, and syntax highlighting. Used in NYAGOS shell.
-- [gocmd](https://github.com/devfacet/gocmd) - Go library for building command line applications.
-- [goopt](https://github.com/napalu/goopt) - A declarative, struct-tag based CLI framework for Go, with a broad feature set such as hierarchical commands/flags, i18n, shell completion, and validation.
-- [hashicorp/cli](https://github.com/hashicorp/cli) - Go library for implementing command-line interfaces.
-- [hiboot cli](https://github.com/hidevopsio/hiboot/tree/master/pkg/app/cli) - cli application framework with auto configuration and dependency injection.
-- [job](https://github.com/liujianping/job) - JOB, make your short-term command as a long-term job.
-- [kingpin](https://github.com/alecthomas/kingpin) - Command line and flag parser supporting sub commands (superseded by `kong`; see below).
-- [liner](https://github.com/peterh/liner) - Go readline-like library for command-line interfaces.
-- [mcli](https://github.com/jxskiss/mcli) - A minimal but very powerful cli library for Go.
-- [memsh](https://github.com/amjadjibon/memsh) - Virtual bash shell in Go: executes shell commands against an in-memory filesystem (afero), with WASM plugin support and an embeddable HTTP server.
-- [mkideal/cli](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
-- [mow.cli](https://github.com/jawher/mow.cli) - Go library for building CLI applications with sophisticated flag and argument parsing and validation.
-- [neuron-cli](https://github.com/steevin/neuron-cli) - A local-first, Obsidian-compatible terminal knowledge manager.
-- [OpenCLI](https://github.com/bcdxn/opencli) - OpenAPI-style specification for CLIs; define your interface in a language-agnostic document to generate documentation and framework boilerplate code.
-- [ops](https://github.com/nanovms/ops) - Unikernel Builder/Orchestrator.
-- [orpheus](https://github.com/agilira/orpheus) - CLI framework with security hardening, plugin storage system, and production observability features.
-- [pflag](https://github.com/spf13/pflag) - Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.
-- [readline](https://github.com/reeflective/readline) - Shell library with modern and easy to use UI features.
-- [sflags](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin, and other libraries.
-- [structcli](https://github.com/leodido/structcli) - Eliminate Cobra boilerplate: build powerful, feature-rich CLIs declaratively from Go structs.
-- [strumt](https://github.com/antham/strumt) - Library to create prompt chain.
-- [subcmd](https://github.com/bobg/subcmd) - Another approach to parsing and running subcommands. Works alongside the standard `flag` package.
-- [teris-io/cli](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
-- [urfave/cli](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
-- [version](https://github.com/mszostok/version) - Collects and displays CLI version information in multiple formats along with upgrade notice.
-- [wlog](https://github.com/dixonwille/wlog) - Simple logging interface that supports cross-platform color and concurrency.
-- [wmenu](https://github.com/dixonwille/wmenu) - Easy to use menu structure for cli applications that prompt users to make choices.
+- [acmd](https://github.com/cristalhq/acmd) - Go 中简单、实用且有明确主张的 CLI 包。
+- [argparse](https://github.com/akamensky/argparse) - 受 Python argparse 模块启发的命令行参数解析器。
+- [argv](https://github.com/cosiner/argv) - Go 库，按 bash 语法将命令行字符串切分为参数数组。
+- [boa](https://github.com/GiGurra/boa) - 基于结构体标签的声明式 flag、环境变量、校验与配置文件，构建于 cobra 之上。
+- [carapace](https://github.com/rsteube/carapace) - 为 spf13/cobra 生成命令参数补全。
+- [carapace-bin](https://github.com/rsteube/carapace-bin) - 多 shell 多命令的参数补全工具。
+- [carapace-spec](https://github.com/rsteube/carapace-spec) - 使用 spec 文件定义简单的补全规则。
+- [climax](https://github.com/tucnak/climax) - 拥有「人脸」的替代 CLI，设计理念源自 Go 命令。
+- [clîr](https://github.com/leaanthony/clir) - 简单清晰的 CLI 库。零依赖。
+- [cmd](https://github.com/posener/cmd) - 扩展标准 `flag` 包，以惯用方式支持子命令等功能。
+- [cmdr](https://github.com/hedzr/cmdr) - POSIX/GNU 风格、类 getopt 的 Go 命令行 UI 库。
+- [cobra](https://github.com/spf13/cobra) - 面向现代 Go CLI 交互的 Commander 库。
+- [command-chain](https://github.com/rainu/go-command-chain) - 用于配置与执行命令链的 Go 库，例如类 Unix shell 的管道。
+- [commandeer](https://github.com/jaffee/commandeer) - 面向开发者的 CLI 应用：基于结构体字段与标签设置 flag、默认值与用法说明。
+- [complete](https://github.com/posener/complete) - 用 Go 编写 bash 补全，并支持 Go 命令的 bash 补全。
+- [console](https://github.com/reeflective/console) 面向 Cobra 命令的闭环应用库，内置 oh-my-posh 提示等能力。
+- [Dnote](https://github.com/dnote/dnote) - 简单的命令行笔记本，支持多设备同步。
+- [elvish](https://github.com/elves/elvish) - 一门表达力丰富的编程语言，同时是一个多功能的交互式 shell。
+- [env](https://github.com/codingconcepts/env) - 基于标签的结构体环境配置。
+- [flaggy](https://github.com/integrii/flaggy) - 稳健、惯用的 flag 包，具备出色的子命令支持。
+- [flagvar](https://github.com/sgreben/flagvar) - 为 Go 标准 `flag` 包提供的 flag 参数类型集合。
+- [flash-flags](https://github.com/agilira/flash-flags) - 极速、零依赖、符合 POSIX 的 flag 解析库，可直接作为标准库替代品，并具备安全加固。
+- [Fling-CLI](https://github.com/SatyamKumarCS/Fling-CLI) - 基于自定义可靠 UDP 的终端式点对点文件与消息传输工具。
+- [getopt](https://github.com/jon-codes/getopt) - 精确的 Go 版 `getopt`，已对照 GNU libc 实现进行验证。
+- [go-arch](https://github.com/SalvucciFacundo/go-arch) - 用于以极简（Minimalist）、标准（Standard）与六边形（Hexagonal）架构模式搭建 Go 应用的 CLI 脚手架工具。
+- [go-arg](https://github.com/alexflint/go-arg) - Go 中基于结构体的参数解析。
+- [go-flags](https://github.com/jessevdk/go-flags) - Go 命令行选项解析器。
+- [go-getoptions](https://github.com/DavidGamba/go-getoptions) - 受 Perl GetOpt::Long 灵活性启发的 Go 选项解析器。
+- [go-readline-ny](https://github.com/nyaosorg/go-readline-ny) - 可定制的行编辑库，具备 Emacs 快捷键绑定、Unicode 支持、补全与语法高亮。用于 NYAGOS shell。
+- [gocmd](https://github.com/devfacet/gocmd) - 用于构建命令行应用的 Go 库。
+- [goopt](https://github.com/napalu/goopt) - 面向 Go 的声明式、基于结构体标签的 CLI 框架，功能丰富，涵盖层级化命令/flag、国际化、shell 补全与校验。
+- [hashicorp/cli](https://github.com/hashicorp/cli) - 用于实现命令行界面的 Go 库。
+- [hiboot cli](https://github.com/hidevopsio/hiboot/tree/master/pkg/app/cli) - 支持自动配置与依赖注入的 CLI 应用框架。
+- [job](https://github.com/liujianping/job) - JOB，让你的短期命令变成长期作业。
+- [kingpin](https://github.com/alecthomas/kingpin) - 支持子命令的命令行与 flag 解析器（已被下文 `kong` 取代）。
+- [liner](https://github.com/peterh/liner) - 面向命令行界面的 Go readline 类库。
+- [mcli](https://github.com/jxskiss/mcli) - 极简但非常强大的 Go CLI 库。
+- [memsh](https://github.com/amjadjibon/memsh) - Go 版虚拟 bash shell：在内存文件系统（afero）上执行 shell 命令，支持 WASM 插件与可嵌入的 HTTP 服务器。
+- [mkideal/cli](https://github.com/mkideal/cli) - 基于 Go 结构体标签、功能丰富且易用的命令行包。
+- [mow.cli](https://github.com/jawher/mow.cli) - 用于构建具备精细 flag 与参数解析及校验能力的 CLI 应用的 Go 库。
+- [neuron-cli](https://github.com/steevin/neuron-cli) - 本地优先、兼容 Obsidian 的终端知识管理器。
+- [OpenCLI](https://github.com/bcdxn/opencli) - 面向 CLI 的 OpenAPI 风格规范；以语言无关的文档定义你的接口，据此生成文档与框架样板代码。
+- [ops](https://github.com/nanovms/ops) - Unikernel 构建器 / 编排器。
+- [orpheus](https://github.com/agilira/orpheus) - 具备安全加固、插件存储系统与生产级可观测性特性的 CLI 框架。
+- [pflag](https://github.com/spf13/pflag) - Go flag 包的直接替代品，实现 POSIX/GNU 风格的 --flags。
+- [readline](https://github.com/reeflective/readline) - 具备现代易用 UI 特性的 Shell 库。
+- [sflags](https://github.com/octago/sflags) - 为 flag、urfave/cli、pflag、cobra、kingpin 等库生成基于结构体的 flag 代码。
+- [structcli](https://github.com/leodido/structcli) - 消除 Cobra 样板代码：以声明式方式从 Go 结构体构建强大、功能丰富的 CLI。
+- [strumt](https://github.com/antham/strumt) - 用于创建提示链的库。
+- [subcmd](https://github.com/bobg/subcmd) - 另一种解析与运行子命令的方案，可与标准 `flag` 包协同工作。
+- [teris-io/cli](https://github.com/teris-io/cli) - 在 Go 中构建命令行界面的简单完整 API。
+- [urfave/cli](https://github.com/urfave/cli) - 简单、快速且有趣的 Go 命令行应用构建包（原 codegangsta/cli）。
+- [version](https://github.com/mszostok/version) - 以多种格式收集并展示 CLI 版本信息，并附带升级提示。
+- [wlog](https://github.com/dixonwille/wlog) - 简单的日志接口，支持跨平台颜色与并发。
+- [wmenu](https://github.com/dixonwille/wmenu) - 易于使用的 CLI 应用菜单结构，可提示用户做出选择。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -521,12 +521,12 @@ _用于构建标准或基础命令行应用的库。_
 
 _用于解析配置文件的库。_
 
-- [aconfig](https://github.com/cristalhq/aconfig) - Simple, useful and opinionated config loader.
-- [argus](https://github.com/agilira/argus) - File watching and configuration management with MPSC ring buffer, adaptive batching strategies, and universal format parsing (JSON, YAML, TOML, INI, HCL, Properties).
-- [azureappconfiguration](https://github.com/Azure/AppConfiguration-GoProvider) - The configuration provider for consuming data in Azure App Configuration from Go applications.
-- [bcl](https://github.com/wkhere/bcl) - BCL is a configuration language similar to HCL.
-- [cleanenv](https://github.com/ilyakaznacheev/cleanenv) - Minimalistic configuration reader (from files, ENV, and wherever you want).
-- [config](https://github.com/JeremyLoy/config) - Cloud native application configuration. Bind ENV to structs in only two lines.
+- [aconfig](https://github.com/cristalhq/aconfig) - 简单、实用且有明确主张的配置加载器。
+- [argus](https://github.com/agilira/argus) - 文件监听与配置管理，具备 MPSC 环形缓冲区、自适应批处理策略，以及通用格式解析（JSON、YAML、TOML、INI、HCL、Properties）。
+- [azureappconfiguration](https://github.com/Azure/AppConfiguration-GoProvider) - 供 Go 应用消费 Azure App Configuration 数据的配置提供程序。
+- [bcl](https://github.com/wkhere/bcl) - BCL 是一门类似 HCL 的配置语言。
+- [cleanenv](https://github.com/ilyakaznacheev/cleanenv) - 极简配置读取器（可从文件、ENV 以及任意来源读取）。
+- [config](https://github.com/JeremyLoy/config) - 云原生应用配置。仅用两行代码即可将 ENV 绑定到结构体。
 - [config](https://github.com/num30/config) - configure your app using file, environment variables, or flags in two lines of code.
 - [config](https://github.com/andreiavrammsd/config) - Struct-based configuration loader with a dedicated config file parser, supporting env vars, flags, defaults, and validation.
 - [configuration](https://github.com/BoRuDar/configuration) - Library for initializing configuration structs from env variables, files, flags and 'default' tag.

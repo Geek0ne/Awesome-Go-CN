@@ -1,0 +1,1002 @@
+[
+ {
+  "url": "https://github.com/pancsta/asyncmachine-go/tree/main/pkg/machine",
+  "desc": "Graph control flow library (AOP, actor, state-machine)."
+ },
+ {
+  "url": "https://github.com/ergo-services/ergo",
+  "desc": "An actor-based Framework with network transparency for creating event-driven architecture in Golang. Inspired by Erlang."
+ },
+ {
+  "url": "https://github.com/Tochemey/goakt",
+  "desc": "Fast and Distributed Actor framework using protocol buffers as message for Golang."
+ },
+ {
+  "url": "https://github.com/anthdm/hollywood",
+  "desc": "Blazingly fast and light-weight Actor engine written in Golang."
+ },
+ {
+  "url": "https://github.com/asynkron/protoactor-go",
+  "desc": "Distributed actors for Go, C#, and Java/Kotlin."
+ },
+ {
+  "url": "https://github.com/saivedant169/AegisFlow",
+  "desc": "AI gateway for routing, securing, and monitoring LLM traffic across 10+ providers. OpenAI-compatible API, WASM policy plugins, canary rollouts, real-time dashboard."
+ },
+ {
+  "url": "https://github.com/Colin4k1024/Aetheris",
+  "desc": "AI Agent execution runtime with event sourcing, checkpoint recovery, and At-Most-Once execution guarantee. Written in Go."
+ },
+ {
+  "url": "https://github.com/agenticenv/agent-sdk-go",
+  "desc": "Framework for building stateful AI agents in Go."
+ },
+ {
+  "url": "https://github.com/tphakala/agy-mcp",
+  "desc": "Model Context Protocol (MCP) server wrapping the Antigravity CLI to run prompts and peer reviews."
+ },
+ {
+  "url": "https://github.com/joakimcarlsson/ai",
+  "desc": "A Go toolkit for building AI agents and applications across multiple providers with unified LLM, embeddings, tool calling, and MCP integration."
+ },
+ {
+  "url": "https://github.com/ferro-labs/ai-gateway",
+  "desc": "OpenAI-compatible LLM gateway that routes requests across 30 providers with fallback, rate limiting, budgets, guardrails, and observability."
+ },
+ {
+  "url": "https://github.com/philippgille/chromem-go",
+  "desc": "Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence."
+ },
+ {
+  "url": "https://github.com/lancekrogers/claude-code-go",
+  "desc": "Go library for driving the Claude Code CLI non-interactive prompt surface from Go programs."
+ },
+ {
+  "url": "https://github.com/rhgs/crewai-go",
+  "desc": "Idiomatic Go port of CrewAI (multi-agent orchestration). Zero dependencies, stdlib only."
+ },
+ {
+  "url": "https://github.com/cynative/cynative",
+  "desc": "Framework for building security engineering AI agents in Go. Read-only by construction, built-in sandbox, 45 agent blueprints for AWS, GCP, Azure, K8s, GitHub & GitLab deep research."
+ },
+ {
+  "url": "https://github.com/dakera-ai/dakera-go",
+  "desc": "Official Go client SDK for the Dakera self-hosted agent memory server, providing typed interfaces for memory store/recall, session management, namespace operations, and decay configuration."
+ },
+ {
+  "url": "https://gitlab.com/tozd/go/fun",
+  "desc": "The simplest but powerful way to use large language models (LLMs) in Go."
+ },
+ {
+  "url": "https://github.com/zendev-sh/goai",
+  "desc": "Go SDK for building AI applications. One SDK, 20+ providers. Inspired by Vercel AI SDK."
+ },
+ {
+  "url": "https://github.com/ENTERPILOT/GoModel",
+  "desc": "AI gateway exposing a unified OpenAI-compatible API across OpenAI, Anthropic, Gemini, Groq, xAI, Ollama and other providers, with routing, usage tracking, rate limits, and guardrails."
+ },
+ {
+  "url": "https://github.com/hrygo/hotplex",
+  "desc": "AI Agent runtime engine with long-lived sessions for Claude Code, OpenCode, pi-mono and other CLI AI tools. Provides full-duplex streaming, multi-platform integrations, and secure sandbox."
+ },
+ {
+  "url": "https://github.com/gojargo/jargo",
+  "desc": "Framework for building real-time voice AI agents over WebRTC, wiring speech-to-text, LLMs, and text-to-speech into a streaming pipeline."
+ },
+ {
+  "url": "https://github.com/mochow13/keen-code",
+  "desc": "A context-efficient terminal-based AI coding agent. Provider agnostic, supports MCPs, Agent Skills, Subagents, and more. Comes with a simple and straightforward TUI."
+ },
+ {
+  "url": "https://github.com/tmc/langchaingo",
+  "desc": "LangChainGo is a framework for developing applications powered by language models."
+ },
+ {
+  "url": "https://github.com/smallnest/langgraphgo",
+  "desc": "A Go library for building stateful, multi-actor applications with LLMs, built on the concept of LangGraph，with a lot of builtin Agent architectures."
+ },
+ {
+  "url": "https://github.com/alib8b8/llm-box",
+  "desc": "Terminal-based AI workflow engine with YAML-driven pipelines, 20+ LLM providers (DeepSeek, Qwen, GLM, Mistral, etc.), and a TUI for workflow management."
+ },
+ {
+  "url": "https://github.com/mudler/LocalAI",
+  "desc": "Open Source OpenAI alternative, self-host AI models."
+ },
+ {
+  "url": "https://github.com/harshaneel/localaik",
+  "desc": "LocalStack-style local emulation of OpenAI and Gemini APIs; single Docker container, llama.cpp + Gemma 3 backend."
+ },
+ {
+  "url": "https://github.com/mark3labs/mcp-go",
+  "desc": "Go implementation of the Model Context Protocol for building MCP servers and clients in Go."
+ },
+ {
+  "url": "https://github.com/jmorganca/ollama",
+  "desc": "Run large language models locally."
+ },
+ {
+  "url": "https://github.com/presbrey/ollamafarm",
+  "desc": "Manage, load-balance, and failover packs of Ollamas."
+ },
+ {
+  "url": "https://github.com/oluwajubelo1/otellix",
+  "desc": "OpenTelemetry-native LLM observability and budget guardrails for cost-constrained production environments."
+ },
+ {
+  "url": "https://github.com/Ad3bay0c/routex",
+  "desc": "YAML-driven multi-agent AI runtime for Go with Erlang-style supervision, MCP tool server support, and a CLI."
+ },
+ {
+  "url": "https://github.com/DavidBelicza/semantic-search",
+  "desc": "Meaning-based search over PDF, Markdown, DOCX, source code, and other file types, using generative AI embedding models to vectorize files into a vector database."
+ },
+ {
+  "url": "https://github.com/thousandflowers/skillreaper",
+  "desc": "CLI that scans AI agent session transcripts to identify and safely quarantine unused skills, MCP servers, and agents across Claude Code, Codex CLI, Hermes, OpenCode, Cursor, and OpenClaw."
+ },
+ {
+  "url": "https://github.com/Smeldr/core",
+  "desc": "AI-native content backend with typed lifecycle management, native MCP tools for every content type, and zero runtime dependencies."
+ },
+ {
+  "url": "https://github.com/edouard-claude/snip",
+  "desc": "CLI proxy that reduces LLM token usage by 60-90% with declarative YAML filters. Drop-in for Claude Code, Cursor, Copilot, and Gemini. rtk alternative in Go."
+ },
+ {
+  "url": "https://github.com/jadmadi/thermal",
+  "desc": "Terminal contribution heatmap, streak tracker, and token leaderboard for AI coding assistants."
+ },
+ {
+  "url": "https://github.com/trpc-group/trpc-agent-go",
+  "desc": "Framework for building LLM-based multi-agent systems."
+ },
+ {
+  "url": "https://github.com/zoharbabin/web-researcher-mcp",
+  "desc": "MCP server providing AI assistants with web search, content extraction, and multi-source research capabilities. Single binary, 5 search providers with circuit-breaker failover, 4-tier scraping pipeline."
+ },
+ {
+  "url": "https://github.com/zendev-sh/zenflow",
+  "desc": "Multi-agent orchestration & workflow engine. Declarative YAML workflows, LLM coordinator with hub-and-spoke mailboxes, race-safe delivery. One YAML file, one Go binary. Runs on any goai-supported provider."
+ },
+ {
+  "url": "https://github.com/gopxl/beep",
+  "desc": "A simple library for playback and audio manipulation."
+ },
+ {
+  "url": "https://github.com/mewkiz/flac",
+  "desc": "Native Go FLAC encoder/decoder with support for FLAC streams."
+ },
+ {
+  "url": "https://github.com/Comcast/gaad",
+  "desc": "Native Go AAC bitstream parser."
+ },
+ {
+  "url": "https://github.com/tphakala/go-aac",
+  "desc": "Pure-Go AAC-LC encoder and decoder ported from FFmpeg."
+ },
+ {
+  "url": "https://github.com/tphakala/go-audio-resampler",
+  "desc": "Pure-Go, high-quality audio resampler with SIMD acceleration."
+ },
+ {
+  "url": "https://github.com/tphakala/go-flac",
+  "desc": "Native Go FLAC encoder and decoder with SIMD acceleration."
+ },
+ {
+  "url": "https://github.com/leberKleber/go-mpris",
+  "desc": "Client for mpris dbus interfaces."
+ },
+ {
+  "url": "https://github.com/tphakala/go-opus",
+  "desc": "Native Go implementation of the Opus audio codec (RFC 6716) with RFC-compliant decoder."
+ },
+ {
+  "url": "https://github.com/gojargo/go-resample",
+  "desc": "Pure-Go (no cgo) audio sample-rate converter with sinc, linear, and zero-order-hold converters."
+ },
+ {
+  "url": "https://github.com/tphakala/go-wav",
+  "desc": "Pure-Go WAV/RIFF reader and writer with RF64 and BW64 support for files larger than 4 GiB."
+ },
+ {
+  "url": "https://github.com/DylanMeeus/GoAudio",
+  "desc": "Native Go Audio Processing Library."
+ },
+ {
+  "url": "https://github.com/iSerganov/gocue",
+  "desc": "Audio analysis CLI that detects cue-in, cue-out, and overlay points and measures EBU R128 loudness, emitting JSON for Liquidsoap."
+ },
+ {
+  "url": "https://github.com/dh1tw/gosamplerate",
+  "desc": "libsamplerate bindings for go."
+ },
+ {
+  "url": "https://github.com/bogem/id3v2",
+  "desc": "ID3 decoding and encoding library for Go."
+ },
+ {
+  "url": "https://github.com/gen2brain/malgo",
+  "desc": "Mini audio library."
+ },
+ {
+  "url": "https://github.com/tosone/minimp3",
+  "desc": "Lightweight MP3 decoder library."
+ },
+ {
+  "url": "https://github.com/go-music-theory/music-theory",
+  "desc": "Music theory models in Go."
+ },
+ {
+  "url": "https://github.com/hajimehoshi/oto",
+  "desc": "A low-level library to play sound on multiple platforms."
+ },
+ {
+  "url": "https://github.com/gordonklaus/portaudio",
+  "desc": "Go bindings for the PortAudio audio I/O library."
+ },
+ {
+  "url": "https://github.com/volatiletech/authboss",
+  "desc": "Modular authentication system for the web. It tries to remove as much boilerplate and \"hard things\" as possible so that each time you start a new web project in Go, you can plug it in, configure it, and start building your app without having to build an authentication system each time."
+ },
+ {
+  "url": "https://github.com/go-authgate/authgate",
+  "desc": "A lightweight OAuth 2.0 Authorization Server supporting Device Authorization Grant ([RFC 8628](https://datatracker.ietf.org/doc/html/rfc8628)), Authorization Code Flow with PKCE ([RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749) + [RFC 7636](https://datatracker.ietf.org/doc/html/rfc7636)), and Client Credentials Grant for machine-to-machine authentication."
+ },
+ {
+  "url": "https://github.com/essentialkaos/branca",
+  "desc": "branca token [specification implementation](https://github.com/tuupola/branca-spec) for Golang 1.15+."
+ },
+ {
+  "url": "https://github.com/hsluoyz/casbin",
+  "desc": "Authorization library that supports access control models like ACL, RBAC, and ABAC."
+ },
+ {
+  "url": "https://github.com/mengzhuo/cookiestxt",
+  "desc": "provides a parser of cookies.txt file format."
+ },
+ {
+  "url": "https://github.com/jferrl/go-githubauth",
+  "desc": "Utilities for GitHub authentication: generate and use GitHub application and installation tokens."
+ },
+ {
+  "url": "https://github.com/shaj13/go-guardian",
+  "desc": "Go-Guardian is a golang library that provides a simple, clean, and idiomatic way to create powerful modern API and web authentication that supports LDAP, Basic, Bearer token, and Certificate based authentication."
+ },
+ {
+  "url": "https://github.com/melvinodsa/go-iam",
+  "desc": "Developer-first Identity and Access Management system with a simple UI."
+ },
+ {
+  "url": "https://github.com/go-jose/go-jose",
+  "desc": "Fairly complete implementation of the JOSE working group's JSON Web Token, JSON Web Signatures, and JSON Web Encryption specs."
+ },
+ {
+  "url": "https://github.com/deatil/go-jwt",
+  "desc": "A JWT (JSON Web Token) library for Go."
+ },
+ {
+  "url": "https://github.com/pardnchiu/go-jwt",
+  "desc": "JWT authentication package providing access tokens and refresh tokens with fingerprinting, Redis storage, and automatic refresh capabilities."
+ },
+ {
+  "url": "https://github.com/leodip/goiabada",
+  "desc": "An open-source authentication and authorization server supporting OAuth2 and OpenID Connect."
+ },
+ {
+  "url": "https://github.com/dghubble/gologin",
+  "desc": "chainable handlers for login with OAuth1 and OAuth2 authentication providers."
+ },
+ {
+  "url": "https://github.com/mikespook/gorbac",
+  "desc": "provides a lightweight role-based access control (RBAC) implementation in Golang."
+ },
+ {
+  "url": "https://github.com/Kwynto/gosession",
+  "desc": "This is quick session for net/http in GoLang. This package is perhaps the best implementation of the session mechanism, or at least it tries to become one."
+ },
+ {
+  "url": "https://github.com/markbates/goth",
+  "desc": "provides a simple, clean, and idiomatic way to use OAuth and OAuth2. Handles multiple providers out of the box."
+ },
+ {
+  "url": "https://github.com/abraithwaite/jeff",
+  "desc": "Simple, flexible, secure, and idiomatic web session management with pluggable backends."
+ },
+ {
+  "url": "https://github.com/pascaldekloe/jwt",
+  "desc": "Lightweight JSON Web Token (JWT) library."
+ },
+ {
+  "url": "https://github.com/cristalhq/jwt",
+  "desc": "Safe, simple, and fast JSON Web Tokens for Go."
+ },
+ {
+  "url": "https://github.com/adam-hanna/jwt-auth",
+  "desc": "JWT middleware for Golang http servers with many configuration options."
+ },
+ {
+  "url": "https://github.com/golang-jwt/jwt",
+  "desc": "A full featured implementation of JSON Web Tokens (JWT). This library supports the parsing and verification as well as the generation and signing of JWTs."
+ },
+ {
+  "url": "https://github.com/lestrrat-go/jwx",
+  "desc": "Go module implementing various JWx (JWA/JWE/JWK/JWS/JWT, otherwise known as JOSE) technologies."
+ },
+ {
+  "url": "https://github.com/ory/keto",
+  "desc": "Open Source (Go) implementation of \"Zanzibar: Google's Consistent, Global Authorization System\". Ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models."
+ },
+ {
+  "url": "https://github.com/tarent/loginsrv",
+  "desc": "JWT login microservice with pluggable backends such as OAuth2 (Github), htpasswd, osiam."
+ },
+ {
+  "url": "https://github.com/pthm/melange",
+  "desc": "Compiles OpenFGA authorization schemas into PL/pgSQL functions that run fine-grained relationship-based access control checks inside PostgreSQL."
+ },
+ {
+  "url": "https://github.com/golang/oauth2",
+  "desc": "Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine, and App Engine support."
+ },
+ {
+  "url": "https://github.com/zitadel/oidc",
+  "desc": "Easy to use OpenID Connect client and server library written for Go and certified by the OpenID Foundation."
+ },
+ {
+  "url": "https://github.com/openfga/openfga",
+  "desc": "Implementation of fine-grained authorization based on the \"Zanzibar: Google's Consistent, Global Authorization System\" paper. Backed by [CNCF](https://www.cncf.io/)."
+ },
+ {
+  "url": "https://github.com/openshift/osin",
+  "desc": "Golang OAuth2 server library."
+ },
+ {
+  "url": "https://github.com/grijul/otpgen",
+  "desc": "Library to generate TOTP/HOTP codes."
+ },
+ {
+  "url": "https://github.com/jltorresm/otpgo",
+  "desc": "Time-Based One-Time Password (TOTP) and HMAC-Based One-Time Password (HOTP) library for Go."
+ },
+ {
+  "url": "https://github.com/o1egl/paseto",
+  "desc": "Golang implementation of Platform-Agnostic Security Tokens (PASETO)."
+ },
+ {
+  "url": "https://github.com/xyproto/permissions",
+  "desc": "Library for keeping track of users, login states, and permissions. Uses secure cookies and bcrypt."
+ },
+ {
+  "url": "https://github.com/SonicRoshan/scope",
+  "desc": "Easily Manage OAuth2 Scopes In Go."
+ },
+ {
+  "url": "https://github.com/alexedwards/scs",
+  "desc": "Session Manager for HTTP servers."
+ },
+ {
+  "url": "https://github.com/chmike/securecookie",
+  "desc": "Efficient secure cookie encoding/decoding."
+ },
+ {
+  "url": "https://github.com/icza/session",
+  "desc": "Go session management for web servers (including support for Google App Engine - GAE)."
+ },
+ {
+  "url": "https://github.com/adam-hanna/sessions",
+  "desc": "Dead simple, highly performant, highly customizable sessions service for go http servers."
+ },
+ {
+  "url": "https://github.com/swithek/sessionup",
+  "desc": "Simple, yet effective HTTP session management and identification package."
+ },
+ {
+  "url": "https://github.com/brianvoe/sjwt",
+  "desc": "Simple jwt generator and parser."
+ },
+ {
+  "url": "https://github.com/authzed/spicedb",
+  "desc": "A Zanzibar-inspired database that enables fine-grained authorization."
+ },
+ {
+  "url": "https://github.com/vkuznet/x509proxy",
+  "desc": "Library to handle X509 proxy certificates."
+ },
+ {
+  "url": "https://github.com/cometbft/cometbft",
+  "desc": "A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. It is a fork of Tendermint Core and implements the Tendermint consensus algorithm."
+ },
+ {
+  "url": "https://github.com/cosmos/cosmos-sdk",
+  "desc": "A Framework for Building Public Blockchains in the Cosmos Ecosystem."
+ },
+ {
+  "url": "https://github.com/gnolang/gno",
+  "desc": "A comprehensive smart contract suite built with Golang and Gnolang, a deterministic, purpose-built Go variant for blockchains."
+ },
+ {
+  "url": "https://github.com/ethereum/go-ethereum",
+  "desc": "Official Go implementation of the Ethereum protocol."
+ },
+ {
+  "url": "https://github.com/LimeChain/gosemble",
+  "desc": "A Go-based framework for building Polkadot/Substrate-compatible runtimes."
+ },
+ {
+  "url": "https://github.com/ChainSafe/gossamer",
+  "desc": "A Go implementation of the Polkadot Host."
+ },
+ {
+  "url": "https://github.com/ipfs/kubo",
+  "desc": "An IPFS implementation in Go. It provides content-addressable storage which can be used for decentralized storage in DApps. It is based on the IPFS protocol."
+ },
+ {
+  "url": "https://github.com/lightningnetwork/lnd",
+  "desc": "A complete implementation of a Lightning Network node."
+ },
+ {
+  "url": "https://github.com/blinklabs-io/nview",
+  "desc": "Local monitoring tool for a Cardano Node. It's a TUI (terminal user interface) designed to fit most screens."
+ },
+ {
+  "url": "https://github.com/pactus-project/pactus",
+  "desc": "A full-node implementation of the Pactus blockchain in Go."
+ },
+ {
+  "url": "https://github.com/gagliardetto/solana-go",
+  "desc": "Go library to interface with Solana JSON RPC and WebSocket interfaces."
+ },
+ {
+  "url": "https://github.com/tendermint/tendermint",
+  "desc": "High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols."
+ },
+ {
+  "url": "https://github.com/kslamph/tronlib",
+  "desc": "A comprehensive, production-ready Go SDK for interacting with the TRON blockchain with TRC20 token support."
+ },
+ {
+  "url": "https://github.com/diamondburned/arikawa",
+  "desc": "A library and framework for the Discord API."
+ },
+ {
+  "url": "https://github.com/go-telegram/bot",
+  "desc": "Zero-dependencies Telegram Bot library with additional UI components."
+ },
+ {
+  "url": "https://github.com/NicoNex/echotron",
+  "desc": "An elegant and concurrent library for Telegram Bots in Go."
+ },
+ {
+  "url": "https://joe-bot.net",
+  "desc": "A general-purpose bot library inspired by Hubot but written in Go."
+ },
+ {
+  "url": "https://github.com/oklahomer/go-sarah",
+  "desc": "Framework to build a bot for desired chat services including LINE, Slack, Gitter, and more."
+ },
+ {
+  "url": "https://github.com/mr-linch/go-tg",
+  "desc": "Generated from official docs Go client library for accessing Telegram Bot API, with batteries for building complex bots included."
+ },
+ {
+  "url": "https://github.com/gempir/go-twitch-irc",
+  "desc": "Library to write bots for twitch.tv chat"
+ },
+ {
+  "url": "https://github.com/onrik/micha",
+  "desc": "Go Library for Telegram bot api."
+ },
+ {
+  "url": "https://github.com/innogames/slack-bot",
+  "desc": "Ready to use Slack Bot for lazy developers: Custom commands, Jenkins, Jira, Bitbucket, Github..."
+ },
+ {
+  "url": "https://github.com/slack-io/slacker",
+  "desc": "Easy to use framework to create Slack bots."
+ },
+ {
+  "url": "https://github.com/tucnak/telebot",
+  "desc": "Telegram bot framework is written in Go."
+ },
+ {
+  "url": "https://github.com/kslamph/teleflow",
+  "desc": "Simple, type-safe Telegram bot framework with fluent flows and automatic state management."
+ },
+ {
+  "url": "https://github.com/mymmrac/telego",
+  "desc": "Telegram Bot API library for Golang with full one-to-one API implementation."
+ },
+ {
+  "url": "https://github.com/go-telegram-bot-api/telegram-bot-api",
+  "desc": "Simple and clean Telegram bot client."
+ },
+ {
+  "url": "https://github.com/enetx/tg",
+  "desc": "Telegram Bot Framework for Go."
+ },
+ {
+  "url": "https://github.com/wabarc/wayback",
+  "desc": "A bot for Telegram, Mastodon, Slack, and other messaging platforms archives webpages."
+ },
+ {
+  "url": "https://github.com/rekurt/ymsdk",
+  "desc": "Go SDK for Yandex Messenger Bot API with type-safe models, automatic retry, and rate-limit handling."
+ },
+ {
+  "url": "https://github.com/wisp-trading/wisp",
+  "desc": "Event-driven trading framework for Go. Spot, perpetual futures, prediction markets. Multi-exchange (Bybit, Hyperliquid, Polymarket)."
+ },
+ {
+  "url": "https://github.com/gopinath-langote/1build",
+  "desc": "Command line tool to frictionlessly manage project-specific commands."
+ },
+ {
+  "url": "https://github.com/cosmtrek/air",
+  "desc": "Air - Live reload for Go apps."
+ },
+ {
+  "url": "https://github.com/GuilhermeCaruso/anko",
+  "desc": "Simple application watcher for multiple programming languages."
+ },
+ {
+  "url": "https://github.com/maxclaus/gaper",
+  "desc": "Builds and restarts a Go project when it crashes or some watched file changes."
+ },
+ {
+  "url": "https://go-gilbert.github.io",
+  "desc": "Build system and task runner for Go projects."
+ },
+ {
+  "url": "https://github.com/kcmvp/gob",
+  "desc": "[Gradle](https://docs.gradle.org/)/[Maven](https://maven.apache.org/) like build tool for Go projects."
+ },
+ {
+  "url": "https://github.com/goyek/goyek",
+  "desc": "Create build pipelines in Go."
+ },
+ {
+  "url": "https://github.com/magefile/mage",
+  "desc": "Mage is a make/rake-like build tool using Go."
+ },
+ {
+  "url": "https://github.com/tj/mmake",
+  "desc": "Modern Make."
+ },
+ {
+  "url": "https://github.com/tockins/realize",
+  "desc": "Go build a system with file watchers and live to reload. Run, build and watch file changes with custom paths."
+ },
+ {
+  "url": "https://github.com/rexrun-dev/rex",
+  "desc": "Zero-config universal project runner. Detects your stack (Go, Node, Python, Rust, PHP, Zig, Elixir) and runs the right command."
+ },
+ {
+  "url": "https://github.com/go-task/task",
+  "desc": "simple \"Make\" alternative."
+ },
+ {
+  "url": "https://github.com/taskctl/taskctl",
+  "desc": "Concurrent task runner."
+ },
+ {
+  "url": "https://github.com/joerdav/xc",
+  "desc": "Task runner with README.md defined tasks, executable markdown."
+ },
+ {
+  "url": "https://github.com/guptarohit/asciigraph",
+  "desc": "Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies."
+ },
+ {
+  "url": "https://github.com/logrusorgru/aurora",
+  "desc": "ANSI terminal colors that support fmt.Printf/Sprintf."
+ },
+ {
+  "url": "https://github.com/box-cli-maker/box-cli-maker",
+  "desc": "Render highly customizable boxes in the terminal."
+ },
+ {
+  "url": "https://github.com/Evertras/bubble-table",
+  "desc": "An interactive table component for bubbletea."
+ },
+ {
+  "url": "https://github.com/charmbracelet/bubbles",
+  "desc": "TUI components for bubbletea."
+ },
+ {
+  "url": "https://github.com/charmbracelet/bubbletea",
+  "desc": "Go framework to build terminal apps, based on The Elm Architecture."
+ },
+ {
+  "url": "https://github.com/arceus-7/chroma16",
+  "desc": "Generate a harmonious 16-color terminal palette from a single seed color or string."
+ },
+ {
+  "url": "https://github.com/alfiankan/crab-config-files-templating",
+  "desc": "Dynamic configuration file templating tool for kubernetes manifest or general configuration files."
+ },
+ {
+  "url": "https://github.com/wzshiming/ctc",
+  "desc": "The non-invasive cross-platform terminal color library does not need to modify the Print method."
+ },
+ {
+  "url": "https://github.com/antonmedv/fx",
+  "desc": "Terminal JSON viewer & processor."
+ },
+ {
+  "url": "https://github.com/workanator/go-ataman",
+  "desc": "Go library for rendering ANSI colored text templates in terminals."
+ },
+ {
+  "url": "https://github.com/mattn/go-colorable",
+  "desc": "Colorable writer for windows."
+ },
+ {
+  "url": "https://github.com/daviddengcn/go-colortext",
+  "desc": "Go library for color output in terminals."
+ },
+ {
+  "url": "https://github.com/mattn/go-isatty",
+  "desc": "isatty for golang."
+ },
+ {
+  "url": "https://github.com/abusomani/go-palette",
+  "desc": "Go library that provides elegant and convenient style definitions using ANSI colors. Fully compatible & wraps the [fmt library](https://pkg.go.dev/fmt) for nice terminal layouts."
+ },
+ {
+  "url": "https://github.com/c-bata/go-prompt",
+  "desc": "Library for building a powerful interactive prompt, inspired by [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit)."
+ },
+ {
+  "url": "https://github.com/grindlemire/go-tui",
+  "desc": "A declarative terminal UI framework with templ-like templates, flexbox layout, and a language server for editor support."
+ },
+ {
+  "url": "https://github.com/jroimartin/gocui",
+  "desc": "Minimalist Go library aimed at creating Console User Interfaces."
+ },
+ {
+  "url": "https://github.com/labstack/gommon/tree/master/color",
+  "desc": "Style terminal text."
+ },
+ {
+  "url": "https://github.com/gookit/color",
+  "desc": "Terminal color rendering tool library, support 16 colors, 256 colors, RGB color rendering output, compatible with Windows."
+ },
+ {
+  "url": "https://github.com/iyashjayesh/goscaf",
+  "desc": "goscaf generates opinionated, production-quality Go project boilerplate via an interactive CLI. Stop copy-pasting skeleton code between projects."
+ },
+ {
+  "url": "https://github.com/lazynop/lazyenv",
+  "desc": "TUI for browsing, comparing, and editing .env files."
+ },
+ {
+  "url": "https://github.com/agmonetti/lazyteams",
+  "desc": "Keyboard-driven terminal user interface for Microsoft Teams."
+ },
+ {
+  "url": "https://github.com/charmbracelet/lipgloss",
+  "desc": "Declaratively define styles for color, format and layout in the terminal."
+ },
+ {
+  "url": "https://github.com/loom-go/loom",
+  "desc": "Signal-based reactive components framework for building TUIs."
+ },
+ {
+  "url": "https://github.com/cyucelen/marker",
+  "desc": "Easiest way to match and mark strings for colorful terminal outputs."
+ },
+ {
+  "url": "https://github.com/vbauerster/mpb",
+  "desc": "Multi progress bar for terminal applications."
+ },
+ {
+  "url": "https://github.com/phoenix-tui/phoenix",
+  "desc": "High-performance TUI framework with Elm-inspired architecture, perfect Unicode rendering, and zero-allocation event system."
+ },
+ {
+  "url": "https://github.com/schollz/progressbar",
+  "desc": "Basic thread-safe progress bar that works in every OS."
+ },
+ {
+  "url": "https://github.com/pterm/pterm",
+  "desc": "A library to beautify console output on every platform with many combinable components."
+ },
+ {
+  "url": "https://github.com/alexeyco/simpletable",
+  "desc": "Simple tables in a terminal with Go."
+ },
+ {
+  "url": "https://github.com/briandowns/spinner",
+  "desc": "Go package to easily provide a terminal spinner with options."
+ },
+ {
+  "url": "https://github.com/cheynewallace/tabby",
+  "desc": "A tiny library for super simple Golang tables."
+ },
+ {
+  "url": "https://github.com/tomlazar/table",
+  "desc": "Small library for terminal color based tables."
+ },
+ {
+  "url": "https://github.com/nsf/termbox-go",
+  "desc": "Termbox is a library for creating cross-platform text-based interfaces."
+ },
+ {
+  "url": "https://github.com/mum4k/termdash",
+  "desc": "Go terminal dashboard based on **termbox-go** and inspired by [termui](https://github.com/gizak/termui)."
+ },
+ {
+  "url": "https://github.com/muesli/termenv",
+  "desc": "Advanced ANSI style & color support for your terminal applications."
+ },
+ {
+  "url": "https://github.com/gizak/termui",
+  "desc": "Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib)."
+ },
+ {
+  "url": "https://github.com/gosuri/uilive",
+  "desc": "Library for updating terminal output in real time."
+ },
+ {
+  "url": "https://github.com/gosuri/uiprogress",
+  "desc": "Flexible library to render progress bars in terminal applications."
+ },
+ {
+  "url": "https://github.com/gosuri/uitable",
+  "desc": "Library to improve readability in terminal apps using tabular data."
+ },
+ {
+  "url": "https://github.com/charmbracelet/vhs",
+  "desc": "Your CLI home video recorder - generate terminal GIFs from code for documentation and tutorials."
+ },
+ {
+  "url": "https://github.com/theckman/yacspin",
+  "desc": "Yet Another CLi Spinner package, for working with terminal spinners."
+ },
+ {
+  "url": "https://github.com/cristalhq/acmd",
+  "desc": "Simple, useful, and opinionated CLI package in Go."
+ },
+ {
+  "url": "https://github.com/akamensky/argparse",
+  "desc": "Command line argument parser inspired by Python's argparse module."
+ },
+ {
+  "url": "https://github.com/cosiner/argv",
+  "desc": "Go library to split command line string as arguments array using the bash syntax."
+ },
+ {
+  "url": "https://github.com/GiGurra/boa",
+  "desc": "Declarative flags, env vars, validation, and config files from struct tags. Built on cobra."
+ },
+ {
+  "url": "https://github.com/rsteube/carapace",
+  "desc": "Command argument completion generator for spf13/cobra."
+ },
+ {
+  "url": "https://github.com/rsteube/carapace-bin",
+  "desc": "Multi-shell multi-command argument completer."
+ },
+ {
+  "url": "https://github.com/rsteube/carapace-spec",
+  "desc": "Define simple completions using a spec file."
+ },
+ {
+  "url": "https://github.com/tucnak/climax",
+  "desc": "Alternative CLI with \"human face\", in spirit of Go command."
+ },
+ {
+  "url": "https://github.com/leaanthony/clir",
+  "desc": "A Simple and Clear CLI library. Dependency free."
+ },
+ {
+  "url": "https://github.com/posener/cmd",
+  "desc": "Extends the standard `flag` package to support sub commands and more in idiomatic way."
+ },
+ {
+  "url": "https://github.com/hedzr/cmdr",
+  "desc": "A POSIX/GNU style, getopt-like command-line UI Go library."
+ },
+ {
+  "url": "https://github.com/spf13/cobra",
+  "desc": "Commander for modern Go CLI interactions."
+ },
+ {
+  "url": "https://github.com/rainu/go-command-chain",
+  "desc": "A go library for configure and run command chains - such as pipelining in unix shells."
+ },
+ {
+  "url": "https://github.com/jaffee/commandeer",
+  "desc": "Dev-friendly CLI apps: sets up flags, defaults, and usage based on struct fields and tags."
+ },
+ {
+  "url": "https://github.com/posener/complete",
+  "desc": "Write bash completions in Go + Go command bash completion."
+ },
+ {
+  "url": "https://github.com/reeflective/console",
+  "desc": "Closed-loop application library for Cobra commands, with oh-my-posh prompts, and more."
+ },
+ {
+  "url": "https://github.com/dnote/dnote",
+  "desc": "A simple command line notebook with multi-device sync."
+ },
+ {
+  "url": "https://github.com/elves/elvish",
+  "desc": "An expressive programming language and a versatile interactive shell."
+ },
+ {
+  "url": "https://github.com/codingconcepts/env",
+  "desc": "Tag-based environment configuration for structs."
+ },
+ {
+  "url": "https://github.com/integrii/flaggy",
+  "desc": "A robust and idiomatic flags package with excellent subcommand support."
+ },
+ {
+  "url": "https://github.com/sgreben/flagvar",
+  "desc": "A collection of flag argument types for Go's standard `flag` package."
+ },
+ {
+  "url": "https://github.com/agilira/flash-flags",
+  "desc": "Ultra-fast, zero-dependency, POSIX-compliant flag parsing library that can be used as drop-in stdlib replacement with security hardening."
+ },
+ {
+  "url": "https://github.com/SatyamKumarCS/Fling-CLI",
+  "desc": "Terminal-based peer-to-peer file and message transfer tool over custom reliable UDP."
+ },
+ {
+  "url": "https://github.com/jon-codes/getopt",
+  "desc": "An accurate Go `getopt`, validated against the GNU libc implementation."
+ },
+ {
+  "url": "https://github.com/SalvucciFacundo/go-arch",
+  "desc": "CLI tool for scaffolding Go applications with Minimalist, Standard, and Hexagonal architecture patterns."
+ },
+ {
+  "url": "https://github.com/alexflint/go-arg",
+  "desc": "Struct-based argument parsing in Go."
+ },
+ {
+  "url": "https://github.com/jessevdk/go-flags",
+  "desc": "go command line option parser."
+ },
+ {
+  "url": "https://github.com/DavidGamba/go-getoptions",
+  "desc": "Go option parser inspired by the flexibility of Perl’s GetOpt::Long."
+ },
+ {
+  "url": "https://github.com/nyaosorg/go-readline-ny",
+  "desc": "A customizable line-editing library with Emacs keybindings, Unicode support, completion, and syntax highlighting. Used in NYAGOS shell."
+ },
+ {
+  "url": "https://github.com/devfacet/gocmd",
+  "desc": "Go library for building command line applications."
+ },
+ {
+  "url": "https://github.com/napalu/goopt",
+  "desc": "A declarative, struct-tag based CLI framework for Go, with a broad feature set such as hierarchical commands/flags, i18n, shell completion, and validation."
+ },
+ {
+  "url": "https://github.com/hashicorp/cli",
+  "desc": "Go library for implementing command-line interfaces."
+ },
+ {
+  "url": "https://github.com/hidevopsio/hiboot/tree/master/pkg/app/cli",
+  "desc": "cli application framework with auto configuration and dependency injection."
+ },
+ {
+  "url": "https://github.com/liujianping/job",
+  "desc": "JOB, make your short-term command as a long-term job."
+ },
+ {
+  "url": "https://github.com/alecthomas/kingpin",
+  "desc": "Command line and flag parser supporting sub commands (superseded by `kong`; see below)."
+ },
+ {
+  "url": "https://github.com/peterh/liner",
+  "desc": "Go readline-like library for command-line interfaces."
+ },
+ {
+  "url": "https://github.com/jxskiss/mcli",
+  "desc": "A minimal but very powerful cli library for Go."
+ },
+ {
+  "url": "https://github.com/amjadjibon/memsh",
+  "desc": "Virtual bash shell in Go: executes shell commands against an in-memory filesystem (afero), with WASM plugin support and an embeddable HTTP server."
+ },
+ {
+  "url": "https://github.com/mkideal/cli",
+  "desc": "Feature-rich and easy to use command-line package based on golang struct tags."
+ },
+ {
+  "url": "https://github.com/jawher/mow.cli",
+  "desc": "Go library for building CLI applications with sophisticated flag and argument parsing and validation."
+ },
+ {
+  "url": "https://github.com/steevin/neuron-cli",
+  "desc": "A local-first, Obsidian-compatible terminal knowledge manager."
+ },
+ {
+  "url": "https://github.com/bcdxn/opencli",
+  "desc": "OpenAPI-style specification for CLIs; define your interface in a language-agnostic document to generate documentation and framework boilerplate code."
+ },
+ {
+  "url": "https://github.com/nanovms/ops",
+  "desc": "Unikernel Builder/Orchestrator."
+ },
+ {
+  "url": "https://github.com/agilira/orpheus",
+  "desc": "CLI framework with security hardening, plugin storage system, and production observability features."
+ },
+ {
+  "url": "https://github.com/spf13/pflag",
+  "desc": "Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags."
+ },
+ {
+  "url": "https://github.com/reeflective/readline",
+  "desc": "Shell library with modern and easy to use UI features."
+ },
+ {
+  "url": "https://github.com/octago/sflags",
+  "desc": "Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin, and other libraries."
+ },
+ {
+  "url": "https://github.com/leodido/structcli",
+  "desc": "Eliminate Cobra boilerplate: build powerful, feature-rich CLIs declaratively from Go structs."
+ },
+ {
+  "url": "https://github.com/antham/strumt",
+  "desc": "Library to create prompt chain."
+ },
+ {
+  "url": "https://github.com/bobg/subcmd",
+  "desc": "Another approach to parsing and running subcommands. Works alongside the standard `flag` package."
+ },
+ {
+  "url": "https://github.com/teris-io/cli",
+  "desc": "Simple and complete API for building command line interfaces in Go."
+ },
+ {
+  "url": "https://github.com/urfave/cli",
+  "desc": "Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli)."
+ },
+ {
+  "url": "https://github.com/mszostok/version",
+  "desc": "Collects and displays CLI version information in multiple formats along with upgrade notice."
+ },
+ {
+  "url": "https://github.com/dixonwille/wlog",
+  "desc": "Simple logging interface that supports cross-platform color and concurrency."
+ },
+ {
+  "url": "https://github.com/dixonwille/wmenu",
+  "desc": "Easy to use menu structure for cli applications that prompt users to make choices."
+ },
+ {
+  "url": "https://github.com/cristalhq/aconfig",
+  "desc": "Simple, useful and opinionated config loader."
+ },
+ {
+  "url": "https://github.com/agilira/argus",
+  "desc": "File watching and configuration management with MPSC ring buffer, adaptive batching strategies, and universal format parsing (JSON, YAML, TOML, INI, HCL, Properties)."
+ },
+ {
+  "url": "https://github.com/Azure/AppConfiguration-GoProvider",
+  "desc": "The configuration provider for consuming data in Azure App Configuration from Go applications."
+ },
+ {
+  "url": "https://github.com/wkhere/bcl",
+  "desc": "BCL is a configuration language similar to HCL."
+ },
+ {
+  "url": "https://github.com/ilyakaznacheev/cleanenv",
+  "desc": "Minimalistic configuration reader (from files, ENV, and wherever you want)."
+ },
+ {
+  "url": "https://github.com/JeremyLoy/config",
+  "desc": "Cloud native application configuration. Bind ENV to structs in only two lines."
+ }
+]

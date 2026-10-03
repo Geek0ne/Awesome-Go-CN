@@ -1,0 +1,1002 @@
+[
+ {
+  "url": "https://github.com/pancsta/asyncmachine-go/tree/main/pkg/machine",
+  "zh": "图控制流库（支持 AOP、Actor、状态机）。"
+ },
+ {
+  "url": "https://github.com/ergo-services/ergo",
+  "zh": "基于 Actor 的框架，具备网络透明性，用于在 Golang 中构建事件驱动架构。灵感源自 Erlang。"
+ },
+ {
+  "url": "https://github.com/Tochemey/goakt",
+  "zh": "高性能分布式 Actor 框架，为 Golang 提供基于 Protocol Buffers 的消息传递。"
+ },
+ {
+  "url": "https://github.com/anthdm/hollywood",
+  "zh": "用 Golang 编写的极速轻量级 Actor 引擎。"
+ },
+ {
+  "url": "https://github.com/asynkron/protoactor-go",
+  "zh": "面向 Go、C# 以及 Java/Kotlin 的分布式 Actor 库。"
+ },
+ {
+  "url": "https://github.com/saivedant169/AegisFlow",
+  "zh": "AI 网关，面向 10+ 服务商统一路由、加固与监控 LLM 流量。兼容 OpenAI API，支持 WASM 策略插件、金丝雀发布与实时仪表盘。"
+ },
+ {
+  "url": "https://github.com/Colin4k1024/Aetheris",
+  "zh": "AI Agent 执行运行时，支持事件溯源、检查点恢复，并提供 At-Most-Once 执行保证。以 Go 编写。"
+ },
+ {
+  "url": "https://github.com/agenticenv/agent-sdk-go",
+  "zh": "用于在 Go 中构建有状态 AI 智能体的框架。"
+ },
+ {
+  "url": "https://github.com/tphakala/agy-mcp",
+  "zh": "Model Context Protocol（MCP）服务器，封装 Antigravity CLI 以运行提示词与同行评审。"
+ },
+ {
+  "url": "https://github.com/joakimcarlsson/ai",
+  "zh": "Go 工具集，用于跨多家服务商构建 AI 智能体与应用，统一提供 LLM、嵌入、工具调用与 MCP 集成。"
+ },
+ {
+  "url": "https://github.com/ferro-labs/ai-gateway",
+  "zh": "兼容 OpenAI 的 LLM 网关，在 30 家服务商之间路由请求，支持降级、限流、预算、护栏与可观测性。"
+ },
+ {
+  "url": "https://github.com/philippgille/chromem-go",
+  "zh": "面向 Go 的可嵌入式向量数据库，接口类似 Chroma，且零第三方依赖。内存存储，可选持久化。"
+ },
+ {
+  "url": "https://github.com/lancekrogers/claude-code-go",
+  "zh": "Go 库，可从 Go 程序中以非交互方式驱动 Claude Code CLI 的提示词接口。"
+ },
+ {
+  "url": "https://github.com/rhgs/crewai-go",
+  "zh": "CrewAI 的惯用 Go 移植版（多智能体编排）。零依赖，仅用标准库。"
+ },
+ {
+  "url": "https://github.com/cynative/cynative",
+  "zh": "用于在 Go 中构建安全工程 AI 智能体的框架。默认只读、内置沙箱，并提供面向 AWS、GCP、Azure、K8s、GitHub 与 GitLab 深度调研的 45 个智能体蓝图。"
+ },
+ {
+  "url": "https://github.com/dakera-ai/dakera-go",
+  "zh": "Dakera 自托管智能体记忆服务器的官方 Go 客户端 SDK，为记忆存取、会话管理、命名空间操作与衰减配置提供类型化接口。"
+ },
+ {
+  "url": "https://gitlab.com/tozd/go/fun",
+  "zh": "在 Go 中使用大语言模型（LLM）最简单却强大的方式。"
+ },
+ {
+  "url": "https://github.com/zendev-sh/goai",
+  "zh": "用于构建 AI 应用的 Go SDK。一个 SDK 接入 20+ 服务商。灵感源自 Vercel AI SDK。"
+ },
+ {
+  "url": "https://github.com/ENTERPILOT/GoModel",
+  "zh": "AI 网关，为 OpenAI、Anthropic、Gemini、Groq、xAI、Ollama 等服务商提供统一的 OpenAI 兼容 API，并支持路由、用量追踪、限流与护栏。"
+ },
+ {
+  "url": "https://github.com/hrygo/hotplex",
+  "zh": "AI Agent 运行时引擎，为 Claude Code、OpenCode、pi-mono 等 CLI AI 工具提供长生命周期会话。支持全双工流式输出、多平台集成与安全沙箱。"
+ },
+ {
+  "url": "https://github.com/gojargo/jargo",
+  "zh": "用于在 WebRTC 之上构建实时语音 AI 智能体的框架，将语音转文本、LLM 与文本转语音串联成流式管线。"
+ },
+ {
+  "url": "https://github.com/mochow13/keen-code",
+  "zh": "上下文高效的终端 AI 编码智能体。与服务商无关，支持 MCP、Agent Skills、子智能体等，并内置简洁直观的 TUI。"
+ },
+ {
+  "url": "https://github.com/tmc/langchaingo",
+  "zh": "LangChainGo 是一个用于开发语言模型驱动应用的框架。"
+ },
+ {
+  "url": "https://github.com/smallnest/langgraphgo",
+  "zh": "用于在 LLM 之上构建有状态多 Actor 应用的 Go 库，基于 LangGraph 理念，内置大量开箱即用的 Agent 架构。"
+ },
+ {
+  "url": "https://github.com/alib8b8/llm-box",
+  "zh": "终端 AI 工作流引擎，采用 YAML 驱动管线，支持 20+ LLM 服务商（DeepSeek、Qwen、GLM、Mistral 等），并提供工作流管理 TUI。"
+ },
+ {
+  "url": "https://github.com/mudler/LocalAI",
+  "zh": "开源的 OpenAI 替代方案，可自托管 AI 模型。"
+ },
+ {
+  "url": "https://github.com/harshaneel/localaik",
+  "zh": "以 LocalStack 风格在本地模拟 OpenAI 与 Gemini API；单个 Docker 容器，基于 llama.cpp + Gemma 3 后端。"
+ },
+ {
+  "url": "https://github.com/mark3labs/mcp-go",
+  "zh": "Model Context Protocol 的 Go 实现，用于在 Go 中构建 MCP 服务器与客户端。"
+ },
+ {
+  "url": "https://github.com/jmorganca/ollama",
+  "zh": "在本地运行大语言模型。"
+ },
+ {
+  "url": "https://github.com/presbrey/ollamafarm",
+  "zh": "管理、负载均衡与故障转移 Ollama 实例组。"
+ },
+ {
+  "url": "https://github.com/oluwajubelo1/otellix",
+  "zh": "OpenTelemetry 原生的 LLM 可观测性与预算护栏，面向成本受限的生产环境。"
+ },
+ {
+  "url": "https://github.com/Ad3bay0c/routex",
+  "zh": "面向 Go 的 YAML 驱动多智能体 AI 运行时，具备 Erlang 风格的监督机制，支持 MCP 工具服务器并附带 CLI。"
+ },
+ {
+  "url": "https://github.com/DavidBelicza/semantic-search",
+  "zh": "基于语义的搜索，支持 PDF、Markdown、DOCX、源代码等文件类型，利用生成式 AI 嵌入模型将文件向量化后存入向量数据库。"
+ },
+ {
+  "url": "https://github.com/thousandflowers/skillreaper",
+  "zh": "命令行工具，扫描 AI 智能体会话记录，识别并安全隔离在 Claude Code、Codex CLI、Hermes、OpenCode、Cursor 与 OpenClaw 中未被使用的技能、MCP 服务器与智能体。"
+ },
+ {
+  "url": "https://github.com/Smeldr/core",
+  "zh": "AI 原生内容后端，具备类型化生命周期管理、为每种内容类型提供原生 MCP 工具，且零运行时依赖。"
+ },
+ {
+  "url": "https://github.com/edouard-claude/snip",
+  "zh": "命令行代理，通过声明式 YAML 过滤器将 LLM token 用量降低 60-90%。可直接用于 Claude Code、Cursor、Copilot 与 Gemini，是 Go 语言版的 rtk 替代方案。"
+ },
+ {
+  "url": "https://github.com/jadmadi/thermal",
+  "zh": "面向 AI 编码助手的终端贡献热力图、连续打卡追踪与 token 排行榜。"
+ },
+ {
+  "url": "https://github.com/trpc-group/trpc-agent-go",
+  "zh": "用于构建基于 LLM 的多智能体系统的框架。"
+ },
+ {
+  "url": "https://github.com/zoharbabin/web-researcher-mcp",
+  "zh": "MCP 服务器，为 AI 助手提供网页搜索、内容抽取与多源调研能力。单一二进制文件，内置 5 家搜索服务商与熔断故障转移、4 级抓取管线。"
+ },
+ {
+  "url": "https://github.com/zendev-sh/zenflow",
+  "zh": "多智能体编排与工作流引擎。声明式 YAML 工作流，带中心辐射式邮箱的 LLM 协调器，以及竞态安全投递。仅需一个 YAML 文件、一个 Go 二进制，可在任意受 goai 支持的服务商上运行。"
+ },
+ {
+  "url": "https://github.com/gopxl/beep",
+  "zh": "用于音频播放与音频处理的简单库。"
+ },
+ {
+  "url": "https://github.com/mewkiz/flac",
+  "zh": "原生 Go 实现的 FLAC 编码器/解码器，支持 FLAC 流。"
+ },
+ {
+  "url": "https://github.com/Comcast/gaad",
+  "zh": "原生 Go AAC 比特流解析器。"
+ },
+ {
+  "url": "https://github.com/tphakala/go-aac",
+  "zh": "纯 Go 实现的 AAC-LC 编码器与解码器，移植自 FFmpeg。"
+ },
+ {
+  "url": "https://github.com/tphakala/go-audio-resampler",
+  "zh": "纯 Go 高品质音频重采样器，具备 SIMD 加速。"
+ },
+ {
+  "url": "https://github.com/tphakala/go-flac",
+  "zh": "原生 Go FLAC 编码器与解码器，具备 SIMD 加速。"
+ },
+ {
+  "url": "https://github.com/leberKleber/go-mpris",
+  "zh": "用于访问 mpris dbus 接口的客户端。"
+ },
+ {
+  "url": "https://github.com/tphakala/go-opus",
+  "zh": "Opus 音频编解码器（RFC 6716）的原生 Go 实现，解码器符合 RFC 规范。"
+ },
+ {
+  "url": "https://github.com/gojargo/go-resample",
+  "zh": "纯 Go（无 cgo）音频采样率转换器，支持 sinc、线性与零阶保持转换器。"
+ },
+ {
+  "url": "https://github.com/tphakala/go-wav",
+  "zh": "纯 Go 的 WAV/RIFF 读写器，支持 RF64 与 BW64，可处理超过 4 GiB 的文件。"
+ },
+ {
+  "url": "https://github.com/DylanMeeus/GoAudio",
+  "zh": "原生 Go 音频处理库。"
+ },
+ {
+  "url": "https://github.com/iSerganov/gocue",
+  "zh": "音频分析命令行工具，可检测 cue-in、cue-out 与 overlay 点，并测量 EBU R128 响度，输出 JSON 供 Liquidsoap 使用。"
+ },
+ {
+  "url": "https://github.com/dh1tw/gosamplerate",
+  "zh": "libsamplerate 的 Go 绑定。"
+ },
+ {
+  "url": "https://github.com/bogem/id3v2",
+  "zh": "面向 Go 的 ID3 解码与编码库。"
+ },
+ {
+  "url": "https://github.com/gen2brain/malgo",
+  "zh": "迷你音频库。"
+ },
+ {
+  "url": "https://github.com/tosone/minimp3",
+  "zh": "轻量级 MP3 解码库。"
+ },
+ {
+  "url": "https://github.com/go-music-theory/music-theory",
+  "zh": "用 Go 实现的乐理模型。"
+ },
+ {
+  "url": "https://github.com/hajimehoshi/oto",
+  "zh": "用于在多平台播放声音的底层库。"
+ },
+ {
+  "url": "https://github.com/gordonklaus/portaudio",
+  "zh": "PortAudio 音频 I/O 库的 Go 绑定。"
+ },
+ {
+  "url": "https://github.com/volatiletech/authboss",
+  "zh": "面向 Web 的模块化认证系统。它尽可能剔除样板代码与「困难问题」，这样每次在 Go 中开启新的 Web 项目时，只需接入、配置即可开始开发应用，而不必每次都重新构建一套认证系统。"
+ },
+ {
+  "url": "https://github.com/go-authgate/authgate",
+  "zh": "轻量级 OAuth 2.0 授权服务器，支持设备授权许可（[RFC 8628](https://datatracker.ietf.org/doc/html/rfc8628)）、带 PKCE 的授权码流程（[RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749) + [RFC 7636](https://datatracker.ietf.org/doc/html/rfc7636)），以及用于机器对机器认证的客户端凭据模式。"
+ },
+ {
+  "url": "https://github.com/essentialkaos/branca",
+  "zh": "面向 Golang 1.15+ 的 branca 令牌[规范实现](https://github.com/tuupola/branca-spec)。"
+ },
+ {
+  "url": "https://github.com/hsluoyz/casbin",
+  "zh": "授权库，支持 ACL、RBAC、ABAC 等访问控制模型。"
+ },
+ {
+  "url": "https://github.com/mengzhuo/cookiestxt",
+  "zh": "提供 cookies.txt 文件格式的解析器。"
+ },
+ {
+  "url": "https://github.com/jferrl/go-githubauth",
+  "zh": "GitHub 认证工具：生成并使用 GitHub 应用令牌与安装令牌。"
+ },
+ {
+  "url": "https://github.com/shaj13/go-guardian",
+  "zh": "Go-Guardian 是一个 Go 库，以简单、干净、惯用的方式实现强大的现代 API 与 Web 认证，支持 LDAP、Basic、Bearer 令牌与证书认证。"
+ },
+ {
+  "url": "https://github.com/melvinodsa/go-iam",
+  "zh": "开发者优先的身份与访问管理系统，界面简洁。"
+ },
+ {
+  "url": "https://github.com/go-jose/go-jose",
+  "zh": "相当完整地实现了 JOSE 工作组的 JSON Web Token、JSON Web Signatures 与 JSON Web Encryption 规范。"
+ },
+ {
+  "url": "https://github.com/deatil/go-jwt",
+  "zh": "面向 Go 的 JWT（JSON Web Token）库。"
+ },
+ {
+  "url": "https://github.com/pardnchiu/go-jwt",
+  "zh": "JWT 认证包，提供访问令牌与刷新令牌，附带指纹识别、Redis 存储与自动刷新能力。"
+ },
+ {
+  "url": "https://github.com/leodip/goiabada",
+  "zh": "支持 OAuth2 与 OpenID Connect 的开源认证与授权服务器。"
+ },
+ {
+  "url": "https://github.com/dghubble/gologin",
+  "zh": "可通过链式调用的处理器，使用 OAuth1 与 OAuth2 认证服务商完成登录。"
+ },
+ {
+  "url": "https://github.com/mikespook/gorbac",
+  "zh": "在 Golang 中提供轻量级基于角色的访问控制（RBAC）实现。"
+ },
+ {
+  "url": "https://github.com/Kwynto/gosession",
+  "zh": "这是 GoLang 中用于 net/http 的快速会话实现。这个包或许是会话机制最好的实现，至少它在努力成为最好的那个。"
+ },
+ {
+  "url": "https://github.com/markbates/goth",
+  "zh": "以简单、干净、惯用的方式使用 OAuth 与 OAuth2，开箱即支持多家服务商。"
+ },
+ {
+  "url": "https://github.com/abraithwaite/jeff",
+  "zh": "简单、灵活、安全、惯用的 Web 会话管理，后端可插拔。"
+ },
+ {
+  "url": "https://github.com/pascaldekloe/jwt",
+  "zh": "轻量级 JSON Web Token（JWT）库。"
+ },
+ {
+  "url": "https://github.com/cristalhq/jwt",
+  "zh": "安全、简单、快速的 Go 版 JSON Web Token。"
+ },
+ {
+  "url": "https://github.com/adam-hanna/jwt-auth",
+  "zh": "面向 Golang HTTP 服务器的 JWT 中间件，提供丰富的配置选项。"
+ },
+ {
+  "url": "https://github.com/golang-jwt/jwt",
+  "zh": "功能完备的 JSON Web Token（JWT）实现。该库同时支持 JWT 的解析与校验，以及生成与签名。"
+ },
+ {
+  "url": "https://github.com/lestrrat-go/jwx",
+  "zh": "Go 模块，实现多种 JWx（JWA/JWE/JWK/JWS/JWT，即 JOSE）技术。"
+ },
+ {
+  "url": "https://github.com/ory/keto",
+  "zh": "「Zanzibar：Google 全球一致的权限系统」的开源（Go）实现。内置 gRPC、REST API、newSQL，以及一套易用且粒度精细的权限语言。支持 ACL、RBAC 及其他访问模型。"
+ },
+ {
+  "url": "https://github.com/tarent/loginsrv",
+  "zh": "JWT 登录微服务，支持 OAuth2（Github）、htpasswd、osiam 等可插拔后端。"
+ },
+ {
+  "url": "https://github.com/pthm/melange",
+  "zh": "将 OpenFGA 授权 schema 编译为 PL/pgSQL 函数，在 PostgreSQL 内部执行细粒度的基于关系的访问控制检查。"
+ },
+ {
+  "url": "https://github.com/golang/oauth2",
+  "zh": "goauth2 的继任者。通用 OAuth 2.0 包，内置 JWT、Google APIs、Compute Engine 与 App Engine 支持。"
+ },
+ {
+  "url": "https://github.com/zitadel/oidc",
+  "zh": "易用的 OpenID Connect 客户端与服务器库，为 Go 编写并获 OpenID 基金会认证。"
+ },
+ {
+  "url": "https://github.com/openfga/openfga",
+  "zh": "基于「Zanzibar：Google 全球一致的权限系统」论文的细粒度授权实现。由 [CNCF](https://www.cncf.io/) 背书。"
+ },
+ {
+  "url": "https://github.com/openshift/osin",
+  "zh": "Golang OAuth2 服务器库。"
+ },
+ {
+  "url": "https://github.com/grijul/otpgen",
+  "zh": "用于生成 TOTP/HOTP 验证码的库。"
+ },
+ {
+  "url": "https://github.com/jltorresm/otpgo",
+  "zh": "面向 Go 的基于时间一次性密码（TOTP）与基于 HMAC 一次性密码（HOTP）库。"
+ },
+ {
+  "url": "https://github.com/o1egl/paseto",
+  "zh": "平台无关安全令牌（PASETO）的 Golang 实现。"
+ },
+ {
+  "url": "https://github.com/xyproto/permissions",
+  "zh": "用于跟踪用户、登录状态与权限的库。使用安全 Cookie 与 bcrypt。"
+ },
+ {
+  "url": "https://github.com/SonicRoshan/scope",
+  "zh": "轻松管理 Go 中的 OAuth2 权限范围（Scopes）。"
+ },
+ {
+  "url": "https://github.com/alexedwards/scs",
+  "zh": "面向 HTTP 服务器的会话管理器。"
+ },
+ {
+  "url": "https://github.com/chmike/securecookie",
+  "zh": "高效安全的 Cookie 编解码。"
+ },
+ {
+  "url": "https://github.com/icza/session",
+  "zh": "面向 Web 服务器的 Go 会话管理（包含对 Google App Engine - GAE 的支持）。"
+ },
+ {
+  "url": "https://github.com/adam-hanna/sessions",
+  "zh": "简单、高性能、高度可定制的 Go HTTP 服务器会话服务。"
+ },
+ {
+  "url": "https://github.com/swithek/sessionup",
+  "zh": "简单却有效的 HTTP 会话管理与身份识别包。"
+ },
+ {
+  "url": "https://github.com/brianvoe/sjwt",
+  "zh": "简单的 JWT 生成器与解析器。"
+ },
+ {
+  "url": "https://github.com/authzed/spicedb",
+  "zh": "受 Zanzibar 启发的数据库，支持细粒度授权。"
+ },
+ {
+  "url": "https://github.com/vkuznet/x509proxy",
+  "zh": "用于处理 X509 代理证书的库。"
+ },
+ {
+  "url": "https://github.com/cometbft/cometbft",
+  "zh": "分布式的拜占庭容错确定性状态机复制引擎。它是 Tendermint Core 的分支，并实现了 Tendermint 共识算法。"
+ },
+ {
+  "url": "https://github.com/cosmos/cosmos-sdk",
+  "zh": "用于在 Cosmos 生态中构建公链的框架。"
+ },
+ {
+  "url": "https://github.com/gnolang/gno",
+  "zh": "使用 Golang 与 Gnolang（专为区块链打造的确定性 Go 变体）构建的全能智能合约套件。"
+ },
+ {
+  "url": "https://github.com/ethereum/go-ethereum",
+  "zh": "以太坊协议的官方 Go 实现。"
+ },
+ {
+  "url": "https://github.com/LimeChain/gosemble",
+  "zh": "基于 Go 的框架，用于构建兼容 Polkadot/Substrate 的运行时。"
+ },
+ {
+  "url": "https://github.com/ChainSafe/gossamer",
+  "zh": "Polkadot Host 的 Go 实现。"
+ },
+ {
+  "url": "https://github.com/ipfs/kubo",
+  "zh": "Go 实现的 IPFS。它提供内容寻址存储，可用于 DApp 中的去中心化存储，基于 IPFS 协议。"
+ },
+ {
+  "url": "https://github.com/lightningnetwork/lnd",
+  "zh": "闪电网络节点的完整实现。"
+ },
+ {
+  "url": "https://github.com/blinklabs-io/nview",
+  "zh": "Cardano 节点的本地监控工具。它是一个 TUI（终端用户界面），设计为适配大多数屏幕尺寸。"
+ },
+ {
+  "url": "https://github.com/pactus-project/pactus",
+  "zh": "用 Go 实现的 Pactus 区块链全节点。"
+ },
+ {
+  "url": "https://github.com/gagliardetto/solana-go",
+  "zh": "用于对接 Solana JSON RPC 与 WebSocket 接口的 Go 库。"
+ },
+ {
+  "url": "https://github.com/tendermint/tendermint",
+  "zh": "高性能中间件，可将任意编程语言编写的状态机转换为基于 Tendermint 共识与区块链协议的拜占庭容错复制状态机。"
+ },
+ {
+  "url": "https://github.com/kslamph/tronlib",
+  "zh": "功能完备、可用于生产环境的 Go SDK，用于与 TRON 区块链交互，并支持 TRC20 代币。"
+ },
+ {
+  "url": "https://github.com/diamondburned/arikawa",
+  "zh": "用于 Discord API 的库与框架。"
+ },
+ {
+  "url": "https://github.com/go-telegram/bot",
+  "zh": "零依赖的 Telegram Bot 库，附带额外的 UI 组件。"
+ },
+ {
+  "url": "https://github.com/NicoNex/echotron",
+  "zh": "Go 中优雅且并发安全的 Telegram Bot 库。"
+ },
+ {
+  "url": "https://joe-bot.net",
+  "zh": "受 Hubot 启发、用 Go 编写的通用机器人库。"
+ },
+ {
+  "url": "https://github.com/oklahomer/go-sarah",
+  "zh": "用于为 LINE、Slack、Gitter 等聊天服务构建机器人的框架。"
+ },
+ {
+  "url": "https://github.com/mr-linch/go-tg",
+  "zh": "根据官方文档生成的 Telegram Bot API Go 客户端库，内置构建复杂机器人所需的「开箱即用」能力。"
+ },
+ {
+  "url": "https://github.com/gempir/go-twitch-irc",
+  "zh": "用于编写 twitch.tv 聊天机器人的库。"
+ },
+ {
+  "url": "https://github.com/onrik/micha",
+  "zh": "面向 Telegram bot API 的 Go 库。"
+ },
+ {
+  "url": "https://github.com/innogames/slack-bot",
+  "zh": "为懒人开发者准备的开箱即用 Slack Bot：自定义命令、Jenkins、Jira、Bitbucket、Github……"
+ },
+ {
+  "url": "https://github.com/slack-io/slacker",
+  "zh": "易于使用的 Slack 机器人创建框架。"
+ },
+ {
+  "url": "https://github.com/tucnak/telebot",
+  "zh": "用 Go 编写的 Telegram 机器人框架。"
+ },
+ {
+  "url": "https://github.com/kslamph/teleflow",
+  "zh": "简单且类型安全的 Telegram 机器人框架，具备流畅的流程编排与自动状态管理。"
+ },
+ {
+  "url": "https://github.com/mymmrac/telego",
+  "zh": "面向 Golang 的 Telegram Bot API 库，完整实现一对一 API。"
+ },
+ {
+  "url": "https://github.com/go-telegram-bot-api/telegram-bot-api",
+  "zh": "简单干净的 Telegram 机器人客户端。"
+ },
+ {
+  "url": "https://github.com/enetx/tg",
+  "zh": "面向 Go 的 Telegram 机器人框架。"
+ },
+ {
+  "url": "https://github.com/wabarc/wayback",
+  "zh": "一个可归档网页的机器人，支持 Telegram、Mastodon、Slack 及其他消息平台。"
+ },
+ {
+  "url": "https://github.com/rekurt/ymsdk",
+  "zh": "Yandex Messenger Bot API 的 Go SDK，具备类型安全模型、自动重试与限流处理。"
+ },
+ {
+  "url": "https://github.com/wisp-trading/wisp",
+  "zh": "面向 Go 的事件驱动交易框架。支持现货、永续合约与预测市场，并支持多交易所（Bybit、Hyperliquid、Polymarket）。"
+ },
+ {
+  "url": "https://github.com/gopinath-langote/1build",
+  "zh": "命令行工具，用于轻松管理项目专属命令。"
+ },
+ {
+  "url": "https://github.com/cosmtrek/air",
+  "zh": "Air —— Go 应用的热重载工具。"
+ },
+ {
+  "url": "https://github.com/GuilhermeCaruso/anko",
+  "zh": "支持多种编程语言的简易应用监听器。"
+ },
+ {
+  "url": "https://github.com/maxclaus/gaper",
+  "zh": "当 Go 项目崩溃或被监听的文件发生变化时，自动构建并重启项目。"
+ },
+ {
+  "url": "https://go-gilbert.github.io",
+  "zh": "面向 Go 项目的构建系统与任务运行器。"
+ },
+ {
+  "url": "https://github.com/kcmvp/gob",
+  "zh": "类 [Gradle](https://docs.gradle.org/)/[Maven](https://maven.apache.org/) 的 Go 项目构建工具。"
+ },
+ {
+  "url": "https://github.com/goyek/goyek",
+  "zh": "用 Go 创建构建流水线。"
+ },
+ {
+  "url": "https://github.com/magefile/mage",
+  "zh": "Mage 是使用 Go 实现的类 make/rake 构建工具。"
+ },
+ {
+  "url": "https://github.com/tj/mmake",
+  "zh": "现代化的 Make。"
+ },
+ {
+  "url": "https://github.com/tockins/realize",
+  "zh": "用 Go 构建带文件监听与热重载的系统。可自定义路径，运行、构建并监听文件变化。"
+ },
+ {
+  "url": "https://github.com/rexrun-dev/rex",
+  "zh": "零配置的通用项目运行器。自动识别你的技术栈（Go、Node、Python、Rust、PHP、Zig、Elixir）并执行对应命令。"
+ },
+ {
+  "url": "https://github.com/go-task/task",
+  "zh": "简单的「Make」替代品。"
+ },
+ {
+  "url": "https://github.com/taskctl/taskctl",
+  "zh": "并发任务运行器。"
+ },
+ {
+  "url": "https://github.com/joerdav/xc",
+  "zh": "以 README.md 定义任务的可执行 Markdown 任务运行器。"
+ },
+ {
+  "url": "https://github.com/guptarohit/asciigraph",
+  "zh": "Go 包，可在命令行应用中零依赖地绘制轻量级 ASCII 折线图 ╭┈╯。"
+ },
+ {
+  "url": "https://github.com/logrusorgru/aurora",
+  "zh": "支持 fmt.Printf/Sprintf 的 ANSI 终端颜色库。"
+ },
+ {
+  "url": "https://github.com/box-cli-maker/box-cli-maker",
+  "zh": "在终端中渲染高度可定制的方框。"
+ },
+ {
+  "url": "https://github.com/Evertras/bubble-table",
+  "zh": "用于 bubbletea 的交互式表格组件。"
+ },
+ {
+  "url": "https://github.com/charmbracelet/bubbles",
+  "zh": "用于 bubbletea 的 TUI 组件。"
+ },
+ {
+  "url": "https://github.com/charmbracelet/bubbletea",
+  "zh": "基于 Elm 架构的 Go 终端应用框架。"
+ },
+ {
+  "url": "https://github.com/arceus-7/chroma16",
+  "zh": "从单一颜色种子或字符串生成和谐的 16 色终端调色板。"
+ },
+ {
+  "url": "https://github.com/alfiankan/crab-config-files-templating",
+  "zh": "动态配置文件模板工具，适用于 kubernetes manifest 或通用配置文件。"
+ },
+ {
+  "url": "https://github.com/wzshiming/ctc",
+  "zh": "非侵入式的跨平台终端颜色库，无需修改 Print 方法。"
+ },
+ {
+  "url": "https://github.com/antonmedv/fx",
+  "zh": "终端 JSON 查看器与处理器。"
+ },
+ {
+  "url": "https://github.com/workanator/go-ataman",
+  "zh": "用于在终端中渲染 ANSI 彩色文本模板的 Go 库。"
+ },
+ {
+  "url": "https://github.com/mattn/go-colorable",
+  "zh": "适用于 Windows 的彩色输出 writer。"
+ },
+ {
+  "url": "https://github.com/daviddengcn/go-colortext",
+  "zh": "用于在终端中进行彩色输出的 Go 库。"
+ },
+ {
+  "url": "https://github.com/mattn/go-isatty",
+  "zh": "Golang 版 isatty。"
+ },
+ {
+  "url": "https://github.com/abusomani/go-palette",
+  "zh": "Go 库，使用 ANSI 颜色提供优雅便捷的样式定义。完全兼容并封装了 [fmt 库](https://pkg.go.dev/fmt)，便于在终端中排版。"
+ },
+ {
+  "url": "https://github.com/c-bata/go-prompt",
+  "zh": "用于构建强大交互式提示符的库，灵感源自 [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit)。"
+ },
+ {
+  "url": "https://github.com/grindlemire/go-tui",
+  "zh": "声明式终端 UI 框架，具备类 templ 模板、flexbox 布局，以及用于编辑器支持的语言服务器。"
+ },
+ {
+  "url": "https://github.com/jroimartin/gocui",
+  "zh": "极简 Go 库，专注于创建控制台用户界面。"
+ },
+ {
+  "url": "https://github.com/labstack/gommon/tree/master/color",
+  "zh": "为终端文本添加样式。"
+ },
+ {
+  "url": "https://github.com/gookit/color",
+  "zh": "终端颜色渲染工具库，支持 16 色、256 色与 RGB 真彩色输出，并兼容 Windows。"
+ },
+ {
+  "url": "https://github.com/iyashjayesh/goscaf",
+  "zh": "goscaf 通过交互式 CLI 生成强约定、生产级的 Go 项目样板代码。不用再在项目间复制粘贴骨架代码。"
+ },
+ {
+  "url": "https://github.com/lazynop/lazyenv",
+  "zh": "用于浏览、对比与编辑 .env 文件的 TUI。"
+ },
+ {
+  "url": "https://github.com/agmonetti/lazyteams",
+  "zh": "面向 Microsoft Teams 的键盘驱动终端用户界面。"
+ },
+ {
+  "url": "https://github.com/charmbracelet/lipgloss",
+  "zh": "以声明式定义终端中的颜色、格式与布局样式。"
+ },
+ {
+  "url": "https://github.com/loom-go/loom",
+  "zh": "基于信号的响应式组件框架，用于构建 TUI。"
+ },
+ {
+  "url": "https://github.com/cyucelen/marker",
+  "zh": "匹配并标记字符串、输出彩色终端内容的最简便方式。"
+ },
+ {
+  "url": "https://github.com/vbauerster/mpb",
+  "zh": "终端应用的多进度条。"
+ },
+ {
+  "url": "https://github.com/phoenix-tui/phoenix",
+  "zh": "高性能 TUI 框架，采用受 Elm 启发的架构，出色的 Unicode 渲染，零分配事件系统。"
+ },
+ {
+  "url": "https://github.com/schollz/progressbar",
+  "zh": "基础线程安全进度条，适用于所有操作系统。"
+ },
+ {
+  "url": "https://github.com/pterm/pterm",
+  "zh": "通过大量可组合组件，美化各平台控制台输出的库。"
+ },
+ {
+  "url": "https://github.com/alexeyco/simpletable",
+  "zh": "用 Go 在终端中绘制简单表格。"
+ },
+ {
+  "url": "https://github.com/briandowns/spinner",
+  "zh": "Go 包，可便捷地提供带选项的终端加载动画。"
+ },
+ {
+  "url": "https://github.com/cheynewallace/tabby",
+  "zh": "用于实现超级简单的 Golang 表格的小型库。"
+ },
+ {
+  "url": "https://github.com/tomlazar/table",
+  "zh": "基于终端颜色表格的小型库。"
+ },
+ {
+  "url": "https://github.com/nsf/termbox-go",
+  "zh": "Termbox 是用于创建跨平台文本界面的库。"
+ },
+ {
+  "url": "https://github.com/mum4k/termdash",
+  "zh": "基于 **termbox-go** 的 Go 终端仪表盘，灵感源自 [termui](https://github.com/gizak/termui)。"
+ },
+ {
+  "url": "https://github.com/muesli/termenv",
+  "zh": "为你的终端应用提供高级 ANSI 样式与颜色支持。"
+ },
+ {
+  "url": "https://github.com/gizak/termui",
+  "zh": "基于 **termbox-go** 的 Go 终端仪表盘，灵感源自 [blessed-contrib](https://github.com/yaronn/blessed-contrib)。"
+ },
+ {
+  "url": "https://github.com/gosuri/uilive",
+  "zh": "用于实时更新终端输出的库。"
+ },
+ {
+  "url": "https://github.com/gosuri/uiprogress",
+  "zh": "用于在终端应用中渲染进度条的灵活库。"
+ },
+ {
+  "url": "https://github.com/gosuri/uitable",
+  "zh": "通过表格化数据提升终端应用可读性的库。"
+ },
+ {
+  "url": "https://github.com/charmbracelet/vhs",
+  "zh": "你的 CLI 家庭录像机 —— 用代码生成终端 GIF，用于文档与教程。"
+ },
+ {
+  "url": "https://github.com/theckman/yacspin",
+  "zh": "又一个 CLI 加载动画包，用于处理终端 spinner。"
+ },
+ {
+  "url": "https://github.com/cristalhq/acmd",
+  "zh": "Go 中简单、实用且有明确主张的 CLI 包。"
+ },
+ {
+  "url": "https://github.com/akamensky/argparse",
+  "zh": "受 Python argparse 模块启发的命令行参数解析器。"
+ },
+ {
+  "url": "https://github.com/cosiner/argv",
+  "zh": "Go 库，按 bash 语法将命令行字符串切分为参数数组。"
+ },
+ {
+  "url": "https://github.com/GiGurra/boa",
+  "zh": "基于结构体标签的声明式 flag、环境变量、校验与配置文件，构建于 cobra 之上。"
+ },
+ {
+  "url": "https://github.com/rsteube/carapace",
+  "zh": "为 spf13/cobra 生成命令参数补全。"
+ },
+ {
+  "url": "https://github.com/rsteube/carapace-bin",
+  "zh": "多 shell 多命令的参数补全工具。"
+ },
+ {
+  "url": "https://github.com/rsteube/carapace-spec",
+  "zh": "使用 spec 文件定义简单的补全规则。"
+ },
+ {
+  "url": "https://github.com/tucnak/climax",
+  "zh": "拥有「人脸」的替代 CLI，设计理念源自 Go 命令。"
+ },
+ {
+  "url": "https://github.com/leaanthony/clir",
+  "zh": "简单清晰的 CLI 库。零依赖。"
+ },
+ {
+  "url": "https://github.com/posener/cmd",
+  "zh": "扩展标准 `flag` 包，以惯用方式支持子命令等功能。"
+ },
+ {
+  "url": "https://github.com/hedzr/cmdr",
+  "zh": "POSIX/GNU 风格、类 getopt 的 Go 命令行 UI 库。"
+ },
+ {
+  "url": "https://github.com/spf13/cobra",
+  "zh": "面向现代 Go CLI 交互的 Commander 库。"
+ },
+ {
+  "url": "https://github.com/rainu/go-command-chain",
+  "zh": "用于配置与执行命令链的 Go 库，例如类 Unix shell 的管道。"
+ },
+ {
+  "url": "https://github.com/jaffee/commandeer",
+  "zh": "面向开发者的 CLI 应用：基于结构体字段与标签设置 flag、默认值与用法说明。"
+ },
+ {
+  "url": "https://github.com/posener/complete",
+  "zh": "用 Go 编写 bash 补全，并支持 Go 命令的 bash 补全。"
+ },
+ {
+  "url": "https://github.com/reeflective/console",
+  "zh": "面向 Cobra 命令的闭环应用库，内置 oh-my-posh 提示等能力。"
+ },
+ {
+  "url": "https://github.com/dnote/dnote",
+  "zh": "简单的命令行笔记本，支持多设备同步。"
+ },
+ {
+  "url": "https://github.com/elves/elvish",
+  "zh": "一门表达力丰富的编程语言，同时是一个多功能的交互式 shell。"
+ },
+ {
+  "url": "https://github.com/codingconcepts/env",
+  "zh": "基于标签的结构体环境配置。"
+ },
+ {
+  "url": "https://github.com/integrii/flaggy",
+  "zh": "稳健、惯用的 flag 包，具备出色的子命令支持。"
+ },
+ {
+  "url": "https://github.com/sgreben/flagvar",
+  "zh": "为 Go 标准 `flag` 包提供的 flag 参数类型集合。"
+ },
+ {
+  "url": "https://github.com/agilira/flash-flags",
+  "zh": "极速、零依赖、符合 POSIX 的 flag 解析库，可直接作为标准库替代品，并具备安全加固。"
+ },
+ {
+  "url": "https://github.com/SatyamKumarCS/Fling-CLI",
+  "zh": "基于自定义可靠 UDP 的终端式点对点文件与消息传输工具。"
+ },
+ {
+  "url": "https://github.com/jon-codes/getopt",
+  "zh": "精确的 Go 版 `getopt`，已对照 GNU libc 实现进行验证。"
+ },
+ {
+  "url": "https://github.com/SalvucciFacundo/go-arch",
+  "zh": "用于以极简（Minimalist）、标准（Standard）与六边形（Hexagonal）架构模式搭建 Go 应用的 CLI 脚手架工具。"
+ },
+ {
+  "url": "https://github.com/alexflint/go-arg",
+  "zh": "Go 中基于结构体的参数解析。"
+ },
+ {
+  "url": "https://github.com/jessevdk/go-flags",
+  "zh": "Go 命令行选项解析器。"
+ },
+ {
+  "url": "https://github.com/DavidGamba/go-getoptions",
+  "zh": "受 Perl GetOpt::Long 灵活性启发的 Go 选项解析器。"
+ },
+ {
+  "url": "https://github.com/nyaosorg/go-readline-ny",
+  "zh": "可定制的行编辑库，具备 Emacs 快捷键绑定、Unicode 支持、补全与语法高亮。用于 NYAGOS shell。"
+ },
+ {
+  "url": "https://github.com/devfacet/gocmd",
+  "zh": "用于构建命令行应用的 Go 库。"
+ },
+ {
+  "url": "https://github.com/napalu/goopt",
+  "zh": "面向 Go 的声明式、基于结构体标签的 CLI 框架，功能丰富，涵盖层级化命令/flag、国际化、shell 补全与校验。"
+ },
+ {
+  "url": "https://github.com/hashicorp/cli",
+  "zh": "用于实现命令行界面的 Go 库。"
+ },
+ {
+  "url": "https://github.com/hidevopsio/hiboot/tree/master/pkg/app/cli",
+  "zh": "支持自动配置与依赖注入的 CLI 应用框架。"
+ },
+ {
+  "url": "https://github.com/liujianping/job",
+  "zh": "JOB，让你的短期命令变成长期作业。"
+ },
+ {
+  "url": "https://github.com/alecthomas/kingpin",
+  "zh": "支持子命令的命令行与 flag 解析器（已被下文 `kong` 取代）。"
+ },
+ {
+  "url": "https://github.com/peterh/liner",
+  "zh": "面向命令行界面的 Go readline 类库。"
+ },
+ {
+  "url": "https://github.com/jxskiss/mcli",
+  "zh": "极简但非常强大的 Go CLI 库。"
+ },
+ {
+  "url": "https://github.com/amjadjibon/memsh",
+  "zh": "Go 版虚拟 bash shell：在内存文件系统（afero）上执行 shell 命令，支持 WASM 插件与可嵌入的 HTTP 服务器。"
+ },
+ {
+  "url": "https://github.com/mkideal/cli",
+  "zh": "基于 Go 结构体标签、功能丰富且易用的命令行包。"
+ },
+ {
+  "url": "https://github.com/jawher/mow.cli",
+  "zh": "用于构建具备精细 flag 与参数解析及校验能力的 CLI 应用的 Go 库。"
+ },
+ {
+  "url": "https://github.com/steevin/neuron-cli",
+  "zh": "本地优先、兼容 Obsidian 的终端知识管理器。"
+ },
+ {
+  "url": "https://github.com/bcdxn/opencli",
+  "zh": "面向 CLI 的 OpenAPI 风格规范；以语言无关的文档定义你的接口，据此生成文档与框架样板代码。"
+ },
+ {
+  "url": "https://github.com/nanovms/ops",
+  "zh": "Unikernel 构建器 / 编排器。"
+ },
+ {
+  "url": "https://github.com/agilira/orpheus",
+  "zh": "具备安全加固、插件存储系统与生产级可观测性特性的 CLI 框架。"
+ },
+ {
+  "url": "https://github.com/spf13/pflag",
+  "zh": "Go flag 包的直接替代品，实现 POSIX/GNU 风格的 --flags。"
+ },
+ {
+  "url": "https://github.com/reeflective/readline",
+  "zh": "具备现代易用 UI 特性的 Shell 库。"
+ },
+ {
+  "url": "https://github.com/octago/sflags",
+  "zh": "为 flag、urfave/cli、pflag、cobra、kingpin 等库生成基于结构体的 flag 代码。"
+ },
+ {
+  "url": "https://github.com/leodido/structcli",
+  "zh": "消除 Cobra 样板代码：以声明式方式从 Go 结构体构建强大、功能丰富的 CLI。"
+ },
+ {
+  "url": "https://github.com/antham/strumt",
+  "zh": "用于创建提示链的库。"
+ },
+ {
+  "url": "https://github.com/bobg/subcmd",
+  "zh": "另一种解析与运行子命令的方案，可与标准 `flag` 包协同工作。"
+ },
+ {
+  "url": "https://github.com/teris-io/cli",
+  "zh": "在 Go 中构建命令行界面的简单完整 API。"
+ },
+ {
+  "url": "https://github.com/urfave/cli",
+  "zh": "简单、快速且有趣的 Go 命令行应用构建包（原 codegangsta/cli）。"
+ },
+ {
+  "url": "https://github.com/mszostok/version",
+  "zh": "以多种格式收集并展示 CLI 版本信息，并附带升级提示。"
+ },
+ {
+  "url": "https://github.com/dixonwille/wlog",
+  "zh": "简单的日志接口，支持跨平台颜色与并发。"
+ },
+ {
+  "url": "https://github.com/dixonwille/wmenu",
+  "zh": "易于使用的 CLI 应用菜单结构，可提示用户做出选择。"
+ },
+ {
+  "url": "https://github.com/cristalhq/aconfig",
+  "zh": "简单、实用且有明确主张的配置加载器。"
+ },
+ {
+  "url": "https://github.com/agilira/argus",
+  "zh": "文件监听与配置管理，具备 MPSC 环形缓冲区、自适应批处理策略，以及通用格式解析（JSON、YAML、TOML、INI、HCL、Properties）。"
+ },
+ {
+  "url": "https://github.com/Azure/AppConfiguration-GoProvider",
+  "zh": "供 Go 应用消费 Azure App Configuration 数据的配置提供程序。"
+ },
+ {
+  "url": "https://github.com/wkhere/bcl",
+  "zh": "BCL 是一门类似 HCL 的配置语言。"
+ },
+ {
+  "url": "https://github.com/ilyakaznacheev/cleanenv",
+  "zh": "极简配置读取器（可从文件、ENV 以及任意来源读取）。"
+ },
+ {
+  "url": "https://github.com/JeremyLoy/config",
+  "zh": "云原生应用配置。仅用两行代码即可将 ENV 绑定到结构体。"
+ }
+]
