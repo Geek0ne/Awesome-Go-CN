@@ -1,5 +1,13 @@
+# 翻译过程草稿（可重新生成，不入库）
+batch_in.json
+batch_out.json
+batch_tr_*.json
+
+# 构建中间产物
 blocks.json
 blocks.json.bak
 README_CN.md
 __pycache__/
 *.pyc
+
+# 注意：entry_translations.json 必须提交 —— 它是已译文的累积库，删了进度全丢
