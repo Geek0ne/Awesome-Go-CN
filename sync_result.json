@@ -1,0 +1,135 @@
+{
+ "统计": {
+  "上游条目总数": 3145,
+  "其中有描述_可译": 3045,
+  "已翻译": 3029,
+  "新增_待翻译": 18,
+  "变更_待重译": 0,
+  "删除_待处理": 2
+ },
+ "明细": {
+  "新增": [
+   {
+    "name": "glinq",
+    "url": "https://github.com/CreateLab/glinq",
+    "上游英文": "LINQ-like lazy evaluation library with type-safe generics, performance optimizations and zero dependencies.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "sqlcredo",
+    "url": "https://github.com/Klojer/sqlcredo",
+    "上游英文": "Package for type-safe generic SQL CRUD operations with pagination, transactions, debugging, and custom raw SQL extensions.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "axiom",
+    "url": "https://github.com/Nikita-Filonov/axiom",
+    "上游英文": "Composable Go test framework with fixtures, hooks, retries, metadata, plugins, and parallel execution.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "liquidgo",
+    "url": "https://github.com/Notifuse/liquidgo",
+    "上游英文": "Full Go implementation of Shopify's Liquid template engine.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "voxrai-ai",
+    "url": "https://github.com/Voxray-AI/Voxray",
+    "上游英文": "AI voice agents with a JSON configuration,  STT → LLM → TTS pipelines over WebSocket and WebRTC.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "shadcn-templ",
+    "url": "https://github.com/axadrn/shadcn-templ",
+    "上游英文": "Unofficial shadcn/ui port for Go and templ: accessible UI components with CLI and registry.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "wasmtime-go",
+    "url": "https://github.com/bytecodealliance/wasmtime-go",
+    "上游英文": "Go bindings for the Wasmtime WebAssembly runtime (WASI support, JIT/AOT, secure and fast embedding).",
+    "状态": "待翻译"
+   },
+   {
+    "name": "claude-grep",
+    "url": "https://github.com/evoleinik/claude-grep",
+    "上游英文": "Search Claude Code session history with regex and semantic (vector) search.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "osv-scanner",
+    "url": "https://github.com/google/osv-scanner",
+    "上游英文": "Vulnerability scanner written in Go which uses the data provided by OSV.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "lima",
+    "url": "https://github.com/lima-vm/lima",
+    "上游英文": "Linux virtual machines with a focus on running containers and local VM workloads.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "goflat",
+    "url": "https://github.com/lzambarda/goflat",
+    "上游英文": "Context-aware generic flat file marshaler/unmarshaler.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "corsproxy",
+    "url": "https://github.com/melihbirim/corsproxy",
+    "上游英文": "CORS proxy server with SSRF protection, host allow/blocklisting, and optional API key authentication.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "xsync",
+    "url": "https://github.com/puzpuzpuz/xsync",
+    "上游英文": "Concurrent scalable data structures like `xsync.Map`, a concurrent generic hash table.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "kiln",
+    "url": "https://github.com/rafaelaugustos/kiln",
+    "上游英文": "Persistent background jobs in PostgreSQL, MySQL or SQLite, with retries, workflows, recurring jobs and a dashboard.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "GoPOSIX",
+    "url": "https://github.com/ramayac/GoPOSIX",
+    "上游英文": "A Go-native, single-binary multicall with 77 POSIX tools and >97% BusyBox test compatibility.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "nanoid",
+    "url": "https://github.com/sixafter/nanoid",
+    "上游英文": "Efficient, cryptographically secure generator for fast, concurrent NanoID and UUID creation.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "nurago/pkg/redact",
+    "url": "https://github.com/tecnickcom/nurago/tree/main/pkg/redact",
+    "上游英文": "Removes secrets from log lines and HTTP dumps in a single pass, covering headers, JSON, XML, URL-encoded data, JWTs, PEM keys, and vendor tokens.",
+    "状态": "待翻译"
+   },
+   {
+    "name": "gomocker",
+    "url": "https://github.com/zhongjie-cai/gomocker",
+    "上游英文": "A live mocker library for functions and methods in Golang for unit testing with fluent syntax, no code-gen needed.",
+    "状态": "待翻译"
+   }
+  ],
+  "变更": [],
+  "删除": [
+   {
+    "name": "kepfi",
+    "url": "https://github.com/Knuspii/kepfi",
+    "我方现译": "rm 的智能替代方案，带恢复回收站与存储追踪。"
+   },
+   {
+    "name": "templui",
+    "url": "https://github.com/axzilla/templui",
+    "我方现译": "面向 Go 与 Templ 的现代化 UI 组件。"
+   }
+  ]
+ }
+}

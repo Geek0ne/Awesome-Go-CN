@@ -235,6 +235,10 @@
   "name": "PortAudio",
   "desc": "Go bindings for the PortAudio audio I/O library."
  },
+ "https://github.com/Voxray-AI/Voxray": {
+  "name": "voxrai-ai",
+  "desc": "AI voice agents with a JSON configuration,  STT → LLM → TTS pipelines over WebSocket and WebRTC."
+ },
  "https://github.com/volatiletech/authboss": {
   "name": "authboss",
   "desc": "Modular authentication system for the web. It tries to remove as much boilerplate and \"hard things\" as possible so that each time you start a new web project in Go, you can plug it in, configure it, and start building your app without having to build an authentication system each time."
@@ -879,6 +883,10 @@
   "name": "goopt",
   "desc": "A declarative, struct-tag based CLI framework for Go, with a broad feature set such as hierarchical commands/flags, i18n, shell completion, and validation."
  },
+ "https://github.com/ramayac/GoPOSIX": {
+  "name": "GoPOSIX",
+  "desc": "A Go-native, single-binary multicall with 77 POSIX tools and >97% BusyBox test compatibility."
+ },
  "https://github.com/hashicorp/cli": {
   "name": "hashicorp/cli",
   "desc": "Go library for implementing command-line interfaces."
@@ -1255,10 +1263,6 @@
   "name": "CDS",
   "desc": "Enterprise-Grade CI/CD and DevOps Automation Open Source Platform."
  },
- "https://github.com/jbunds/coverage": {
-  "name": "coverage",
-  "desc": "A simple Web UI for Go test coverage, and the [go-test-coverage-html-report](https://github.com/marketplace/actions/go-test-coverage-html-report) reusable GitHub Action."
- },
  "https://github.com/opnlabs/dot": {
   "name": "dot",
   "desc": "A minimal, local first continuous integration system that uses Docker to run jobs concurrently in stages."
@@ -1423,6 +1427,10 @@
   "name": "gostl",
   "desc": "Data structure and algorithm library for go, designed to provide functions similar to C++ STL."
  },
+ "https://github.com/CreateLab/glinq": {
+  "name": "glinq",
+  "desc": "LINQ-like lazy evaluation library with type-safe generics, performance optimizations and zero dependencies."
+ },
  "https://github.com/alvii147/gloop": {
   "name": "gloop",
   "desc": "Convenient looping using Go's range-over-func feature."
@@ -1538,6 +1546,10 @@
  "https://github.com/twharmon/slices": {
   "name": "slices",
   "desc": "Pure, generic functions for slices."
+ },
+ "https://github.com/puzpuzpuz/xsync": {
+  "name": "xsync",
+  "desc": "Concurrent scalable data structures like `xsync.Map`, a concurrent generic hash table."
  },
  "https://github.com/kak-tus/nan": {
   "name": "nan",
@@ -1715,13 +1727,13 @@
   "name": "couchcache",
   "desc": "RESTful caching micro-service backed by Couchbase server."
  },
- "https://github.com/EchoVault/EchoVault": {
-  "name": "EchoVault",
-  "desc": "Embeddable Distributed in-memory data store compatible with Redis clients."
- },
  "https://github.com/hugocarreira/easycache": {
   "name": "easycache",
   "desc": "A simple way to use in-memory cache in Golang (TTL/FIFO/LRU/LFU)."
+ },
+ "https://github.com/EchoVault/EchoVault": {
+  "name": "EchoVault",
+  "desc": "Embeddable Distributed in-memory data store compatible with Redis clients."
  },
  "https://github.com/VictoriaMetrics/fastcache": {
   "name": "fastcache",
@@ -2314,6 +2326,10 @@
  "https://github.com/kyleconroy/sqlc": {
   "name": "sqlc",
   "desc": "Generate type-safe code from SQL."
+ },
+ "https://github.com/Klojer/sqlcredo": {
+  "name": "sqlcredo",
+  "desc": "Package for type-safe generic SQL CRUD operations with pagination, transactions, debugging, and custom raw SQL extensions."
  },
  "https://github.com/leporo/sqlf": {
   "name": "sqlf",
@@ -3322,6 +3338,10 @@
  "https://github.com/SebastiaanKlippert/go-wkhtmltopdf": {
   "name": "go-wkhtmltopdf",
   "desc": "A package to convert an HTML template to a PDF file."
+ },
+ "https://github.com/lzambarda/goflat": {
+  "name": "goflat",
+  "desc": "Context-aware generic flat file marshaler/unmarshaler."
  },
  "https://github.com/no-src/gofs": {
   "name": "gofs",
@@ -5387,6 +5407,10 @@
   "name": "jazz",
   "desc": "A simple RabbitMQ abstraction layer for queue administration and publishing and consuming of messages."
  },
+ "https://github.com/rafaelaugustos/kiln": {
+  "name": "kiln",
+  "desc": "Persistent background jobs in PostgreSQL, MySQL or SQLite, with retries, workflows, recurring jobs and a dashboard."
+ },
  "https://github.com/RichardKnop/machinery": {
   "name": "machinery",
   "desc": "Asynchronous task queue/job queue based on distributed message passing."
@@ -6202,6 +6226,10 @@
  "https://github.com/cloudflare/cloudflared": {
   "name": "cloudflared",
   "desc": "Cloudflare Tunnel client (formerly Argo Tunnel)."
+ },
+ "https://github.com/melihbirim/corsproxy": {
+  "name": "corsproxy",
+  "desc": "CORS proxy server with SSRF protection, host allow/blocklisting, and optional API key authentication."
  },
  "https://github.com/mdlayher/dhcp6": {
   "name": "dhcp6",
@@ -7107,13 +7135,13 @@
   "name": "triangolatte",
   "desc": "2D triangulation library. Allows translating lines and polygons (both based on points) to the language of GPUs."
  },
- "https://github.com/hlandau/acme": {
-  "name": "acmetool",
-  "desc": "ACME (Let's Encrypt) client tool with automatic renewal."
- },
  "https://github.com/esnet/acme-proxy": {
   "name": "acme-proxy",
   "desc": "Solve ACME http-01 challenge without opening port 80 to the internet, obtain certs from an external certificate authority."
+ },
+ "https://github.com/hlandau/acme": {
+  "name": "acmetool",
+  "desc": "ACME (Let's Encrypt) client tool with automatic renewal."
  },
  "https://sr.ht/~jamesponddotco/acopw-go/": {
   "name": "acopw-go",
@@ -7287,9 +7315,17 @@
   "name": "nacl",
   "desc": "Go implementation of the NaCL set of API's."
  },
+ "https://github.com/tecnickcom/nurago/tree/main/pkg/redact": {
+  "name": "nurago/pkg/redact",
+  "desc": "Removes secrets from log lines and HTTP dumps in a single pass, covering headers, JSON, XML, URL-encoded data, JWTs, PEM keys, and vendor tokens."
+ },
  "https://github.com/pjebs/optimus-go": {
   "name": "optimus-go",
   "desc": "ID hashing and Obfuscation using Knuth's Algorithm."
+ },
+ "https://github.com/google/osv-scanner": {
+  "name": "osv-scanner",
+  "desc": "Vulnerability scanner written in Go which uses the data provided by OSV."
  },
  "https://github.com/hlandau/passlib": {
   "name": "passlib",
@@ -7695,6 +7731,10 @@
   "name": "liquid",
   "desc": "Go implementation of Shopify Liquid templates."
  },
+ "https://github.com/Notifuse/liquidgo": {
+  "name": "liquidgo",
+  "desc": "Full Go implementation of Shopify's Liquid template engine."
+ },
  "https://github.com/johnfercher/maroto": {
   "name": "maroto",
   "desc": "A maroto way to create PDFs. Maroto is inspired in Bootstrap and uses gofpdf. Fast and simple."
@@ -7747,6 +7787,10 @@
   "name": "assert",
   "desc": "Basic Assertion Library used along side native go testing, with building blocks for custom assertions."
  },
+ "https://github.com/Nikita-Filonov/axiom": {
+  "name": "axiom",
+  "desc": "Composable Go test framework with fixtures, hooks, retries, metadata, plugins, and parallel execution."
+ },
  "https://github.com/h2non/baloo": {
   "name": "baloo",
   "desc": "Expressive and versatile end-to-end HTTP API testing made easy."
@@ -7766,6 +7810,10 @@
  "https://github.com/SimonBaeumer/commander": {
   "name": "commander",
   "desc": "Tool for testing cli applications on windows, linux and osx."
+ },
+ "https://github.com/jbunds/coverage": {
+  "name": "coverage",
+  "desc": "A simple Web UI for Go test coverage, and the [go-test-coverage-html-report](https://github.com/marketplace/actions/go-test-coverage-html-report) reusable GitHub Action."
  },
  "https://github.com/bradleyjkemp/cupaloy": {
   "name": "cupaloy",
@@ -8046,6 +8094,10 @@
  "https://github.com/vibridi/gomock": {
   "name": "gomock",
   "desc": "CLI tool to generate typed and framework-agnostic interface mocks, with support for generics."
+ },
+ "https://github.com/zhongjie-cai/gomocker": {
+  "name": "gomocker",
+  "desc": "A live mocker library for functions and methods in Golang for unit testing with fluent syntax, no code-gen needed."
  },
  "https://github.com/seborama/govcr": {
   "name": "govcr",
@@ -8463,13 +8515,13 @@
   "name": "aws-sdk-go",
   "desc": "The official AWS SDK for the Go programming language."
  },
- "https://github.com/OTA-Insight/bqwriter": {
-  "name": "bqwriter",
-  "desc": "High Level Go Library to write data into [Google BigQuery](https://cloud.google.com/bigquery) at a high throughout."
- },
  "https://github.com/tigusigalpa/birdeye-go": {
   "name": "birdeye-go",
   "desc": "Go client for Birdeye DeFi API with typed spot prices, OHLCV candles, historical data, and raw request escape hatch."
+ },
+ "https://github.com/OTA-Insight/bqwriter": {
+  "name": "bqwriter",
+  "desc": "High Level Go Library to write data into [Google BigQuery](https://cloud.google.com/bigquery) at a high throughout."
  },
  "https://github.com/naegelejd/brewerydb": {
   "name": "brewerydb",
@@ -9683,6 +9735,10 @@
   "name": "nanoid",
   "desc": "A tiny and efficient Go unique string ID generator."
  },
+ "https://github.com/sixafter/nanoid": {
+  "name": "nanoid",
+  "desc": "Efficient, cryptographically secure generator for fast, concurrent NanoID and UUID creation."
+ },
  "https://github.com/muyo/sno": {
   "name": "sno",
   "desc": "Compact, sortable and fast unique IDs with embedded metadata."
@@ -9783,13 +9839,13 @@
   "name": "valix",
   "desc": "Go package for validating requests"
  },
- "https://github.com/Oudwins/zog": {
-  "name": "Zog",
-  "desc": "A [Zod](https://github.com/colinhacks/zod) inspired schema builder for runtime value parsing and validation."
- },
  "https://github.com/sevlyar/vx": {
   "name": "vx",
   "desc": "Validation built from small, composable checks with zero dependencies and a reconstructable error path."
+ },
+ "https://github.com/Oudwins/zog": {
+  "name": "Zog",
+  "desc": "A [Zod](https://github.com/colinhacks/zod) inspired schema builder for runtime value parsing and validation."
  },
  "https://gitlab.com/gitlab-org/cli": {
   "name": "cli",
@@ -10043,9 +10099,9 @@
   "name": "rux",
   "desc": "Simple and fast web framework for build golang HTTP applications."
  },
- "https://github.com/axzilla/templui": {
-  "name": "templui",
-  "desc": "Modern UI Components for Go & Templ."
+ "https://github.com/axadrn/shadcn-templ": {
+  "name": "shadcn-templ",
+  "desc": "Unofficial shadcn/ui port for Go and templ: accessible UI components with CLI and registry."
  },
  "https://github.com/togo-framework/togo": {
   "name": "togo",
@@ -10298,6 +10354,10 @@
  "https://github.com/agnivade/wasmbrowsertest": {
   "name": "wasmbrowsertest",
   "desc": "Run Go WASM tests in your browser."
+ },
+ "https://github.com/bytecodealliance/wasmtime-go": {
+  "name": "wasmtime-go",
+  "desc": "Go bindings for the Wasmtime WebAssembly runtime (WASI support, JIT/AOT, secure and fast embedding)."
  },
  "https://github.com/gowebapi/webapi": {
   "name": "webapi",
@@ -10991,10 +11051,6 @@
   "name": "kcli",
   "desc": "Command line tool for inspecting kafka topics/partitions/messages."
  },
- "https://github.com/Knuspii/kepfi": {
-  "name": "kepfi",
-  "desc": "A smart alternative to rm with a recovery bin and storage tracking."
- },
  "https://github.com/kubernetes-sigs/kind": {
   "name": "kind",
   "desc": "Kubernetes IN Docker - local clusters for testing Kubernetes."
@@ -11038,6 +11094,10 @@
  "https://github.com/abahmed/kwatch": {
   "name": "kwatch",
   "desc": "Monitor & detect crashes in your Kubernetes(K8s) cluster instantly."
+ },
+ "https://github.com/lima-vm/lima": {
+  "name": "lima",
+  "desc": "Linux virtual machines with a focus on running containers and local VM workloads."
  },
  "https://github.com/ivanilves/lstags": {
   "name": "lstags",
@@ -11242,6 +11302,10 @@
  "https://github.com/gocircuit/circuit": {
   "name": "Circuit",
   "desc": "Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications."
+ },
+ "https://github.com/evoleinik/claude-grep": {
+  "name": "claude-grep",
+  "desc": "Search Claude Code session history with regex and semantic (vector) search."
  },
  "https://github.com/tylertreat/Comcast": {
   "name": "Comcast",
@@ -11523,6 +11587,10 @@
   "name": "tsuru",
   "desc": "Extensible and open source Platform as a Service software."
  },
+ "https://github.com/benzjeremy/untis-go": {
+  "name": "untis-go",
+  "desc": "Fast, native WebUntis desktop client for students and teachers. Sidebar navigation, timetables, homework, absences & messages. AES-256-GCM encrypted credentials, SQLite cache-first, random port security."
+ },
  "https://github.com/lingrino/vaku": {
   "name": "vaku",
   "desc": "CLI & API for folder-based functions in Vault like copy, move, and search."
@@ -11530,10 +11598,6 @@
  "https://github.com/VerizonDigital/vflow": {
   "name": "vFlow",
   "desc": "High-performance, scalable and reliable IPFIX, sFlow and Netflow collector."
- },
- "https://github.com/benzjeremy/untis-go": {
-  "name": "untis-go",
-  "desc": "Fast, native WebUntis desktop client for students and teachers. Sidebar navigation, timetables, homework, absences & messages. AES-256-GCM encrypted credentials, SQLite cache-first, random port security."
  },
  "https://waveterm.dev": {
   "name": "Wave Terminal",
