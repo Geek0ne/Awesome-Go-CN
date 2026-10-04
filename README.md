@@ -2519,33 +2519,33 @@ _用于科学计算与数据分析的库。_
 - [godesim](https://github.com/soypat/godesim) - 面向基于事件仿真的扩展/多变量 ODE 求解器框架，API 简单。
 - [goent](https://github.com/kzahedi/goent) - 熵度量的 Go 实现。
 - [gograph](https://github.com/hmdsefi/gograph) - Go 的泛型图库，提供数学图论理论与算法。
-- [gonum](https://github.com/gonum/gonum) - Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, optimization, and more.
-- [gonum/plot](https://github.com/gonum/plot) - gonum/plot provides an API for building and drawing plots in Go.
-- [goraph](https://github.com/gyuho/goraph) - Pure Go graph theory library(data structure, algorithm visualization).
-- [gosl](https://github.com/cpmech/gosl) - Go scientific library for linear algebra, FFT, geometry, NURBS, numerical methods, probabilities, optimisation, differential equations, and more.
-- [GoStats](https://github.com/OGFris/GoStats) - GoStats is an Open Source GoLang library for math statistics mostly used in Machine Learning domains, it covers most of the Statistical measures functions.
-- [graph](https://github.com/yourbasic/graph) - Library of basic graph algorithms.
-- [hdf5](https://github.com/scigolib/hdf5) - Pure Go implementation of the HDF5 file format for scientific data storage and exchange.
-- [insyra](https://github.com/HazelnutParadise/insyra) - Data analysis library with statistics, visualization, Parquet support, and Python integration.
-- [jsonl-graph](https://github.com/nikolaydubina/jsonl-graph) - Tool to manipulate JSONL graphs with graphviz support.
-- [matlab](https://github.com/scigolib/matlab) - Pure Go library for reading and writing MATLAB .mat files (v5-v7.3) without CGO.
-- [MatProInterface.go](https://github.com/MatProGo-dev/MatProInterface.go) - MatProInterface.go is an open source package for defining mathematical programs (e.g., convex optimization problems) in Go.
-- [matrix](https://github.com/Arceus-7/matrix) - A clean, generic, zero-dependency matrix math package for Go with support for arithmetic, decompositions, and linear system solving.
-- [ode](https://github.com/ChristopherRabotin/ode) - Ordinary differential equation (ODE) solver which supports extended states and channel-based iteration stop conditions.
-- [orb](https://github.com/paulmach/orb) - 2D geometry types with clipping, GeoJSON and Mapbox Vector Tile support.
-- [pagerank](https://github.com/alixaxel/pagerank) - Weighted PageRank algorithm implemented in Go.
-- [piecewiselinear](https://github.com/sgreben/piecewiselinear) - Tiny linear interpolation library.
-- [PiHex](https://github.com/claygod/PiHex) - Implementation of the "Bailey-Borwein-Plouffe" algorithm for the hexadecimal number Pi.
-- [Poly](https://github.com/bebop/poly) - A Go package for engineering organisms.
-- [rootfinding](https://github.com/khezen/rootfinding) - root-finding algorithms library for finding roots of quadratic functions.
-- [simd](https://github.com/tphakala/simd) - Native Go vector and SIMD operations on slices with multi-architecture assembly acceleration.
-- [sparse](https://github.com/james-bowman/sparse) - Go Sparse matrix formats for linear algebra supporting scientific and machine learning applications, compatible with gonum matrix libraries.
-- [stats](https://github.com/montanaflynn/stats) - Statistics package with common functions missing from the Golang standard library.
-- [streamtools](https://github.com/nytlabs/streamtools) - general purpose, graphical tool for dealing with streams of data.
-- [taxonkit](https://github.com/shenwei356/taxonkit) - A practical and efficient NCBI taxonomy toolkit; supports querying lineage, reformatting, filtering, and creating custom taxdump files.
-- [TextRank](https://github.com/DavidBelicza/TextRank) - TextRank implementation in Golang with extendable features (summarization, weighting, phrase extraction) and multithreading (goroutine) support.
-- [topk](https://github.com/keilerkonzept/topk) - Sliding-window and regular top-K sketches, based on the HeavyKeeper algorithm.
-- [triangolatte](https://github.com/tchayen/triangolatte) - 2D triangulation library. Allows translating lines and polygons (both based on points) to the language of GPUs.
+- [gonum](https://github.com/gonum/gonum) - Gonum 是面向 Go 编程语言的一套数值库，包含矩阵、统计、优化等库。
+- [gonum/plot](https://github.com/gonum/plot) - gonum/plot 提供在 Go 中构建与绘制图表的 API。
+- [goraph](https://github.com/gyuho/goraph) - 纯 Go 的图论库（数据结构与算法可视化）。
+- [gosl](https://github.com/cpmech/gosl) - Go 科学计算库，涵盖线性代数、FFT、几何、NURBS、数值方法、概率、优化、微分方程等。
+- [GoStats](https://github.com/OGFris/GoStats) - GoStats 是一个开源 Golang 数学统计库，多用于机器学习领域，覆盖大多数统计度量函数。
+- [graph](https://github.com/yourbasic/graph) - 基础图算法库。
+- [hdf5](https://github.com/scigolib/hdf5) - 纯 Go 实现的 HDF5 文件格式，用于科学数据存储与交换。
+- [insyra](https://github.com/HazelnutParadise/insyra) - 数据分析库，具备统计、可视化、Parquet 支持与 Python 集成。
+- [jsonl-graph](https://github.com/nikolaydubina/jsonl-graph) - 操作 JSONL 图的工具，支持 graphviz。
+- [matlab](https://github.com/scigolib/matlab) - 无需 CGO 即可用纯 Go 读写 MATLAB .mat 文件（v5-v7.3）。
+- [MatProInterface.go](https://github.com/MatProGo-dev/MatProInterface.go) - MatProInterface.go 是一个开源包，用于在 Go 中定义数学规划问题（例如凸优化问题）。
+- [matrix](https://github.com/Arceus-7/matrix) - 干净、泛型、零依赖的 Go 矩阵数学包，支持算术运算、分解与线性方程组求解。
+- [ode](https://github.com/ChristopherRabotin/ode) - 常微分方程（ODE）求解器，支持扩展状态与基于 channel 的迭代停止条件。
+- [orb](https://github.com/paulmach/orb) - 2D 几何类型，支持裁剪、GeoJSON 与 Mapbox Vector Tile。
+- [pagerank](https://github.com/alixaxel/pagerank) - 用 Go 实现的加权 PageRank 算法。
+- [piecewiselinear](https://github.com/sgreben/piecewiselinear) - 微型线性插值库。
+- [PiHex](https://github.com/claygod/PiHex) - 十六进制圆周率 π 的「Bailey-Borwein-Plouffe」算法实现。
+- [Poly](https://github.com/bebop/poly) - 用于工程化改造生物体的 Go 包。
+- [rootfinding](https://github.com/khezen/rootfinding) - 求根算法库，用于求解二次函数的根。
+- [simd](https://github.com/tphakala/simd) - Go 原生的切片向量与 SIMD 运算，具备多架构汇编加速。
+- [sparse](https://github.com/james-bowman/sparse) - Go 稀疏矩阵格式，面向线性代数，支持科学与机器学习应用，兼容 gonum 矩阵库。
+- [stats](https://github.com/montanaflynn/stats) - 统计包，补齐 Golang 标准库中缺失的常用函数。
+- [streamtools](https://github.com/nytlabs/streamtools) - 处理数据流的通用图形化工具。
+- [taxonkit](https://github.com/shenwei356/taxonkit) - 实用高效的 NCBI 分类学工具包；支持谱系查询、重新格式化、过滤与创建自定义 taxdump 文件。
+- [TextRank](https://github.com/DavidBelicza/TextRank) - Golang 中的 TextRank 实现，具备可扩展特性（摘要、权重、短语抽取）与多线程（goroutine）支持。
+- [topk](https://github.com/keilerkonzept/topk) - 基于 HeavyKeeper 算法的滑动窗口与常规 Top-K 草图。
+- [triangolatte](https://github.com/tchayen/triangolatte) - 2D 三角剖分库。可把线与多边形（两者均以点为基础）转换为 GPU 语言。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -2554,73 +2554,73 @@ _用于科学计算与数据分析的库。_
 
 _用于提升应用安全性的库。_
 
-- [acmetool](https://github.com/hlandau/acme) - ACME (Let's Encrypt) client tool with automatic renewal.
-- [acme-proxy](https://github.com/esnet/acme-proxy) - Solve ACME http-01 challenge without opening port 80 to the internet, obtain certs from an external certificate authority.
-- [acopw-go](https://sr.ht/~jamesponddotco/acopw-go/) - Small cryptographically secure password generator package for Go.
-- [acra](https://github.com/cossacklabs/acra) - Network encryption proxy to protect database-based applications from data leaks: strong selective encryption, SQL injections prevention, intrusion detection system.
-- [aes-ctr-drbg](https://github.com/sixafter/aes-ctr-drbg) - A Deterministic Random Bit Generator based on AES in Counter mode (AES-CTR-DRBG) as specified in NIST SP 800-90A.
-- [age](https://github.com/FiloSottile/age) - A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
-- [argon2-hashing](https://github.com/andskur/argon2-hashing) - light wrapper around Go's argon2 package that closely mirrors with Go's standard library Bcrypt and simple-scrypt package.
-- [autocert](https://pkg.go.dev/golang.org/x/crypto/acme/autocert) - Auto provision Let's Encrypt certificates and start a TLS server.
-- [BadActor](https://github.com/jaredfolkins/badactor) - In-memory, application-driven jailer built in the spirit of fail2ban.
-- [beelzebub](https://github.com/mariocandela/beelzebub) - A secure low code honeypot framework, leveraging AI for System Virtualization.
-- [booster](https://github.com/anatol/booster) - Fast initramfs generator with full-disk encryption support.
-- [caddy-waf](https://github.com/fabriziosalmi/caddy-waf) - Web Application Firewall middleware for the Caddy server, with a regex rule engine, anomaly scoring, IP/DNS/ASN/country blacklists and rate limiting.
-- [Cameradar](https://github.com/Ullaakut/cameradar) - Tool and library to remotely hack RTSP streams from surveillance cameras.
-- [canery](https://github.com/rluders/canery) - Minimal, stateless authorization engine with a pluggable evaluation model.
-- [certificates](https://github.com/mvmaasakkers/certificates) - An opinionated tool for generating tls certificates.
-- [CertMagic](https://github.com/caddyserver/certmagic) - Mature, robust, and powerful ACME client integration for fully-managed TLS certificate issuance and renewal.
-- [Coraza](https://github.com/corazawaf/coraza) - Enterprise-ready, modsecurity and OWASP CRS compatible WAF library.
-- [coraza-rule-validator](https://github.com/stardothosting/coraza-rule-validator) - Standalone CLI tool to validate ModSecurity and Coraza SecLang WAF rules before production deployment.
-- [Crenox](https://github.com/crenoxhq/crenox) - Zero-dependency pre-commit secret scanner using Aho-Corasick for high-performance credentials leak detection.
-- [deidentify](https://github.com/aliengiraffe/deidentify) - Deterministic, format-preserving removal of personally identifiable information from text and structured data.
-- [dongle](https://github.com/golang-module/dongle) - A simple, semantic and developer-friendly golang package for encoding&decoding and encryption&decryption.
-- [dotlock](https://github.com/ahmadraza100/dotlock) - Encrypted .env vault manager with interactive TUI for managing secrets across multiple environments and profiles.
-- [encid](https://github.com/bobg/encid) - Encode and decode encrypted integer IDs.
-- [entpassgen](https://github.com/andreimerlescu/entpassgen) - Entropy Password Generator with extensive command line arguments to generate random strings securely including digits, passwords, and passwords built using obscure dictionary words mixed with symbols and digits.
-- [firewalld-rest](https://github.com/prashantgupta24/firewalld-rest) - A rest application to dynamically update firewalld rules on a linux server.
-- [fort](https://github.com/djadmin/fort) - Audits macOS security settings across 16 checks, reports a score, and fixes issues where it safely can. Single binary, installable via Homebrew.
-- [go-generate-password](https://github.com/m1/go-generate-password) - Password generator that can be used on the cli or as a library.
-- [go-htpasswd](https://github.com/tg123/go-htpasswd) - Apache htpasswd Parser for Go.
-- [go-password-validator](https://github.com/lane-c-wagner/go-password-validator) - Password validator based on raw cryptographic entropy values.
-- [go-peer](https://github.com/number571/go-peer) - A software library for creating secure and anonymous decentralized systems.
-- [go-yara](https://github.com/hillu/go-yara) - Go Bindings for [YARA](https://github.com/plusvic/yara), the "pattern matching swiss knife for malware researchers (and everyone else)".
-- [goArgonPass](https://github.com/dwin/goArgonPass) - Argon2 password hash and verification designed to be compatible with existing Python and PHP implementations.
-- [goSecretBoxPassword](https://github.com/dwin/goSecretBoxPassword) - A probably paranoid package for securely hashing and encrypting passwords.
-- [gost-crypto](https://github.com/rekurt/gost-crypto) - Go library for Russian GOST cryptographic standards (digital signatures, Streebog hash, Kuznechik cipher, MGM AEAD) backed by OpenSSL gost-engine.
-- [grim](https://github.com/ijin82/grim) - Fast and secure CLI tool for managing encrypted Markdown note vaults in volatile memory.
-- [gspy](https://github.com/Mutasem-mk4/gspy) - Forensic goroutine-to-syscall inspector for live Go processes.
-- [Interpol](https://github.com/avahidi/interpol) - Rule-based data generator for fuzzing and penetration testing.
-- [leakhound](https://github.com/nilpoona/leakhound) - Static analysis tool to detect accidental logging of sensitive struct fields, preventing data leaks in logs.
-- [lego](https://github.com/go-acme/lego) - Pure Go ACME client library and CLI tool (for use with Let's Encrypt).
-- [luks.go](https://github.com/anatol/luks.go) - Pure Golang library to manage LUKS partitions.
-- [mcprobe](https://github.com/tamish560/mcprobe) - Security scanner for MCP servers with prompt injection detection, tool shadowing, and SARIF output.
-- [memguard](https://github.com/awnumar/memguard) - A pure Go library for handling sensitive values in memory.
-- [mist](https://github.com/iSerganov/mist) - Asymmetric-key audio steganography library that hides encrypted messages inside compressed audio using X25519 and ChaCha20-Poly1305.
-- [multikey](https://github.com/adrianosela/multikey) - An n-out-of-N keys encryption/decryption framework based on Shamir's Secret Sharing algorithm.
-- [nacl](https://github.com/kevinburke/nacl) - Go implementation of the NaCL set of API's.
-- [optimus-go](https://github.com/pjebs/optimus-go) - ID hashing and Obfuscation using Knuth's Algorithm.
-- [passlib](https://github.com/hlandau/passlib) - Futureproof password hashing library.
-- [passwap](https://github.com/zitadel/passwap) - Provides a unified implementation between different password hashing algorithms
-- [pii-shield](https://github.com/pii-shield/pii-shield) - Zero-code log sanitization sidecar for Kubernetes that redacts PII from logs.
-- [pm](https://github.com/nicola-strappazzon/password-manager) - Unix-style password manager written in Go to save your data with OpenPGP encryption.
-- [procscope](https://github.com/Mutasem-mk4/procscope) - Process-scoped runtime investigator using eBPF to trace process lifecycle, file activity, and network connections.
-- [qrand](https://github.com/bitfield/qrand) - Client for the ANU Quantum Numbers (AQN) API, providing quantum-mechanically secure random data.
-- [Razify](https://github.com/Hossiy21/razify) - CLI to scan, validate and audit .env files for leaked secrets and environment drift.
-- [redact](https://github.com/alesr/redact) - Redact sensitive information from slog-based logs using a configurable pipeline.
-- [SafeDep/vet](https://github.com/safedep/vet) - Protect against malicious open source packages.
-- [secret](https://github.com/rsjethani/secret) - Prevent your secrets from leaking into logs, std\* etc.
-- [secretgenerator](https://github.com/rafaelperoco/secretgenerator) - CSPRNG-backed credential generator with a versioned JSON schema for passwords, passphrases, secrets, API keys, and PINs.
-- [secure](https://github.com/unrolled/secure) - HTTP middleware for Go that facilitates some quick security wins.
-- [secureio](https://github.com/xaionaro-go/secureio) - An keyexchanging+authenticating+encrypting wrapper and multiplexer for `io.ReadWriteCloser` based on XChaCha20-poly1305, ECDH and ED25519.
-- [simple-scrypt](https://github.com/elithrar/simple-scrypt) - Scrypt package with a simple, obvious API and automatic cost calibration built-in.
-- [ssh-vault](https://github.com/ssh-vault/ssh-vault) - encrypt/decrypt using ssh keys.
-- [sslmgr](https://github.com/adrianosela/sslmgr) - SSL certificates made easy with a high level wrapper around acme/autocert.
-- [teler-waf](https://github.com/kitabisa/teler-waf) - teler-waf is a Go HTTP middleware that provide teler IDS functionality to protect against web-based attacks and improve the security of Go-based web applications. It is highly configurable and easy to integrate into existing Go applications.
-- [themis](https://github.com/cossacklabs/themis) - high-level cryptographic library for solving typical data security tasks (secure data storage, secure messaging, zero-knowledge proof authentication), available for 14 languages, best fit for multi-platform apps.
-- [urusai](https://github.com/calpa/urusai) - Urusai ("noisy" in Japanese) is a Go implementation of a random HTTP/DNS traffic noise generator that helps protect privacy by creating digital smokescreens while browsing.
-- [veil](https://github.com/getveil/veil) - Local HTTPS proxy that hides API credentials from AI coding agents. OS keychain integration, format-aware placeholders, SQLite audit log.
-- [y509](https://github.com/kanywst/y509) - TUI for X.509 certificate chains that reports whether a chain verifies and, separately, whether a server served it correctly.
+- [acmetool](https://github.com/hlandau/acme) - ACME（Let's Encrypt）客户端工具，支持自动续期。
+- [acme-proxy](https://github.com/esnet/acme-proxy) - 无需向公网开放 80 端口即可完成 ACME http-01 挑战，从外部证书颁发机构获取证书。
+- [acopw-go](https://sr.ht/~jamesponddotco/acopw-go/) - Go 的小型密码学安全密码生成器包。
+- [acra](https://github.com/cossacklabs/acra) - 网络加密代理，保护基于数据库的应用免受数据泄露：强选择性加密、防范 SQL 注入、入侵检测系统。
+- [aes-ctr-drbg](https://github.com/sixafter/aes-ctr-drbg) - 基于 AES 计数器模式（AES-CTR-DRBG）的确定性随机比特生成器，符合 NIST SP 800-90A 规范。
+- [age](https://github.com/FiloSottile/age) - 简单、现代化且安全的加密工具（兼 Go 库），密钥短小明确、无配置选项，具备 UNIX 风格的可组合性。
+- [argon2-hashing](https://github.com/andskur/argon2-hashing) - Go argon2 包的轻量封装，高度对齐 Go 标准库中的 Bcrypt 与简单的 scrypt 包。
+- [autocert](https://pkg.go.dev/golang.org/x/crypto/acme/autocert) - 自动配置 Let's Encrypt 证书并启动 TLS 服务器。
+- [BadActor](https://github.com/jaredfolkins/badactor) - 内存中、应用驱动的封禁器，设计思路取自 fail2ban。
+- [beelzebub](https://github.com/mariocandela/beelzebub) - 安全的低代码蜜罐框架，借助 AI 实现系统虚拟化。
+- [booster](https://github.com/anatol/booster) - 快速的 initramfs 生成器，支持全盘加密。
+- [caddy-waf](https://github.com/fabriziosalmi/caddy-waf) - Caddy 服务器的 Web 应用防火墙中间件，具备正则规则引擎、异常评分、IP/DNS/ASN/国家黑名单与限流。
+- [Cameradar](https://github.com/Ullaakut/cameradar) - 用于远程入侵监控摄像头 RTSP 流的工具与库。
+- [canery](https://github.com/rluders/canery) - 极简、无状态的授权引擎，具备可插拔的求值模型。
+- [certificates](https://github.com/mvmaasakkers/certificates) - 用于生成 tls 证书的有明确主张的工具。
+- [CertMagic](https://github.com/caddyserver/certmagic) - 成熟稳健、功能强大的 ACME 客户端集成，实现完全托管的 TLS 证书签发与续期。
+- [Coraza](https://github.com/corazawaf/coraza) - 企业级就绪、兼容 modsecurity 与 OWASP CRS 的 WAF 库。
+- [coraza-rule-validator](https://github.com/stardothosting/coraza-rule-validator) - 独立 CLI 工具，在生产部署前校验 ModSecurity 与 Coraza SecLang WAF 规则。
+- [Crenox](https://github.com/crenoxhq/crenox) - 零依赖的 pre-commit 密钥扫描器，使用 Aho-Corasick 实现高性能凭据泄露检测。
+- [deidentify](https://github.com/aliengiraffe/deidentify) - 确定性格式的个人信息（PII）脱敏，可从文本与结构化数据中移除且保留格式。
+- [dongle](https://github.com/golang-module/dongle) - 简单、语义化、对开发者友好的 golang 包，用于编解码与加解密。
+- [dotlock](https://github.com/ahmadraza100/dotlock) - 加密的 .env 金库管理器，交互式 TUI，可跨多环境与多配置档案管理密钥。
+- [encid](https://github.com/bobg/encid) - 加密整数 ID 的编码与解码。
+- [entpassgen](https://github.com/andreimerlescu/entpassgen) - 高熵密码生成器，提供丰富的命令行参数，可安全生成随机字符串，包括数字、密码，以及由生僻词典词混合符号与数字构成的密码。
+- [firewalld-rest](https://github.com/prashantgupta24/firewalld-rest) - REST 应用，用于在 Linux 服务器上动态更新 firewalld 规则。
+- [fort](https://github.com/djadmin/fort) - 跨 16 项检查审计 macOS 安全设置，给出评分，并在安全可行时修复问题。单一二进制，可通过 Homebrew 安装。
+- [go-generate-password](https://github.com/m1/go-generate-password) - 既可用于命令行也可作为库使用的密码生成器。
+- [go-htpasswd](https://github.com/tg123/go-htpasswd) - Go 版 Apache htpasswd 解析器。
+- [go-password-validator](https://github.com/lane-c-wagner/go-password-validator) - 基于原始密码学熵值的密码校验器。
+- [go-peer](https://github.com/number571/go-peer) - 用于构建安全、匿名、去中心化系统的软件库。
+- [go-yara](https://github.com/hillu/go-yara) - [YARA](https://github.com/plusvic/yara) 的 Go 绑定 —— 这个「面向恶意代码研究者（以及所有人）的模式匹配瑞士军刀」。
+- [goArgonPass](https://github.com/dwin/goArgonPass) - Argon2 密码哈希与校验，设计上兼容既有的 Python 与 PHP 实现。
+- [goSecretBoxPassword](https://github.com/dwin/goSecretBoxPassword) - 一个大概有些偏执的包，用于安全地哈希与加密密码。
+- [gost-crypto](https://github.com/rekurt/gost-crypto) - 面向俄罗斯 GOST 密码学标准的 Go 库（数字签名、Streebog 哈希、Kuznechik 密码、MGM AEAD），底层由 OpenSSL gost-engine 支撑。
+- [grim](https://github.com/ijin82/grim) - 快速安全的 CLI 工具，在易失内存中管理加密的 Markdown 笔记金库。
+- [gspy](https://github.com/Mutasem-mk4/gspy) - 用于对运行中 Go 进程做取证式「goroutine 到系统调用」检查的工具。
+- [Interpol](https://github.com/avahidi/interpol) - 基于规则的数据生成器，用于模糊测试与渗透测试。
+- [leakhound](https://github.com/nilpoona/leakhound) - 静态分析工具，检测敏感结构体字段被意外记录日志的情况，防止日志泄露数据。
+- [lego](https://github.com/go-acme/lego) - 纯 Go 的 ACME 客户端库与 CLI 工具（配合 Let's Encrypt 使用）。
+- [luks.go](https://github.com/anatol/luks.go) - 纯 Golang 库，用于管理 LUKS 分区。
+- [mcprobe](https://github.com/tamish560/mcprobe) - 面向 MCP 服务器的安全扫描器，具备提示注入检测、工具影子检测与 SARIF 输出。
+- [memguard](https://github.com/awnumar/memguard) - 用于在内存中处理敏感值的纯 Go 库。
+- [mist](https://github.com/iSerganov/mist) - 非对称密钥音频隐写库，利用 X25519 与 ChaCha20-Poly1305 把加密消息隐藏在压缩音频中。
+- [multikey](https://github.com/adrianosela/multikey) - 基于 Shamir 秘密共享算法的 n-out-of-N 密钥加解密框架。
+- [nacl](https://github.com/kevinburke/nacl) - NaCL API 集合的 Go 实现。
+- [optimus-go](https://github.com/pjebs/optimus-go) - 使用 Knuth 算法的 ID 哈希与混淆。
+- [passlib](https://github.com/hlandau/passlib) - 面向未来的密码哈希库。
+- [passwap](https://github.com/zitadel/passwap) - 在不同密码哈希算法之间提供统一实现。
+- [pii-shield](https://github.com/pii-shield/pii-shield) - 面向 Kubernetes 的零代码日志脱敏 sidecar，对日志中的 PII 做遮蔽。
+- [pm](https://github.com/nicola-strappazzon/password-manager) - 用 Go 编写的 UNIX 风格密码管理器，使用 OpenPGP 加密保存你的数据。
+- [procscope](https://github.com/Mutasem-mk4/procscope) - 进程级运行时调查器，使用 eBPF 追踪进程生命周期、文件活动与网络连接。
+- [qrand](https://github.com/bitfield/qrand) - ANU Quantum Numbers (AQN) API 客户端，提供量子力学安全的随机数据。
+- [Razify](https://github.com/Hossiy21/razify) - CLI 工具，扫描、校验并审计 .env 文件中的密钥泄露与环境漂移。
+- [redact](https://github.com/alesr/redact) - 通过可配置的管线，对基于 slog 的日志中的敏感信息做遮蔽。
+- [SafeDep/vet](https://github.com/safedep/vet) - 防范恶意开源软件包。
+- [secret](https://github.com/rsjethani/secret) - 防止密钥泄漏到日志、std\* 等地方。
+- [secretgenerator](https://github.com/rafaelperoco/secretgenerator) - 由 CSPRNG 支撑的凭据生成器，采用版本化 JSON schema，覆盖密码、口令短语、密钥、API 密钥与 PIN。
+- [secure](https://github.com/unrolled/secure) - 面向 Go 的 HTTP 中间件，助你快速落实若干安全最佳实践。
+- [secureio](https://github.com/xaionaro-go/secureio) - 针对 `io.ReadWriteCloser` 的密钥交换 + 认证 + 加密封装与多路复用器，基于 XChaCha20-poly1305、ECDH 与 ED25519。
+- [simple-scrypt](https://github.com/elithrar/simple-scrypt) - scrypt 包，API 简单直观，内置自动成本校准。
+- [ssh-vault](https://github.com/ssh-vault/ssh-vault) - 使用 ssh 密钥进行加解密。
+- [sslmgr](https://github.com/adrianosela/sslmgr) - 对 acme/autocert 的高层封装，让 SSL 证书变得简单。
+- [teler-waf](https://github.com/kitabisa/teler-waf) - teler-waf 是 Go 的 HTTP 中间件，提供 teler IDS 功能以防范基于 web 的攻击、提升 Go Web 应用安全性。可配置性高，易于集成进既有 Go 应用。
+- [themis](https://github.com/cossacklabs/themis) - 高层密码学库，用于解决典型的数据安全任务（安全数据存储、安全消息、零知识证明认证），支持 14 种语言，最适合多平台应用。
+- [urusai](https://github.com/calpa/urusai) - Urusai（日语意为「嘈杂」）是 Go 实现的随机 HTTP/DNS 流量噪声生成器，通过在浏览时制造数字烟雾弹来保护隐私。
+- [veil](https://github.com/getveil/veil) - 本地 HTTPS 代理，为 AI 编码智能体隐藏 API 凭据。集成操作系统钥匙串，支持格式感知的占位符与 SQLite 审计日志。
+- [y509](https://github.com/kanywst/y509) - 用于查看 X.509 证书链的 TUI，会分别报告链是否验证通过、以及服务器是否正确提供了该链。
 
 
 **[⬆ 回到顶部](#contents)**
@@ -2630,72 +2630,72 @@ _用于提升应用安全性的库。_
 
 _用于二进制序列化的库与工具。_
 
-- [bambam](https://github.com/glycerine/bambam) - generator for Cap'n Proto schemas from go.
-- [bel](https://github.com/32leaves/bel) - Generate TypeScript interfaces from Go structs/interfaces. Useful for JSON RPC.
-- [binstruct](https://github.com/ghostiam/binstruct) - Golang binary decoder for mapping data into the structure.
-- [cbor](https://github.com/fxamacker/cbor) - Small, safe, and easy CBOR encoding and decoding library.
-- [colfer](https://github.com/pascaldekloe/colfer) - Code generation for the Colfer binary format.
-- [csvutil](https://github.com/jszwec/csvutil) - High Performance, idiomatic CSV record encoding and decoding to native Go structures.
-- [elastic](https://github.com/epiclabs-io/elastic) - Convert slices, maps or any other unknown value across different types at run-time, no matter what.
-- [fixedwidth](https://github.com/huydang284/fixedwidth) - Fixed-width text formatting (UTF-8 supported).
-- [fwencoder](https://github.com/o1egl/fwencoder) - Fixed width file parser (encoding and decoding library) for Go.
-- [go-capnproto](https://github.com/glycerine/go-capnproto) - Cap'n Proto library and parser for go.
-- [go-codec](https://github.com/ugorji/go) - High Performance, feature-Rich, idiomatic encode, decode and rpc library for msgpack, cbor and json, with runtime-based OR code-generation support.
-- [go-csvlib](https://github.com/tiendc/go-csvlib) - High level and rich functionalities CSV serialization/deserialization library.
-- [goprotobuf](https://github.com/golang/protobuf) - Go support, in the form of a library and protocol compiler plugin, for Google's protocol buffers.
-- [gotiny](https://github.com/raszia/gotiny) - Efficient Go serialization library, gotiny is almost as fast as serialization libraries that generate code.
-- [jsoniter](https://github.com/json-iterator/go) - High-performance 100% compatible drop-in replacement of "encoding/json".
-- [mus-go](https://github.com/mus-format/mus-go) - MUS format serializer for Go.
-- [php_session_decoder](https://github.com/yvasiyarov/php_session_decoder) - GoLang library for working with PHP session format and PHP Serialize/Unserialize functions.
-- [pletter](https://github.com/vimeda/pletter) - A standard way to wrap a proto message for message brokers.
-- [proto](https://github.com/emicklei/proto) - Parser and writer for Google ProtocolBuffers .proto files.
-- [structomap](https://github.com/tuvistavie/structomap) - Library to easily and dynamically generate maps from static structures.
-- [unitpacking](https://github.com/recolude/unitpacking) - Library to pack unit vectors into as fewest bytes as possible.
+- [bambam](https://github.com/glycerine/bambam) - 从 Go 生成 Cap'n Proto schema 的生成器。
+- [bel](https://github.com/32leaves/bel) - 从 Go 结构体/接口生成 TypeScript 接口。对 JSON RPC 很有用。
+- [binstruct](https://github.com/ghostiam/binstruct) - Golang 二进制解码器，用于把数据映射进结构体。
+- [cbor](https://github.com/fxamacker/cbor) - 小巧、安全、易用的 CBOR 编解码库。
+- [colfer](https://github.com/pascaldekloe/colfer) - Colfer 二进制格式的代码生成。
+- [csvutil](https://github.com/jszwec/csvutil) - 高性能、惯用的 CSV 记录编解码，可直接映射为原生 Go 结构体。
+- [elastic](https://github.com/epiclabs-io/elastic) - 在运行时跨不同类型转换切片、映射或任意其他未知值，无论类型如何。
+- [fixedwidth](https://github.com/huydang284/fixedwidth) - 定宽文本格式化（支持 UTF-8）。
+- [fwencoder](https://github.com/o1egl/fwencoder) - 面向 Go 的定宽文件解析器（编解码库）。
+- [go-capnproto](https://github.com/glycerine/go-capnproto) - Go 的 Cap'n Proto 库与解析器。
+- [go-codec](https://github.com/ugorji/go) - 高性能、功能丰富、惯用的 msgpack、cbor 与 json 编解码及 RPC 库，支持基于运行时或代码生成。
+- [go-csvlib](https://github.com/tiendc/go-csvlib) - 功能强大而精简的 CSV 序列化/反序列化库。
+- [goprotobuf](https://github.com/golang/protobuf) - 以库与协议编译器插件形式提供的 Google Protocol Buffers Go 支持。
+- [gotiny](https://github.com/raszia/gotiny) - 高效的 Go 序列化库，gotiny 的速度接近那些代码生成型序列化库。
+- [jsoniter](https://github.com/json-iterator/go) - 高性能、100% 兼容的 `encoding/json` 直接替代品。
+- [mus-go](https://github.com/mus-format/mus-go) - Go 的 MUS 格式序列化器。
+- [php_session_decoder](https://github.com/yvasiyarov/php_session_decoder) - 用于处理 PHP 会话格式及 PHP Serialize/Unserialize 函数的 GoLang 库。
+- [pletter](https://github.com/vimeda/pletter) - 为面向消息代理的 proto 消息提供标准封装方式。
+- [proto](https://github.com/emicklei/proto) - Google ProtocolBuffers .proto 文件的解析器与写入器。
+- [structomap](https://github.com/tuvistavie/structomap) - 便于从静态结构动态生成映射的库。
+- [unitpacking](https://github.com/recolude/unitpacking) - 把单位向量打包进尽可能少字节的库。
 
 **[⬆ 回到顶部](#contents)**
 
 <a id="server-applications"></a>
 ## 服务器应用
 
-- [algernon](https://github.com/xyproto/algernon) - HTTP/2 web server with built-in support for Lua, Markdown, GCSS and Amber.
-- [Caddy](https://github.com/caddyserver/caddy) - Caddy is an alternative, HTTP/2 web server that's easy to configure and use.
-- [Casdoor](https://github.com/casdoor/casdoor) - Identity and access management (IAM) and single sign-on (SSO) server with a web UI, supporting OAuth 2.0, OIDC, SAML, CAS and LDAP.
-- [consul](https://www.consul.io/) - Consul is a tool for service discovery, monitoring and configuration.
-- [cortex-tenant](https://github.com/blind-oracle/cortex-tenant) - Prometheus remote write proxy that adds add Cortex tenant ID header based on metric labels.
-- [devd](https://github.com/cortesi/devd) - Local webserver for developers.
-- [discovery](https://github.com/Bilibili/discovery) - A registry for resilient mid-tier load balancing and failover.
-- [dudeldu](https://github.com/krotik/dudeldu) - A simple SHOUTcast server.
-- [Easegress](https://github.com/megaease/easegress) - A cloud native high availability/performance traffic orchestration system with observability and extensibility.
-- [Engity's Bifröst](https://bifroest.engity.org/) - Highly customizable SSH server with several ways to authorize a user how to execute its session (local or in containers).
-- [etcd](https://github.com/etcd-io/etcd) - Highly-available key value store for shared configuration and service discovery.
-- [Euterpe](https://github.com/ironsmile/euterpe) - Self-hosted music streaming server with built-in web UI and REST API.
-- [Fider](https://github.com/getfider/fider) - Fider is an open platform to collect and organize customer feedback.
-- [Flagr](https://github.com/checkr/flagr) - Flagr is an open-source feature flagging and A/B testing service.
-- [flipt](https://github.com/markphelps/flipt) - A self contained feature flag solution written in Go and Vue.js
-- [flue](https://github.com/karnstack/flue) - Self-hosted daemon that serves terminal sessions to a browser tab. Sessions keep running after the tab is closed.
-- [go-feature-flag](https://github.com/thomaspoignant/go-feature-flag) - A simple, complete and lightweight self-hosted feature flag solution 100% Open Source.
-- [go-proxy-cache](https://github.com/fabiocicerchia/go-proxy-cache) - Simple Reverse Proxy with Caching, written in Go, using Redis.
-- [gondola](https://github.com/bmf-san/gondola) - A YAML based golang reverse proxy.
-- [goshs](https://github.com/patrickhener/goshs) - SimpleHTTPServer replacement with file upload/download, WebDAV, SFTP, SMB, TLS, authentication, and share links.
-- [Kono](https://github.com/starwalkn/kono) - lightweight extendable API Gateway in Go - parallel fan-out, flexible aggregation, and zero configuration magic.
-- [lets-proxy2](https://github.com/rekby/lets-proxy2) - Reverse proxy for handle https with issue certificates in fly from lets-encrypt.
-- [minio](https://github.com/pgsty/minio) - Community Maintained Fork of minio (Object Storage Service).
-- [Moxy](https://github.com/sinhashubham95/moxy) - Moxy is a simple mocker and proxy application server, you can create mock endpoints as well as proxy requests in case no mock exists for the endpoint.
-- [nginx-prometheus](https://github.com/blind-oracle/nginx-prometheus) - Nginx log parser and exporter to Prometheus.
-- [nsq](https://nsq.io/) - A realtime distributed messaging platform.
-- [OpenRun](https://github.com/openrundev/openrun) - Open-source alternative to Google Cloud Run and AWS App Runner. Easily deploy internal tools across a team.
-- [pocketbase](https://github.com/pocketbase/pocketbase) - PocketBase is a realtime backend in 1 file consisting of embedded database (SQLite) with realtime subscriptions, built-in auth management and much more.
-- [protoxy](https://github.com/camgraff/protoxy) - A proxy server that converts JSON request bodies to Protocol Buffers.
-- [psql-streamer](https://github.com/blind-oracle/psql-streamer) - Stream database events from PostgreSQL to Kafka.
-- [relay](https://github.com/valtors/relay) - MCP server with 40+ tools for AI agents. File operations, web search, screenshots, multi-agent coordination. Single Go binary.
-- [riemann-relay](https://github.com/blind-oracle/riemann-relay) - Relay to load-balance Riemann events and/or convert them to Carbon.
-- [RoadRunner](https://github.com/spiral/roadrunner) - High-performance PHP application server, load-balancer and process manager.
-- [SFTPGo](https://github.com/drakkan/sftpgo) - Fully featured and highly configurable SFTP server with optional FTP/S and WebDAV support. It can serve local filesystem and Cloud Storage backends such as S3 and Google Cloud Storage.
-- [simpleconf](https://github.com/shaunlee/simpleconf) - Configuration server holding one JSON document, read and written by key path over HTTP and TCP, with optional Raft clustering.
-- [Trickster](https://github.com/tricksterproxy/trickster) - HTTP reverse proxy cache and time series accelerator.
-- [wd-41](https://github.com/baalimago/wd-41) - A (w)eb (d)evelopment server with automatic live-reload on file changes.
-- [whois](https://github.com/KincaidYang/whois) - Self-hosted WHOIS/RDAP query service and MCP server for domains, IPv4/IPv6 addresses, CIDRs and ASNs.
-- [Wish](https://github.com/charmbracelet/wish) - Make SSH apps, just like that!
+- [algernon](https://github.com/xyproto/algernon) - HTTP/2 Web 服务器，内置对 Lua、Markdown、GCSS 与 Amber 的支持。
+- [Caddy](https://github.com/caddyserver/caddy) - Caddy 是另一款易于配置与使用的 HTTP/2 Web 服务器。
+- [Casdoor](https://github.com/casdoor/casdoor) - 身份与访问管理（IAM）及单点登录（SSO）服务器，带 Web 界面，支持 OAuth 2.0、OIDC、SAML、CAS 与 LDAP。
+- [consul](https://www.consul.io/) - Consul 是用于服务发现、监控与配置的工具。
+- [cortex-tenant](https://github.com/blind-oracle/cortex-tenant) - Prometheus remote write 代理，依据指标标签添加 Cortex 租户 ID 头。
+- [devd](https://github.com/cortesi/devd) - 面向开发者的本地 web 服务器。
+- [discovery](https://github.com/Bilibili/discovery) - 用于弹性中间层负载均衡与故障转移的注册中心。
+- [dudeldu](https://github.com/krotik/dudeldu) - 简易 SHOUTcast 服务器。
+- [Easegress](https://github.com/megaease/easegress) - 云原生的高可用/高性能流量编排系统，具备可观测性与可扩展性。
+- [Engity's Bifröst](https://bifroest.engity.org/) - 高度可定制的 SSH 服务器，支持多种方式授权用户如何执行其会话（本地或容器中）。
+- [etcd](https://github.com/etcd-io/etcd) - 面向共享配置与服务发现的高可用键值存储。
+- [Euterpe](https://github.com/ironsmile/euterpe) - 自托管音乐流媒体服务器，内置 Web 界面与 REST API。
+- [Fider](https://github.com/getfider/fider) - Fider 是一个开源平台，用于收集与整理客户反馈。
+- [Flagr](https://github.com/checkr/flagr) - Flagr 是开源的功能开关与 A/B 测试服务。
+- [flipt](https://github.com/markphelps/flipt) - 用 Go 与 Vue.js 编写的自包含功能开关方案。
+- [flue](https://github.com/karnstack/flue) - 自托管守护进程，把终端会话投送到浏览器标签页。标签页关闭后会话仍在运行。
+- [go-feature-flag](https://github.com/thomaspoignant/go-feature-flag) - 简单、完整、轻量的自托管功能开关方案，100% 开源。
+- [go-proxy-cache](https://github.com/fabiocicerchia/go-proxy-cache) - 用 Go 编写的带缓存的简易反向代理，使用 Redis。
+- [gondola](https://github.com/bmf-san/gondola) - 基于 YAML 的 Golang 反向代理。
+- [goshs](https://github.com/patrickhener/goshs) - SimpleHTTPServer 的替代品，支持文件上传/下载、WebDAV、SFTP、SMB、TLS、认证与分享链接。
+- [Kono](https://github.com/starwalkn/kono) - Go 的轻量可扩展 API 网关 —— 并行扇出、灵活聚合、零配置魔法。
+- [lets-proxy2](https://github.com/rekby/lets-proxy2) - 用于处理 https 的反向代理，可从 Let's Encrypt 即时签发证书。
+- [minio](https://github.com/pgsty/minio) - minio（对象存储服务）的社区维护分支。
+- [Moxy](https://github.com/sinhashubham95/moxy) - Moxy 是一个简易的 mock 与代理应用服务器，你可以创建 mock 端点，在端点没有 mock 时自动转为代理转发。
+- [nginx-prometheus](https://github.com/blind-oracle/nginx-prometheus) - Nginx 日志解析器与 Prometheus 导出器。
+- [nsq](https://nsq.io/) - 实时分布式消息平台。
+- [OpenRun](https://github.com/openrundev/openrun) - Google Cloud Run 与 AWS App Runner 的开源替代方案。轻松在团队内部署内部工具。
+- [pocketbase](https://github.com/pocketbase/pocketbase) - PocketBase 是一个单文件的实时后端，内嵌数据库（SQLite）并带实时订阅、内置认证管理等能力。
+- [protoxy](https://github.com/camgraff/protoxy) - 把 JSON 请求体转换为 Protocol Buffers 的代理服务器。
+- [psql-streamer](https://github.com/blind-oracle/psql-streamer) - 把数据库事件从 PostgreSQL 流式传输到 Kafka。
+- [relay](https://github.com/valtors/relay) - 为 AI 智能体提供 40+ 工具的 MCP 服务器。涵盖文件操作、网页搜索、截图、多智能体协作。单一 Go 二进制。
+- [riemann-relay](https://github.com/blind-oracle/riemann-relay) - 用于负载均衡 Riemann 事件并/或将其转换为 Carbon 的中继。
+- [RoadRunner](https://github.com/spiral/roadrunner) - 高性能 PHP 应用服务器、负载均衡器与进程管理器。
+- [SFTPGo](https://github.com/drakkan/sftpgo) - 功能完备、高度可配置的 SFTP 服务器，可选支持 FTP/S 与 WebDAV。既可提供本地文件系统，也可对接 S3 与 Google Cloud Storage 等云存储后端。
+- [simpleconf](https://github.com/shaunlee/simpleconf) - 配置服务器，保存一份 JSON 文档，通过 HTTP 与 TCP 按键路径读写，可选 Raft 集群。
+- [Trickster](https://github.com/tricksterproxy/trickster) - HTTP 反向代理缓存与时序加速器。
+- [wd-41](https://github.com/baalimago/wd-41) - Web 开发服务器，文件变更时自动热重载。
+- [whois](https://github.com/KincaidYang/whois) - 自托管的 WHOIS/RDAP 查询服务与 MCP 服务器，覆盖域名、IPv4/IPv6 地址、CIDR 与 ASN。
+- [Wish](https://github.com/charmbracelet/wish) - 像那样简单地制作 SSH 应用！
 
 **[⬆ 回到顶部](#contents)**
 
@@ -2704,16 +2704,16 @@ _用于二进制序列化的库与工具。_
 
 _用于流处理与响应式编程的库与工具。_
 
-- [go-etl](https://github.com/Breeze0806/go-etl) - A lightweight toolkit for data source extraction, transformation, and loading (ETL).
-- [go-streams](https://github.com/reugn/go-streams) - Go stream processing library.
-- [goio](https://github.com/primetalk/goio) - An implementation of IO, Stream, Fiber for Golang, inspired by awesome Scala libraries cats and fs2.
-- [gostream](https://github.com/mariomac/gostream) - Type-safe stream processing library inspired by the Java Streams API.
-- [machine](https://github.com/whitaker-io/machine) - Go library for writing and generating stream workers with built in metrics and traceability.
-- [nibbler](https://github.com/naughtygopher/nibbler) - A lightweight package for micro batch processing.
-- [ro](https://github.com/samber/ro) - Reactive Programming: declarative and composable API for event-driven applications.
-- [signals](https://github.com/coregx/signals) - Type-safe reactive state management inspired by Angular Signals with computed values, effects, and dependency tracking.
-- [stream](https://github.com/youthlin/stream) - Go Stream, like Java 8 Stream: Filter/Map/FlatMap/Peek/Sorted/ForEach/Reduce...
-- [StreamSQL](https://github.com/rulego/streamsql) - A lightweight streaming SQL engine for real-time data processing.
+- [go-etl](https://github.com/Breeze0806/go-etl) - 用于数据源抽取、转换与加载（ETL）的轻量工具包。
+- [go-streams](https://github.com/reugn/go-streams) - Go 流处理库。
+- [goio](https://github.com/primetalk/goio) - 面向 Golang 的 IO、Stream、Fiber 实现，灵感源自优秀的 Scala 库 cats 与 fs2。
+- [gostream](https://github.com/mariomac/gostream) - 受 Java Streams API 启发的类型安全流处理库。
+- [machine](https://github.com/whitaker-io/machine) - Go 库，用于编写与生成流式 worker，内置指标与链路追踪。
+- [nibbler](https://github.com/naughtygopher/nibbler) - 用于微批处理的轻量包。
+- [ro](https://github.com/samber/ro) - 响应式编程：为事件驱动应用提供声明式、可组合的 API。
+- [signals](https://github.com/coregx/signals) - 受 Angular Signals 启发的类型安全响应式状态管理，支持计算值、副作用与依赖追踪。
+- [stream](https://github.com/youthlin/stream) - Go Stream，类 Java 8 Stream：Filter/Map/FlatMap/Peek/Sorted/ForEach/Reduce……
+- [StreamSQL](https://github.com/rulego/streamsql) - 用于实时数据处理的轻量级流式 SQL 引擎。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -2722,25 +2722,25 @@ _用于流处理与响应式编程的库与工具。_
 
 _用于模板与词法分析的库与工具。_
 
-- [bagme](https://github.com/boxesandglue/bagme) - HTML/CSS to PDF rendering with TeX-quality typesetting in pure Go.
-- [ego](https://github.com/benbjohnson/ego) - Lightweight templating language that lets you write templates in Go. Templates are translated into Go and compiled.
-- [fasttemplate](https://github.com/valyala/fasttemplate) - Simple and fast template engine. Substitutes template placeholders up to 10x faster than [text/template](https://golang.org/pkg/text/template/).
-- [gomponents](https://www.gomponents.com) - HTML 5 components in pure Go, that look something like this: `func(name string) g.Node { return Div(Class("headline"), g.Textf("Hi %v!", name)) }`.
-- [got](https://github.com/goradd/got) - A Go code generator inspired by Hero and Fasttemplate. Has include files, custom tag definitions, injected Go code, language translation, and more.
-- [goview](https://github.com/foolin/goview) - Goview is a lightweight, minimalist and idiomatic template library based on golang html/template for building Go web application.
-- [gox](https://github.com/doors-dev/gox) - HTML templates as first-class Go expressions, with seamless editor support.
-- [htmgo](https://htmgo.dev) - build simple and scalable systems with go + htmx
-- [jet](https://github.com/CloudyKit/jet) - Jet template engine.
-- [liquid](https://github.com/osteele/liquid) - Go implementation of Shopify Liquid templates.
-- [maroto](https://github.com/johnfercher/maroto) - A maroto way to create PDFs. Maroto is inspired in Bootstrap and uses gofpdf. Fast and simple.
-- [pongo2](https://github.com/flosch/pongo2) - Django-like template-engine for Go.
-- [quicktemplate](https://github.com/valyala/quicktemplate) - Fast, powerful, yet easy to use template engine. Converts templates into Go code and then compiles it.
-- [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
-- [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/).
-- [sprout](https://github.com/go-sprout/sprout) - Useful template functions for Go templates.
-- [tbd](https://github.com/lucasepe/tbd) - A really simple way to create text templates with placeholders - exposes extra builtin Git repo metadata.
-- [templ](https://github.com/a-h/templ) - A HTML templating language that has great developer tooling.
-- [templator](https://github.com/alesr/templator) - A type-safe HTML template rendering engine for Go.
+- [bagme](https://github.com/boxesandglue/bagme) - 纯 Go 的 HTML/CSS 转 PDF 渲染，排版质量达到 TeX 水准。
+- [ego](https://github.com/benbjohnson/ego) - 轻量模板语言，让你直接用 Go 编写模板。模板会被翻译为 Go 并编译。
+- [fasttemplate](https://github.com/valyala/fasttemplate) - 简单快速的模板引擎。替换模板占位符的速度比 [text/template](https://golang.org/pkg/text/template/) 快最多 10 倍。
+- [gomponents](https://www.gomponents.com) - 纯 Go 的 HTML 5 组件，用法形如：`func(name string) g.Node { return Div(Class("headline"), g.Textf("Hi %v!", name)) }`。
+- [got](https://github.com/goradd/got) - 受 Hero 与 Fasttemplate 启发的 Go 代码生成器。支持包含文件、自定义标签定义、注入 Go 代码、语言翻译等。
+- [goview](https://github.com/foolin/goview) - Goview 是基于 golang html/template 的轻量、极简、惯用模板库，用于构建 Go Web 应用。
+- [gox](https://github.com/doors-dev/gox) - 把 HTML 模板作为一等 Go 表达式，具备无缝的编辑器支持。
+- [htmgo](https://htmgo.dev) - 用 go + htmx 构建简单且可扩展的系统。
+- [jet](https://github.com/CloudyKit/jet) - Jet 模板引擎。
+- [liquid](https://github.com/osteele/liquid) - Shopify Liquid 模板的 Go 实现。
+- [maroto](https://github.com/johnfercher/maroto) - 用 maroto 创建 PDF 的方式。Maroto 借鉴了 Bootstrap 并使用 gofpdf。快速简单。
+- [pongo2](https://github.com/flosch/pongo2) - 类 Django 的 Go 模板引擎。
+- [quicktemplate](https://github.com/valyala/quicktemplate) - 快速、强大且易用的模板引擎。先把模板转换为 Go 代码，再编译执行。
+- [Razor](https://github.com/sipin/gorazor) - 面向 Golang 的 Razor 视图引擎。
+- [Soy](https://github.com/robfig/soy) - Go 的闭包模板（又称 Soy 模板），遵循[官方规范](https://developers.google.com/closure/templates/)。
+- [sprout](https://github.com/go-sprout/sprout) - 面向 Go 模板的实用模板函数。
+- [tbd](https://github.com/lucasepe/tbd) - 一种用占位符创建文本模板的极简方式 —— 额外暴露 Git 仓库元数据。
+- [templ](https://github.com/a-h/templ) - 一门开发者工具链出色的 HTML 模板语言。
+- [templator](https://github.com/alesr/templator) - 面向 Go 的类型安全 HTML 模板渲染引擎。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -2752,74 +2752,74 @@ _用于测试代码库与生成测试数据的库。_
 <a id="testing-frameworks"></a>
 ### 测试框架
 
-- [apitest](https://apitest.dev) - Simple and extensible behavioural testing library for REST based services or HTTP handlers that supports mocking external http calls and rendering of sequence diagrams.
-- [arch-go](https://github.com/arch-go/arch-go) - Architecture testing tool for Go projects.
-- [assay](https://github.com/tushariitr-19/assay) - Framework-agnostic evaluation library for testing Go agents and MCP servers with deterministic checks, CI-ready exit codes, and zero-code YAML-based testing.
-- [assert](https://github.com/go-playground/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions.
-- [baloo](https://github.com/h2non/baloo) - Expressive and versatile end-to-end HTTP API testing made easy.
-- [be](https://github.com/carlmjohnson/be) - The minimalist generic test assertion library.
-- [biff](https://github.com/fulldump/biff) - Bifurcation testing framework, BDD compatible.
-- [charlatan](https://github.com/percolate/charlatan) - Tool to generate fake interface implementations for tests.
-- [commander](https://github.com/SimonBaeumer/commander) - Tool for testing cli applications on windows, linux and osx.
+- [apitest](https://apitest.dev) - 简单可扩展的行为测试库，面向 REST 服务或 HTTP 处理器，支持模拟外部 http 调用与时序图渲染。
+- [arch-go](https://github.com/arch-go/arch-go) - 面向 Go 项目的架构测试工具。
+- [assay](https://github.com/tushariitr-19/assay) - 与框架无关的求值库，用于测试 Go 智能体与 MCP 服务器，具备确定性检查、CI 就绪的退出码，以及零代码的 YAML 测试。
+- [assert](https://github.com/go-playground/assert) - 与 Go 原生 testing 搭配使用的基础断言库，并提供构建自定义断言的积木块。
+- [baloo](https://github.com/h2non/baloo) - 让表达力强、用途广泛的端到端 HTTP API 测试变得轻松。
+- [be](https://github.com/carlmjohnson/be) - 极简的泛型测试断言库。
+- [biff](https://github.com/fulldump/biff) - 分叉测试（mutation testing）框架，兼容 BDD。
+- [charlatan](https://github.com/percolate/charlatan) - 为测试生成接口伪实现的工具。
+- [commander](https://github.com/SimonBaeumer/commander) - 在 Windows、Linux 与 macOS 上测试 CLI 应用的工具。
 - [coverage](https://github.com/jbunds/coverage) - 用于展示 Go 测试覆盖率的简易 Web UI，以及可复用的 [go-test-coverage-html-report](https://github.com/marketplace/actions/go-test-coverage-html-report) GitHub Action。
-- [cupaloy](https://github.com/bradleyjkemp/cupaloy) - Simple snapshot testing addon for your test framework.
-- [dbcleaner](https://github.com/khaiql/dbcleaner) - Clean database for testing purpose, inspired by `database_cleaner` in Ruby.
-- [dft](https://github.com/abecodes/dft) - Lightweight, zero dependency docker containers for testing (or more).
-- [dsunit](https://github.com/viant/dsunit) - Datastore testing for SQL, NoSQL, structured files.
-- [embedded-postgres](https://github.com/fergusstrange/embedded-postgres) - Run a real Postgres database locally on Linux, OSX or Windows as part of another Go application or test.
-- [endly](https://github.com/viant/endly) - Declarative end to end functional testing.
-- [envite](https://github.com/PerimeterX/envite) - Dev and testing environment management framework.
-- [fixenv](https://github.com/rekby/fixenv) - Fixture manage engine, inspired by pytest fixtures.
-- [flute](https://github.com/suzuki-shunsuke/flute) - HTTP client testing framework.
-- [frisby](https://github.com/verdverm/frisby) - REST API testing framework.
-- [gherkingen](https://github.com/hedhyw/gherkingen) - BDD boilerplate generator and framework.
-- [ginkgo](https://onsi.github.io/ginkgo/) - BDD Testing Framework for Go.
-- [gnomock](https://github.com/orlangure/gnomock) - integration testing with real dependencies (database, cache, even Kubernetes or AWS) running in Docker, without mocks.
-- [go-carpet](https://github.com/msoap/go-carpet) - Tool for viewing test coverage in terminal.
-- [go-cmp](https://github.com/google/go-cmp) - Package for comparing Go values in tests.
-- [go-hit](https://github.com/Eun/go-hit) - Hit is an http integration test framework written in golang.
-- [go-httpbin](https://github.com/mccutchen/go-httpbin) - HTTP testing and debugging tool with various endpoints for client testing.
-- [go-mutesting](https://github.com/jonbaldie/go-mutesting) - Mutation testing for Go with CI quality gates, coverage-aware MSI, baseline tracking, and git-diff filtering.
-- [go-mysql-test-container](https://github.com/arikama/go-mysql-test-container) - Golang MySQL testcontainer to help with MySQL integration testing.
-- [go-snaps](http://github.com/gkampitakis/go-snaps) - Jest-like snapshot testing in Golang.
-- [go-test-coverage](https://github.com/vladopajic/go-test-coverage) - Tool that reports coverage of files below set threshold.
-- [go-testdeep](https://github.com/maxatome/go-testdeep) - Extremely flexible golang deep comparison, extends the go testing package.
-- [go-testing](https://github.com/tkrop/go-testing) - Go testing extension, that allows a simple setup of strongly isolated unit, component, and integration test providing advanced mock support extending gomock and gock.
-- [go-testpredicate](https://github.com/maargenton/go-testpredicate) - Test predicate style assertions library with extensive diagnostics output.
-- [go-vcr](https://github.com/dnaeon/go-vcr) - Record and replay your HTTP interactions for fast, deterministic and accurate tests.
-- [goblin](https://github.com/franela/goblin) - Mocha like testing framework of Go.
-- [goc](https://github.com/qiniu/goc) - Goc is a comprehensive coverage testing system for The Go Programming Language.
-- [gocheck](https://labix.org/gocheck) - More advanced testing framework alternative to gotest.
-- [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-style framework with web UI and live reload.
-- [gocrest](https://github.com/corbym/gocrest) - Composable hamcrest-like matchers for Go assertions.
-- [godog](https://github.com/cucumber/godog) - Cucumber BDD framework for Go.
-- [gofight](https://github.com/appleboy/gofight) - API Handler Testing for Golang Router framework.
-- [gogiven](https://github.com/corbym/gogiven) - YATSPEC-like BDD testing framework for Go.
-- [gomatch](https://github.com/jfilipczyk/gomatch) - library created for testing JSON against patterns.
-- [gomega](https://onsi.github.io/gomega/) - Rspec like matcher/assertion library.
-- [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
-- [gosuite](https://github.com/pavlo/gosuite) - Brings lightweight test suites with setup/teardown facilities to `testing` by leveraging Go1.7's Subtests.
-- [got](https://github.com/ysmood/got) - An enjoyable golang test framework.
-- [gotest.tools](https://github.com/gotestyourself/gotest.tools) - A collection of packages to augment the go testing package and support common patterns.
-- [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
-- [httper](https://github.com/gustofarbi/httper) - CLI runner for JetBrains .http files with scripting, assertions, gRPC, and load testing.
-- [httpexpect](https://github.com/gavv/httpexpect) - Concise, declarative, and easy to use end-to-end HTTP and REST API testing.
-- [is](https://github.com/matryer/is) - Professional lightweight testing mini-framework for Go.
-- [jsonassert](https://github.com/kinbiko/jsonassert) - Package for verifying that your JSON payloads are serialized correctly.
-- [keploy](https://github.com/keploy/keploy) - Generate Testcase and Data Mocks from API calls automatically.
-- [omg.testingtools](https://github.com/dedalqq/omg.testingtools) - The simple library for change a values of private fields for testing.
-- [restit](https://github.com/yookoala/restit) - Go micro framework to help writing RESTful API integration test.
-- [schema](https://github.com/jgroeneveld/schema) - Quick and easy expression matching for JSON schemas used in requests and responses.
-- [should](https://github.com/Kairum-Labs/should) - Testing library with zero dependencies, detailed struct diffs and human-readable error messages.
-- [stop-and-go](https://github.com/elgohr/stop-and-go) - Testing helper for concurrency.
-- [testcase](https://github.com/adamluzsi/testcase) - Idiomatic testing framework for Behavior Driven Development.
-- [testcerts](https://github.com/madflojo/testcerts) - Dynamically generate self-signed certificates and certificate authorities within your test functions.
-- [testcontainers-go](https://github.com/testcontainers/testcontainers-go) - A Go package that makes it simple to create and clean up container-based dependencies for automated integration/smoke tests. The clean, easy-to-use API enables developers to programmatically define containers that should be run as part of a test and clean up those resources when the test is done.
-- [testfixtures](https://github.com/go-testfixtures/testfixtures) - A helper for Rails' like test fixtures to test database applications.
-- [Testify](https://github.com/stretchr/testify) - Sacred extension to the standard go testing package.
-- [Testo](https://github.com/ozontech/testo) - Plugin-based testing framework with suites, parallel tests, hooks and parametrization. Inspired by Pytest.
-- [testsql](https://github.com/zhulongcheng/testsql) - Generate test data from SQL files before testing and clear it after finished.
-- [testza](https://github.com/MarvinJWendt/testza) - Full-featured test framework with nice colorized output.
+- [cupaloy](https://github.com/bradleyjkemp/cupaloy) - 为你的测试框架提供的简易快照测试插件。
+- [dbcleaner](https://github.com/khaiql/dbcleaner) - 用于测试的干净数据库方案，灵感源自 Ruby 的 `database_cleaner`。
+- [dft](https://github.com/abecodes/dft) - 轻量、零依赖的测试用 Docker 容器（用途不止于此）。
+- [dsunit](https://github.com/viant/dsunit) - 面向 SQL、NoSQL 与结构化文件的数据存储测试。
+- [embedded-postgres](https://github.com/fergusstrange/embedded-postgres) - 在 Linux、OSX 或 Windows 上把真实 Postgres 数据库作为另一个 Go 应用或测试的一部分本地运行。
+- [endly](https://github.com/viant/endly) - 声明式端到端功能测试。
+- [envite](https://github.com/PerimeterX/envite) - 开发与测试环境管理框架。
+- [fixenv](https://github.com/rekby/fixenv) - Fixture 管理引擎，灵感源自 pytest fixtures。
+- [flute](https://github.com/suzuki-shunsuke/flute) - HTTP 客户端测试框架。
+- [frisby](https://github.com/verdverm/frisby) - REST API 测试框架。
+- [gherkingen](https://github.com/hedhyw/gherkingen) - BDD 样板代码生成器与框架。
+- [ginkgo](https://onsi.github.io/ginkgo/) - Go 的 BDD 测试框架。
+- [gnomock](https://github.com/orlangure/gnomock) - 在 Docker 中运行真实依赖（数据库、缓存，甚至 Kubernetes 或 AWS）的集成测试，无需 mock。
+- [go-carpet](https://github.com/msoap/go-carpet) - 在终端中查看测试覆盖率的工具。
+- [go-cmp](https://github.com/google/go-cmp) - 用于在测试中比较 Go 值的包。
+- [go-hit](https://github.com/Eun/go-hit) - Hit 是用 golang 编写的 http 集成测试框架。
+- [go-httpbin](https://github.com/mccutchen/go-httpbin) - HTTP 测试与调试工具，提供多种端点用于客户端测试。
+- [go-mutesting](https://github.com/jonbaldie/go-mutesting) - Go 的变异测试，具备 CI 质量门禁、覆盖率感知的 MSI、基线追踪与 git-diff 过滤。
+- [go-mysql-test-container](https://github.com/arikama/go-mysql-test-container) - Golang MySQL testcontainer，助你进行 MySQL 集成测试。
+- [go-snaps](http://github.com/gkampitakis/go-snaps) - Golang 中类 Jest 的快照测试。
+- [go-test-coverage](https://github.com/vladopajic/go-test-coverage) - 报告低于设定阈值的文件覆盖率的工具。
+- [go-testdeep](https://github.com/maxatome/go-testdeep) - 极其灵活的 golang 深度比较，扩展了 go testing 包。
+- [go-testing](https://github.com/tkrop/go-testing) - Go 测试扩展，支持简洁地搭建强隔离的单元、组件与集成测试，并提供进阶 mock 支持（扩展自 gomock 与 gock）。
+- [go-testpredicate](https://github.com/maargenton/go-testpredicate) - 以测试断言式（predicate）风格的断言库，配备详尽的诊断输出。
+- [go-vcr](https://github.com/dnaeon/go-vcr) - 录制并回放你的 HTTP 交互，实现快速、确定且准确的测试。
+- [goblin](https://github.com/franela/goblin) - 类 Mocha 的 Go 测试框架。
+- [goc](https://github.com/qiniu/goc) - Goc 是面向 Go 编程语言的完备覆盖率测试系统。
+- [gocheck](https://labix.org/gocheck) - 比 gotest 更高级的测试框架替代方案。
+- [GoConvey](https://github.com/smartystreets/goconvey/) - BDD 风格框架，带 Web 界面与实时重载。
+- [gocrest](https://github.com/corbym/gocrest) - 为 Go 断言提供的可组合类 hamcrest 匹配器。
+- [godog](https://github.com/cucumber/godog) - Go 的 Cucumber BDD 框架。
+- [gofight](https://github.com/appleboy/gofight) - 面向 Golang 路由框架的 API 处理器测试。
+- [gogiven](https://github.com/corbym/gogiven) - 类 YATSPEC 的 Go BDD 测试框架。
+- [gomatch](https://github.com/jfilipczyk/gomatch) - 为按模式校验 JSON 而创建的库。
+- [gomega](https://onsi.github.io/gomega/) - 类 RSpec 的匹配器/断言库。
+- [gospecify](https://github.com/stesla/gospecify) - 为测试你的 Go 代码提供 BDD 语法。用过 rspec 之类库的人都会觉得熟悉。
+- [gosuite](https://github.com/pavlo/gosuite) - 借助 Go1.7 的 Subtests，为 `testing` 带来带 setup/teardown 设施的轻量测试套件。
+- [got](https://github.com/ysmood/got) - 令人愉悦的 golang 测试框架。
+- [gotest.tools](https://github.com/gotestyourself/gotest.tools) - 一组用于增强 go testing 包并支持常见模式的包。
+- [Hamcrest](https://github.com/rdrdr/hamcrest) - 用于声明式 Matcher 对象的流畅框架，应用到输入值后产生自描述的结果。
+- [httper](https://github.com/gustofarbi/httper) - 用于运行 JetBrains .http 文件的 CLI 运行器，支持脚本、断言、gRPC 与负载测试。
+- [httpexpect](https://github.com/gavv/httpexpect) - 简洁、声明式、易用的端到端 HTTP 与 REST API 测试。
+- [is](https://github.com/matryer/is) - 面向 Go 的专业轻量测试迷你框架。
+- [jsonassert](https://github.com/kinbiko/jsonassert) - 用于校验你的 JSON 载荷是否被正确序列化的包。
+- [keploy](https://github.com/keploy/keploy) - 自动从 API 调用生成测试用例与数据 mock。
+- [omg.testingtools](https://github.com/dedalqq/omg.testingtools) - 用于在测试中修改私有字段值的简单库。
+- [restit](https://github.com/yookoala/restit) - Go 微框架，帮助编写 RESTful API 集成测试。
+- [schema](https://github.com/jgroeneveld/schema) - 快速易用的 JSON schema 表达式匹配，用于请求与响应。
+- [should](https://github.com/Kairum-Labs/should) - 零依赖的测试库，提供详尽的结构体差异对比与人类可读的错误信息。
+- [stop-and-go](https://github.com/elgohr/stop-and-go) - 并发测试辅助工具。
+- [testcase](https://github.com/adamluzsi/testcase) - 行为驱动开发的惯用测试框架。
+- [testcerts](https://github.com/madflojo/testcerts) - 在测试函数中动态生成自签名证书与证书颁发机构。
+- [testcontainers-go](https://github.com/testcontainers/testcontainers-go) - Go 包，让创建与清理基于容器的依赖变得简单，用于自动化集成/冒烟测试。干净易用的 API 让开发者能以编程方式定义测试中应运行的容器，并在测试结束时清理这些资源。
+- [testfixtures](https://github.com/go-testfixtures/testfixtures) - 类 Rails 测试 fixtures 的辅助工具，用于测试数据库应用。
+- [Testify](https://github.com/stretchr/testify) - 标准 go testing 包的 Sacred 扩展。
+- [Testo](https://github.com/ozontech/testo) - 基于插件的测试框架，具备测试套件、并行测试、钩子与参数化。灵感源自 Pytest。
+- [testsql](https://github.com/zhulongcheng/testsql) - 测试前从 SQL 文件生成测试数据，测试结束后清除。
+- [testza](https://github.com/MarvinJWendt/testza) - 功能完备的测试框架，配有精美的彩色输出。
 - [tparse](https://github.com/mfridman/tparse) - CLI tool for summarizing go test output. Pipe friendly. Compatible with go test flags.
 - [trial](https://github.com/jgroeneveld/trial) - Quick and easy extendable assertions without introducing much boilerplate.
 - [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
