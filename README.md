@@ -3143,172 +3143,172 @@ _让开发更轻松的通用工具与库。_
 - [ctop](https://github.com/bcicen/ctop) - 类 [Top](https://ctop.sh) 界面（例如 htop）用于容器指标监控。
 - [ctxutil](https://github.com/posener/ctxutil) - 一组面向 context 的工具函数。
 - [cvt](https://github.com/shockerli/cvt) - 轻松且安全地把任意值转换为另一种类型。
-- [dbt](https://github.com/nikogura/dbt) - A framework for running self-updating signed binaries from a central, trusted repository.
-- [Death](https://github.com/vrecan/death) - Managing go application shutdown with signals.
-- [debounce](https://github.com/floatdrop/debounce) - A zero-allocation debouncer written in Go.
-- [delve](https://github.com/derekparker/delve) - Go debugger.
-- [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a Docker image.
-- [dlog](https://github.com/kirillDanshin/dlog) - Compile-time controlled logger to make your release smaller without removing debug calls.
-- [EaseProbe](https://github.com/megaease/easeprobe) - A simple, standalone, and lightWeight tool that can do health/status checking daemon, support HTTP/TCP/SSH/Shell/Client/... probes, and Slack/Discord/Telegram/SMS... notification.
-- [equalizer](https://github.com/reugn/equalizer) - Quota manager and rate limiter collection for Go.
-- [ergo](https://github.com/cristianoliveira/ergo) - The management of multiple local services running over different ports made easy.
-- [evaluator](https://github.com/nullne/evaluator) - Evaluate an expression dynamically based on s-expression. It's simple and easy to extend.
-- [Failsafe-go](https://github.com/failsafe-go/failsafe-go) - Fault tolerance and resilience patterns for Go.
-- [filetype](https://github.com/h2non/filetype) - Small package to infer the file type checking the magic numbers signature.
-- [filler](https://github.com/yaronsumel/filler) - small utility to fill structs using "fill" tag.
-- [filter](https://github.com/gookit/filter) - provide filtering, sanitizing, and conversion of Go data.
-- [fzf](https://github.com/junegunn/fzf) - Command-line fuzzy finder written in Go.
-- [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
-- [gh-image](https://github.com/drogers0/gh-image) - A gh CLI extension that uploads images to GitHub issues, PRs, and READMEs from the command line, producing user-attachments URLs that respect repository visibility.
-- [ghokin](https://github.com/antham/ghokin) - Parallelized formatter with no external dependencies for gherkin (cucumber, behat...).
-- [git-time-metric](https://github.com/git-time-metric/gtm) - Simple, seamless, lightweight time tracking for Git.
-- [git-tools](https://github.com/kazhuravlev/git-tools) - Tool to help manage git tags.
-- [gitbatch](https://github.com/isacikgoz/gitbatch) - manage your git repositories in one place.
-- [gitcs](https://github.com/knbr13/gitcs/) - Git Commits Visualizer, CLI tool to visualize your Git commits on your local machine.
-- [go-actuator](https://github.com/sinhashubham95/go-actuator) - Production ready features for Go based web frameworks.
-- [go-astitodo](https://github.com/asticode/go-astitodo) - Parse TODOs in your GO code.
-- [go-bind-plugin](https://github.com/wendigo/go-bind-plugin) - go:generate tool for wrapping symbols exported by golang plugins (1.8 only).
-- [go-bsdiff](https://github.com/gabstv/go-bsdiff) - Pure Go bsdiff and bspatch libraries and CLI tools.
-- [go-clip](https://github.com/prashantgupta24/go-clip) - A minimalistic clipboard manager for Mac.
-- [Go-Constant](https://github.com/sajjadrabiee/go-constant) - Generic typed constant sets with safe string parsing for Go's missing enum type.
-- [go-convert](https://github.com/Eun/go-convert) - Package go-convert enables you to convert a value into another type.
-- [go-countries](https://github.com/mikekonan/go-countries) - Lightweight lookup over ISO-3166 codes.
-- [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
-- [go-events](https://github.com/deatil/go-events) - A go event and event'subscribe package, like wordpress hook functions.
-- [go-funk](https://github.com/thoas/go-funk) - Modern Go utility library which provides helpers (map, find, contains, filter, chunk, reverse, ...).
-- [go-health](https://github.com/Talento90/go-health) - Health package simplifies the way you add health check to your services.
-- [go-httpheader](https://github.com/mozillazg/go-httpheader) - Go library for encoding structs into Header fields.
-- [go-lambda-cleanup](https://github.com/karl-cardenas-coding/go-lambda-cleanup) - A CLI for removing unused or previous versions of AWS Lambdas.
-- [go-lock](https://github.com/viney-shih/go-lock) - go-lock is a lock library implementing read-write mutex and read-write trylock without starvation.
-- [go-pattern-match](https://github.com/PhakornKiong/go-pattern-match) - A Pattern matching library inspired by ts-pattern.
-- [go-pkg](https://github.com/chenquan/go-pkg) - A go toolkit.
-- [go-problemdetails](https://github.com/mvmaasakkers/go-problemdetails) - Go package for working with Problem Details.
-- [go-qr](https://github.com/piglig/go-qr) - A native, high-quality and minimalistic QR code generator.
-- [go-rate](https://github.com/beefsack/go-rate) - Timed rate limiter for Go.
-- [go-safecast](https://github.com/ccoVeille/go-safecast) - Safe number type conversion library that prevents integer overflow and underflow (addresses gosec G115 and CWE-190).
-- [go-sitemap-generator](https://github.com/ikeikeikeike/go-sitemap-generator) - XML Sitemap generator written in Go.
-- [go-snk](https://github.com/SharkByteSoftware/go-snk) - Type-safe generic helpers for slices, maps, strings, errors, JSON, HTTP, and containers, organized as small independently adoptable packages.
-- [go-trigger](https://github.com/sadlil/go-trigger) - Go-lang global event triggerer, Register Events with an id and trigger the event from anywhere from your project.
-- [go-tripper](https://github.com/rajnandan1/go-tripper) - Tripper is a circuit breaker package for Go that allows you to circuit and control the status of circuits.
-- [go-type](https://github.com/mikekonan/go-types) - Library providing Go types for store/validation and transfer of ISO-4217, ISO-3166, and other types.
-- [go-utils](https://github.com/Goldziher/go-utils) - Simple, performant generic utilities for Go inspired by JavaScript and Python (map, filter, reduce, and more).
-- [goback](https://github.com/carlescere/goback) - Go simple exponential backoff package.
-- [goctx](https://github.com/zerosnake0/goctx) - Get your context value with high performance.
-- [godaemon](https://github.com/VividCortex/godaemon) - Utility to write daemons.
-- [godoclive](https://github.com/syst3mctl/godoclive) - Generates interactive API documentation from Go HTTP handlers using static analysis of chi, gin, and net/http routers.
-- [godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications from Dropbox.
-- [gofn](https://github.com/tiendc/gofn) - High performance utility functions written using Generics for Go 1.18+.
-- [golarm](https://github.com/msempere/golarm) - Fire alarms with system events.
-- [golog](https://github.com/mlimaloureiro/golog) - Easy and lightweight CLI tool to time track your tasks.
-- [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
-- [goplaceholder](https://github.com/michiwend/goplaceholder) - a small golang lib to generate placeholder images.
-- [goreadability](https://github.com/philipjkim/goreadability) - Webpage summary extractor using Facebook Open Graph and arc90's readability.
-- [goreleaser](https://github.com/goreleaser/goreleaser) - Deliver Go binaries as fast and easily as possible.
-- [goreporter](https://github.com/wgliang/goreporter) - Golang tool that does static analysis, unit testing, code review and generate code quality report.
-- [goseaweedfs](https://github.com/linxGnu/goseaweedfs) - SeaweedFS client library with almost full features.
-- [gostrutils](https://github.com/ik5/gostrutils) - Collections of string manipulation and conversion functions.
-- [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go.
-- [goval](https://github.com/maja42/goval) - Evaluate arbitrary expressions in Go.
-- [graterm](https://github.com/skovtunenko/graterm) - Provides primitives to perform ordered (sequential/concurrent) GRAceful TERMination (aka shutdown) in Go application.
-- [grofer](https://github.com/pesos/grofer) - A system and resource monitoring tool written in Golang!
-- [gubrak](https://github.com/novalagung/gubrak) - Golang utility library with syntactic sugar. It's like lodash, but for golang.
-- [handy](https://github.com/miguelpragier/handy) - Many utilities and helpers like string handlers/formatters and validators.
-- [healthcheck](https://github.com/kazhuravlev/healthcheck) - A simple yet powerful readiness test for Kubernetes.
-- [hostctl](https://github.com/guumaster/hostctl) - A CLI tool to manage /etc/hosts with easy commands.
-- [htcat](https://github.com/htcat/htcat) - Parallel and Pipelined HTTP GET Utility.
-- [hub](https://github.com/github/hub) - wrap git commands with additional functionality to interact with github from the terminal.
-- [immortal](https://github.com/immortal/immortal) - \*nix cross-platform (OS agnostic) supervisor.
-- [jet](https://github.com/NicoNex/jet) - Just Edit Text: a fast and powerful tool for finding and replacing file content and names using regular expressions.
-- [jsend](https://github.com/clevergo/jsend) - JSend's implementation written in Go.
-- [json-log-viewer](https://github.com/hedhyw/json-log-viewer) - Interactive viewer for JSON logs.
-- [jump](https://github.com/gsamokovarov/jump) - Jump helps you navigate faster by learning your habits.
-- [just](https://github.com/kazhuravlev/just) - Just a collection of useful functions for working with generic data structures.
-- [koazee](https://github.com/wesovilabs/koazee) - Library inspired in Lazy evaluation and functional programming that takes the hassle out of working with arrays.
-- [LAN Orangutan](https://github.com/291-Group/LAN-Orangutan) - Network device discovery and inventory with persistent labeling, multi-network scanning, and Tailscale integration.
-- [lang](https://github.com/maxbolgarin/lang) - Generic one-liners to work with variables, slices and maps without boilerplate code.
-- [lets-go](https://github.com/aplescia-chwy/lets-go) - Go module that provides common utilities for Cloud Native REST API development. Also contains AWS Specific utilities.
-- [limiters](https://github.com/mennanov/limiters) - Rate limiters for distributed applications in Golang with configurable back-ends and distributed locks.
-- [lo](https://github.com/samber/lo) - A Lodash like Go library based on Go 1.18+ Generics (map, filter, contains, find...)
-- [loncha](https://github.com/kazu/loncha) - A high-performance slice Utilities.
-- [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go.
-- [mani](https://github.com/alajmo/mani) - CLI tool to help you manage multiple repositories.
-- [mc](https://github.com/minio/mc) - Minio Client provides minimal tools to work with Amazon S3 compatible cloud storage and filesystems.
-- [mergo](https://github.com/imdario/mergo) - Helper to merge structs and maps in Golang. Useful for configuration default values, avoiding messy if-statements.
-- [mimemagic](https://github.com/zRedShift/mimemagic) - Pure Go ultra performant MIME sniffing library/utility.
-- [mimetype](https://github.com/gabriel-vasile/mimetype) - Package for MIME type detection based on magic numbers.
-- [minify](https://github.com/tdewolff/minify) - Fast minifiers for HTML, CSS, JS, XML, JSON and SVG file formats.
-- [minquery](https://github.com/icza/minquery) - MongoDB / mgo.v2 query that supports efficient pagination (cursors to continue listing documents where we left off).
-- [moldova](https://github.com/StabbyCutyou/moldova) - Utility for generating random data based on an input template.
-- [mole](https://github.com/davrodpin/mole) - cli app to easily create ssh tunnels.
-- [mongo-go-pagination](https://github.com/gobeam/mongo-go-pagination) - Mongodb Pagination for official mongodb/mongo-go-driver package which supports both normal queries and Aggregation pipelines.
-- [mssqlx](https://github.com/linxGnu/mssqlx) - Database client library, proxy for any master slave, master master structures. Lightweight and auto balancing in mind.
-- [multitick](https://github.com/VividCortex/multitick) - Multiplexor for aligned tickers.
-- [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
-- [nfdump](https://github.com/chrispassas/nfdump) - Read nfdump netflow files.
-- [nostromo](https://github.com/pokanop/nostromo) - CLI for building powerful aliases.
-- [okrun](https://github.com/xta/okrun) - go run error steamroller.
-- [olaf](https://github.com/btnguyen2k/olaf) - Twitter Snowflake implemented in Go.
-- [onecache](https://github.com/adelowo/onecache) - Caching library with support for multiple backend stores (Redis, Memcached, filesystem etc).
-- [optional](https://github.com/kazhuravlev/optional) - Optional struct fields and vars.
-- [panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump.
-- [pattern-match](https://github.com/alexpantyukhin/go-pattern-match) - Pattern matching library.
-- [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool.
-- [pgo](https://github.com/arthurkushman/pgo) - Convenient functions for PHP community.
-- [pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API.
-- [pointer](https://github.com/xorcare/pointer) - Package pointer contains helper routines for simplifying the creation of optional fields of basic type.
-- [ptr](https://github.com/gotidy/ptr) - Package that provide functions for simplified creation of pointers from constants of basic types.
-- [rate](https://github.com/webriots/rate) - High-performance rate limiting library with token bucket and AIMD strategies.
-- [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
-- [release](https://github.com/tomodian/release) - CLI for Keep-a-changelog formatted changelogs.
-- [relimpact](https://github.com/hashmap-kz/relimpact) - Fast API compatibility reports for Go projects.
-- [remote-touchpad](https://github.com/Unrud/remote-touchpad) - Control mouse and keyboard from a smartphone.
-- [repeat](https://github.com/ssgreg/repeat) - Go implementation of different backoff strategies useful for retrying operations and heartbeating.
-- [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
-- [rerun](https://github.com/ivpusic/rerun) - Recompiling and rerunning go apps when source changes.
-- [rest-go](https://github.com/edermanoel94/rest-go) - A package that provide many helpful methods for working with rest api.
-- [retro](https://github.com/goioc/retro) - Handy retry-on-error library with extensive flexibility (backoff strategies, caps, etc).
-- [retry](https://github.com/kamilsk/retry) - The most advanced functional mechanism to perform actions repetitively until successful.
-- [retry](https://github.com/percolate/retry) - A simple but highly configurable retry package for Go.
-- [retry](https://github.com/thedevsaddam/retry) - Simple and easy retry mechanism package for Go.
-- [retry](https://github.com/shafreeck/retry) - A pretty simple library to ensure your work to be done.
-- [retry-go](https://github.com/avast/retry-go) - Simple library for retry mechanism.
-- [retry-go](https://github.com/rafaeljesus/retry-go) - Retrying made simple and easy for golang.
-- [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics.
-- [rospo](https://github.com/ferama/rospo) - Simple and reliable ssh tunnels with embedded ssh server in Golang.
-- [scan](https://github.com/blockloop/scan) - Scan golang `sql.Rows` directly to structs, slices, or primitive types.
-- [scan](https://github.com/wroge/scan) - Scan sql rows into any type powered by generics.
-- [scany](https://github.com/georgysavva/scany) - Library for scanning data from a database into Go structs and more.
-- [serve](https://github.com/syntaqx/serve) - A static http server anywhere you need.
-- [sesh](https://github.com/joshmedeski/sesh) - Sesh is a CLI that helps you create and manage tmux sessions quickly and easily using zoxide.
-- [set](https://github.com/nofeaturesonlybugs/set) - Performant and flexible struct mapping and loose type conversion.
-- [shutdown](https://github.com/ztrue/shutdown) - App shutdown hooks for `os.Signal` handling.
-- [silk](https://github.com/chrispassas/silk) - Read silk netflow files.
-- [slice](https://github.com/psampaz/slice) - Type-safe functions for common Go slice operations.
-- [sliceconv](https://github.com/Henry-Sarabia/sliceconv) - Slice conversion between primitive types.
-- [slicer](https://github.com/leaanthony/slicer) - Makes working with slices easier.
-- [sorty](https://github.com/jfcg/sorty) - Fast Concurrent / Parallel Sorting.
-- [sqlex](https://github.com/go-sqlex/sqlex) - Drop-in modernization of jmoiron/sqlx with fixed SQL lexer bugs, automatic IN-clause expansion, pluggable hooks, and unified DB/Tx/Conn interfaces.
-- [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
-- [sqlz](https://github.com/rfberaldo/sqlz) - Extension for the database/sql package, adding named queries, struct scanning, and batch operations.
-- [sshman](https://github.com/shoobyban/sshman) - SSH Manager for authorized_keys files on multiple remote servers.
-- [stacktower](https://github.com/stacktower-io/stacktower) - Visualize dependency graphs as physical tower structures, inspired by XKCD #2347.
-- [statiks](https://github.com/janiltonmaciel/statiks) - Fast, zero-configuration, static HTTP filer server.
-- [Storm](https://github.com/asdine/storm) - Simple and powerful toolkit for BoltDB.
-- [structs](https://github.com/PumpkinSeed/structs) - Implement simple functions to manipulate structs.
-- [throttle](https://github.com/yudppp/throttle) - Throttle is an object that will perform exactly one action per duration.
-- [tik](https://github.com/andy2046/tik) - Simple and easy timing wheel package for Go.
-- [tome](https://github.com/cyruzin/tome) - Tome was designed to paginate simple RESTful APIs.
-- [toolbox](https://github.com/viant/toolbox) - Slice, map, multimap, struct, function, data conversion utilities. Service router, macro evaluator, tokenizer.
-- [UNIS](https://github.com/esemplastic/unis) - Common Architecture™ for String Utilities in Go.
-- [upterm](https://github.com/owenthereal/upterm) - A tool for developers to share terminal/tmux sessions securely over the web. It’s perfect for remote pair programming, accessing computers behind NATs/firewalls, remote debugging, and more.
-- [usql](https://github.com/knq/usql) - usql is a universal command-line interface for SQL databases.
-- [util](https://github.com/shomali11/util) - Collection of useful utility functions. (strings, concurrency, manipulations, ...).
-- [watchhttp](https://github.com/nikolaydubina/watchhttp) - Run command periodically and expose latest STDOUT or its rich delta as HTTP endpoint.
-- [wifiqr](https://github.com/reugn/wifiqr) - Wi-Fi QR Code Generator.
-- [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection.
-- [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy provides binary diff and patch library in golang.
-- [xpool](https://github.com/peczenyj/xpool) - Yet another golang type safe object pool using generics.
-- [yogo](https://github.com/antham/yogo) - Check yopmail mails from command line.
+- [dbt](https://github.com/nikogura/dbt) - 用于从中心化可信仓库运行自更新签名二进制文件的框架。
+- [Death](https://github.com/vrecan/death) - 用信号管理 Go 应用的停机。
+- [debounce](https://github.com/floatdrop/debounce) - 用 Go 编写的零分配防抖器。
+- [delve](https://github.com/derekparker/delve) - Go 调试器。
+- [dive](https://github.com/wagoodman/dive) - 用于逐层探索 Docker 镜像的工具。
+- [dlog](https://github.com/kirillDanshin/dlog) - 编译期受控的日志器，无需移除调试调用即可让发布体积更小。
+- [EaseProbe](https://github.com/megaease/easeprobe) - 简单独立、轻量的守护进程健康/状态检查工具，支持 HTTP/TCP/SSH/Shell/Client 等探针，以及 Slack/Discord/Telegram/短信等通知。
+- [equalizer](https://github.com/reugn/equalizer) - Go 的配额管理与限流器合集。
+- [ergo](https://github.com/cristianoliveira/ergo) - 轻松管理运行在不同端口上的多个本地服务。
+- [evaluator](https://github.com/nullne/evaluator) - 基于 s-expression 动态求值表达式。简单且易于扩展。
+- [Failsafe-go](https://github.com/failsafe-go/failsafe-go) - Go 的容错与弹性设计模式。
+- [filetype](https://github.com/h2non/filetype) - 通过检查魔术数字签名来推断文件类型的小包。
+- [filler](https://github.com/yaronsumel/filler) - 使用 fill 标签填充结构体的小工具。
+- [filter](https://github.com/gookit/filter) - 提供 Go 数据的过滤、清洗与转换。
+- [fzf](https://github.com/junegunn/fzf) - 用 Go 编写的命令行模糊查找器。
+- [generate](https://github.com/go-playground/generate) - 在指定路径或环境变量上递归执行 go generate，并可按正则过滤。
+- [gh-image](https://github.com/drogers0/gh-image) - gh CLI 扩展，可从命令行把图片上传到 GitHub issue、PR 与 README，生成遵循仓库可见性的用户附件 URL。
+- [ghokin](https://github.com/antham/ghokin) - 用于 gherkin（cucumber、behat 等）的并行格式化器，无外部依赖。
+- [git-time-metric](https://github.com/git-time-metric/gtm) - 为 Git 提供的简单、无缝、轻量的工时追踪。
+- [git-tools](https://github.com/kazhuravlev/git-tools) - 帮助管理 git 标签的工具。
+- [gitbatch](https://github.com/isacikgoz/gitbatch) - 把 git 仓库集中管理在一处。
+- [gitcs](https://github.com/knbr13/gitcs/) - Git 提交可视化器，命令行工具，可在本地机器上可视化你的 Git 提交。
+- [go-actuator](https://github.com/sinhashubham95/go-actuator) - 为基于 Go 的 Web 框架提供的生产就绪能力。
+- [go-astitodo](https://github.com/asticode/go-astitodo) - 解析 Go 代码中的 TODO。
+- [go-bind-plugin](https://github.com/wendigo/go-bind-plugin) - go:generate 工具，用于封装 golang 插件导出的符号（仅支持 1.8）。
+- [go-bsdiff](https://github.com/gabstv/go-bsdiff) - 纯 Go 的 bsdiff 与 bspatch 库及命令行工具。
+- [go-clip](https://github.com/prashantgupta24/go-clip) - Mac 上极简的剪贴板管理器。
+- [Go-Constant](https://github.com/sajjadrabiee/go-constant) - 泛型类型化常量集合，为 Go 补上缺失的枚举类型，并提供安全的字符串解析。
+- [go-convert](https://github.com/Eun/go-convert) - go-convert 包让你把一个值转换为另一种类型。
+- [go-countries](https://github.com/mikekonan/go-countries) - 基于 ISO-3166 代码的轻量查询。
+- [go-dry](https://github.com/ungerik/go-dry) - Go 的 DRY（不要重复自己）包。
+- [go-events](https://github.com/deatil/go-events) - Go 的事件与事件订阅包，类似 WordPress 的钩子函数。
+- [go-funk](https://github.com/thoas/go-funk) - 现代化的 Go 工具库，提供 map、find、contains、filter、chunk、reverse 等辅助函数。
+- [go-health](https://github.com/Talento90/go-health) - health 包简化了为服务添加健康检查的方式。
+- [go-httpheader](https://github.com/mozillazg/go-httpheader) - 用于把结构体编码到 Header 字段的 Go 库。
+- [go-lambda-cleanup](https://github.com/karl-cardenas-coding/go-lambda-cleanup) - 用于删除未使用或旧版本 AWS Lambda 的命令行工具。
+- [go-lock](https://github.com/viney-shih/go-lock) - go-lock 是一个锁库，实现读写互斥锁与无饥饿的读写 trylock。
+- [go-pattern-match](https://github.com/PhakornKiong/go-pattern-match) - 受 ts-pattern 启发的模式匹配库。
+- [go-pkg](https://github.com/chenquan/go-pkg) - 一套 Go 工具箱。
+- [go-problemdetails](https://github.com/mvmaasakkers/go-problemdetails) - 用于处理 Problem Details 的 Go 包。
+- [go-qr](https://github.com/piglig/go-qr) - 原生、高品质且极简的二维码生成器。
+- [go-rate](https://github.com/beefsack/go-rate) - Go 的定时限流器。
+- [go-safecast](https://github.com/ccoVeille/go-safecast) - 安全的数值类型转换库，防止整数溢出与下溢（应对 gosec G115 与 CWE-190）。
+- [go-sitemap-generator](https://github.com/ikeikeikeike/go-sitemap-generator) - 用 Go 编写的 XML Sitemap 生成器。
+- [go-snk](https://github.com/SharkByteSoftware/go-snk) - 面向切片、映射、字符串、错误、JSON、HTTP 与容器的类型安全泛型辅助函数，组织为可独立引入的小包。
+- [go-trigger](https://github.com/sadlil/go-trigger) - Go 的全局事件触发器，可注册带 id 的事件，并在项目任意位置触发该事件。
+- [go-tripper](https://github.com/rajnandan1/go-tripper) - Tripper 是 Go 的熔断器包，允许你熔断电路并控制电路状态。
+- [go-type](https://github.com/mikekonan/go-types) - 提供 Go 类型以存储/校验/传输 ISO-4217、ISO-3166 等数据的库。
+- [go-utils](https://github.com/Goldziher/go-utils) - 受 JavaScript 与 Python 启发的简单高性能泛型工具（map、filter、reduce 等）。
+- [goback](https://github.com/carlescere/goback) - Go 的简易指数退避包。
+- [goctx](https://github.com/zerosnake0/goctx) - 高性能获取你的 context 值。
+- [godaemon](https://github.com/VividCortex/godaemon) - 用于编写守护进程的工具。
+- [godoclive](https://github.com/syst3mctl/godoclive) - 通过静态分析 chi、gin 与 net/http 路由器，从 Go HTTP 处理器生成交互式 API 文档。
+- [godropbox](https://github.com/dropbox/godropbox) - 来自 Dropbox 的用于编写 Go 服务/应用的常用库。
+- [gofn](https://github.com/tiendc/gofn) - 用泛型为 Go 1.18+ 编写的高性能工具函数。
+- [golarm](https://github.com/msempere/golarm) - 基于系统事件的火警。
+- [golog](https://github.com/mlimaloureiro/golog) - 轻松轻量的 CLI 工具，用于给任务计工时。
+- [gopencils](https://github.com/bndr/gopencils) - 小巧简洁的包，便于消费 REST API。
+- [goplaceholder](https://github.com/michiwend/goplaceholder) - 用于生成占位图片的小型 golang 库。
+- [goreadability](https://github.com/philipjkim/goreadability) - 利用 Facebook Open Graph 与 arc90 的 readability 提取网页摘要。
+- [goreleaser](https://github.com/goreleaser/goreleaser) - 尽最快、最轻松地交付 Go 二进制文件。
+- [goreporter](https://github.com/wgliang/goreporter) - Golang 工具，执行静态分析、单元测试、代码评审并生成代码质量报告。
+- [goseaweedfs](https://github.com/linxGnu/goseaweedfs) - 功能近乎完备的 SeaweedFS 客户端库。
+- [gostrutils](https://github.com/ik5/gostrutils) - 字符串操作与转换函数合集。
+- [gotenv](https://github.com/subosito/gotenv) - 在 Go 中从 `.env` 或任意 `io.Reader` 加载环境变量。
+- [goval](https://github.com/maja42/goval) - 在 Go 中求值任意表达式。
+- [graterm](https://github.com/skovtunenko/graterm) - 提供在 Go 应用中执行有序（串行/并发）优雅停机（aka shutdown）的基础原语。
+- [grofer](https://github.com/pesos/grofer) - 用 Golang 编写的系统与资源监控工具！
+- [gubrak](https://github.com/novalagung/gubrak) - 带语法糖的 Golang 工具库。就像 lodash，只不过是给 golang 用的。
+- [handy](https://github.com/miguelpragier/handy) - 大量实用工具与辅助函数，如字符串处理器/格式化器与校验器。
+- [healthcheck](https://github.com/kazhuravlev/healthcheck) - 面向 Kubernetes 简单却强大的就绪测试。
+- [hostctl](https://github.com/guumaster/hostctl) - 用简单命令管理 /etc/hosts 的命令行工具。
+- [htcat](https://github.com/htcat/htcat) - 并行且流水线的 HTTP GET 工具。
+- [hub](https://github.com/github/hub) - 封装 git 命令并附加功能，以便在终端中与 github 交互。
+- [immortal](https://github.com/immortal/immortal) - \*nix 跨平台（与操作系统无关）的进程监管器。
+- [jet](https://github.com/NicoNex/jet) - Just Edit Text：一个快速强大的工具，用正则表达式查找并替换文件内容与文件名。
+- [jsend](https://github.com/clevergo/jsend) - 用 Go 编写的 JSend 实现。
+- [json-log-viewer](https://github.com/hedhyw/json-log-viewer) - JSON 日志的交互式查看器。
+- [jump](https://github.com/gsamokovarov/jump) - Jump 通过学习你的习惯帮你更快地导航。
+- [just](https://github.com/kazhuravlev/just) - 只是一组用于处理泛型数据结构的实用函数。
+- [koazee](https://github.com/wesovilabs/koazee) - 受惰性求值与函数式编程启发的库，把处理数组的麻烦事一并解决。
+- [LAN Orangutan](https://github.com/291-Group/LAN-Orangutan) - 网络设备发现与资产清点，具备持久标签、多网络扫描与 Tailscale 集成。
+- [lang](https://github.com/maxbolgarin/lang) - 无需样板代码即可操作变量、切片与映射的泛化单行工具。
+- [lets-go](https://github.com/aplescia-chwy/lets-go) - Go 模块，为云原生 REST API 开发提供常用工具，同时也包含 AWS 专用工具。
+- [limiters](https://github.com/mennanov/limiters) - Golang 中面向分布式应用的限流器，具备可配置后端与分布式锁。
+- [lo](https://github.com/samber/lo) - 基于 Go 1.18+ 泛型的类 Lodash 的 Go 库（map、filter、contains、find……）
+- [loncha](https://github.com/kazu/loncha) - 高性能的切片工具集。
+- [lrserver](https://github.com/jaschaephraim/lrserver) - Go 的 LiveReload 服务器。
+- [mani](https://github.com/alajmo/mani) - 帮助你管理多个仓库的命令行工具。
+- [mc](https://github.com/minio/mc) - Minio Client 提供处理兼容 Amazon S3 的云存储与文件系统的最小工具集。
+- [mergo](https://github.com/imdario/mergo) - 在 Golang 中合并结构体与映射的辅助工具。适合用于配置默认值，避免杂乱的 if 语句。
+- [mimemagic](https://github.com/zRedShift/mimemagic) - 纯 Go 超高性能的 MIME 嗅探库/工具。
+- [mimetype](https://github.com/gabriel-vasile/mimetype) - 基于魔术数字进行 MIME 类型检测的包。
+- [minify](https://github.com/tdewolff/minify) - 面向 HTML、CSS、JS、XML、JSON 与 SVG 文件格式的快速压缩工具。
+- [minquery](https://github.com/icza/minquery) - MongoDB / mgo.v2 查询，支持高效分页（用游标延续上次中断处的文档列举）。
+- [moldova](https://github.com/StabbyCutyou/moldova) - 基于输入模板生成随机数据的工具。
+- [mole](https://github.com/davrodpin/mole) - 轻松创建 SSH 隧道的命令行应用。
+- [mongo-go-pagination](https://github.com/gobeam/mongo-go-pagination) - 面向官方 mongodb/mongo-go-driver 包的 MongoDB 分页，同时支持普通查询与聚合管道。
+- [mssqlx](https://github.com/linxGnu/mssqlx) - 数据库客户端库，可作为任意主从/双主结构的代理。轻量且以自动均衡为设计目标。
+- [multitick](https://github.com/VividCortex/multitick) - 面向对齐 ticker 的多路复用器。
+- [netbug](https://github.com/e-dard/netbug) - 轻松对你的服务做远程性能剖析。
+- [nfdump](https://github.com/chrispassas/nfdump) - 读取 nfdump netflow 文件。
+- [nostromo](https://github.com/pokanop/nostromo) - 用于构建强大别名的命令行工具。
+- [okrun](https://github.com/xta/okrun) - go run 错误清道夫。
+- [olaf](https://github.com/btnguyen2k/olaf) - 用 Go 实现的 Twitter Snowflake。
+- [onecache](https://github.com/adelowo/onecache) - 支持多后端存储（Redis、Memcached、文件系统等）的缓存库。
+- [optional](https://github.com/kazhuravlev/optional) - 可选的结构体字段与变量。
+- [panicparse](https://github.com/maruel/panicparse) - 把相似的 goroutine 分组，并对栈转储着色。
+- [pattern-match](https://github.com/alexpantyukhin/go-pattern-match) - 模式匹配库。
+- [peco](https://github.com/peco/peco) - 极简的交互式过滤工具。
+- [pgo](https://github.com/arthurkushman/pgo) - 面向 PHP 社区的便捷函数。
+- [pm](https://github.com/VividCortex/pm) - 进程（即 goroutine）管理器，带 HTTP API。
+- [pointer](https://github.com/xorcare/pointer) - pointer 包包含若干辅助函数，简化基本类型可选字段的创建。
+- [ptr](https://github.com/gotidy/ptr) - 提供从基本类型常量简化创建指针的函数的包。
+- [rate](https://github.com/webriots/rate) - 高性能限流库，具备令牌桶与 AIMD 策略。
+- [rclient](https://github.com/zpatrick/rclient) - 可读、灵活、易用的 REST API 客户端。
+- [release](https://github.com/tomodian/release) - 用于生成 Keep-a-changelog 格式变更日志的命令行工具。
+- [relimpact](https://github.com/hashmap-kz/relimpact) - 面向 Go 项目的快速 API 兼容性报告。
+- [remote-touchpad](https://github.com/Unrud/remote-touchpad) - 用智能手机控制鼠标与键盘。
+- [repeat](https://github.com/ssgreg/repeat) - Go 实现的各种退避策略，可用于操作重试与心跳。
+- [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™。
+- [rerun](https://github.com/ivpusic/rerun) - 源码变化时重新编译并重跑 Go 应用。
+- [rest-go](https://github.com/edermanoel94/rest-go) - 提供许多实用方法以处理 REST API 的包。
+- [retro](https://github.com/goioc/retro) - 便捷的重试出错库，具备极高的灵活性（退避策略、上限等）。
+- [retry](https://github.com/kamilsk/retry) - 最先进的功能机制，可重复执行动作直至成功。
+- [retry](https://github.com/percolate/retry) - Go 的简易且高度可配置的重试包。
+- [retry](https://github.com/thedevsaddam/retry) - Go 简单易用的重试机制包。
+- [retry](https://github.com/shafreeck/retry) - 一个相当简单的库，确保你的工作能完成。
+- [retry-go](https://github.com/avast/retry-go) - 简单的重试机制库。
+- [retry-go](https://github.com/rafaeljesus/retry-go) - 让 golang 的重试变得简单轻松。
+- [robustly](https://github.com/VividCortex/robustly) - 弹性运行函数，捕获并重启 panic。
+- [rospo](https://github.com/ferama/rospo) - Golang 中内嵌 ssh 服务器的简单可靠 SSH 隧道。
+- [scan](https://github.com/blockloop/scan) - 直接把 golang 的 `sql.Rows` 扫描到结构体、切片或基本类型。
+- [scan](https://github.com/wroge/scan) - 借助泛型把 sql 行扫描进任意类型。
+- [scany](https://github.com/georgysavva/scany) - 用于把数据库中的数据扫描进 Go 结构体等目标的库。
+- [serve](https://github.com/syntaqx/serve) - 在你需要的任何地方都能起一个静态 http 服务器。
+- [sesh](https://github.com/joshmedeski/sesh) - Sesh 是一个 CLI，借助 zoxide 帮你快速便捷地创建与管理 tmux 会话。
+- [set](https://github.com/nofeaturesonlybugs/set) - 高性能且灵活的结构体映射与宽松类型转换。
+- [shutdown](https://github.com/ztrue/shutdown) - 用于 `os.Signal` 处理的应用停机钩子。
+- [silk](https://github.com/chrispassas/silk) - 读取 silk netflow 文件。
+- [slice](https://github.com/psampaz/slice) - 面向常见 Go 切片操作的类型安全函数。
+- [sliceconv](https://github.com/Henry-Sarabia/sliceconv) - 基本类型之间的切片转换。
+- [slicer](https://github.com/leaanthony/slicer) - 让切片处理更轻松。
+- [sorty](https://github.com/jfcg/sorty) - 快速的并发/并行排序。
+- [sqlex](https://github.com/go-sqlex/sqlex) - 对 jmoiron/sqlx 的直接替换式现代化升级，修复了 SQL 词法分析器缺陷，支持 IN 子句自动展开、可插拔钩子，以及统一的 DB/Tx/Conn 接口。
+- [sqlx](https://github.com/jmoiron/sqlx) - 在优秀的内置 database/sql 包之上提供一组扩展。
+- [sqlz](https://github.com/rfberaldo/sqlz) - database/sql 包的扩展，添加命名查询、结构体扫描与批量操作。
+- [sshman](https://github.com/shoobyban/sshman) - 面向多台远程服务器 authorized_keys 文件的 SSH 管理器。
+- [stacktower](https://github.com/stacktower-io/stacktower) - 把依赖图可视化为物理塔式结构，灵感源自 XKCD #2347。
+- [statiks](https://github.com/janiltonmaciel/statiks) - 快速、零配置的静态 HTTP 文件服务器。
+- [Storm](https://github.com/asdine/storm) - 简单强大的 BoltDB 工具包。
+- [structs](https://github.com/PumpkinSeed/structs) - 实现操作结构体的简单函数。
+- [throttle](https://github.com/yudppp/throttle) - Throttle 是一个每段时长只执行一次指定动作的对象。
+- [tik](https://github.com/andy2046/tik) - Go 简单易用的时间轮包。
+- [tome](https://github.com/cyruzin/tome) - Tome 的设计初衷是给简单的 RESTful API 做分页。
+- [toolbox](https://github.com/viant/toolbox) - 切片、映射、多重映射、结构体、函数与数据转换工具。服务路由、宏求值器、分词器。
+- [UNIS](https://github.com/esemplastic/unis) - Go 字符串工具的 Common Architecture™。
+- [upterm](https://github.com/owenthereal/upterm) - 帮助开发者安全地通过网络共享终端/tmux 会话的工具。非常适合远程结对编程、访问 NAT/防火墙后的电脑、远程调试等场景。
+- [usql](https://github.com/knq/usql) - usql 是面向 SQL 数据库的通用命令行界面。
+- [util](https://github.com/shomali11/util) - 实用工具函数合集。（字符串、并发、操作等。）
+- [watchhttp](https://github.com/nikolaydubina/watchhttp) - 周期性运行命令，并把最新 STDOUT 或其丰富的增量作为 HTTP 端点暴露出来。
+- [wifiqr](https://github.com/reugn/wifiqr) - Wi-Fi 二维码生成器。
+- [wuzz](https://github.com/asciimoo/wuzz) - 用于 HTTP 检查的交互式命令行工具。
+- [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy 在 golang 中提供二进制 diff 与 patch 库。
+- [xpool](https://github.com/peczenyj/xpool) - 又一个使用泛型的 golang 类型安全对象池。
+- [yogo](https://github.com/antham/yogo) - 在命令行中检查 yopmail 邮箱。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -3317,20 +3317,20 @@ _让开发更轻松的通用工具与库。_
 
 _用于处理 UUID 的库。_
 
-- [fastuuid](https://github.com/rekby/fastuuid) - Fast generate UUIDv4 as string or bytes.
-- [goid](https://github.com/jakehl/goid) - Generate and Parse RFC4122 compliant V4 UUIDs.
-- [gouid](https://github.com/twharmon/gouid) - Generate cryptographically secure random string IDs with just one allocation.
-- [guid](https://github.com/sdrapkin/guid) - Fast cryptographically safe Guid generator for Go (~10x faster than `uuid`).
-- [nanoid](https://github.com/aidarkhanov/nanoid) - A tiny and efficient Go unique string ID generator.
-- [sno](https://github.com/muyo/sno) - Compact, sortable and fast unique IDs with embedded metadata.
-- [ulid](https://github.com/oklog/ulid) - Go implementation of ULID (Universally Unique Lexicographically Sortable Identifier).
-- [uniq](https://gitlab.com/skilstak/code/go/uniq) - No hassle safe, fast unique identifiers with commands.
-- [uuid](https://github.com/agext/uuid) - Generate, encode, and decode UUIDs v1 with fast or cryptographic-quality random node identifier.
-- [uuid](https://github.com/gofrs/uuid) - Implementation of Universally Unique Identifier (UUID). Supports both creation and parsing of UUIDs. Actively maintained fork of satori uuid.
-- [uuid](https://github.com/google/uuid) - Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication and Security Services.
-- [uuidcheck](https://github.com/ashwingopalsamy/uuidcheck) - A tiny, dependency-free Go library that validates UUIDs against standard RFC 4122 formatting, converts UUIDv7() into UTC timestamps.
-- [wuid](https://github.com/edwingeng/wuid) - An extremely fast globally unique number generator.
-- [xid](https://github.com/rs/xid) - Xid is a globally unique id generator library, ready to be safely used directly in your server code.
+- [fastuuid](https://github.com/rekby/fastuuid) - 快速生成 UUIDv4 字符串或字节序列。
+- [goid](https://github.com/jakehl/goid) - 生成并解析符合 RFC4122 的 V4 UUID。
+- [gouid](https://github.com/twharmon/gouid) - 仅一次分配即可生成密码学安全的随机字符串 ID。
+- [guid](https://github.com/sdrapkin/guid) - Go 的快速密码学安全 Guid 生成器（比 `uuid` 快约 10 倍）。
+- [nanoid](https://github.com/aidarkhanov/nanoid) - 一个微小高效的 Go 唯一字符串 ID 生成器。
+- [sno](https://github.com/muyo/sno) - 紧凑、可排序且快速的唯一 ID，内嵌元数据。
+- [ulid](https://github.com/oklog/ulid) - ULID（通用唯一字典序可排序标识符）的 Go 实现。
+- [uniq](https://gitlab.com/skilstak/code/go/uniq) - 省心、安全、快速的唯一标识符，并附带命令。
+- [uuid](https://github.com/agext/uuid) - 生成、编码与解码 UUID v1，支持快速或密码学质量的随机节点标识符。
+- [uuid](https://github.com/gofrs/uuid) - 通用唯一标识符（UUID）的实现。支持 UUID 的创建与解析。是 satori uuid 的活跃维护分支。
+- [uuid](https://github.com/google/uuid) - 基于 RFC 4122 与 DCE 1.1（认证与安全服务）的 Go UUID 包。
+- [uuidcheck](https://github.com/ashwingopalsamy/uuidcheck) - 微小、零依赖的 Go 库，可按 RFC 4122 标准格式校验 UUID，并把 UUIDv7() 转换为 UTC 时间戳。
+- [wuid](https://github.com/edwingeng/wuid) - 极速的全局唯一数字生成器。
+- [xid](https://github.com/rs/xid) - Xid 是一个全局唯一 id 生成库，可安全地直接用于你的服务器代码。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -3339,24 +3339,24 @@ _用于处理 UUID 的库。_
 
 _用于数据校验的库。_
 
-- [checkdigit](https://github.com/osamingo/checkdigit) - Provide check digit algorithms (Luhn, Verhoeff, Damm) and calculators (ISBN, EAN, JAN, UPC, etc.).
-- [checker](https://github.com/cinar/checker) - Zero-dependency input validation and in-place normalization with struct tags, 23 locales, and JSON Schema generation.
-- [go-validator](https://github.com/tiendc/go-validator) - Validation library using Generics.
-- [gody](https://github.com/guiferpa/gody) - :balloon: A lightweight struct validator for Go.
-- [govalid](https://github.com/twharmon/govalid) - Fast, tag-based validation for structs.
-- [govalidator](https://github.com/asaskevich/govalidator) - Validators and sanitizers for strings, numerics, slices and structs.
-- [govalidator](https://github.com/thedevsaddam/govalidator) - Validate Golang request data with simple rules. Highly inspired by Laravel's request validation.
-- [govy](https://github.com/nobl9/govy) - strongly-typed validation rules over functional interface, powered by generics and reflection free with heavy focus on crafting clear and information-rich error messages.
-- [hvalid](https://github.com/lyonnee/hvalid) hvalid is a lightweight validation library written in Go language. It provides a custom validator interface and a series of common validation functions to help developers quickly implement data validation.
-- [jio](https://github.com/faceair/jio) - jio is a json schema validator similar to [joi](https://github.com/hapijs/joi).
-- [ozzo-validation](https://github.com/go-ozzo/ozzo-validation) - Supports validation of various data types (structs, strings, maps, slices, etc.) with configurable and extensible validation rules specified in usual code constructs instead of struct tags.
-- [validate](https://github.com/gookit/validate) - Go package for data validation and filtering. support validate Map, Struct, Request(Form, JSON, url.Values, Uploaded Files) data and more features.
-- [validate](https://github.com/gobuffalo/validate) - This package provides a framework for writing validations for Go applications.
-- [validator](https://github.com/go-playground/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving.
-- [Validator](https://github.com/go-the-way/validator) - A lightweight model validator written in Go.Contains VFs:Min, Max, MinLength, MaxLength, Length, Enum, Regex.
-- [valix](https://github.com/marrow16/valix) Go package for validating requests
-- [Zog](https://github.com/Oudwins/zog) - A [Zod](https://github.com/colinhacks/zod) inspired schema builder for runtime value parsing and validation.
-- [vx](https://github.com/sevlyar/vx) - Validation built from small, composable checks with zero dependencies and a reconstructable error path.
+- [checkdigit](https://github.com/osamingo/checkdigit) - 提供校验位算法（Luhn、Verhoeff、Damm）与计算器（ISBN、EAN、JAN、UPC 等）。
+- [checker](https://github.com/cinar/checker) - 零依赖的输入校验与就地归一化，基于结构体标签，支持 23 种区域设置与 JSON Schema 生成。
+- [go-validator](https://github.com/tiendc/go-validator) - 使用泛型的校验库。
+- [gody](https://github.com/guiferpa/gody) - :balloon: Go 的轻量结构体验证库。
+- [govalid](https://github.com/twharmon/govalid) - 基于标签的结构体快速校验。
+- [govalidator](https://github.com/asaskevich/govalidator) - 面向字符串、数值、切片与结构体的校验器与清洗器。
+- [govalidator](https://github.com/thedevsaddam/govalidator) - 用简单规则校验 Golang 请求数据，高度借鉴 Laravel 的请求校验。
+- [govy](https://github.com/nobl9/govy) - 基于函数接口的强类型校验规则，由泛型驱动、无需反射，重点打磨出清晰且信息丰富的错误信息。
+- [hvalid](https://github.com/lyonnee/hvalid) hvalid 是用 Go 语言编写的轻量校验库。它提供自定义校验器接口与一系列常用校验函数，帮助开发者快速实现数据校验。
+- [jio](https://github.com/faceair/jio) - jio 是一个类 [joi](https://github.com/hapijs/joi) 的 JSON schema 校验器。
+- [ozzo-validation](https://github.com/go-ozzo/ozzo-validation) - 支持校验多种数据类型（结构体、字符串、映射、切片等），校验规则可用常规代码结构表达以替代结构体标签，且可配置、可扩展。
+- [validate](https://github.com/gookit/validate) - Go 的数据校验与过滤包。支持校验 Map、Struct、Request（Form、JSON、url.Values、上传文件）数据及更多特性。
+- [validate](https://github.com/gobuffalo/validate) - 该包为编写 Go 应用的校验逻辑提供了一个框架。
+- [validator](https://github.com/go-playground/validator) - Go 结构体与字段校验，含跨字段、跨结构体、Map、切片与数组的深入校验。
+- [Validator](https://github.com/go-the-way/validator) - 用 Go 编写的轻量模型校验器，内置 VFs：Min、Max、MinLength、MaxLength、Length、Enum、Regex。
+- [valix](https://github.com/marrow16/valix) 用于校验请求的 Go 包。
+- [Zog](https://github.com/Oudwins/zog) - 受 [Zod](https://github.com/colinhacks/zod) 启发的 schema 构建器，用于运行时的值解析与校验。
+- [vx](https://github.com/sevlyar/vx) - 由小型可组合检查构建而成的校验方案，零依赖且错误路径可重建。
   **[⬆ 回到顶部](#contents)**
 
 <a id="version-control"></a>
@@ -3364,17 +3364,17 @@ _用于数据校验的库。_
 
 _用于版本控制的库。_
 
-- [cli](https://gitlab.com/gitlab-org/cli) - An open-source GitLab command line tool bringing GitLab's cool features to your command line.
-- [froggit-go](https://github.com/jfrog/froggit-go) - Froggit-Go is a Go library, allowing to perform actions on VCS providers.
-- [ggc](https://github.com/bmf-san/ggc) - A Git CLI tool with both traditional command-line and interactive incremental-search UI, workflow support, and configurable keybindings.
-- [git-courer](https://github.com/Alejandro-M-P/git-courer) - Local MCP server for Git operations using Ollama to save tokens and prevent secret leakage.
-- [git2go](https://github.com/libgit2/git2go) - Go bindings for libgit2.
-- [githooks](https://github.com/gabyx/githooks) - Per-repo and shared Git hooks with version control and auto update.
-- [gitty](https://github.com/Omibranch/gitty) - Single-binary Git/GitHub CLI that replaces add→commit→push with one command; human-readable syntax, no external dependencies.
-- [go-git](https://github.com/go-git/go-git) - highly extensible Git implementation in pure Go.
-- [go-vcs](https://github.com/sourcegraph/go-vcs) - manipulate and inspect VCS repositories in Go.
-- [hercules](https://github.com/src-d/hercules) - gaining advanced insights from Git repository history.
-- [hgo](https://github.com/beyang/hgo) - Hgo is a collection of Go packages providing read-access to local Mercurial repositories.
+- [cli](https://gitlab.com/gitlab-org/cli) - 开源的 GitLab 命令行工具，把 GitLab 的诸多特性带到你的命令行。
+- [froggit-go](https://github.com/jfrog/froggit-go) - Froggit-Go 是一个 Go 库，允许对各类 VCS 服务商执行操作。
+- [ggc](https://github.com/bmf-san/ggc) - Git CLI 工具，兼具传统命令行与交互式增量搜索界面，支持工作流与可配置快捷键。
+- [git-courer](https://github.com/Alejandro-M-P/git-courer) - 本地 MCP 服务器，使用 Ollama 执行 Git 操作以节省 token 并防止密钥泄露。
+- [git2go](https://github.com/libgit2/git2go) - libgit2 的 Go 绑定。
+- [githooks](https://github.com/gabyx/githooks) - 按仓库与全局共享的 Git 钩子，具备版本控制与自动更新。
+- [gitty](https://github.com/Omibranch/gitty) - 单一二进制的 Git/GitHub CLI，用一条命令取代 add→commit→push；语法人类可读，无外部依赖。
+- [go-git](https://github.com/go-git/go-git) - 纯 Go 实现的高度可扩展 Git 实现。
+- [go-vcs](https://github.com/sourcegraph/go-vcs) - 在 Go 中操作与检视 VCS 仓库。
+- [hercules](https://github.com/src-d/hercules) - 从 Git 仓库历史中获取深层洞见。
+- [hgo](https://github.com/beyang/hgo) - Hgo 是一组 Go 包，提供对本地 Mercurial 仓库的只读访问。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -3383,20 +3383,20 @@ _用于版本控制的库。_
 
 _用于视频处理的库。_
 
-- [gmf](https://github.com/3d0c/gmf) - Go bindings for FFmpeg av\* libraries.
-- [go-astiav](https://github.com/asticode/go-astiav) - Better C bindings for ffmpeg in GO.
-- [go-astisub](https://github.com/asticode/go-astisub) - Manipulate subtitles in GO (.srt, .stl, .ttml, .webvtt, .ssa/.ass, teletext, .smi, etc.).
-- [go-astits](https://github.com/asticode/go-astits) - Parse and demux MPEG Transport Streams (.ts) natively in GO.
-- [go-mpd](https://github.com/unki2aut/go-mpd) - Parser and generator library for MPEG-DASH manifest files.
-- [goav](https://github.com/giorgisio/goav) - Comprehensive Go bindings for FFmpeg.
-- [gortsplib](https://github.com/aler9/gortsplib) - Pure Go RTSP server and client library.
-- [hls-m3u8](https://github.com/Eyevinn/hls-m3u8) - Parser and generator for HLS (M3U8) playlists; kept up to date with the spec.
-- [libvlc-go](https://github.com/adrg/libvlc-go) - Go bindings for libvlc 2.X/3.X/4.X (used by the VLC media player).
-- [manifestor](https://github.com/alanzng/manifestor) - Zero-dependency library for parsing, filtering, transforming, and building HLS and DASH manifests.
-* [mosaic](https://github.com/farshidrezaei/mosaic) - Predictable, production-ready Adaptive Bitrate (ABR) video packaging for Go (HLS & DASH CMAF).
-- [mp4ff](https://github.com/Eyevinn/mp4ff) - Library and tools for working with MP4 files containing video, audio, subtitles, or metadata.
-- [mpeg-ts-analyzer](https://github.com/small-teton/mpeg-ts-analyzer) - Analyzer for MPEG-2 Transport Streams that checks PCR timing compliance and dumps low-level TS, PSI, and PES structures.
-- [v4l](https://github.com/korandiz/v4l) - Video capture library for Linux, written in Go.
+- [gmf](https://github.com/3d0c/gmf) - FFmpeg av\* 库的 Go 绑定。
+- [go-astiav](https://github.com/asticode/go-astiav) - GO 中更好的 ffmpeg C 绑定。
+- [go-astisub](https://github.com/asticode/go-astisub) - 在 GO 中操作字幕（.srt、.stl、.ttml、.webvtt、.ssa/.ass、teletext、.smi 等）。
+- [go-astits](https://github.com/asticode/go-astits) - 在 GO 中原生解析与解复用 MPEG 传输流（.ts）。
+- [go-mpd](https://github.com/unki2aut/go-mpd) - MPEG-DASH 清单文件的解析与生成库。
+- [goav](https://github.com/giorgisio/goav) - 完备的 FFmpeg Go 绑定。
+- [gortsplib](https://github.com/aler9/gortsplib) - 纯 Go 的 RTSP 服务器与客户端库。
+- [hls-m3u8](https://github.com/Eyevinn/hls-m3u8) - HLS（M3U8）播放列表的解析与生成器，与规范保持同步。
+- [libvlc-go](https://github.com/adrg/libvlc-go) - libvlc 2.X/3.X/4.X 的 Go 绑定（VLC 媒体播放器所用）。
+- [manifestor](https://github.com/alanzng/manifestor) - 零依赖库，用于解析、筛选、转换与构建 HLS 与 DASH 清单。
+* [mosaic](https://github.com/farshidrezaei/mosaic) - 可预期、可用于生产的自适应码率（ABR）视频封装方案，面向 Go（HLS 与 DASH CMAF）。
+- [mp4ff](https://github.com/Eyevinn/mp4ff) - 用于处理含视频、音频、字幕或元数据的 MP4 文件的库与工具。
+- [mpeg-ts-analyzer](https://github.com/small-teton/mpeg-ts-analyzer) - MPEG-2 传输流分析器，检查 PCR 时序合规性并转储底层 TS、PSI 与 PES 结构。
+- [v4l](https://github.com/korandiz/v4l) - 用 Go 编写的 Linux 视频采集库。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -3405,33 +3405,33 @@ _用于视频处理的库。_
 
 _全栈 Web 框架。_
 
-- [aichteeteapee](https://github.com/psyb0t/aichteeteapee) - Batteries-included HTTP server library with a router, middleware stack, WebSocket hubs, file uploads, and OpenAPI validation.
-- [Andurel](https://github.com/mbvlabs/andurel) - Rails-inspired full-stack Go web framework with scaffolding, database tooling, and server-rendered or Inertia frontends.
-- [Atreugo](https://github.com/savsgio/atreugo) - High performance and extensible micro web framework with zero memory allocations in hot paths.
-- [Barf](https://github.com/opensaucerer/barf) - Basically, A Remarkable Framework for building JSON-based web APIs. It is entirely unobtrusive and re-invents no wheel. It is crafted such that getting started is easy and quick while being flexible enough for more complex use cases.
-- [Beego](https://github.com/beego/beego) - beego is an open-source, high-performance web framework for the Go programming language.
-- [Confetti Framework](https://confetti-framework.github.io/docs/) - Confetti is a Go web application framework with an expressive, elegant syntax. Confetti combines the elegance of Laravel and the simplicity of Go.
-- [Don](https://github.com/abemedia/go-don) - A highly performant and simple to use API framework.
-- [doors](https://github.com/doors-dev/doors) - Server-driven framework for building stateful, reactive web applications entirely in Go.
-- [Echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework.
-- [Fastschema](https://github.com/fastschema/fastschema) - A flexible Go web framework and Headless CMS.
-- [Fiber](https://github.com/gofiber/fiber) - An Express.js inspired web framework build on Fasthttp.
-- [Flamingo](https://github.com/i-love-flamingo/flamingo) - Framework for pluggable web projects. Including a concept for modules and offering features for DI, Configareas, i18n, template engines, graphql, observability, security, events, routing & reverse routing etc.
-- [Flamingo Commerce](https://github.com/i-love-flamingo/flamingo-commerce) - Providing e-commerce features using clean architecture like DDD and ports and adapters, that you can use to build flexible e-commerce applications.
-- [Fuego](https://github.com/go-fuego/fuego) - The framework for busy Go developers! Web framework generating OpenAPI 3 spec from source code.
-- [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
-- [Ginrpc](https://github.com/xxjwxc/ginrpc) - Gin parameter automatic binding tool,gin rpc tools.
-- [go-api-boot](https://github.com/SaiNageswarS/go-api-boot) - A gRpc-first micro-service framework. Features include ODM support for Mongo, cloud resource support (AWS/Azure/Google), and a fluent dependency injection which is customized for gRpc. Additionally, grpc-web is supported directly, enabling browser access to all gRpc APIs without a proxy.
-- [Goa](https://github.com/goadesign/goa) - Goa provides a holistic approach for developing remote APIs and microservices in Go.
-- [GoFr](https://github.com/gofr-dev/gofr) - Gofr is an opinionated microservice development framework.
-- [GoFrame](https://github.com/gogf/gf) - GoFrame is a modular, powerful, high-performance and enterprise-class application development framework of Golang.
-- [Gone](https://github.com/gone-io/gone) - A lightweight dependency injection and web framework inspired by Spring.
-- [goravel](https://github.com/goravel/goravel) - A Laravel-inspired web framework with ORM, authentication, queue, task scheduling, and more built-in features.
-- [Goshtoso](https://github.com/araihu/goshtoso) - Server-rendered UI components for Go applications, built with templ, Tailwind CSS, HTMX, and Alpine.js.
-- [Goyave](https://github.com/go-goyave/goyave) - Feature-complete REST API framework aimed at clean code and fast development, with powerful built-in functionalities.
-- [Hertz](https://github.com/cloudwego/hertz) - A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices.
-- [hiboot](https://github.com/hidevopsio/hiboot) - hiboot is a high performance web application framework with auto configuration and dependency injection support.
-- [httpsuite](https://github.com/rluders/httpsuite) - HTTP request parsing and RFC 9457 problem responses for Go, with a stdlib-only core and optional validation.
+- [aichteeteapee](https://github.com/psyb0t/aichteeteapee) - 开箱即用的 HTTP 服务器库，配备路由器、中间件栈、WebSocket 中心、文件上传与 OpenAPI 校验。
+- [Andurel](https://github.com/mbvlabs/andurel) - 受 Rails 启发的 Go 全栈 Web 框架，配备脚手架、数据库工具，以及服务端渲染或 Inertia 前端。
+- [Atreugo](https://github.com/savsgio/atreugo) - 高性能、可扩展的微型 Web 框架，热路径零内存分配。
+- [Barf](https://github.com/opensaucerer/barf) - 基本上，这是一个用于构建 JSON Web API 的卓越框架。它完全 unobtrusive，不重复造轮子。其设计让上手轻松快捷，同时又足够灵活以应对更复杂的使用场景。
+- [Beego](https://github.com/beego/beego) - beego 是面向 Go 编程语言的开源高性能 Web 框架。
+- [Confetti Framework](https://confetti-framework.github.io/docs/) - Confetti 是 Go 的 Web 应用框架，语法表达力强且优雅。Confetti 融合了 Laravel 的优雅与 Go 的简洁。
+- [Don](https://github.com/abemedia/go-don) - 高性能且易用的 API 框架。
+- [doors](https://github.com/doors-dev/doors) - 服务端驱动的框架，用纯 Go 构建有状态的响应式 Web 应用。
+- [Echo](https://github.com/labstack/echo) - 高性能、极简的 Go Web 框架。
+- [Fastschema](https://github.com/fastschema/fastschema) - 灵活的 Go Web 框架与 Headless CMS。
+- [Fiber](https://github.com/gofiber/fiber) - 受 Express.js 启发、基于 Fasthttp 构建的 Web 框架。
+- [Flamingo](https://github.com/i-love-flamingo/flamingo) - 用于可插拔 Web 项目的框架。包含模块概念，并提供 DI、配置区域、i18n、模板引擎、graphql、可观测性、安全、事件、路由与反向路由等特性。
+- [Flamingo Commerce](https://github.com/i-love-flamingo/flamingo-commerce) - 以 DDD 与端口适配器等整洁架构提供电商特性，可用于构建灵活的电商应用。
+- [Fuego](https://github.com/go-fuego/fuego) - 专为忙碌的 Go 开发者打造！该 Web 框架可从源码生成 OpenAPI 3 规范。
+- [Gin](https://github.com/gin-gonic/gin) - Gin 是用 Go 编写的 Web 框架！它拥有类 Martini 的 API，但性能好得多，最高快 40 倍。当你既需要性能又需要良好开发效率时。
+- [Ginrpc](https://github.com/xxjwxc/ginrpc) - Gin 参数自动绑定工具、gin rpc 工具。
+- [go-api-boot](https://github.com/SaiNageswarS/go-api-boot) - gRPC 优先的微服务框架。特性包括面向 Mongo 的 ODM 支持、云资源支持（AWS/Azure/Google），以及为 gRPC 定制的流畅依赖注入。此外直接支持 grpc-web，无需代理即可让浏览器访问所有 gRPC API。
+- [Goa](https://github.com/goadesign/goa) - Goa 为在 Go 中开发远程 API 与微服务提供了整体化的方案。
+- [GoFr](https://github.com/gofr-dev/gofr) - Gofr 是有明确主张的微服务开发框架。
+- [GoFrame](https://github.com/gogf/gf) - GoFrame 是 Golang 的模块化、强大、高性能、企业级应用开发框架。
+- [Gone](https://github.com/gone-io/gone) - 受 Spring 启发的轻量依赖注入与 Web 框架。
+- [goravel](https://github.com/goravel/goravel) - 受 Laravel 启发的 Web 框架，内置 ORM、认证、队列、任务调度等特性。
+- [Goshtoso](https://github.com/araihu/goshtoso) - 面向 Go 应用的服务端渲染 UI 组件，基于 templ、Tailwind CSS、HTMX 与 Alpine.js 构建。
+- [Goyave](https://github.com/go-goyave/goyave) - 功能完备的 REST API 框架，注重代码整洁与快速开发，内置强大功能。
+- [Hertz](https://github.com/cloudwego/hertz) - 高性能、高扩展性的 Go HTTP 框架，帮助开发者构建微服务。
+- [hiboot](https://github.com/hidevopsio/hiboot) - hiboot 是高性能的 Web 应用框架，支持自动配置与依赖注入。
+- [httpsuite](https://github.com/rluders/httpsuite) - 面向 Go 的 HTTP 请求解析与 RFC 9457 problem 响应，核心仅依赖标准库，校验可选。
 - [Huma](https://github.com/danielgtaylor/huma/) - Framework for modern REST/GraphQL APIs with built-in OpenAPI 3, generated documentation, and a CLI.
 - [iWF](https://github.com/indeedeng/iwf) - iWF is an all-in-one platform for developing long-running business processes. It offers a convenient abstraction for utilizing databases, ElasticSearch, message queues, durable timers, and more, with a clean, simple, and user-friendly interface.
 - [Lit](https://github.com/jvcoutinho/lit) - Highly performant declarative web framework for Golang, aiming for simplicity and quality of life.
