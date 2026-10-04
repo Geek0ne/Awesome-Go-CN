@@ -527,67 +527,67 @@ _用于解析配置文件的库。_
 - [bcl](https://github.com/wkhere/bcl) - BCL 是一门类似 HCL 的配置语言。
 - [cleanenv](https://github.com/ilyakaznacheev/cleanenv) - 极简配置读取器（可从文件、ENV 以及任意来源读取）。
 - [config](https://github.com/JeremyLoy/config) - 云原生应用配置。仅用两行代码即可将 ENV 绑定到结构体。
-- [config](https://github.com/num30/config) - configure your app using file, environment variables, or flags in two lines of code.
-- [config](https://github.com/andreiavrammsd/config) - Struct-based configuration loader with a dedicated config file parser, supporting env vars, flags, defaults, and validation.
-- [configuration](https://github.com/BoRuDar/configuration) - Library for initializing configuration structs from env variables, files, flags and 'default' tag.
-- [configuro](https://github.com/sherifabdlnaby/configuro) - opinionated configuration loading & validation framework from ENV and Files focused towards 12-Factor compliant applications.
-- [confiq](https://github.com/greencoda/confiq) - Structured data format to config struct decoder library for Go - supporting multiple data formats.
-- [confita](https://github.com/heetch/confita) - Load configuration in cascade from multiple backends into a struct.
-- [conflate](https://github.com/the4thamigo-uk/conflate) - Library/tool to merge multiple JSON/YAML/TOML files from arbitrary URLs, validation against a JSON schema, and application of default values defined in the schema.
-- [enflag](https://github.com/atelpis/enflag) - Container-oriented, zero-dependency configuration library that unifies Env variable and Flag parsing. Uses generics for type safety, without reflection or struct tags.
-- [env](https://github.com/caarlos0/env) - Parse environment variables to Go structs (with defaults).
-- [env](https://github.com/junk1tm/env) - A lightweight package for loading environment variables into structs.
-- [env](https://github.com/syntaqx/env) - An environment utility package with support for unmarshaling into structs.
-- [envconfig](https://github.com/vrischmann/envconfig) - Read your configuration from environment variables.
-- [envh](https://github.com/antham/envh) - Helpers to manage environment variables.
-- [envyaml](https://github.com/yuseferi/envyaml) - Yaml with environment variables reader. it helps to have secrets as environment variable but load them configs as structured Yaml.
-- [fig](https://github.com/kkyr/fig) - Tiny library for reading configuration from a file and from environment variables (with validation & defaults).
-- [genv](https://github.com/sakirsensoy/genv) - Read environment variables easily with dotenv support.
-- [go-array](https://github.com/deatil/go-array) - A Go package that read or set data from map, slice or json.
-- [go-aws-ssm](https://github.com/PaddleHQ/go-aws-ssm) - Go package that fetches parameters from AWS System Manager - Parameter Store.
-- [go-cfg](https://github.com/dsbasko/go-cfg) - The library provides a unified way to read configuration data into a structure from various sources, such as env, flags, and configuration files (.json, .yaml, .toml, .env).
-- [go-conf](https://github.com/ThomasObenaus/go-conf) - Simple library for application configuration based on annotated structs. It supports reading the configuration from environment variables, config files and command line parameters.
-- [go-config](https://github.com/MordaTeam/go-config) - Simple and convenient library for working with app configurations.
-- [go-external-config](https://github.com/go-external-config/go) - Spring-inspired configuration management library for Go.
-- [go-external-config/aws](https://github.com/go-external-config/aws) - AWS property source support for go-external-config.
-- [go-external-config/consul](https://github.com/go-external-config/consul) - Consul property source support for go-external-config.
-- [go-external-config/vault](https://github.com/go-external-config/vault) - Vault property source support for go-external-config.
-- [go-ini](https://github.com/subpop/go-ini) - A Go package that marshals and unmarshals INI-files.
-- [go-ssm-config](https://github.com/ianlopshire/go-ssm-config) - Go utility for loading configuration parameters from AWS SSM (Parameter Store).
-- [go-up](https://github.com/ufoscout/go-up) - A simple configuration library with recursive placeholders resolution and no magic.
-- [go-yamlvalidator](https://github.com/Yakwilik/go-yamlvalidator) - Source-aware YAML validation with native Go schemas and JSON Schema support.
-- [GoCfg](https://github.com/Jagerente/gocfg) - Config manager with Struct Tags based contracts, custom value providers, parsers, and documentation generation. Customizable yet simple.
-- [goconfig](https://github.com/fulldump/goconfig) - Populate Go structs from flags, environment variables, config.json and defaults with deterministic precedence. No extra dependencies.
-- [godotenv](https://github.com/joho/godotenv) - Go port of Ruby's dotenv library (Loads environment variables from `.env`).
-- [goenv](https://github.com/psyb0t/goenv) - Reads the ENV environment variable and reports whether the process is running in production or development.
-- [GoLobby/Config](https://github.com/golobby/config) - GoLobby Config is a lightweight yet powerful configuration manager for the Go programming language.
-- [gone/jconf](https://github.com/One-com/gone/tree/master/jconf) - Modular JSON configuration. Keep your config structs along with the code they configure and delegate parsing to submodules without sacrificing full config serialization.
-- [gonfig](https://github.com/milad-abbasi/gonfig) - Tag-based configuration parser which loads values from different providers into typesafe struct.
-- [gonfiguration](https://github.com/psyb0t/gonfiguration) - Loads configuration from environment variables into structs via reflection, with struct-tag defaults and required fields.
-- [gookit/config](https://github.com/gookit/config) - application config manage(load,get,set). support JSON, YAML, TOML, INI, HCL. multi file load, data override merge.
-- [harvester](https://github.com/beatlabs/harvester) - Harvester, a easy to use static and dynamic configuration package supporting seeding, env vars and Consul integration.
-- [hedzr/store](https://github.com/hedzr/store) - Extensible, high-performance configuration management library, optimized for hierarchical data.
-- [hjson](https://github.com/hjson/hjson-go) - Human JSON, a configuration file format for humans. Relaxed syntax, fewer mistakes, more comments.
-- [hocon](https://github.com/gurkankaymak/hocon) - Configuration library for working with the HOCON(a human-friendly JSON superset) format, supports features like environment variables, referencing other values, comments and multiple files.
-- [ini](https://github.com/go-ini/ini) - Go package to read and write INI files.
-- [ini](https://github.com/wlevene/ini) - INI Parser & Write Library, Unmarshal to Struct, Marshal to Json, Write File, watch file.
-- [kelseyhightower/envconfig](https://github.com/kelseyhightower/envconfig) - Go library for managing configuration data from environment variables.
-- [koanf](https://github.com/knadh/koanf) - Light weight, extensible library for reading config in Go applications. Built in support for JSON, TOML, YAML, env, command line.
-- [konf](https://github.com/nil-go/konf) - The simplest API for reading/watching config from file, env, flag and clouds (e.g. AWS, Azure, GCP).
-- [konfig](https://github.com/lalamove/konfig) - Composable, observable and performant config handling for Go for the distributed processing era.
-- [kong](https://github.com/alecthomas/kong) - Command-line parser with support for arbitrarily complex command-line structures and additional sources of configuration such as YAML, JSON, TOML, etc (successor to `kingpin`).
-- [nasermirzaei89/env](https://github.com/nasermirzaei89/env) - Simple useful package for read environment variables.
-- [nfigure](https://github.com/muir/nfigure) - Per-library struct-tag based configuration from command lines (Posix & Go-style); environment, JSON, YAML
-- [onion](https://github.com/goraz/onion) - Layer based configuration for Go, Supports JSON, TOML, YAML, properties, etcd, env, and encryption using PGP.
-- [piper](https://github.com/Yiling-J/piper) - Viper wrapper with config inheritance and key generation.
-- [sonic](https://github.com/bytedance/sonic) - A blazingly fast JSON serializing & deserializing library.
-- [swap](https://github.com/oblq/swap) - Instantiate/configure structs recursively, based on build environment. (YAML, TOML, JSON and env).
-- [typenv](https://github.com/diegomarangoni/typenv) - Minimalistic, zero dependency, typed environment variables library.
-- [uConfig](https://github.com/omeid/uconfig) - Lightweight, zero-dependency, and extendable configuration management.
-- [viper](https://github.com/spf13/viper) - Go configuration with fangs.
-- [xdg](https://github.com/adrg/xdg) - Go implementation of the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/latest/) and [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories).
-- [yamagiconf](https://github.com/romshark/yamagiconf) - The "safe subset" of YAML for Go configs.
-- [zerocfg](https://github.com/chaindead/zerocfg) - Zero-effort, concise configuration management that avoids boilerplate and repetitive code, supports multiple sources with priority overrides.
+- [config](https://github.com/num30/config) - 仅用两行代码即可通过文件、环境变量或命令行参数配置你的应用。
+- [config](https://github.com/andreiavrammsd/config) - 基于结构体的配置加载器，内置专用配置文件解析器，支持环境变量、flag、默认值与校验。
+- [configuration](https://github.com/BoRuDar/configuration) - 用于从环境变量、文件、命令行参数及 'default' 标签初始化配置结构体的库。
+- [configuro](https://github.com/sherifabdlnaby/configuro) - 强约定的配置加载与校验框架，面向符合 12-Factor 原则的应用，支持从环境变量与文件读取。
+- [confiq](https://github.com/greencoda/confiq) - 面向 Go 的结构化数据格式到配置结构体的解码库，支持多种数据格式。
+- [confita](https://github.com/heetch/confita) - 以级联方式从多个后端将配置加载进结构体。
+- [conflate](https://github.com/the4thamigo-uk/conflate) - 用于合并来自任意 URL 的多个 JSON/YAML/TOML 文件、按 JSON Schema 校验、并套用 schema 中定义的默认值的库/工具。
+- [enflag](https://github.com/atelpis/enflag) - 面向容器、零依赖的配置库，统一环境变量与 flag 解析。借助泛型实现类型安全，无需反射或结构体标签。
+- [env](https://github.com/caarlos0/env) - 将环境变量解析为 Go 结构体（含默认值）。
+- [env](https://github.com/junk1tm/env) - 用于将环境变量加载进结构体的轻量级包。
+- [env](https://github.com/syntaqx/env) - 环境工具包，支持反序列化进结构体。
+- [envconfig](https://github.com/vrischmann/envconfig) - 从环境变量读取你的配置。
+- [envh](https://github.com/antham/envh) - 用于管理环境变量的辅助工具。
+- [envyaml](https://github.com/yuseferi/envyaml) - 支持环境变量的 YAML 读取器。它让你把密钥放在环境变量里，却仍以结构化 YAML 的形式作为配置加载。
+- [fig](https://github.com/kkyr/fig) - 用于从文件和环境变量读取配置的微型库（带校验与默认值）。
+- [genv](https://github.com/sakirsensoy/genv) - 借助 dotenv 支持轻松读取环境变量。
+- [go-array](https://github.com/deatil/go-array) - Go 包，可从 map、slice 或 JSON 中读取或设置数据。
+- [go-aws-ssm](https://github.com/PaddleHQ/go-aws-ssm) - Go 包，用于从 AWS System Manager - Parameter Store 获取参数。
+- [go-cfg](https://github.com/dsbasko/go-cfg) - 该库提供统一的方式，将配置数据从环境变量、flag 与配置文件（.json、.yaml、.toml、.env）等多种来源读入结构体。
+- [go-conf](https://github.com/ThomasObenaus/go-conf) - 基于带注解结构体的简易应用配置库。支持从环境变量、配置文件与命令行参数读取配置。
+- [go-config](https://github.com/MordaTeam/go-config) - 简单便捷的应用配置操作库。
+- [go-external-config](https://github.com/go-external-config/go) - 受 Spring 启发的 Go 配置管理库。
+- [go-external-config/aws](https://github.com/go-external-config/aws) - 为 go-external-config 提供 AWS Property Source 支持。
+- [go-external-config/consul](https://github.com/go-external-config/consul) - 为 go-external-config 提供 Consul Property Source 支持。
+- [go-external-config/vault](https://github.com/go-external-config/vault) - 为 go-external-config 提供 Vault Property Source 支持。
+- [go-ini](https://github.com/subpop/go-ini) - Go 包，用于编解码 INI 文件。
+- [go-ssm-config](https://github.com/ianlopshire/go-ssm-config) - Go 工具，用于从 AWS SSM（Parameter Store）加载配置参数。
+- [go-up](https://github.com/ufoscout/go-up) - 简单配置库，支持递归占位符解析，且不耍花招。
+- [go-yamlvalidator](https://github.com/Yakwilik/go-yamlvalidator) - 源码感知的 YAML 校验工具，基于原生 Go schema 并支持 JSON Schema。
+- [GoCfg](https://github.com/Jagerente/gocfg) - 配置管理器，支持基于结构体标签的约定、自定义值提供程序、解析器与文档生成。可定制yet简单。
+- [goconfig](https://github.com/fulldump/goconfig) - 以确定性的优先级，从 flag、环境变量、config.json 与默认值填充 Go 结构体。无额外依赖。
+- [godotenv](https://github.com/joho/godotenv) - Ruby dotenv 库的 Go 移植版（从 `.env` 加载环境变量）。
+- [goenv](https://github.com/psyb0t/goenv) - 读取环境变量 ENV，报告进程运行于生产还是开发环境。
+- [GoLobby/Config](https://github.com/golobby/config) - GoLobby Config 是面向 Go 编程语言的轻量却强大的配置管理器。
+- [gone/jconf](https://github.com/One-com/gone/tree/master/jconf) - 模块化 JSON 配置。配置结构体与它所配置的代码放在一起，并把解析委托给子模块，同时不牺牲完整的配置序列化能力。
+- [gonfig](https://github.com/milad-abbasi/gonfig) - 基于标签的配置解析器，将不同提供程序的值加载进类型安全的结构体。
+- [gonfiguration](https://github.com/psyb0t/gonfiguration) - 通过反射将环境变量加载进结构体，支持结构体标签默认值与必填字段。
+- [gookit/config](https://github.com/gookit/config) - 应用配置管理（加载、读取、设置）。支持 JSON、YAML、TOML、INI、HCL，支持多文件加载与数据覆盖合并。
+- [harvester](https://github.com/beatlabs/harvester) - Harvester，一个易用的静态与动态配置包，支持种子数据、环境变量与 Consul 集成。
+- [hedzr/store](https://github.com/hedzr/store) - 可扩展的高性能配置管理库，针对层级化数据做了优化。
+- [hjson](https://github.com/hjson/hjson-go) - Human JSON —— 面向人类的配置文件格式。宽松语法、更少出错、更多注释。
+- [hocon](https://github.com/gurkankaymak/hocon) - 用于处理 HOCON（人类友好的 JSON 超集）格式的配置库，支持环境变量、引用其他值、注释与多文件等特性。
+- [ini](https://github.com/go-ini/ini) - 用于读写 INI 文件的 Go 包。
+- [ini](https://github.com/wlevene/ini) - INI 解析与写入库。支持反序列化到结构体、序列化为 JSON、写入文件，以及文件监听。
+- [kelseyhightower/envconfig](https://github.com/kelseyhightower/envconfig) - 用于管理来自环境变量的配置数据的 Go 库。
+- [koanf](https://github.com/knadh/koanf) - 轻量、可扩展的配置读取库。内置支持 JSON、TOML、YAML、环境变量与命令行。
+- [konf](https://github.com/nil-go/konf) - 最简单的 API，用于从文件、环境变量、flag 与云平台（如 AWS、Azure、GCP）读取及监听配置。
+- [konfig](https://github.com/lalamove/konfig) - 面向分布式处理时代的 Go 配置处理方案，可组合、可观测、高性能。
+- [kong](https://github.com/alecthomas/kong) - 命令行解析器，支持任意复杂的命令行结构，并支持 YAML、JSON、TOML 等额外配置来源（`kingpin` 的继任者）。
+- [nasermirzaei89/env](https://github.com/nasermirzaei89/env) - 简单实用的环境变量读取包。
+- [nfigure](https://github.com/muir/nfigure) - 按库维度的结构体标签配置，来源包括命令行（Posix 与 Go 风格）、环境变量、JSON、YAML。
+- [onion](https://github.com/goraz/onion) - 面向 Go 的分层配置，支持 JSON、TOML、YAML、properties、etcd、环境变量，以及使用 PGP 的加密。
+- [piper](https://github.com/Yiling-J/piper) - 带配置继承与密钥生成的 Viper 封装。
+- [sonic](https://github.com/bytedance/sonic) - 极速的 JSON 序列化与反序列化库。
+- [swap](https://github.com/oblq/swap) - 基于构建环境递归实例化/配置结构体（YAML、TOML、JSON 与环境变量）。
+- [typenv](https://github.com/diegomarangoni/typenv) - 极简、零依赖、类型安全的环境变量库。
+- [uConfig](https://github.com/omeid/uconfig) - 轻量、零依赖、可扩展的配置管理。
+- [viper](https://github.com/spf13/viper) - 带利齿的 Go 配置管理（fangs）。
+- [xdg](https://github.com/adrg/xdg) - [XDG 基础目录规范](https://specifications.freedesktop.org/basedir-spec/latest/) 与 [XDG 用户目录](https://wiki.archlinux.org/index.php/XDG_user_directories)的 Go 实现。
+- [yamagiconf](https://github.com/romshark/yamagiconf) - 面向 Go 配置的 YAML「安全子集」。
+- [zerocfg](https://github.com/chaindead/zerocfg) - 零负担、简洁的配置管理，避免样板代码与重复代码，支持多来源与优先级覆盖。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -596,24 +596,24 @@ _用于解析配置文件的库。_
 
 _有助于持续集成的工具。_
 
-- [abstruse](https://github.com/bleenco/abstruse) - Abstruse is a distributed CI platform.
-- [Bencher](https://bencher.dev/) - A suite of continuous benchmarking tools designed to catch performance regressions in CI.
-- [CDS](https://github.com/ovh/cds) - Enterprise-Grade CI/CD and DevOps Automation Open Source Platform.
-- [coverage](https://github.com/jbunds/coverage) - A simple Web UI for Go test coverage, and the [go-test-coverage-html-report](https://github.com/marketplace/actions/go-test-coverage-html-report) reusable GitHub Action.
-- [dot](https://github.com/opnlabs/dot) - A minimal, local first continuous integration system that uses Docker to run jobs concurrently in stages.
-- [drone](https://github.com/drone/drone) - Drone is a Continuous Integration platform built on Docker, written in Go.
-- [go-beautiful-html-coverage](https://github.com/gha-common/go-beautiful-html-coverage) - A GitHub Action to track code coverage in your pull requests, with a beautiful HTML preview, for free.
-- [go-fuzz-action](https://github.com/jidicula/go-fuzz-action) - Use Go 1.18's built-in fuzz testing in GitHub Actions.
-- [go-semver-release](https://github.com/s0ders/go-semver-release) - Automate the semantic versioning of Git repositories.
-- [go-test-coverage](https://github.com/marketplace/actions/go-test-coverage) - A GitHub Action which reports issues when test coverage is below set threshold.
-- [gomason](https://github.com/nikogura/gomason) - Test, Build, Sign, and Publish your go binaries from a clean workspace.
-- [gotestfmt](https://github.com/GoTestTools/gotestfmt) - go test output for humans.
-- [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
-- [muffet](https://github.com/raviqqe/muffet) - Fast website link checker in Go, see [alternatives](https://github.com/lycheeverse/lychee#features).
-- [overalls](https://github.com/go-playground/overalls) - Multi-Package go project coverprofile for tools like goveralls.
-- [PikoCI](https://github.com/pikoci/pikoci) - Self-hosted CI/CD inspired by Concourse. Single binary, any database, any queue. HCL pipelines, pluggable resource types and runners.
-- [roveralls](https://github.com/LawrenceWoodman/roveralls) - Recursive coverage testing tool.
-- [woodpecker](https://github.com/woodpecker-ci/woodpecker) - Woodpecker is a community fork of the Drone CI system.
+- [abstruse](https://github.com/bleenco/abstruse) - Abstruse 是一个分布式 CI 平台。
+- [Bencher](https://bencher.dev/) - 一套持续基准测试工具，用于在 CI 中捕捉性能回归。
+- [CDS](https://github.com/ovh/cds) - 企业级 CI/CD 与 DevOps 自动化开源平台。
+- [coverage](https://github.com/jbunds/coverage) - 用于展示 Go 测试覆盖率的简易 Web UI，以及可复用的 [go-test-coverage-html-report](https://github.com/marketplace/actions/go-test-coverage-html-report) GitHub Action。
+- [dot](https://github.com/opnlabs/dot) - 极简、本地优先的持续集成系统，使用 Docker 分阶段并发运行任务。
+- [drone](https://github.com/drone/drone) - Drone 是基于 Docker、用 Go 编写的持续集成平台。
+- [go-beautiful-html-coverage](https://github.com/gha-common/go-beautiful-html-coverage) - 在 Pull Request 中追踪代码覆盖率的 GitHub Action，附带精美的 HTML 预览，免费使用。
+- [go-fuzz-action](https://github.com/jidicula/go-fuzz-action) - 在 GitHub Actions 中使用 Go 1.18 内置的模糊测试。
+- [go-semver-release](https://github.com/s0ders/go-semver-release) - 自动化 Git 仓库的语义化版本管理。
+- [go-test-coverage](https://github.com/marketplace/actions/go-test-coverage) - 当测试覆盖率低于设定阈值时报告问题的 GitHub Action。
+- [gomason](https://github.com/nikogura/gomason) - 在干净的工作区中测试、构建、签名并发布你的 Go 二进制文件。
+- [gotestfmt](https://github.com/GoTestTools/gotestfmt) - 面向人类的 go test 输出。
+- [goveralls](https://github.com/mattn/goveralls) - Coveralls.io 持续代码覆盖率追踪系统的 Go 集成。
+- [muffet](https://github.com/raviqqe/muffet) - 用 Go 编写的快速网站链接检查器，另见[替代方案](https://github.com/lycheeverse/lychee#features)。
+- [overalls](https://github.com/go-playground/overalls) - 为 goveralls 等工具生成多包 Go 项目的 coverprofile。
+- [PikoCI](https://github.com/pikoci/pikoci) - 受 Concourse 启发的自托管 CI/CD。单一二进制、任意数据库、任意队列。HCL 流水线、可插拔的资源类型与执行器。
+- [roveralls](https://github.com/LawrenceWoodman/roveralls) - 递归覆盖率测试工具。
+- [woodpecker](https://github.com/woodpecker-ci/woodpecker) - Woodpecker 是 Drone CI 系统的社区 fork。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -622,8 +622,8 @@ _有助于持续集成的工具。_
 
 _用于预处理 CSS 文件的库。_
 
-- [go-css](https://github.com/napsy/go-css) - A very simple CSS parser, written in Go.
-- [go-libsass](https://github.com/wellington/go-libsass) - Go wrapper to the 100% Sass compatible libsass project.
+- [go-css](https://github.com/napsy/go-css) - 用 Go 编写的极简 CSS 解析器。
+- [go-libsass](https://github.com/wellington/go-libsass) - 对 100% 兼容 Sass 的 libsass 项目的 Go 封装。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -632,10 +632,10 @@ _用于预处理 CSS 文件的库。_
 
 _用于执行 ELT / ETL 的框架_
 
-- [Benthos](https://github.com/benthosdev/benthos) - A message streaming bridge between a range of protocols.
-- [CloudQuery](http://github.com/cloudquery/cloudquery) - A high-performance ELT data integration framework with pluggable architecture.
-- [confluence2md](https://github.com/gkoos/confluence2md) - Confluence to Markdown crawler and converter.
-- [omniparser](https://github.com/jf-tech/omniparser) - A versatile ETL library that parses text input (CSV/txt/JSON/XML/EDI/X12/EDIFACT/etc) in streaming fashion and transforms data into JSON output using data-driven schema.
+- [Benthos](https://github.com/benthosdev/benthos) - 在多种协议之间架设的消息流式桥接。
+- [CloudQuery](http://github.com/cloudquery/cloudquery) - 高性能 ELT 数据集成框架，架构可插拔。
+- [confluence2md](https://github.com/gkoos/confluence2md) - Confluence 到 Markdown 的爬取与转换工具。
+- [omniparser](https://github.com/jf-tech/omniparser) - 多用途 ETL 库，以流式方式解析文本输入（CSV/txt/JSON/XML/EDI/X12/EDIFACT 等），并用数据驱动的 schema 将数据转换为 JSON 输出。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -645,46 +645,46 @@ _用于执行 ELT / ETL 的框架_
 <a id="bit-packing-and-compression"></a>
 ### 位打包与压缩
 
-- [bingo](https://github.com/iancmcc/bingo) - Fast, zero-allocation, lexicographical-order-preserving packing of native types to bytes.
-- [binpacker](https://github.com/zhuangsirui/binpacker) - Binary packer and unpacker helps user build custom binary stream.
-- [bit](https://github.com/yourbasic/bit) - Golang set data structure with bonus bit-twiddling functions.
-- [crunch](https://github.com/superwhiskers/crunch) - Go package implementing buffers for handling various datatypes easily.
-- [go-ef](https://github.com/amallia/go-ef) - A Go implementation of the Elias-Fano encoding.
-- [roaring](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
+- [bingo](https://github.com/iancmcc/bingo) - 快速、零分配、保持字典序的原生类型打包为字节流。
+- [binpacker](https://github.com/zhuangsirui/binpacker) - 二进制打包与解包工具，帮助用户构建自定义二进制流。
+- [bit](https://github.com/yourbasic/bit) - Golang 集合数据结构，附带若干位运算技巧函数。
+- [crunch](https://github.com/superwhiskers/crunch) - Go 包，实现便于处理各种数据类型的缓冲区。
+- [go-ef](https://github.com/amallia/go-ef) - Elias-Fano 编码的 Go 实现。
+- [roaring](https://github.com/RoaringBitmap/roaring) - 实现压缩位集的 Go 包。
 
 <a id="bit-sets"></a>
 ### 位集合
 
-- [bitmap](https://github.com/kelindar/bitmap) - Dense, zero-allocation, SIMD-enabled bitmap/bitset in Go.
-- [bitset](https://github.com/bits-and-blooms/bitset) - Go package implementing bitsets.
+- [bitmap](https://github.com/kelindar/bitmap) - 稠密、零分配、支持 SIMD 的 Go 位图/位集。
+- [bitset](https://github.com/bits-and-blooms/bitset) - 实现位集的 Go 包。
 
 <a id="bloom-and-cuckoo-filters"></a>
 ### 布隆过滤器与布谷鸟过滤器
 
-- [bloom](https://github.com/bits-and-blooms/bloom) - Go package implementing Bloom filters.
-- [bloom](https://github.com/zhenjl/bloom) - Bloom filters implemented in Go.
-- [bloom](https://github.com/yourbasic/bloom) - Golang Bloom filter implementation.
-- [bloomfilter](https://github.com/OldPanda/bloomfilter) - Yet another Bloomfilter implementation in Go, compatible with Java's Guava library.
-- [boomfilters](https://github.com/tylertreat/BoomFilters) - Probabilistic data structures for processing continuous, unbounded streams.
-- [cuckoo-filter](https://github.com/linvon/cuckoo-filter) - Cuckoo filter: a comprehensive cuckoo filter, which is configurable and space optimized compared with other implements, and all features mentioned in original paper are available.
-- [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo filter: a good alternative to a counting bloom filter implemented in Go.
-- [ribbonGo](https://github.com/RibbonFilter/ribbonGo) - First pure Go implementation of Ribbon filters (practically smaller than Bloom and Xor) for space-efficient approximate set membership queries.
-- [ring](https://github.com/TheTannerRyan/ring) - Go implementation of a high performance, thread safe bloom filter.
+- [bloom](https://github.com/bits-and-blooms/bloom) - 实现布隆过滤器的 Go 包。
+- [bloom](https://github.com/zhenjl/bloom) - 用 Go 实现的布隆过滤器。
+- [bloom](https://github.com/yourbasic/bloom) - Golang 布隆过滤器实现。
+- [bloomfilter](https://github.com/OldPanda/bloomfilter) - 又一个用 Go 实现的布隆过滤器，与 Java 的 Guava 库兼容。
+- [boomfilters](https://github.com/tylertreat/BoomFilters) - 用于处理连续无界数据流的概率型数据结构。
+- [cuckoo-filter](https://github.com/linvon/cuckoo-filter) - 布谷鸟过滤器：功能完备的布谷鸟过滤器，相较其他实现更可配置、空间更优，且原始论文中提到的全部特性均可用。
+- [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - 布谷鸟过滤器：用 Go 实现，是计数布隆过滤器的一个良好替代方案。
+- [ribbonGo](https://github.com/RibbonFilter/ribbonGo) - 首个纯 Go 的 Ribbon 过滤器实现（实际比 Bloom 与 Xor 更小），用于空间高效的近似集合成员查询。
+- [ring](https://github.com/TheTannerRyan/ring) - 高性能、线程安全的布隆过滤器的 Go 实现。
 
 <a id="data-structure-and-algorithm-collections"></a>
 ### 数据结构与算法合集
 
-- [algorithms](https://github.com/shady831213/algorithms) - Algorithms and data structures.CLRS study.
-- [go-datastructures](https://github.com/Workiva/go-datastructures) - Collection of useful, performant, and thread-safe data structures.
-- [gods](https://github.com/emirpasic/gods) - Go Data Structures. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet etc.
-- [gostl](https://github.com/liyue201/gostl) - Data structure and algorithm library for go, designed to provide functions similar to C++ STL.
+- [algorithms](https://github.com/shady831213/algorithms) - 算法与数据结构，CLRS 学习笔记。
+- [go-datastructures](https://github.com/Workiva/go-datastructures) - 一批实用、高性能、线程安全的数据结构集合。
+- [gods](https://github.com/emirpasic/gods) - Go 数据结构。容器、集合、列表、栈、映射、双向映射、树、哈希集合等。
+- [gostl](https://github.com/liyue201/gostl) - Go 的数据结构与算法库，旨在提供类似 C++ STL 的函数。
 
 <a id="iterators"></a>
 ### 迭代器
 
-- [gloop](https://github.com/alvii147/gloop) - Convenient looping using Go's range-over-func feature.
-- [goterator](https://github.com/yaa110/goterator) - Iterator implementation to provide map and reduce functionalities.
-- [iter](https://github.com/disksing/iter) - Go implementation of C++ STL iterators and algorithms.
+- [gloop](https://github.com/alvii147/gloop) - 借助 Go 的 range-over-func 特性实现便捷遍历。
+- [goterator](https://github.com/yaa110/goterator) - 提供 map 与 reduce 功能的迭代器实现。
+- [iter](https://github.com/disksing/iter) - C++ STL 迭代器与算法的 Go 实现。
 
 <a id="maps"></a>
 ### 映射
@@ -692,97 +692,97 @@ _用于执行 ELT / ETL 的框架_
 更复杂的键值存储参见[数据库](#database)，
 更多有序 Map 实现参见[树](#trees)。
 
-- [cmap](https://github.com/lrita/cmap) - a thread-safe concurrent map for go, support using `interface{}` as key and auto scale up shards.
-- [concurrent-swiss-map](https://github.com/mhmtszr/concurrent-swiss-map) - A high-performance, thread-safe generic concurrent hash map implementation with Swiss Map.
-- [dict](https://github.com/srfrog/dict) - Python-like dictionaries (dict) for Go.
-- [genericsyncmap](https://github.com/donomii/genericsyncmap) - Type-safe generic wrapper for `sync.Map` with full method parity and zero dependencies.
-- [go-shelve](https://github.com/lucmq/go-shelve) - A persistent, map-like object for the Go programming language. Supports multiple embedded key-value stores.
-- [goradd/maps](https://github.com/goradd/maps) - Go 1.18+ generic map interface for maps; safe maps; ordered maps; ordered, safe maps; etc.
-- [hmap](https://github.com/lyonnee/hmap) - HMap is a concurrent and secure, generic support Map implementation designed to provide an easy-to-use API.
+- [cmap](https://github.com/lrita/cmap) - Go 的线程安全并发映射，支持以 `interface{}` 作为键，并能自动扩展分片。
+- [concurrent-swiss-map](https://github.com/mhmtszr/concurrent-swiss-map) - 基于 Swiss Map 的高性能、线程安全、泛型并发哈希表实现。
+- [dict](https://github.com/srfrog/dict) - Go 版类 Python 字典（dict）。
+- [genericsyncmap](https://github.com/donomii/genericsyncmap) - 对 `sync.Map` 的类型安全泛型封装，方法完全对齐且零依赖。
+- [go-shelve](https://github.com/lucmq/go-shelve) - 面向 Go 编程语言的持久化类映射对象。支持多种内嵌键值存储。
+- [goradd/maps](https://github.com/goradd/maps) - 面向 Go 1.18+ 的泛型映射接口：普通 map、安全 map、有序 map、有序安全 map 等。
+- [hmap](https://github.com/lyonnee/hmap) - HMap 是一个并发且安全的泛型 Map 实现，旨在提供易于使用的 API。
 
 <a id="miscellaneous-data-structures-and-algorithms"></a>
 ### 其他数据结构与算法
 
-- [combo](https://github.com/bobg/combo) - Combinatorial operations including permutations, combinations, and combinations-with-replacement.
-- [concurrent-writer](https://github.com/free/concurrent-writer) - Highly concurrent drop-in replacement for `bufio.Writer`.
-- [count-min-log](https://github.com/seiflotfy/count-min-log) - Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory).
-- [FSM](https://github.com/enetx/fsm) - FSM for Go.
-- [fsm](https://github.com/cocoonspace/fsm) - Finite-State Machine package.
-- [genfuncs](https://github.com/nwillc/genfuncs) - Go 1.18+ generics package inspired by Kotlin's Sequence and Map.
-- [go-generics](https://github.com/bobg/go-generics) - Generic slice, map, set, iterator, and goroutine utilities.
-- [go-geoindex](https://github.com/hailocab/go-geoindex) - In-memory geo index.
-- [go-rampart](https://github.com/francesconi/go-rampart) - Determine how intervals relate to each other.
-- [go-rquad](https://github.com/aurelien-rainone/go-rquad) - Region quadtrees with efficient point location and neighbour finding.
-- [go-tuple](https://github.com/barweiss/go-tuple) - Generic tuple implementation for Go 1.18+.
-- [go18ds](https://github.com/daichi-m/go18ds) - Go Data Structures using Go 1.18 generics.
-- [gofal](https://github.com/xxjwxc/gofal) - fractional api for Go.
-- [gogu](https://github.com/esimov/gogu) - A comprehensive, reusable and efficient concurrent-safe generics utility functions and data structures library.
-- [gota](https://github.com/kniren/gota) - Implementation of dataframes, series, and data wrangling methods for Go.
-- [hide](https://github.com/emvi/hide) - ID type with marshalling to/from hash to prevent sending IDs to clients.
-- [hyperloglog](https://github.com/axiomhq/hyperloglog) - HyperLogLog implementation with Sparse, LogLog-Beta bias correction and TailCut space reduction.
-- [quadtree](https://github.com/s0rg/quadtree) - Generic, zero-alloc, 100%-test covered quadtree.
-- [slices](https://github.com/twharmon/slices) - Pure, generic functions for slices.
+- [combo](https://github.com/bobg/combo) - 组合运算，包括排列、组合与可重复组合。
+- [concurrent-writer](https://github.com/free/concurrent-writer) - 高并发的 `bufio.Writer` 直接替代品。
+- [count-min-log](https://github.com/seiflotfy/count-min-log) - Count-Min-Log 草图的 Go 实现：用近似计数器做近似计数（类似 Count-Min 草图，但占用内存更少）。
+- [FSM](https://github.com/enetx/fsm) - Go 版有限状态机（FSM）。
+- [fsm](https://github.com/cocoonspace/fsm) - 有限状态机包。
+- [genfuncs](https://github.com/nwillc/genfuncs) - 受 Kotlin Sequence 与 Map 启发的 Go 1.18+ 泛型包。
+- [go-generics](https://github.com/bobg/go-generics) - 泛型切片、映射、集合、迭代器与 goroutine 工具集。
+- [go-geoindex](https://github.com/hailocab/go-geoindex) - 内存地理索引。
+- [go-rampart](https://github.com/francesconi/go-rampart) - 判定区间之间的相互关系。
+- [go-rquad](https://github.com/aurelien-rainone/go-rquad) - 区域四叉树，支持高效的点定位与邻域查找。
+- [go-tuple](https://github.com/barweiss/go-tuple) - 面向 Go 1.18+ 的泛型元组实现。
+- [go18ds](https://github.com/daichi-m/go18ds) - 使用 Go 1.18 泛型的 Go 数据结构。
+- [gofal](https://github.com/xxjwxc/gofal) - 面向 Go 的分数 API。
+- [gogu](https://github.com/esimov/gogu) - 一套完备、可复用、高效且并发安全的泛型工具函数与数据结构库。
+- [gota](https://github.com/kniren/gota) - Go 版 dataframe、series 与数据处理方法的实现。
+- [hide](https://github.com/emvi/hide) - 可与哈希互相编解码的 ID 类型，用于避免把内部 ID 发送给客户端。
+- [hyperloglog](https://github.com/axiomhq/hyperloglog) - HyperLogLog 实现，带 Sparse 偏差校正与 TailCut 空间缩减。
+- [quadtree](https://github.com/s0rg/quadtree) - 纯泛型的四叉树，零分配、100% 测试覆盖。
+- [slices](https://github.com/twharmon/slices) - 面向切片的纯泛型函数。
 
 <a id="nullable-types"></a>
 ### 可空类型
 
-- [nan](https://github.com/kak-tus/nan) - Zero allocation Nullable structures in one library with handy conversion functions, marshallers and unmarshallers.
-- [null](https://github.com/emvi/null) - Nullable Go types that can be marshalled/unmarshalled to/from JSON.
-- [typ](https://github.com/gurukami/typ) - Null Types, Safe primitive type conversion and fetching value from complex structures.
+- [nan](https://github.com/kak-tus/nan) - 一个库内集成零分配的可空结构体，并提供便捷的转换函数与编解码器。
+- [null](https://github.com/emvi/null) - 可与 JSON 互相编解码的 Go 可空类型。
+- [typ](https://github.com/gurukami/typ) - 空值类型、安全的基础类型转换，以及从复杂结构中取值。
 
 <a id="queues"></a>
 ### 队列
 
-- [deheap](https://github.com/aalpar/deheap) - Doubly-ended heap (min-max heap) with O(log n) access to both minimum and maximum elements.
-- [deque](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
-- [deque](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
-- [dqueue](https://github.com/vodolaz095/dqueue) - Simple, in memory, zero dependency and battle tested, thread-safe deferred queue.
-- [goconcurrentqueue](https://github.com/enriquebris/goconcurrentqueue) - Concurrent FIFO queue.
-- [hatchet](https://github.com/hatchet-dev/hatchet) - Distributed, Fault-tolerant task queue.
-- [list](https://github.com/koss-null/list) - A generic, thread-safe doubly linked list with full iterator support and an intrusive singly linked list for embedded use; a feature-rich replacement for container/list.
-- [memlog](https://github.com/embano1/memlog) - An easy to use, lightweight, thread-safe and append-only in-memory data structure inspired by Apache Kafka.
-- [queue](https://github.com/adrianbrad/queue) - Multiple thread-safe, generic queue implementations for Go.
+- [deheap](https://github.com/aalpar/deheap) - 双端堆（最小-最大堆），以 O(log n) 同时访问最小与最大元素。
+- [deque](https://github.com/edwingeng/deque) - 高度优化的双端队列。
+- [deque](https://github.com/gammazero/deque) - 快速环形缓冲区双端队列。
+- [dqueue](https://github.com/vodolaz095/dqueue) - 简单、纯内存、零依赖、经过实战检验的线程安全延迟队列。
+- [goconcurrentqueue](https://github.com/enriquebris/goconcurrentqueue) - 并发 FIFO 队列。
+- [hatchet](https://github.com/hatchet-dev/hatchet) - 分布式、容错的任务队列。
+- [list](https://github.com/koss-null/list) - 通用线程安全双向链表，支持完整迭代器，并提供可用于嵌入场景的侵入式单向链表；是 container/list 的功能更丰富的替代品。
+- [memlog](https://github.com/embano1/memlog) - 受 Apache Kafka 启发的易用、轻量、线程安全、仅追加的内存数据结构。
+- [queue](https://github.com/adrianbrad/queue) - 多种线程安全的泛型队列实现。
 
 <a id="sets"></a>
 ### 集合
 
-- [dsu](https://github.com/ihebu/dsu) - Disjoint Set data structure implementation in Go.
-- [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
-- [goset](https://github.com/zoumo/goset) - A useful Set collection implementation for Go.
-- [set](https://github.com/StudioSol/set) - Simple set data structure implementation in Go using LinkedHashMap.
+- [dsu](https://github.com/ihebu/dsu) - Go 版并查集数据结构实现。
+- [golang-set](https://github.com/deckarep/golang-set) - 面向 Go 的线程安全与非线程安全高性能集合。
+- [goset](https://github.com/zoumo/goset) - 实用的 Go Set 集合实现。
+- [set](https://github.com/StudioSol/set) - 用 LinkedHashMap 实现的简易 Go 集合数据结构。
 
 <a id="text-analysis"></a>
 ### 文本分析
 
-- [bleve](https://github.com/blevesearch/bleve) - Modern text indexing library for go.
-- [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - Go implementation of Adaptive Radix Tree.
-- [go-edlib](https://github.com/hbollon/go-edlib) - Go string comparison and edit distance algorithms library (Levenshtein, LCS, Hamming, Damerau levenshtein, Jaro-Winkler, etc.) compatible with Unicode.
-- [levenshtein](https://github.com/agext/levenshtein) - Levenshtein distance and similarity metrics with customizable edit costs and Winkler-like bonus for common prefix.
-- [levenshtein](https://github.com/agnivade/levenshtein) - Implementation to calculate levenshtein distance in Go.
-- [mspm](https://github.com/BlackRabbitt/mspm) - Multi-String Pattern Matching Algorithm for information retrieval.
-- [parsefields](https://github.com/MonaxGT/parsefields) - Tools for parse JSON-like logs for collecting unique fields and events.
-- [ptrie](https://github.com/viant/ptrie) - An implementation of prefix tree.
-- [radixtree](https://github.com/gammazero/radixtree) - Adaptive radix tree (prefix-tree or compact-trie).
-- [trie](https://github.com/derekparker/trie) - Trie implementation in Go.
+- [bleve](https://github.com/blevesearch/bleve) - 面向 Go 的现代化文本索引库。
+- [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - 自适应基数树（Adaptive Radix Tree）的 Go 实现。
+- [go-edlib](https://github.com/hbollon/go-edlib) - Go 字符串比较与编辑距离算法库（Levenshtein、LCS、Hamming、Damerau-Levenshtein、Jaro-Winkler 等），兼容 Unicode。
+- [levenshtein](https://github.com/agext/levenshtein) - Levenshtein 距离与相似度度量，支持自定义编辑代价，并为公共前缀提供类 Winkler 奖励。
+- [levenshtein](https://github.com/agnivade/levenshtein) - 用于计算 Levenshtein 距离的 Go 实现。
+- [mspm](https://github.com/BlackRabbitt/mspm) - 面向信息检索的多字符串模式匹配算法。
+- [parsefields](https://github.com/MonaxGT/parsefields) - 解析类 JSON 日志的工具，用于采集唯一字段与事件。
+- [ptrie](https://github.com/viant/ptrie) - 前缀树的实现。
+- [radixtree](https://github.com/gammazero/radixtree) - 自适应基数树（prefix-tree 或 compact-trie）。
+- [trie](https://github.com/derekparker/trie) - Go 版 Trie 实现。
 
 <a id="trees"></a>
 ### 树
 
-- [graphlib](https://github.com/aio-arch/graphlib) - Topological sort lib,Sorting and pruning of DAG graphs.
-- [hashsplit](http://github.com/bobg/hashsplit) - Split byte streams into chunks, and arrange chunks into trees, with boundaries determined by content, not position.
-- [merkle](https://github.com/bobg/merkle) - Space-efficient computation of Merkle root hashes and inclusion proofs.
-- [skiplist](https://github.com/MauriceGit/skiplist) - Very fast Go Skiplist implementation.
-- [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go.
-- [skiplist](https://github.com/huandu/skiplist) - Fast and easy-to-use skip list for Go.
-- [treemap](https://github.com/igrmk/treemap) - Generic key-sorted map using a red-black tree under the hood.
+- [graphlib](https://github.com/aio-arch/graphlib) - 拓扑排序库，支持对 DAG 图排序与剪枝。
+- [hashsplit](http://github.com/bobg/hashsplit) - 将字节流切分为数据块，并按内容（而非位置）确定的边界把数据块组织成树。
+- [merkle](https://github.com/bobg/merkle) - 空间高效的 Merkle 根哈希与包含证明计算。
+- [skiplist](https://github.com/MauriceGit/skiplist) - 非常快的 Go 跳表实现。
+- [skiplist](https://github.com/gansidui/skiplist) - Go 版跳表实现。
+- [skiplist](https://github.com/huandu/skiplist) - 快速易用的 Go 跳表。
+- [treemap](https://github.com/igrmk/treemap) - 底层采用红黑树的按键排序泛型映射。
 
 <a id="pipes"></a>
 ### 管道
 
-- [ordered-concurrently](https://github.com/tejzpr/ordered-concurrently) - Go module that processes work concurrently and returns output in a channel in the order of input.
-- [parapipe](https://github.com/nazar256/parapipe) - FIFO Pipeline which parallels execution on each stage while maintaining the order of messages and results.
-- [pipeline](https://github.com/hyfather/pipeline) - An implementation of pipelines with fan-in and fan-out.
-- [pipelines](https://github.com/nxdir-s/pipelines) - Generic pipeline functions for concurrent processing.
+- [ordered-concurrently](https://github.com/tejzpr/ordered-concurrently) - Go 模块，并发处理任务，并按输入顺序通过 channel 返回结果。
+- [parapipe](https://github.com/nazar256/parapipe) - FIFO 流水线，在保持消息与结果顺序的同时让各阶段并行执行。
+- [pipeline](https://github.com/hyfather/pipeline) - 支持 fan-in 与 fan-out 的流水线实现。
+- [pipelines](https://github.com/nxdir-s/pipelines) - 用于并发处理的泛型流水线函数。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -794,88 +794,88 @@ _用于执行 ELT / ETL 的框架_
 
 _支持记录过期、内存分布式数据存储，或文件型数据库内存子集的存储。_
 
-- [bcache](https://github.com/iwanbk/bcache) - Eventually consistent distributed in-memory cache Go library.
-- [BigCache](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
-- [cache2go](https://github.com/muesli/cache2go) - In-memory key:value cache which supports automatic invalidation based on timeouts.
-- [cachego](https://github.com/faabiosr/cachego) - Golang Cache component for multiple drivers.
-- [clusteredBigCache](https://github.com/oaStuff/clusteredBigCache) - BigCache with clustering support and individual item expiration.
-- [coherence-go-client](https://github.com/oracle/coherence-go-client) - Full implementation of Oracle Coherence cache API for Go applications using gRPC as network transport.
-- [couchcache](https://github.com/codingsince1985/couchcache) - RESTful caching micro-service backed by Couchbase server.
-- [EchoVault](https://github.com/EchoVault/EchoVault) - Embeddable Distributed in-memory data store compatible with Redis clients.
-- [easycache](https://github.com/hugocarreira/easycache) - A simple way to use in-memory cache in Golang (TTL/FIFO/LRU/LFU).
-- [fastcache](https://github.com/VictoriaMetrics/fastcache) - fast thread-safe inmemory cache for big number of entries. Minimizes GC overhead.
-- [GCache](https://github.com/bluele/gcache) - Cache library with support for expirable Cache, LFU, LRU and ARC.
-- [gdcache](https://github.com/ulovecode/gdcache) - A pure non-intrusive cache library implemented by golang, you can use it to implement your own distributed cache.
-- [go-cache](https://github.com/viney-shih/go-cache) - A flexible multi-layer Go caching library to deal with in-memory and shared cache by adopting Cache-Aside pattern.
-- [go-freelru](https://github.com/elastic/go-freelru) A GC-less, fast and generic LRU hashmap library with optional locking, sharding, eviction and expiration.
-- [go-gcache](https://github.com/szyhf/go-gcache) - The generic version of `GCache`, cache support for expirable Cache, LFU, LRU and ARC.
-- [go-mcache](https://github.com/OrlovEvgeny/go-mcache) - Fast in-memory key:value store/cache library. Pointer caches.
-- [gocache](https://github.com/eko/gocache) - A complete Go cache library with multiple stores (memory, memcache, redis, ...), chainable, loadable, metrics cache and more.
-- [gocache](https://github.com/yuseferi/gocache) - A data race free Go ache library with high performance and auto pruge functionality
-- [groupcache](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
-- [icache](https://github.com/mdaliyan/icache) - A High Performance, Generic, thread-safe, zero-dependency cache package.
-- [imcache](https://github.com/erni27/imcache) - A generic in-memory cache Go library. It supports expiration, sliding expiration, max entries limit, eviction callbacks and sharding.
-- [jetcache-go](https://github.com/mgtv-tech/jetcache-go) - Unified Go cache library supporting multi-level caching.
-- [nscache](https://github.com/no-src/nscache) - A Go caching framework that supports multiple data source drivers.
-- [otter](https://github.com/maypok86/otter) - A high performance lockless cache for Go. Many times faster than Ristretto and friends.
-- [pocache](https://github.com/naughtygopher/pocache) - Pocache is a minimal cache package which focuses on a preemptive optimistic caching strategy.
-- [ristretto](https://github.com/dgraph-io/ristretto) - A high performance memory-bound Go cache.
-- [sturdyc](https://github.com/viccon/sturdyc) - A caching library with advanced concurrency features designed to make I/O heavy applications robust and highly performant.
-- [theine](https://github.com/Yiling-J/theine-go) - High performance, near optimal in-memory cache with proactive TTL expiration and generics.
-- [timedmap](https://github.com/zekroTJA/timedmap) - Map with expiring key-value pairs.
-- [ttlcache](https://github.com/jellydator/ttlcache) - An in-memory cache with item expiration and generics.
-- [ttlcache](https://github.com/cheshir/ttlcache) - In-memory key value storage with TTL for each record.
+- [bcache](https://github.com/iwanbk/bcache) - 最终一致的分布式内存缓存 Go 库。
+- [BigCache](https://github.com/allegro/bigcache) - 面向 GB 级数据的高效键值缓存。
+- [cache2go](https://github.com/muesli/cache2go) - 内存键值缓存，支持基于超时的自动失效。
+- [cachego](https://github.com/faabiosr/cachego) - 支持多驱动的 Golang 缓存组件。
+- [clusteredBigCache](https://github.com/oaStuff/clusteredBigCache) - BigCache，支持集群与单条目过期。
+- [coherence-go-client](https://github.com/oracle/coherence-go-client) - 面向 Go 应用的 Oracle Coherence 缓存 API 完整实现，以 gRPC 作为网络传输。
+- [couchcache](https://github.com/codingsince1985/couchcache) - 基于 Couchbase 服务器的 RESTful 缓存微服务。
+- [EchoVault](https://github.com/EchoVault/EchoVault) - 可嵌入的分布式内存数据存储，兼容 Redis 客户端。
+- [easycache](https://github.com/hugocarreira/easycache) - 在 Golang 中使用内存缓存的简便方式（TTL/FIFO/LRU/LFU）。
+- [fastcache](https://github.com/VictoriaMetrics/fastcache) - 面向海量条目的快速线程安全内存缓存。最大限度降低 GC 开销。
+- [GCache](https://github.com/bluele/gcache) - 支持可过期缓存、LFU、LRU 与 ARC 的缓存库。
+- [gdcache](https://github.com/ulovecode/gdcache) - 用 Go 实现的纯非侵入式缓存库，你可以基于它实现自己的分布式缓存。
+- [go-cache](https://github.com/viney-shih/go-cache) - 灵活的多层 Go 缓存库，采用 Cache-Aside 模式同时处理内存缓存与共享缓存。
+- [go-freelru](https://github.com/elastic/go-freelru) 免 GC、快速且泛型的 LRU 哈希表库，支持可选加锁、分片、淘汰与过期。
+- [go-gcache](https://github.com/szyhf/go-gcache) - `GCache` 的泛型版本，支持可过期缓存、LFU、LRU 与 ARC。
+- [go-mcache](https://github.com/OrlovEvgeny/go-mcache) - 快速内存键值存储/缓存库。支持指针缓存。
+- [gocache](https://github.com/eko/gocache) - 完整的 Go 缓存库，支持多种存储（memory、memcache、redis 等），可链式、可预加载、带指标统计等功能。
+- [gocache](https://github.com/yuseferi/gocache) - 无数据竞争的 Go 缓存库，高性能并具备自动清理功能。
+- [groupcache](https://github.com/golang/groupcache) - Groupcache 是一个缓存与缓存填充库，在许多场景下可替代 memcached。
+- [icache](https://github.com/mdaliyan/icache) - 高性能、泛型、线程安全、零依赖的缓存包。
+- [imcache](https://github.com/erni27/imcache) - 泛型内存缓存 Go 库。支持过期、滑动过期、最大条目数限制、淘汰回调与分片。
+- [jetcache-go](https://github.com/mgtv-tech/jetcache-go) - 统一 Go 缓存库，支持多级缓存。
+- [nscache](https://github.com/no-src/nscache) - 支持多种数据源驱动的 Go 缓存框架。
+- [otter](https://github.com/maypok86/otter) - 面向 Go 的高性能无锁缓存。比 Ristretto 之流快出许多倍。
+- [pocache](https://github.com/naughtygopher/pocache) - Pocache 是一个极简缓存包，专注于预判式乐观缓存策略。
+- [ristretto](https://github.com/dgraph-io/ristretto) - 面向内存瓶颈场景的高性能 Go 缓存。
+- [sturdyc](https://github.com/viccon/sturdyc) - 具备高级并发特性的缓存库，让 I/O 密集型应用更稳健、更高性能。
+- [theine](https://github.com/Yiling-J/theine-go) - 高性能、接近最优的内存缓存，带主动 TTL 过期与泛型支持。
+- [timedmap](https://github.com/zekroTJA/timedmap) - 支持键值对过期的映射。
+- [ttlcache](https://github.com/jellydator/ttlcache) - 支持条目过期与泛型的内存缓存。
+- [ttlcache](https://github.com/cheshir/ttlcache) - 内存键值存储，每条记录可设 TTL。
 
 <a id="databases-implemented-in-go"></a>
 ### 用 Go 实现的数据库
 
-- [badger](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
-- [bbolt](https://github.com/etcd-io/bbolt) - An embedded key/value database for Go.
-- [Bitcask](https://git.mills.io/prologic/bitcask) - Bitcask is an embeddable, persistent and fast key-value (KV) database written in pure Go with predictable read/write performance, low latency and high throughput thanks to the bitcask on-disk layout (LSM+WAL).
-- [buntdb](https://github.com/tidwall/buntdb) - Fast, embeddable, in-memory key/value database for Go with custom indexing and spatial support.
-- [clover](https://github.com/ostafen/clover) - A lightweight document-oriented NoSQL database written in pure Golang.
-- [cockroach](https://github.com/cockroachdb/cockroach) - Scalable, Geo-Replicated, Transactional Datastore.
-- [Coffer](https://github.com/claygod/coffer) - Simple ACID key-value database that supports transactions.
-- [column](https://github.com/kelindar/column) - High-performance, columnar, embeddable in-memory store with bitmap indexing and transactions.
-- [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL) - CovenantSQL is a SQL database on blockchain.
-- [Databunker](https://github.com/paranoidguy/databunker) - Personally identifiable information (PII) storage service built to comply with GDPR and CCPA.
-- [dgraph](https://github.com/dgraph-io/dgraph) - Scalable, Distributed, Low Latency, High Throughput Graph Database.
-- [DiceDB](https://github.com/DiceDB/dice) - An open-source, fast, reactive, in-memory database optimized for modern hardware. Higher throughput and lower median latencies, making it ideal for modern workloads.
-- [diskv](https://github.com/peterbourgon/diskv) - Home-grown disk-backed key-value store.
-- [dolt](https://github.com/dolthub/dolt) - Dolt – It's Git for Data.
-- [eliasdb](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
-- [gedb](https://github.com/vinicius-lino-figueiredo/gedb) - MongoDB-like embedded database, written in pure-go. Supports indexing and complex queries.
-- [go-sqlite](https://github.com/glebarez/go-sqlite) – A Pure Golang implemented SQLite driver without CGO.
-- [godis](https://github.com/hdt3213/godis) - A Golang implemented high-performance Redis server and cluster.
-- [goleveldb](https://github.com/syndtr/goleveldb) - Implementation of the [LevelDB](https://github.com/google/leveldb) key/value database in Go.
-- [hare](https://github.com/jameycribbs/hare) - A simple database management system that stores each table as a text file of line-delimited JSON.
-- [immudb](https://github.com/codenotary/immudb) - immudb is a lightweight, high-speed immutable database for systems and applications written in Go.
-- [influxdb](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics.
-- [ledisdb](https://github.com/siddontang/ledisdb) - Ledisdb is a high performance NoSQL like Redis based on LevelDB.
-- [levigo](https://github.com/jmhodges/levigo) - Levigo is a Go wrapper for LevelDB.
-- [libradb](https://github.com/amit-davidson/LibraDB) - LibraDB is a simple database with less than 1000 lines of code for learning.
-- [LinDB](https://github.com/lindb/lindb) - LinDB is a scalable, high performance, high availability distributed time series database.
-- [lotusdb](https://github.com/flower-corp/lotusdb) - Fast k/v database compatible with lsm and b+tree.
-- [lynxdb](https://github.com/lynxbase/lynxdb) - Lightweight columnar log analytics database with a pipe-style query language inspired by SPL.
-- [MemHop](https://github.com/qyiun666/MemHop) - Embedded cognitive memory database for AI agents. Six-layer architecture (L0-L5), Dream consolidation pipeline, three-channel RRF retrieval (BM25 + f16 vector + entity), single .meh file, pure Go, zero infrastructure.
-- [Milvus](https://github.com/milvus-io/milvus) - Milvus is a vector database for embedding management, analytics and search.
-- [minisql](https://github.com/RichardKnop/minisql) - Embedded single file SQL database.
-- [moss](https://github.com/couchbase/moss) - Moss is a simple LSM key-value storage engine written in 100% Go.
-- [nanotdb](https://github.com/aymanhs/nanotdb) - A lightweight, zero-dependency, append-only Time-Series Database and Dashboard optimized for low-power hardware.
-- [NoKV](https://github.com/feichai0017/NoKV) - Native metadata service for distributed filesystems, object storage, and AI dataset workloads.
-- [NornicDB](https://github.com/orneryd/NornicDB) - High performance graph + vector database (Neo4j and qDrant compatible), focused on low latency graph-rag retreival for AI systems. 
-- [nutsdb](https://github.com/xujiajun/nutsdb) - Nutsdb is a simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as list, set, sorted set.
-- [objectbox-go](https://github.com/objectbox/objectbox-go) - High-performance embedded Object Database (NoSQL) with Go API.
-- [pebble](https://github.com/cockroachdb/pebble) - RocksDB/LevelDB inspired key-value database in Go.
-- [piladb](https://github.com/fern4lvarez/piladb) - Lightweight RESTful database engine based on stack data structures.
-- [pogreb](https://github.com/akrylysov/pogreb) - Embedded key-value store for read-heavy workloads.
-- [prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
-- [pudge](https://github.com/recoilme/pudge) - Fast and simple key/value store written using Go's standard library.
-- [redka](https://github.com/nalgeon/redka) - Redis re-implemented with SQLite.
-- [rosedb](https://github.com/roseduan/rosedb) - An embedded k-v database based on LSM+WAL, supports string, list, hash, set, zset.
-- [rotom](https://github.com/xgzlucario/rotom) - A tiny Redis server built with Golang, compatible with RESP protocols.
-- [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
-- [tempdb](https://github.com/rafaeljesus/tempdb) - Key-value store for temporary items.
+- [badger](https://github.com/dgraph-io/badger) - Go 版快速键值存储。
+- [bbolt](https://github.com/etcd-io/bbolt) - 面向 Go 的嵌入式键值数据库。
+- [Bitcask](https://git.mills.io/prologic/bitcask) - Bitcask 是用纯 Go 编写的可嵌入、持久化、快速键值（KV）数据库，凭借 bitcask 磁盘布局（LSM+WAL）实现可预测的读写性能、低延迟与高吞吐。
+- [buntdb](https://github.com/tidwall/buntdb) - 快速、可嵌入的 Go 内存键值数据库，支持自定义索引与空间查询。
+- [clover](https://github.com/ostafen/clover) - 用纯 Golang 编写的轻量级文档型 NoSQL 数据库。
+- [cockroach](https://github.com/cockroachdb/cockroach) - 可扩展、异地复制、事务型数据存储。
+- [Coffer](https://github.com/claygod/coffer) - 简单且支持事务的 ACID 键值数据库。
+- [column](https://github.com/kelindar/column) - 高性能列式可嵌入内存存储，具备位图索引与事务支持。
+- [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL) - CovenantSQL 是运行在区块链上的 SQL 数据库。
+- [Databunker](https://github.com/paranoidguy/databunker) - 为符合 GDPR 与 CCPA 而构建的个人身份信息（PII）存储服务。
+- [dgraph](https://github.com/dgraph-io/dgraph) - 可扩展、分布式、低延迟、高吞吐的图数据库。
+- [DiceDB](https://github.com/DiceDB/dice) - 开源、快速、响应式的内存数据库，针对现代硬件优化。更高吞吐与更低中位延迟，非常适合现代工作负载。
+- [diskv](https://github.com/peterbourgon/diskv) - 自研的磁盘支撑键值存储。
+- [dolt](https://github.com/dolthub/dolt) - Dolt —— 数据界的 Git。
+- [eliasdb](https://github.com/krotik/eliasdb) - 零依赖的事务型图数据库，提供 REST API、短语搜索与类 SQL 查询语言。
+- [gedb](https://github.com/vinicius-lino-figueiredo/gedb) - 类 MongoDB 的嵌入式数据库，以纯 Go 编写。支持索引与复杂查询。
+- [go-sqlite](https://github.com/glebarez/go-sqlite) 纯 Golang 实现、无需 CGO 的 SQLite 驱动。
+- [godis](https://github.com/hdt3213/godis) - 用 Golang 实现的高性能 Redis 服务器与集群。
+- [goleveldb](https://github.com/syndtr/goleveldb) - [LevelDB](https://github.com/google/leveldb) 键值数据库的 Go 实现。
+- [hare](https://github.com/jameycribbs/hare) - 一个简单的数据库管理系统，将每张表存为按行分隔的 JSON 文本文件。
+- [immudb](https://github.com/codenotary/immudb) - immudb 是面向 Go 编写的系统与应用打造的轻量、高速不可变数据库。
+- [influxdb](https://github.com/influxdb/influxdb) - 面向指标、事件与实时分析的可扩展数据存储。
+- [ledisdb](https://github.com/siddontang/ledisdb) - Ledisdb 是基于 LevelDB 的高性能类 Redis NoSQL 数据库。
+- [levigo](https://github.com/jmhodges/levigo) - Levigo 是 LevelDB 的 Go 封装。
+- [libradb](https://github.com/amit-davidson/LibraDB) - LibraDB 是一个不足 1000 行代码的简易数据库，适合学习。
+- [LinDB](https://github.com/lindb/lindb) - LinDB 是可扩展、高性能、高可用的分布式时序数据库。
+- [lotusdb](https://github.com/flower-corp/lotusdb) - 兼容 LSM 与 B+ 树的快速键值数据库。
+- [lynxdb](https://github.com/lynxbase/lynxdb) - 轻量级列式日志分析数据库，配有受 SPL 启发的管道式查询语言。
+- [MemHop](https://github.com/qyiun666/MemHop) - 面向 AI 智能体的嵌入式认知记忆数据库。六层架构（L0-L5）、Dream 整合管线、三通道 RRF 检索（BM25 + f16 向量 + 实体）、单一 .meh 文件、纯 Go、零基础设施。
+- [Milvus](https://github.com/milvus-io/milvus) - Milvus 是用于嵌入管理、分析与搜索的向量数据库。
+- [minisql](https://github.com/RichardKnop/minisql) - 嵌入式单文件 SQL 数据库。
+- [moss](https://github.com/couchbase/moss) - Moss 是用 100% Go 编写的简易 LSM 键值存储引擎。
+- [nanotdb](https://github.com/aymanhs/nanotdb) - 轻量、零依赖、仅追加的时序数据库与仪表盘，针对低功耗硬件优化。
+- [NoKV](https://github.com/feichai0017/NoKV) - 面向分布式文件系统、对象存储与 AI 数据集负载的原生元数据服务。
+- [NornicDB](https://github.com/orneryd/NornicDB) - 高性能图 + 向量数据库（兼容 Neo4j 与 qDrant），专注于为 AI 系统提供低延迟的 graph-rag 检索。
+- [nutsdb](https://github.com/xujiajun/nutsdb) - Nutsdb 是用纯 Go 编写的简单、快速、可嵌入、持久化键值存储。支持完全可序列化事务，以及列表、集合、有序集合等多种数据结构。
+- [objectbox-go](https://github.com/objectbox/objectbox-go) - 高性能嵌入式对象数据库（NoSQL），提供 Go API。
+- [pebble](https://github.com/cockroachdb/pebble) - 受 RocksDB/LevelDB 启发的 Go 键值数据库。
+- [piladb](https://github.com/fern4lvarez/piladb) - 基于栈式数据结构的轻量级 RESTful 数据库引擎。
+- [pogreb](https://github.com/akrylysov/pogreb) - 面向读多写少负载的嵌入式键值存储。
+- [prometheus](https://github.com/prometheus/prometheus) - 监控系统与时序数据库。
+- [pudge](https://github.com/recoilme/pudge) - 仅使用 Go 标准库编写的快速简易键值存储。
+- [redka](https://github.com/nalgeon/redka) - 用 SQLite 重新实现的 Redis。
+- [rosedb](https://github.com/roseduan/rosedb) - 基于 LSM+WAL 的嵌入式键值数据库，支持 string、list、hash、set、zset。
+- [rotom](https://github.com/xgzlucario/rotom) - 用 Golang 构建的迷你 Redis 服务器，兼容 RESP 协议。
+- [rqlite](https://github.com/rqlite/rqlite) - 基于 SQLite 构建的轻量级分布式关系数据库。
+- [tempdb](https://github.com/rafaeljesus/tempdb) - 用于临时条目的键值存储。
 - [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 - [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
 - [unitdb](https://github.com/unit-io/unitdb) - Fast timeseries database for IoT, realtime messaging applications. Access unitdb with pubsub over tcp or websocket using github.com/unit-io/unitd application.
@@ -2761,7 +2761,7 @@ _用于测试代码库与生成测试数据的库。_
 - [biff](https://github.com/fulldump/biff) - Bifurcation testing framework, BDD compatible.
 - [charlatan](https://github.com/percolate/charlatan) - Tool to generate fake interface implementations for tests.
 - [commander](https://github.com/SimonBaeumer/commander) - Tool for testing cli applications on windows, linux and osx.
-- [coverage](https://github.com/jbunds/coverage) - A simple Web UI for Go test coverage, and the [go-test-coverage-html-report](https://github.com/marketplace/actions/go-test-coverage-html-report) reusable GitHub Action.
+- [coverage](https://github.com/jbunds/coverage) - 用于展示 Go 测试覆盖率的简易 Web UI，以及可复用的 [go-test-coverage-html-report](https://github.com/marketplace/actions/go-test-coverage-html-report) GitHub Action。
 - [cupaloy](https://github.com/bradleyjkemp/cupaloy) - Simple snapshot testing addon for your test framework.
 - [dbcleaner](https://github.com/khaiql/dbcleaner) - Clean database for testing purpose, inspired by `database_cleaner` in Ruby.
 - [dft](https://github.com/abecodes/dft) - Lightweight, zero dependency docker containers for testing (or more).
