@@ -3432,23 +3432,23 @@ _全栈 Web 框架。_
 - [Hertz](https://github.com/cloudwego/hertz) - 高性能、高扩展性的 Go HTTP 框架，帮助开发者构建微服务。
 - [hiboot](https://github.com/hidevopsio/hiboot) - hiboot 是高性能的 Web 应用框架，支持自动配置与依赖注入。
 - [httpsuite](https://github.com/rluders/httpsuite) - 面向 Go 的 HTTP 请求解析与 RFC 9457 problem 响应，核心仅依赖标准库，校验可选。
-- [Huma](https://github.com/danielgtaylor/huma/) - Framework for modern REST/GraphQL APIs with built-in OpenAPI 3, generated documentation, and a CLI.
-- [iWF](https://github.com/indeedeng/iwf) - iWF is an all-in-one platform for developing long-running business processes. It offers a convenient abstraction for utilizing databases, ElasticSearch, message queues, durable timers, and more, with a clean, simple, and user-friendly interface.
-- [Lit](https://github.com/jvcoutinho/lit) - Highly performant declarative web framework for Golang, aiming for simplicity and quality of life.
-- [Microservice](https://github.com/claygod/microservice) - The framework for the creation of microservices, written in Golang.
-- [NotNet](https://github.com/nottechdm/notnet) - A lightweight Go framework for building fast, ergonomic RESTful APIs with middleware and flexible routing.
-- [patron](https://github.com/beatlabs/patron) - Patron is a microservice framework following best cloud practices with a focus on productivity.
-- [Pnutmux](https://gitlab.com/fruitygo/pnutmux) - Pnutmux is a powerful Go web framework that uses regex for matching and handling HTTP requests. It offers features such as CORS handling, structured logging, URL parameters extraction, middlewares, and concurrency limiting.
-- [Revel](https://github.com/revel/revel) - High-productivity web framework for the Go language.
-- [rk-boot](https://github.com/rookie-ninja/rk-boot) - A bootstrapper library for building enterprise go microservice with Gin and gRPC quickly and easily.
-- [Ronykit](https://github.com/clubpay/ronykit) - Web framework with pluggable architecture and very performant.
-- [rux](https://github.com/gookit/rux) - Simple and fast web framework for build golang HTTP applications.
-- [templui](https://github.com/axzilla/templui) - Modern UI Components for Go & Templ.
-- [togo](https://github.com/togo-framework/togo) - Full-stack framework that ships your Go backend and React frontend as a single binary; a Laravel-artisan-grade CLI.
-- [uAdmin](https://github.com/uadmin/uadmin) - Fully featured web framework for Golang, inspired by Django.
-- [WebGo](https://github.com/naughtygopher/webgo) - A micro-framework to build web apps with handler chaining, middleware, and context injection. With standard library-compliant HTTP handlers (i.e., `http.HandlerFunc`)..
-- [Xun](https://github.com/yaitoo/xun) - Web framework built on Go's built-in html/template and net/http package’s router. It is designed to be lightweight, fast, and easy to use while providing a simple and intuitive API for building web applications with advanced features such as middleware, routing, and template rendering.
-- [Yokai](https://github.com/ankorstore/yokai) - Simple, modular, and observable Go framework for backend applications.
+- [Huma](https://github.com/danielgtaylor/huma/) - 面向现代 REST/GraphQL API 的框架，内置 OpenAPI 3、文档生成与命令行工具。
+- [iWF](https://github.com/indeedeng/iwf) - iWF 是开发长流程业务流程的一体化平台。它为使用数据库、ElasticSearch、消息队列、持久化定时器等提供了便捷抽象，界面干净、简单且对用户友好。
+- [Lit](https://github.com/jvcoutinho/lit) - 面向 Golang 的高性能声明式 Web 框架，旨在兼顾简洁与开发体验。
+- [Microservice](https://github.com/claygod/microservice) - 用 Golang 编写的微服务创建框架。
+- [NotNet](https://github.com/nottechdm/notnet) - 轻量 Go 框架，用于构建快速、符合人体工学的 RESTful API，具备中间件与灵活路由。
+- [patron](https://github.com/beatlabs/patron) - Patron 是遵循最佳云实践、以效率为重心的微服务框架。
+- [Pnutmux](https://gitlab.com/fruitygo/pnutmux) - Pnutmux 是强大的 Go Web 框架，用正则匹配并处理 HTTP 请求。提供 CORS 处理、结构化日志、URL 参数提取、中间件与并发限制等特性。
+- [Revel](https://github.com/revel/revel) - 面向 Go 语言的高效 Web 框架。
+- [rk-boot](https://github.com/rookie-ninja/rk-boot) - 启动器库，帮助你快速便捷地用 Gin 与 gRPC 构建企业级 Go 微服务。
+- [Ronykit](https://github.com/clubpay/ronykit) - 具备可插拔架构且性能优异的 Web 框架。
+- [rux](https://github.com/gookit/rux) - 用于构建 Go HTTP 应用的简单快速 Web 框架。
+- [templui](https://github.com/axzilla/templui) - 面向 Go 与 Templ 的现代化 UI 组件。
+- [togo](https://github.com/togo-framework/togo) - 全栈框架，把你的 Go 后端与 React 前端打包为单一二进制；拥有 Laravel artisan 级别的命令行工具。
+- [uAdmin](https://github.com/uadmin/uadmin) - 受 Django 启发的 Golang 功能完备 Web 框架。
+- [WebGo](https://github.com/naughtygopher/webgo) - 构建 Web 应用的微框架，支持处理器链式调用、中间件与上下文注入。使用符合标准库的 HTTP 处理器（即 `http.HandlerFunc`）。
+- [Xun](https://github.com/yaitoo/xun) - 基于 Go 内置 html/template 与 net/http 包路由器构建的 Web 框架。设计目标是轻量、快速、易用，同时提供简洁直观的 API 来构建具备中间件、路由与模板渲染等高级功能的 Web 应用。
+- [Yokai](https://github.com/ankorstore/yokai) - 面向后端应用的简单、模块化、可观测的 Go 框架。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -3458,101 +3458,101 @@ _全栈 Web 框架。_
 <a id="actual-middlewares"></a>
 #### 实际中间件
 
-- [client-timing](https://github.com/posener/client-timing) - An HTTP client for Server-Timing header.
-- [CORS](https://github.com/rs/cors) - Easily add CORS capabilities to your API.
-- [echo-middleware](https://github.com/faabiosr/echo-middleware) - Middleware for Echo framework with logging and metrics.
-- [formjson](https://github.com/rs/formjson) - Transparently handle JSON input as a standard form POST.
-- [go-fault](https://github.com/github/go-fault) - Fault injection middleware for Go.
-- [Limiter](https://github.com/ulule/limiter) - Dead simple rate limit middleware for Go.
-- [ln-paywall](https://github.com/philippgille/ln-paywall) - Go middleware for monetizing APIs on a per-request basis with the Lightning Network (Bitcoin).
-- [mid](https://github.com/bobg/mid) - Miscellaneous HTTP middleware features: idiomatic error return from handlers; receive/respond with JSON data; request tracing; and more.
-- [rk-gin](https://github.com/rookie-ninja/rk-gin) - Middleware for Gin framework with logging, metrics, auth, tracing etc.
-- [rk-grpc](https://github.com/rookie-ninja/rk-grpc) - Middleware for gRPC with logging, metrics, auth, tracing etc.
-- [Tollbooth](https://github.com/didip/tollbooth) - Rate limit HTTP request handler.
-- [XFF](https://github.com/sebest/xff) - Handle `X-Forwarded-For` header and friends.
+- [client-timing](https://github.com/posener/client-timing) - 用于 Server-Timing 响应头的 HTTP 客户端。
+- [CORS](https://github.com/rs/cors) - 轻松为你的 API 添加 CORS 能力。
+- [echo-middleware](https://github.com/faabiosr/echo-middleware) - Echo 框架的中间件，配备日志与指标。
+- [formjson](https://github.com/rs/formjson) - 透明地把 JSON 输入按标准表单 POST 处理。
+- [go-fault](https://github.com/github/go-fault) - Go 的故障注入中间件。
+- [Limiter](https://github.com/ulule/limiter) - Go 极简的限流中间件。
+- [ln-paywall](https://github.com/philippgille/ln-paywall) - Go 中间件，借助闪电网络（比特币）按请求计费实现 API 变现。
+- [mid](https://github.com/bobg/mid) - 杂项 HTTP 中间件特性：处理器惯用的错误返回；以 JSON 数据收发；请求追踪等。
+- [rk-gin](https://github.com/rookie-ninja/rk-gin) - Gin 框架的中间件，配备日志、指标、认证、追踪等。
+- [rk-grpc](https://github.com/rookie-ninja/rk-grpc) - gRPC 的中间件，配备日志、指标、认证、追踪等。
+- [Tollbooth](https://github.com/didip/tollbooth) - 限流的 HTTP 请求处理器。
+- [XFF](https://github.com/sebest/xff) - 处理 `X-Forwarded-For` 头部及其同类头部。
 
 <a id="libraries-for-creating-http-middlewares"></a>
 #### 用于编写 HTTP 中间件的库
 
-- [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go.
-- [catena](https://github.com/codemodus/catena) - http.Handler wrapper catenation (same API as "chain").
-- [chain](https://github.com/codemodus/chain) - Handler wrapper chaining with scoped data (net/context-based "middleware").
-- [gores](https://github.com/alioygur/gores) - Go package that handles HTML, JSON, XML and etc. responses. Useful for RESTful APIs.
-- [interpose](https://github.com/carbocation/interpose) - Minimalist net/http middleware for golang.
-- [mediary](https://github.com/HereMobilityDevelopers/mediary) - add interceptors to `http.Client` to allow dumping/shaping/tracing/... of requests/responses.
-- [muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http.
-- [negroni](https://github.com/urfave/negroni) - Idiomatic HTTP middleware for Golang.
-- [render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses.
-- [renderer](https://github.com/thedevsaddam/renderer) - Simple, lightweight and faster response (JSON, JSONP, XML, YAML, HTML, File) rendering package for Go.
-- [stats](https://github.com/thoas/stats) - Go middleware that stores various information about your web application.
+- [alice](https://github.com/justinas/alice) - Go 的 painless 中间件链式组合。
+- [catena](https://github.com/codemodus/catena) - http.Handler 包装器串联（与 chain 相同的 API）。
+- [chain](https://github.com/codemodus/chain) - 带作用域数据的处理器包装链（基于 net/context 的「中间件」）。
+- [gores](https://github.com/alioygur/gores) - 处理 HTML、JSON、XML 等响应的 Go 包。对 RESTful API 很有用。
+- [interpose](https://github.com/carbocation/interpose) - golang 的极简 net/http 中间件。
+- [mediary](https://github.com/HereMobilityDevelopers/mediary) - 为 `http.Client` 添加拦截器，以便对请求/响应进行转储/塑形/追踪等操作。
+- [muxchain](https://github.com/stephens2424/muxchain) - net/http 的轻量中间件。
+- [negroni](https://github.com/urfave/negroni) - 面向 Golang 的惯用 HTTP 中间件。
+- [render](https://github.com/unrolled/render) - 便于渲染 JSON、XML 与 HTML 模板响应的 Go 包。
+- [renderer](https://github.com/thedevsaddam/renderer) - Go 简单轻量且更快的响应（JSON、JSONP、XML、YAML、HTML、文件）渲染包。
+- [stats](https://github.com/thoas/stats) - 存储 Web 应用各类信息的 Go 中间件。
 
 **[⬆ 回到顶部](#contents)**
 
 <a id="routers"></a>
 ### 路由器
 
-- [alien](https://github.com/gernest/alien) - Lightweight and fast http router from outer space.
-- [bellt](https://github.com/GuilhermeCaruso/bellt) - A simple Go HTTP router.
-- [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
-- [Bxog](https://github.com/claygod/Bxog) - Simple and fast HTTP router for Go. It works with routes of varying difficulty, length and nesting. And he knows how to create a URL from the received parameters.
-- [chi](https://github.com/go-chi/chi) - Small, fast and expressive HTTP router built on net/context.
-- [fasthttprouter](https://github.com/buaazp/fasthttprouter) - High performance router forked from `httprouter`. The first router fit for `fasthttp`.
-- [FastRouter](https://github.com/razonyang/fastrouter) - a fast, flexible HTTP router written in Go.
-- [Fox](https://github.com/fox-toolkit/fox) - A high-performance HTTP router for building reverse proxies and API gateways, with first-class support for mutating routes at runtime.
-- [fursy](https://github.com/coregx/fursy) - HTTP router with type-safe generic handlers, automatic OpenAPI 3.1 generation from code, and RFC 9457 error responses.
-- [goblin](https://github.com/bmf-san/goblin) - A golang http router based on trie tree.
-- [gocraft/web](https://github.com/gocraft/web) - Mux and middleware package in Go.
-- [Goji](https://github.com/goji/goji) - Goji is a minimalistic and flexible HTTP request multiplexer with support for `net/context`.
-- [GoLobby/Router](https://github.com/golobby/router) - GoLobby Router is a lightweight yet powerful HTTP router for the Go programming language.
-- [goroute](https://github.com/goroute/route) - Simple yet powerful HTTP request multiplexer.
-- [GoRouter](https://github.com/vardius/gorouter) - GoRouter is a Server/API micro framework, HTTP request router, multiplexer, mux that provides request router with middleware supporting `net/context`.
-- [gowww/router](https://github.com/gowww/router) - Lightning fast HTTP router fully compatible with the net/http.Handler interface.
-- [httprouter](https://github.com/julienschmidt/httprouter) - High performance router. Use this and the standard http handlers to form a very high performance web framework.
-- [httptreemux](https://github.com/dimfeld/httptreemux) - High-speed, flexible tree-based HTTP router for Go. Inspiration from httprouter.
-- [lars](https://github.com/go-playground/lars) - Is a lightweight, fast and extensible zero allocation HTTP router for Go used to create customizable frameworks.
-- [mux](https://github.com/gorilla/mux) - Powerful URL router and dispatcher for golang.
-- [nchi](https://github.com/muir/nchi) - chi-like router built on httprouter with dependency injection based middleware wrappers
-- [ngamux](https://github.com/ngamux/ngamux) - Simple HTTP router for Go.
-- [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) - An extremely fast Go (golang) HTTP router that supports regular expression route matching. Comes with full support for building RESTful APIs.
-- [pure](https://github.com/go-playground/pure) - Is a lightweight HTTP router that sticks to the std "net/http" implementation.
-- [Siesta](https://github.com/VividCortex/siesta) - Composable framework to write middleware and handlers.
-- [vestigo](https://github.com/husobee/vestigo) - Performant, stand-alone, HTTP compliant URL Router for go web applications.
-- [violetear](https://github.com/nbari/violetear) - Go HTTP router.
-- [xmux](https://github.com/rs/xmux) - High performance muxer based on `httprouter` with `net/context` support.
-- [xujiajun/gorouter](https://github.com/xujiajun/gorouter) - A simple and fast HTTP router for Go.
+- [alien](https://github.com/gernest/alien) - 来自外太空的轻量高速 http 路由器。
+- [bellt](https://github.com/GuilhermeCaruso/bellt) - 一个简单的 Go HTTP 路由器。
+- [Bone](https://github.com/go-zoo/bone) - 闪电般快速的 HTTP 多路复用器。
+- [Bxog](https://github.com/claygod/Bxog) - Go 简单快速的 HTTP 路由器。它能应对难度、长度与嵌套各异的路由，并且懂得如何根据收到的参数构造 URL。
+- [chi](https://github.com/go-chi/chi) - 基于 net/context 构建的小巧、快速且表达力强的 HTTP 路由器。
+- [fasthttprouter](https://github.com/buaazp/fasthttprouter) - 从 `httprouter` 分叉而来、经过性能优化的高性能路由器。是首个适配 `fasthttp` 的路由器。
+- [FastRouter](https://github.com/razonyang/fastrouter) - 用 Go 编写的快速灵活 HTTP 路由器。
+- [Fox](https://github.com/fox-toolkit/fox) - 面向构建反向代理与 API 网关的高性能 HTTP 路由器，一流支持在运行时变更路由。
+- [fursy](https://github.com/coregx/fursy) - HTTP 路由器，具备类型安全的泛型处理器、从代码自动生成 OpenAPI 3.1，以及 RFC 9457 错误响应。
+- [goblin](https://github.com/bmf-san/goblin) - 基于字典树的 golang http 路由器。
+- [gocraft/web](https://github.com/gocraft/web) - Go 中的 mux 与中间件包。
+- [Goji](https://github.com/goji/goji) - Goji 是极简且灵活的 HTTP 请求多路复用器，支持 `net/context`。
+- [GoLobby/Router](https://github.com/golobby/router) - GoLobby Router 是面向 Go 编程语言的轻量却强大的 HTTP 路由器。
+- [goroute](https://github.com/goroute/route) - 简单却强大的 HTTP 请求多路复用器。
+- [GoRouter](https://github.com/vardius/gorouter) - GoRouter 是服务器/API 微框架、HTTP 请求路由器、多路复用器与 mux，提供带中间件、支持 `net/context` 的请求路由。
+- [gowww/router](https://github.com/gowww/router) - 与 net/http.Handler 接口完全兼容的闪电快速 HTTP 路由器。
+- [httprouter](https://github.com/julienschmidt/httprouter) - 高性能路由器。把它与标准 http 处理器搭配，可组成性能极高的 Web 框架。
+- [httptreemux](https://github.com/dimfeld/httptreemux) - 面向 Go 的高速、灵活的基于树的 HTTP 路由器。灵感源自 httprouter。
+- [lars](https://github.com/go-playground/lars) - 轻量、快速且可扩展的零分配 HTTP 路由器，用于创建可定制框架。
+- [mux](https://github.com/gorilla/mux) - 面向 golang 的强大 URL 路由器与调度器。
+- [nchi](https://github.com/muir/nchi) - 基于 httprouter 构建的类 chi 路由器，中间件包装基于依赖注入。
+- [ngamux](https://github.com/ngamux/ngamux) - Go 的简单 HTTP 路由器。
+- [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) - 极速的 Go (golang) HTTP 路由器，支持正则路由匹配。完整支持构建 RESTful API。
+- [pure](https://github.com/go-playground/pure) - 坚持标准 net/http 实现的轻量 HTTP 路由器。
+- [Siesta](https://github.com/VividCortex/siesta) - 用于编写中间件与处理器的可组合框架。
+- [vestigo](https://github.com/husobee/vestigo) - 面向 Go Web 应用的高性能独立 HTTP 兼容 URL 路由器。
+- [violetear](https://github.com/nbari/violetear) - Go HTTP 路由器。
+- [xmux](https://github.com/rs/xmux) - 基于 `httprouter` 的高性能 mux，支持 `net/context`。
+- [xujiajun/gorouter](https://github.com/xujiajun/gorouter) - Go 简单快速的 HTTP 路由器。
 
 **[⬆ 回到顶部](#contents)**
 
 <a id="webassembly"></a>
 ## WebAssembly
 
-- [dom](https://github.com/dennwc/dom) - DOM library.
-- [Extism Go SDK](https://github.com/extism/go-sdk) - Universal, cross-language WebAssembly framework for building plug-in systems and polyglot apps.
-- [go-canvas](https://github.com/markfarnan/go-canvas) - Library to use HTML5 Canvas, with all drawing within go code.
-- [tinygo](https://github.com/tinygo-org/tinygo) - Go compiler for small places. Microcontrollers, WebAssembly, and command-line tools. Based on LLVM.
-- [vert](https://github.com/norunners/vert) - Interop between Go and JS values.
-- [wasmbrowsertest](https://github.com/agnivade/wasmbrowsertest) - Run Go WASM tests in your browser.
-- [webapi](https://github.com/gowebapi/webapi) - Bindings for DOM and HTML generated from WebIDL.
+- [dom](https://github.com/dennwc/dom) - DOM 库。
+- [Extism Go SDK](https://github.com/extism/go-sdk) - 通用跨语言 WebAssembly 框架，用于构建插件系统与多语言应用。
+- [go-canvas](https://github.com/markfarnan/go-canvas) - 使用 HTML5 Canvas 的库，全部绘制逻辑都在 Go 代码中完成。
+- [tinygo](https://github.com/tinygo-org/tinygo) - 面向小场景的 Go 编译器。适用于微控制器、WebAssembly 与命令行工具。基于 LLVM。
+- [vert](https://github.com/norunners/vert) - Go 与 JS 值之间的互操作。
+- [wasmbrowsertest](https://github.com/agnivade/wasmbrowsertest) - 在浏览器中运行 Go WASM 测试。
+- [webapi](https://github.com/gowebapi/webapi) - 由 WebIDL 生成的 DOM 与 HTML 绑定。
 
 **[⬆ 回到顶部](#contents)**
 
 <a id="webhooks-server"></a>
 ## Webhook 服务
 
-- [HookRun](https://github.com/bluvenr/hookrun) - Lightweight webhook action engine (~3MB single binary, zero deps) that executes commands and scripts from YAML rules with token/HMAC/IP auth and hot reload.
-- [webhook](https://github.com/adnanh/webhook) - Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server.
-- [webhooked](https://github.com/42Atomys/webhooked) - A webhook receiver on steroids: handle, secure, format and store a Webhook payload has never been easier.
-- [WebhookX](https://github.com/webhookx-io/webhookx) - A webhooks gateway for message receiving, processing, and reliable delivering.
+- [HookRun](https://github.com/bluvenr/hookrun) - 轻量 webhook 动作引擎（单二进制约 3MB、零依赖），按 YAML 规则执行命令与脚本，支持 token/HMAC/IP 认证与热重载。
+- [webhook](https://github.com/adnanh/webhook) - 允许用户创建 HTTP 端点（hooks）在服务器上执行命令的工具。
+- [webhooked](https://github.com/42Atomys/webhooked) - 一个「打了类固醇」的 webhook 接收器：处理、防护、格式化与存储 webhook 载荷从未如此轻松。
+- [WebhookX](https://github.com/webhookx-io/webhookx) - 用于消息接收、处理与可靠投递的 webhooks 网关。
 
 **[⬆ 回到顶部](#contents)**
 
 <a id="windows"></a>
 ## Windows
 
-- [d3d9](https://github.com/gonutz/d3d9) - Go bindings for Direct3D9.
-- [go-ole](https://github.com/go-ole/go-ole) - Win32 OLE implementation for golang.
-- [gosddl](https://github.com/MonaxGT/gosddl) - Converter from SDDL-string to user-friendly JSON. SDDL consist of four part: Owner, Primary Group, DACL, SACL.
-- [windowsupdate](https://github.com/ceshihao/windowsupdate) - A Golang binding for Windows Update Agent API using go-ole.
+- [d3d9](https://github.com/gonutz/d3d9) - Direct3D9 的 Go 绑定。
+- [go-ole](https://github.com/go-ole/go-ole) - 面向 golang 的 Win32 OLE 实现。
+- [gosddl](https://github.com/MonaxGT/gosddl) - 把 SDDL 字符串转换为用户友好的 JSON。SDDL 由四部分组成：Owner、Primary Group、DACL、SACL。
+- [windowsupdate](https://github.com/ceshihao/windowsupdate) - 使用 go-ole 的 Windows Update Agent API 的 Golang 绑定。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -3561,14 +3561,14 @@ _全栈 Web 框架。_
 
 _用于创建工作流的库。_
 
-- [Cadence-client](https://github.com/uber-go/cadence-client) - A framework for authoring workflows and activities running on top of the Cadence orchestration engine made by Uber.
-- [Dagu](https://github.com/dagu-go/dagu) - No-code workflow executor. it executes DAGs defined in a simple YAML format.
-- [durable-go](https://github.com/agenticenv/durable-go) - Durable execution engine for single-process Go apps and AI agents, with zero dependencies.
-- [Flowbaker](https://github.com/flowbaker/flowbaker) - Self-hosted execution engine for building, connecting, and automating no-code workflows.
-- [go-dag](https://github.com/rhosocial/go-dag) - A framework developed in Go that manages the execution of workflows described by directed acyclic graphs.
-- [go-taskflow](https://github.com/noneback/go-taskflow) - A taskflow-like General-purpose Task-parallel Programming Framework with integrated visualizer and profiler.
-- [GopherFlow](https://github.com/RealZimboGuy/gopherflow) - Durable workflow engine with a built-in web console, backed by Postgres, MySQL or SQLite.
-- [workflow](https://github.com/luno/workflow) - A tech stack agnostic Event Driven Workflow framework.
+- [Cadence-client](https://github.com/uber-go/cadence-client) - 用于在 Uber 出品的 Cadence 编排引擎之上编写工作流与活动的框架。
+- [Dagu](https://github.com/dagu-go/dagu) - 无代码工作流执行器。执行以简单 YAML 格式定义的 DAG。
+- [durable-go](https://github.com/agenticenv/durable-go) - 面向单进程 Go 应用与 AI 智能体的持久化执行引擎，零依赖。
+- [Flowbaker](https://github.com/flowbaker/flowbaker) - 自托管执行引擎，用于构建、连接并自动化无代码工作流。
+- [go-dag](https://github.com/rhosocial/go-dag) - 用 Go 开发的框架，管理由有向无环图描述的工作流执行。
+- [go-taskflow](https://github.com/noneback/go-taskflow) - 类 taskflow 的通用任务并行编程框架，集成可视化工具与性能剖析器。
+- [GopherFlow](https://github.com/RealZimboGuy/gopherflow) - 持久化工作流引擎，内置 Web 控制台，由 Postgres、MySQL 或 SQLite 支撑。
+- [workflow](https://github.com/luno/workflow) - 技术栈无关的事件驱动工作流框架。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -3577,66 +3577,66 @@ _用于创建工作流的库。_
 
 _用于处理 XML 的库与工具。_
 
-- [XML-Comp](https://github.com/xml-comp/xml-comp) - Simple command line XML comparer that generates diffs of folders, files and tags.
-- [xml2map](https://github.com/sbabiv/xml2map) - XML to MAP converter written Golang.
-- [xmlquery](https://github.com/antchfx/xmlquery) - xmlquery is Golang XPath package for XML query.
-- [xmlwriter](https://github.com/shabbyrobe/xmlwriter) - Procedural XML generation API based on libxml2's xmlwriter module.
-- [xpath](https://github.com/antchfx/xpath) - XPath package for Go.
-- [zek](https://github.com/miku/zek) - Generate a Go struct from XML.
+- [XML-Comp](https://github.com/xml-comp/xml-comp) - 简单的命令行 XML 比较器，可生成文件夹、文件与标签的差异。
+- [xml2map](https://github.com/sbabiv/xml2map) - 用 Golang 编写的 XML 转 MAP 转换器。
+- [xmlquery](https://github.com/antchfx/xmlquery) - xmlquery 是用于 XML 查询的 Golang XPath 包。
+- [xmlwriter](https://github.com/shabbyrobe/xmlwriter) - 基于 libxml2 的 xmlwriter 模块的过程式 XML 生成 API。
+- [xpath](https://github.com/antchfx/xpath) - 面向 Go 的 XPath 包。
+- [zek](https://github.com/miku/zek) - 从 XML 生成 Go 结构体。
 
 <a id="zero-trust"></a>
 ## 零信任
 
 _用于实现零信任架构的库与工具。_
 
-- [Cosign](https://github.com/sigstore/cosign) - Container Signing, Verification and Storage in an OCI registry.
-- [in-toto](https://github.com/in-toto/in-toto-golang) - Go implementation of the in-toto (provides a framework to protect the integrity of the software supply chain) python reference implementation.
-- [OpenZiti](https://github.com/openziti/ziti) - A full, open source zero trust overlay network. Including numerous SDKs for numerous languages such as [golang](https://github.com/openziti/sdk-golang) allowing you to embed zero trust principles directly into your applications. The [OpenZiti Test Kitchen](https://github.com/openziti-test-kitchen) has numerous examples to draw inspiration from including a [zero trust ssh client - zssh](https://github.com/openziti-test-kitchen/zssh)
-- [Spiffe-Vault](https://github.com/philips-labs/spiffe-vault) - Utilizes Spiffe JWT authentication with Hashicorp Vault for secretless authentication.
-- [Spire](https://github.com/spiffe/spire) - SPIRE (the SPIFFE Runtime Environment) is a toolchain of APIs for establishing trust between software systems across a wide variety of hosting platforms.
+- [Cosign](https://github.com/sigstore/cosign) - OCI 注册表中的容器签名、验证与存储。
+- [in-toto](https://github.com/in-toto/in-toto-golang) - in-toto（提供保护软件供应链完整性框架的）Python 参考实现的 Go 实现。
+- [OpenZiti](https://github.com/openziti/ziti) - 完整开源的零信任覆盖网络。包含多种语言的众多 SDK（如 [golang](https://github.com/openziti/sdk-golang)），让你能把零信任原则直接嵌入应用。[OpenZiti Test Kitchen](https://github.com/openziti-test-kitchen) 提供了大量可借鉴的示例，包括[零信任 ssh 客户端 zssh](https://github.com/openziti-test-kitchen/zssh)
+- [Spiffe-Vault](https://github.com/philips-labs/spiffe-vault) - 利用 Spiffe JWT 认证配合 Hashicorp Vault 实现无密钥认证。
+- [Spire](https://github.com/spiffe/spire) - SPIRE（SPIFFE 运行时环境）是一套 API 工具链，用于在各种托管平台之间建立软件系统间的信任。
 
 <a id="code-analysis"></a>
 ## 代码分析
 
 _源代码分析工具，也称静态应用安全测试（SAST）工具。_
 
-- [apicompat](https://github.com/bradleyfalzon/apicompat) - Checks recent changes to a Go project for backwards incompatible changes.
-- [ast-metrics](https://github.com/ast-metrics/ast-metrics) - Static code analyzer for Go and other languages: complexity, coupling, cohesion and maintainability metrics, with HTML, JSON, Markdown and SARIF reports.
-- [asty](https://github.com/asty-org/asty) - Converts golang AST to JSON and JSON to AST.
-- [blanket](https://gitlab.com/verygoodsoftwarenotvirus/blanket) - blanket is a tool that helps you catch functions which don't have direct unit tests in your Go packages.
-- [ChainJacking](https://github.com/Checkmarx/chainjacking) - Find which of your Go lang direct GitHub dependencies is susceptible to ChainJacking attack.
-- [Chronos](https://github.com/amit-davidson/Chronos) - Detects race conditions statically
-- [deadmono](https://github.com/arxeiss/deadmono) - Wrapper around deadcode for detection of dead code in Go monorepo.
-- [dupl](https://github.com/mibk/dupl) - Tool for code clone detection.
-- [errcheck](https://github.com/kisielk/errcheck) - Errcheck is a program for checking for unchecked errors in Go programs.
-- [fatcontext](https://github.com/Crocmagnon/fatcontext) - Fatcontext detects nested contexts in loops or function literals.
-- [go-checkstyle](https://github.com/qiniu/checkstyle) - checkstyle is a style check tool like java checkstyle. This tool inspired by java checkstyle, golint. The style referred to some points in Go Code Review Comments.
-- [go-cleanarch](https://github.com/roblaszczak/go-cleanarch) - go-cleanarch was created to validate Clean Architecture rules, like a The Dependency Rule and interaction between packages in your Go projects.
-- [go-critic](https://github.com/go-critic/go-critic) - source code linter that brings checks that are currently not implemented in other linters.
-- [go-mod-outdated](https://github.com/psampaz/go-mod-outdated) - An easy way to find outdated dependencies of your Go projects.
-- [goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer.
-- [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Tool to fix (add, remove) your Go imports automatically.
-- [golang-ifood-sdk](https://github.com/arxdsilva/golang-ifood-sdk) - iFood API SDK.
-- [golangci-lint](https://github.com/golangci/golangci-lint) – A fast Go linters runner. It runs linters in parallel, uses caching, supports `yaml` config, has integrations with all major IDE and has dozens of linters included.
-- [golines](https://github.com/segmentio/golines) - Formatter that automatically shortens long lines in Go code.
-- [gomarklint](https://github.com/shinagawa-web/gomarklint) - Markdown linter with built-in HTTP link validation, single binary, no Node.js required.
-- [GoPlantUML](https://github.com/jfeliu007/goplantuml) - Library and CLI that generates text plantump class diagram containing information about structures and interfaces with the relationship among them.
-- [goreturns](https://github.com/sqs/goreturns) - Adds zero-value return statements to match the func return types.
-- [gostatus](https://github.com/shurcooL/gostatus) - Command line tool, shows the status of repositories that contain Go packages.
-- [lint](https://github.com/surullabs/lint) - Run linters as part of go test.
-- [php-parser](https://github.com/z7zmey/php-parser) - A Parser for PHP written in Go.
-- [revive](https://github.com/mgechev/revive) – ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for `golint`.
-- [staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - staticcheck is `go vet` on steroids, applying a ton of static analysis checks you might be used to from tools like ReSharper for C#.
-- [structalign](https://github.com/peczenyj/structalign) - Shows how a struct's fields could be reordered to use less memory, printing a diff instead of rewriting files.
-- [stto](https://github.com/mainak55512/stto) - A light-weight superfast line of code counter written in pure Go.
-- [testifylint](https://github.com/Antonboom/testifylint) – A linter that checks usage of [github.com/stretchr/testify](https://github.com/stretchr/testify).
-- [tickgit](https://github.com/augmentable-dev/tickgit) - CLI and go package for surfacing code comment TODOs (in any language) and applying a `git blame`to identify the author.
-- [todocheck](https://github.com/preslavmihaylov/todocheck) - Static code analyser which links TODO comments in code with issues in your issue tracker.
-- [unconvert](https://github.com/mdempsky/unconvert) - Remove unnecessary type conversions from Go source.
-- [usestdlibvars](https://github.com/sashamelentyev/usestdlibvars) - A linter that detect the possibility to use variables/constants from the Go standard library.
-- [vacuum](https://github.com/daveshanley/vacuum) - An ultra-super-fast, lightweight OpenAPI linter and quality checking tool.
-- [validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
-- [wrapcheck](https://github.com/tomarrell/wrapcheck) - A linter to check that errors from external packages are wrapped.
+- [apicompat](https://github.com/bradleyfalzon/apicompat) - 检查 Go 项目近期的改动，找出向后不兼容的变更。
+- [ast-metrics](https://github.com/ast-metrics/ast-metrics) - 面向 Go 及其他语言的静态代码分析器：复杂度、耦合、内聚与可维护性度量，输出 HTML、JSON、Markdown 与 SARIF 报告。
+- [asty](https://github.com/asty-org/asty) - 把 golang AST 转为 JSON，以及把 JSON 转为 AST。
+- [blanket](https://gitlab.com/verygoodsoftwarenotvirus/blanket) - blanket 是一个工具，帮助你找出 Go 包中没有直接单元测试的函数。
+- [ChainJacking](https://github.com/Checkmarx/chainjacking) - 查出你的 Go 直接 GitHub 依赖中哪些易受 ChainJacking 攻击。
+- [Chronos](https://github.com/amit-davidson/Chronos) - 静态检测竞态条件。
+- [deadmono](https://github.com/arxeiss/deadmono) - 对 deadcode 的封装，用于检测 Go 单体仓库中的死代码。
+- [dupl](https://github.com/mibk/dupl) - 代码克隆检测工具。
+- [errcheck](https://github.com/kisielk/errcheck) - Errcheck 是一个检查 Go 程序中未检查错误的程序。
+- [fatcontext](https://github.com/Crocmagnon/fatcontext) - Fatcontext 可检测循环或函数字面量中嵌套的 context。
+- [go-checkstyle](https://github.com/qiniu/checkstyle) - checkstyle 是类 Java checkstyle 的风格检查工具。该工具灵感源自 java checkstyle 与 golint，其检查项参考了 Go Code Review Comments 中的若干要点。
+- [go-cleanarch](https://github.com/roblaszczak/go-cleanarch) - go-cleanarch 用于校验整洁架构规则，例如依赖规则，以及你 Go 项目中各包之间的交互。
+- [go-critic](https://github.com/go-critic/go-critic) - 源码 linter，提供其他 linter 尚未实现的检查项。
+- [go-mod-outdated](https://github.com/psampaz/go-mod-outdated) - 轻松找出 Go 项目的过期依赖。
+- [goast-viewer](https://github.com/yuroyoro/goast-viewer) - 基于 Web 的 Golang AST 可视化工具。
+- [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - 自动修复（增删）Go import 的工具。
+- [golang-ifood-sdk](https://github.com/arxdsilva/golang-ifood-sdk) - iFood 的 API SDK。
+- [golangci-lint](https://github.com/golangci/golangci-lint) 快速的 Go linter 运行器。并行运行 linter、使用缓存、支持 `yaml` 配置、与主流 IDE 集成，并内置数十个 linter。
+- [golines](https://github.com/segmentio/golines) - 自动缩短 Go 代码中过长行的格式化工具。
+- [gomarklint](https://github.com/shinagawa-web/gomarklint) - Markdown linter，内置 HTTP 链接校验，单一二进制，无需 Node.js。
+- [GoPlantUML](https://github.com/jfeliu007/goplantuml) - 生成文本类 UML 类图的库与命令行工具，图中包含结构与接口信息及其相互关系。
+- [goreturns](https://github.com/sqs/goreturns) - 为零值返回值补充 return 语句，使其与函数返回类型匹配。
+- [gostatus](https://github.com/shurcooL/gostatus) - 命令行工具，显示包含 Go 包的仓库状态。
+- [lint](https://github.com/surullabs/lint) - 把 linter 作为 go test 的一部分运行。
+- [php-parser](https://github.com/z7zmey/php-parser) - 用 Go 编写的 PHP 解析器。
+- [revive](https://github.com/mgechev/revive) 约快 6 倍、更严格、可配置、可扩展且美观的 `golint` 直接替代品。
+- [staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - staticcheck 是加强版的 `go vet`，会施加大量你可能习惯于在 C# 的 ReSharper 等工具中见到的静态分析检查。
+- [structalign](https://github.com/peczenyj/structalign) - 展示结构体字段如何重排可节省更多内存，以 diff 形式输出而非直接改写文件。
+- [stto](https://github.com/mainak55512/stto) - 用纯 Go 编写的轻量超快代码行统计器。
+- [testifylint](https://github.com/Antonboom/testifylint) 检查 [github.com/stretchr/testify](https://github.com/stretchr/testify) 使用情况的 linter。
+- [tickgit](https://github.com/augmentable-dev/tickgit) - 命令行工具与 go 包，用于收集任意语言代码注释中的 TODO，并通过 `git blame` 定位作者。
+- [todocheck](https://github.com/preslavmihaylov/todocheck) - 静态代码分析器，把代码中的 TODO 注释与问题跟踪器中的 issue 关联起来。
+- [unconvert](https://github.com/mdempsky/unconvert) - 从 Go 源码中移除不必要的类型转换。
+- [usestdlibvars](https://github.com/sashamelentyev/usestdlibvars) - 检测是否可使用 Go 标准库中已有变量/常量的 linter。
+- [vacuum](https://github.com/daveshanley/vacuum) - 超快速的轻量 OpenAPI linter 与质量检查工具。
+- [validate](https://github.com/mccoyst/validate) - 自动校验带标签的结构体字段。
+- [wrapcheck](https://github.com/tomarrell/wrapcheck) - 检查来自外部包的错误是否被包装的 linter。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -3645,69 +3645,69 @@ _源代码分析工具，也称静态应用安全测试（SAST）工具。_
 
 _面向文本编辑器与 IDE 的插件。_
 
-- [coc-go language server extension for Vim/Neovim](https://github.com/josa42/coc-go) - This plugin adds [gopls](https://github.com/golang/tools/blob/master/gopls/README.md) features to Vim/Neovim.
-- [Go Doc](https://github.com/msyrus/vscode-go-doc) - A Visual Studio Code extension for showing definition in output and generating go doc.
-- [Go plugin for JetBrains IDEs](https://plugins.jetbrains.com/plugin/9568-go) - Go plugin for JetBrains IDEs.
-- [go-mode](https://github.com/dominikh/go-mode.el) - Go mode for GNU/Emacs.
-- [gocode](https://github.com/nsf/gocode) - Autocompletion daemon for the Go programming language.
-- [goimports-reviser](https://github.com/incu6us/goimports-reviser) - Formatting tool for imports.
-- [goprofiling](https://marketplace.visualstudio.com/items?itemName=MaxMedia.go-prof) - This extension adds benchmark profiling support for the Go language to VS Code.
-- [GoSublime](https://github.com/DisposaBoy/GoSublime) - Golang plugin collection for the text editor SublimeText 3 providing code completion and other IDE-like features.
-- [gounit-vim](https://github.com/hexdigest/gounit-vim) - Vim plugin for generating Go tests based on the function's or method's signature.
-- [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go) - Vim plugin to highlight syntax errors on save.
-- [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
-- [vscode-go](https://github.com/golang/vscode-go) - Extension for Visual Studio Code (VS Code) which provides support for the Go language.
-- [Watch](https://github.com/eaburns/Watch) - Runs a command in an acme win on file changes.
+- [coc-go language server extension for Vim/Neovim](https://github.com/josa42/coc-go) - 该插件把 [gopls](https://github.com/golang/tools/blob/master/gopls/README.md) 的能力带到 Vim/Neovim。
+- [Go Doc](https://github.com/msyrus/vscode-go-doc) - 用于在输出中展示定义并生成 go doc 的 Visual Studio Code 扩展。
+- [Go plugin for JetBrains IDEs](https://plugins.jetbrains.com/plugin/9568-go) - 面向 JetBrains IDE 的 Go 插件。
+- [go-mode](https://github.com/dominikh/go-mode.el) - GNU/Emacs 的 Go 模式。
+- [gocode](https://github.com/nsf/gocode) - Go 编程语言的自动补全守护进程。
+- [goimports-reviser](https://github.com/incu6us/goimports-reviser) - import 格式化工具。
+- [goprofiling](https://marketplace.visualstudio.com/items?itemName=MaxMedia.go-prof) - 该扩展为 VS Code 中的 Go 语言增加基准测试性能剖析支持。
+- [GoSublime](https://github.com/DisposaBoy/GoSublime) - 面向文本编辑器 SublimeText 3 的 Golang 插件合集，提供代码补全等类 IDE 特性。
+- [gounit-vim](https://github.com/hexdigest/gounit-vim) - 根据函数或方法签名生成 Go 测试的 Vim 插件。
+- [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go) - 保存时高亮语法错误的 Vim 插件。
+- [vim-go](https://github.com/fatih/vim-go) - Vim 的 Go 开发插件。
+- [vscode-go](https://github.com/golang/vscode-go) - 为 Visual Studio Code (VS Code) 提供 Go 语言支持的扩展。
+- [Watch](https://github.com/eaburns/Watch) - 在 acme 窗口中，于文件变更时运行命令。
 
 **[⬆ 回到顶部](#contents)**
 
 <a id="go-generate-tools"></a>
 ## Go Generate 工具
 
-- [envdoc](https://github.com/g4s8/envdoc) - generate documentation for environment variables from Go source files.
-- [generic](https://github.com/usk81/generic) - flexible data type for Go.
-- [gocontracts](https://github.com/Parquery/gocontracts) - brings design-by-contract to Go by synchronizing the code with the documentation.
-- [godal](https://github.com/mafulong/godal) - Generate orm models corresponding to golang by specifying sql ddl file, which can be used by gorm.
-- [gonerics](https://github.com/bouk/gonerics) - Idiomatic Generics in Go.
-- [gotests](https://github.com/cweill/gotests) - Generate Go tests from your source code.
-- [gounit](https://github.com/hexdigest/gounit) - Generate Go tests using your own templates.
-- [hasgo](https://github.com/DylanMeeus/hasgo) - Generate Haskell inspired functions for your slices.
-- [oapixconstgen](https://github.com/psyb0t/oapixconstgen) - Generate typed Go constants from an OpenAPI spec's x-constants extension.
-- [options-gen](https://github.com/kazhuravlev/options-gen) - Functional options described by Dave Cheney's post "Functional options for friendly APIs".
-- [re2dfa](https://gitlab.com/opennota/re2dfa) - Transform regular expressions into finite state machines and output Go source code.
-- [sqlgen](https://github.com/anqiansong/sqlgen) - Generate gorm, xorm, sqlx, bun, sql code from SQL file or DSN.
-- [TOML-to-Go](https://xuri.me/toml-to-go) - Translates TOML into a Go type in the browser instantly.
-- [xgen](https://github.com/xuri/xgen) - XSD (XML Schema Definition) parser and Go/C/Java/Rust/TypeScript code generator.
+- [envdoc](https://github.com/g4s8/envdoc) - 从 Go 源文件为环境变量生成文档。
+- [generic](https://github.com/usk81/generic) - Go 的灵活数据类型。
+- [gocontracts](https://github.com/Parquery/gocontracts) - 通过让代码与文档保持同步，把契约式设计（design-by-contract）带入 Go。
+- [godal](https://github.com/mafulong/godal) - 通过指定 SQL DDL 文件生成对应的 golang ORM 模型，可用于 gorm。
+- [gonerics](https://github.com/bouk/gonerics) - Go 中的惯用泛型。
+- [gotests](https://github.com/cweill/gotests) - 从源码生成 Go 测试。
+- [gounit](https://github.com/hexdigest/gounit) - 使用你自己的模板生成 Go 测试。
+- [hasgo](https://github.com/DylanMeeus/hasgo) - 为你的切片生成受 Haskell 启发的函数。
+- [oapixconstgen](https://github.com/psyb0t/oapixconstgen) - 从 OpenAPI 规范的 x-constants 扩展生成类型化的 Go 常量。
+- [options-gen](https://github.com/kazhuravlev/options-gen) - 功能选项模式，源自 Dave Cheney 的文章《Functional options for friendly APIs》。
+- [re2dfa](https://gitlab.com/opennota/re2dfa) - 把正则表达式转换为有限状态机并输出 Go 源码。
+- [sqlgen](https://github.com/anqiansong/sqlgen) - 从 SQL 文件或 DSN 生成 gorm、xorm、sqlx、bun、sql 代码。
+- [TOML-to-Go](https://xuri.me/toml-to-go) - 在浏览器中即时把 TOML 转换为 Go 类型。
+- [xgen](https://github.com/xuri/xgen) - XSD（XML Schema 定义）解析器与 Go/C/Java/Rust/TypeScript 代码生成器。
 
 **[⬆ 回到顶部](#contents)**
 
 <a id="go-tools"></a>
 ## Go 工具
 
-- [decouple](https://github.com/bobg/decouple) - Find “overspecified” function parameters that could be generalized with interface types.
-- [docs](https://github.com/go-oas/docs) - Automatically generate RESTful API documentation for GO projects - aligned with Open API Specification standard.
-- [go-callvis](https://github.com/TrueFurby/go-callvis) - Visualize call graph of your Go program using dot format.
-- [go-size-analyzer](https://github.com/Zxilly/go-size-analyzer) - Analyze and visualize the size of dependencies in compiled Golang binaries, providing insight into their impact on the final build.
-- [go-swagger](https://github.com/go-swagger/go-swagger) - Swagger 2.0 implementation for go. Swagger is a simple yet powerful representation of your RESTful API.
-- [go-template-playground](https://bartventer.github.io/go-template-playground/) - An interactive environment to create and test Go templates.
-- [godbg](https://github.com/tylerwince/godbg) - Implementation of Rusts `dbg!` macro for quick and easy debugging during development.
-- [gofindimpl](https://github.com/psyb0t/gofindimpl) - Find all structs that implement a given Go interface across a codebase.
-- [gomodrun](https://github.com/dustinblackman/gomodrun/) - Go tool that executes and caches binaries included in go.mod files.
-- [gotemplate.io](https://gotemplate.io/) - Online tool to preview `text/template` templates live.
-- [gotestdox](https://github.com/bitfield/gotestdox) - Show Go test results as readable sentences.
-- [gothanks](https://github.com/psampaz/gothanks) - GoThanks automatically stars your go.mod github dependencies, sending this way some love to their maintainers.
-- [gotutor](https://github.com/ahmedakef/gotutor) - Online Go Debugger & Visualizer.
-- [govisual](https://github.com/doganarif/govisual) - Zero-config, pure-Go HTTP request visualizer & debugger for local Go web development.
-- [igo](https://github.com/rocketlaunchr/igo) - An igo to go transpiler (new language features for Go language!)
-- [lensm](https://github.com/loov/lensm) - Go assembly and source viewer.
-- [modver](https://github.com/bobg/modver) - Compare two versions of a Go module to check the version-number change required (major, minor, or patchlevel), according to [semver](https://semver.org/) rules.
-- [MoniGO](https://github.com/iyashjayesh/monigo) - A performance monitoring library for Go applications. It provides real-time insights into application performance! 🚀
-- [OctoLinker](https://github.com/OctoLinker/browser-extension) - Navigate through go files efficiently with the OctoLinker browser extension for GitHub.
-- [richgo](https://github.com/kyoh86/richgo) - Enrich `go test` outputs with text decorations.
-- [roumon](https://github.com/becheran/roumon) - Monitor current state of all active goroutines via a command line interface.
-- [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
-- [textra](https://github.com/ravsii/textra) - Extract Go struct field names, types and tags for filtering and exporting.
-- [typex](https://github.com/dtgorski/typex) - Examine Go types and their transitive dependencies, alternatively export results as TypeScript value objects (or types) declaration.
+- [decouple](https://github.com/bobg/decouple) - 找出可用接口类型泛化的「过度具体化」函数参数。
+- [docs](https://github.com/go-oas/docs) - 为 Go 项目自动生成 RESTful API 文档 —— 与 Open API Specification 标准对齐。
+- [go-callvis](https://github.com/TrueFurby/go-callvis) - 用 dot 格式可视化 Go 程序的调用图。
+- [go-size-analyzer](https://github.com/Zxilly/go-size-analyzer) - 分析并可视化编译后 Golang 二进制文件中各依赖的体积，深入了解其对最终构建的影响。
+- [go-swagger](https://github.com/go-swagger/go-swagger) - Go 的 Swagger 2.0 实现。Swagger 是 RESTful API 简单而强大的表达方式。
+- [go-template-playground](https://bartventer.github.io/go-template-playground/) - 用于创建与测试 Go 模板的交互式环境。
+- [godbg](https://github.com/tylerwince/godbg) - Rust `dbg!` 宏的实现，便于开发中快速调试。
+- [gofindimpl](https://github.com/psyb0t/gofindimpl) - 在整个代码库中找出所有实现了给定 Go 接口的结构体。
+- [gomodrun](https://github.com/dustinblackman/gomodrun/) - 执行并缓存 go.mod 文件中所含二进制的 Go 工具。
+- [gotemplate.io](https://gotemplate.io/) - 在线实时预览 `text/template` 模板的工具。
+- [gotestdox](https://github.com/bitfield/gotestdox) - 把 Go 测试结果显示为可读的句子。
+- [gothanks](https://github.com/psampaz/gothanks) - GoThanks 会自动给你的 go.mod 中 github 依赖点亮 star，以此向它们的维护者表达支持。
+- [gotutor](https://github.com/ahmedakef/gotutor) - 在线 Go 调试器与可视化工具。
+- [govisual](https://github.com/doganarif/govisual) - 面向本地 Go Web 开发的零配置纯 Go HTTP 请求可视化与调试工具。
+- [igo](https://github.com/rocketlaunchr/igo) - igo 到 go 的转译器（为 Go 语言带来新的语言特性！）
+- [lensm](https://github.com/loov/lensm) - Go 汇编与源码查看器。
+- [modver](https://github.com/bobg/modver) - 比较 Go 模块的两个版本，按 [semver](https://semver.org/) 规则检查所需的版本号变更（主版本、次版本或补丁级别）。
+- [MoniGO](https://github.com/iyashjayesh/monigo) - Go 应用的性能监控库。它能实时洞察应用性能！🚀
+- [OctoLinker](https://github.com/OctoLinker/browser-extension) - 借助 OctoLinker 浏览器扩展高效浏览 go 文件。
+- [richgo](https://github.com/kyoh86/richgo) - 用文本装饰丰富 `go test` 输出。
+- [roumon](https://github.com/becheran/roumon) - 通过命令行界面监控所有活跃 goroutine 的当前状态。
+- [rts](https://github.com/galeone/rts) - RTS：response to struct。从服务端响应生成 Go 结构体。
+- [textra](https://github.com/ravsii/textra) - 提取 Go 结构体的字段名、类型与标签，以便筛选与导出。
+- [typex](https://github.com/dtgorski/typex) - 检查 Go 类型及其传递依赖，也可把结果导出为 TypeScript 值对象（或类型）声明。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -3721,65 +3721,65 @@ _使用 Go 编写的软件。_
 <a id="devops-tools"></a>
 ### DevOps 工具
 
-- [abbreviate](https://github.com/dnnrly/abbreviate) - abbreviate is a tool turning long strings in to shorter ones with configurable separators, for example to embed branch names in to deployment stack IDs.
-- [alaz](https://github.com/ddosify/alaz) - Effortless, Low-Overhead, eBPF-based Kubernetes Monitoring.
-- [aptly](https://github.com/aptly-dev/aptly) - aptly is a Debian repository management tool.
-- [aurora](https://github.com/xuri/aurora) - Cross-platform web-based Beanstalkd queue server console.
-- [aws-doctor](https://github.com/elC0mpa/aws-doctor) - Diagnose AWS costs, detect idle resources, and optimize cloud spending directly from your terminal 🩺 ☁️.
-- [awsenv](https://github.com/soniah/awsenv) - Small binary that loads Amazon (AWS) environment variables for a profile.
-- [Balerter](https://github.com/balerter/balerter) - A self-hosted script-based alerting manager.
-- [Blast](https://github.com/dave/blast) - A simple tool for API load testing and batch jobs.
-- [bombardier](https://github.com/codesenberg/bombardier) - Fast cross-platform HTTP benchmarking tool.
-- [cassowary](https://github.com/rogerwelin/cassowary) - Modern cross-platform HTTP load-testing tool written in Go.
-- [chaosmonkey](https://github.com/Netflix/chaosmonkey) - A resiliency tool that helps applications tolerate random instance failures.
-- [colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup.
-- [Ddosify](https://github.com/ddosify/ddosify) - High-performance load testing tool, written in Golang.
-- [decompose](https://github.com/s0rg/decompose) - tool to generate and process Docker containers connections graphs.
-- [Den](https://github.com/us/den) - Self-hosted sandbox runtime for AI agents. Open-source E2B alternative.
-- [DepCharge](https://github.com/centerorbit/depcharge) - Helps orchestrating the execution of commands across the many dependencies in larger projects.
-- [dish](https://github.com/thevxn/dish) - A lightweight, remotely configurable monitoring service.
-- [Docker](https://www.docker.com/) - Open platform for distributed applications for developers and sysadmins.
-- [docker-go-mingw](https://github.com/x1unix/docker-go-mingw) - Docker image for building Go binaries for Windows with MinGW toolchain.
-- [docker-volume-backup](https://github.com/offen/docker-volume-backup) - Backup Docker volumes locally or to any S3, WebDAV, Azure Blob Storage, Dropbox or SSH compatible storage.
-- [Dockerfile-Generator](https://github.com/ozankasikci/dockerfile-generator) - A go library and an executable that produces valid Dockerfiles using various input channels.
-- [docklite](https://github.com/benzjeremy/docklite) - Lightweight Portainer alternative for Docker container management with real-time SSE metrics.
-- [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart).
-- [drone-jenkins](https://github.com/appleboy/drone-jenkins) - Trigger downstream Jenkins jobs using a binary, docker or Drone CI.
-- [drone-scp](https://github.com/appleboy/drone-scp) - Copy files and artifacts via SSH using a binary, docker or Drone CI.
-- [Dropship](https://github.com/chrismckenzie/dropship) - Tool for deploying code via cdn.
-- [easyssh-proxy](https://github.com/appleboy/easyssh-proxy) - Golang package for easy remote execution through SSH and SCP downloading via `ProxyCommand`.
-- [fac](https://github.com/mkchoi212/fac) - Command-line user interface to fix git merge conflicts.
-- [Flannel](https://github.com/flannel-io/flannel) - Flannel is a network fabric for containers, designed for Kubernetes.
-- [Fleet device management](https://github.com/fleetdm/fleet) - Lightweight, programmable telemetry for servers and workstations.
-- [gaia](https://github.com/gaia-pipeline/gaia) - Build powerful pipelines in any programming language.
-- [ghorg](https://github.com/gabrie30/ghorg) - Quickly clone an entire org/users repositories into one directory - Supports GitHub, GitLab, Gitea, and Bitbucket.
-- [Gitea](https://github.com/go-gitea/gitea) - Fork of Gogs, entirely community driven.
-- [gitea-github-migrator](https://git.jonasfranz.software/JonasFranzDEV/gitea-github-migrator) - Migrate all your GitHub repositories, issues, milestones and labels to your Gitea instance.
-- [gitl](https://github.com/akomyagin/gitl) - AI review of git commit ranges with risk scoring (low/medium/high), changelog generation, and multi-repo activity digest. GitHub Action included.
-- [go-furnace](https://github.com/go-furnace/go-furnace) - Hosting solution written in Go. Deploy your Application with ease on AWS, GCP or DigitalOcean.
-- [go-rocket-update](https://github.com/mouuff/go-rocket-update) - A simple way to make self updating Go applications - Supports Github and Gitlab.
-- [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update.
-- [gobrew](https://github.com/cryptojuice/gobrew) - gobrew lets you easily switch between multiple versions of go.
-- [gobrew](https://github.com/kevincobain2000/gobrew) - Go version manager. Super simple tool to install and manage Go versions. Install go without root. Gobrew doesn't require shell rehash.
-- [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application.
-- [Gogs](https://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
-- [goma-gateway](https://github.com/jkaninda/goma-gateway) - A Lightweight API Gateway and Reverse Proxy with declarative config, robust middleware, and support for REST, GraphQL, TCP, UDP, and gRPC.
-- [gonative](https://github.com/inconshreveable/gonative) - Tool which creates a build of Go that can cross compile to all platforms while still using the Cgo-enabled versions of the stdlib packages.
-- [govvv](https://github.com/ahmetalpbalkan/govvv) - “go build” wrapper to easily add version information into Go binaries.
-- [grapes](https://github.com/yaronsumel/grapes) - Lightweight tool designed to distribute commands over ssh with ease.
-- [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
-- [Hey](https://github.com/rakyll/hey) - Hey is a tiny program that sends some load to a web application.
-- [httpref](https://github.com/dnnrly/httpref) - httpref is a handy CLI reference for HTTP methods, status codes, headers, and TCP and UDP ports.
-- [jcli](https://github.com/jenkins-zh/jenkins-cli) - Jenkins CLI allows you manage your Jenkins as an easy way.
-- [k0s](https://github.com/k0sproject/k0s) - Zero Friction Kubernetes distribution.
-- [k3d](https://github.com/k3d-io/k3d) - Little helper to run CNCF's k3s in Docker.
-- [k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes.
-- [k6](https://github.com/grafana/k6) - A modern load testing tool, using Go and JavaScript.
-- [k9s](https://github.com/derailed/k9s) - Kubernetes CLI to manage your clusters in style.
-- [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
-- [kcli](https://github.com/cswank/kcli) - Command line tool for inspecting kafka topics/partitions/messages.
-- [kepfi](https://github.com/Knuspii/kepfi) - A smart alternative to rm with a recovery bin and storage tracking.
-- [kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker - local clusters for testing Kubernetes.
+- [abbreviate](https://github.com/dnnrly/abbreviate) - abbreviate 是一个把长字符串变为短字符串的工具，分隔符可配置，例如把分支名嵌入部署栈 ID。
+- [alaz](https://github.com/ddosify/alaz) - 轻量低开销、基于 eBPF 的 Kubernetes 监控方案。
+- [aptly](https://github.com/aptly-dev/aptly) - aptly 是一个 Debian 仓库管理工具。
+- [aurora](https://github.com/xuri/aurora) - 跨平台的 Web 版 Beanstalkd 队列服务器控制台。
+- [aws-doctor](https://github.com/elC0mpa/aws-doctor) - 直接在你的终端中诊断 AWS 成本、发现闲置资源并优化云支出 🩺 ☁️。
+- [awsenv](https://github.com/soniah/awsenv) - 小型二进制工具，为指定 profile 加载 Amazon (AWS) 环境变量。
+- [Balerter](https://github.com/balerter/balerter) - 自托管的基于脚本的告警管理器。
+- [Blast](https://github.com/dave/blast) - 用于 API 负载测试与批处理作业的简单工具。
+- [bombardier](https://github.com/codesenberg/bombardier) - 快速的跨平台 HTTP 基准测试工具。
+- [cassowary](https://github.com/rogerwelin/cassowary) - 用 Go 编写的现代化跨平台 HTTP 负载测试工具。
+- [chaosmonkey](https://github.com/Netflix/chaosmonkey) - 弹性工具，帮助应用容忍随机的实例故障。
+- [colima](https://github.com/abiosoft/colima) - macOS（及 Linux）上的容器运行时，配置极少。
+- [Ddosify](https://github.com/ddosify/ddosify) - 用 Golang 编写的高性能负载测试工具。
+- [decompose](https://github.com/s0rg/decompose) - 用于生成与处理 Docker 容器连接图的工具。
+- [Den](https://github.com/us/den) - 面向 AI 智能体的自托管沙箱运行时。开源的 E2B 替代方案。
+- [DepCharge](https://github.com/centerorbit/depcharge) - 帮助在大型项目的众多依赖之间编排命令执行。
+- [dish](https://github.com/thevxn/dish) - 轻量、可远程配置的监控服务。
+- [Docker](https://www.docker.com/) - 面向开发者与系统管理员的分布式应用开放平台。
+- [docker-go-mingw](https://github.com/x1unix/docker-go-mingw) - 使用 MinGW 工具链为 Windows 构建 Go 二进制的 Docker 镜像。
+- [docker-volume-backup](https://github.com/offen/docker-volume-backup) - 把 Docker 卷备份到本地，或任意 S3、WebDAV、Azure Blob Storage、Dropbox 或兼容 SSH 的存储。
+- [Dockerfile-Generator](https://github.com/ozankasikci/dockerfile-generator) - 一个 Go 库与可执行程序，可通过多种输入通道生成合法的 Dockerfile。
+- [docklite](https://github.com/benzjeremy/docklite) - 轻量 Portainer 替代方案，用于 Docker 容器管理，带实时 SSE 指标。
+- [dogo](https://github.com/liudng/dogo) - 监控源文件变更并自动编译运行（重启）。
+- [drone-jenkins](https://github.com/appleboy/drone-jenkins) - 通过 binary、docker 或 Drone CI 触发下游 Jenkins 作业。
+- [drone-scp](https://github.com/appleboy/drone-scp) - 通过 binary、docker 或 Drone CI 经 SSH 复制文件与产物。
+- [Dropship](https://github.com/chrismckenzie/dropship) - 通过 cdn 部署代码的工具。
+- [easyssh-proxy](https://github.com/appleboy/easyssh-proxy) - Golang 包，通过 `ProxyCommand` 便捷地实现 SSH 远程执行与 SCP 下载。
+- [fac](https://github.com/mkchoi212/fac) - 用于修复 git 合并冲突的命令行界面。
+- [Flannel](https://github.com/flannel-io/flannel) - Flannel 是面向容器、为 Kubernetes 设计的网络fabric。
+- [Fleet device management](https://github.com/fleetdm/fleet) - 面向服务器与工作站的轻量可编程遥测方案。
+- [gaia](https://github.com/gaia-pipeline/gaia) - 用任意编程语言构建强大的流水线。
+- [ghorg](https://github.com/gabrie30/ghorg) - 把整个组织/用户的仓库快速克隆到一个目录 —— 支持 GitHub、GitLab、Gitea 与 Bitbucket。
+- [Gitea](https://github.com/go-gitea/gitea) - Gogs 的分支，完全由社区驱动。
+- [gitea-github-migrator](https://git.jonasfranz.software/JonasFranzDEV/gitea-github-migrator) - 把你所有的 GitHub 仓库、issue、里程碑与标签迁移到你的 Gitea 实例。
+- [gitl](https://github.com/akomyagin/gitl) - 对 git 提交区间进行 AI 评审并给出风险评分（低/中/高）、生成变更日志，并汇总多仓库活动摘要。附带 GitHub Action。
+- [go-furnace](https://github.com/go-furnace/go-furnace) - 用 Go 编写的托管方案。轻松把你的应用部署到 AWS、GCP 或 DigitalOcean。
+- [go-rocket-update](https://github.com/mouuff/go-rocket-update) - 让 Go 应用自更新的简便方式 —— 支持 Github 与 Gitlab。
+- [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - 让你的 Go 应用能够自我更新。
+- [gobrew](https://github.com/cryptojuice/gobrew) - gobrew 让你轻松在多个 go 版本之间切换。
+- [gobrew](https://github.com/kevincobain2000/gobrew) - Go 版本管理器。安装与管理 Go 版本的超级简单工具。无需 root 安装 Go。Gobrew 无需重算 shell 哈希。
+- [godbg](https://github.com/sirnewton01/godbg) - 基于 Web 的 gdb 前端应用。
+- [Gogs](https://gogs.io/) - 用 Go 编程语言实现的自托管 Git 服务。
+- [goma-gateway](https://github.com/jkaninda/goma-gateway) - 轻量 API 网关与反向代理，具备声明式配置、健壮的中间件，并支持 REST、GraphQL、TCP、UDP 与 gRPC。
+- [gonative](https://github.com/inconshreveable/gonative) - 创建 Go 构建的工具，可交叉编译到所有平台，同时仍使用启用 Cgo 的标准库版本。
+- [govvv](https://github.com/ahmetalpbalkan/govvv) - 「go build」封装，轻松把版本信息注入 Go 二进制文件。
+- [grapes](https://github.com/yaronsumel/grapes) - 轻量工具，用于便捷地通过 ssh 分发命令。
+- [GVM](https://github.com/moovweb/gvm) - GVM 提供管理 Go 版本的接口。
+- [Hey](https://github.com/rakyll/hey) - Hey 是一个小型程序，向 Web 应用施加一定负载。
+- [httpref](https://github.com/dnnrly/httpref) - httpref 是 HTTP 方法、状态码、头部以及 TCP 与 UDP 端口的便捷命令行参考。
+- [jcli](https://github.com/jenkins-zh/jenkins-cli) - Jenkins CLI 让你轻松管理你的 Jenkins。
+- [k0s](https://github.com/k0sproject/k0s) - 零摩擦的 Kubernetes 发行版。
+- [k3d](https://github.com/k3d-io/k3d) - 在 Docker 中运行 CNCF k3s 的小助手。
+- [k3s](https://github.com/k3s-io/k3s) - 轻量级 Kubernetes。
+- [k6](https://github.com/grafana/k6) - 现代化负载测试工具，使用 Go 与 JavaScript。
+- [k9s](https://github.com/derailed/k9s) - 有风格的 Kubernetes 命令行，用于管理你的集群。
+- [kala](https://github.com/ajvb/kala) - 极简、现代化、高性能的作业调度器。
+- [kcli](https://github.com/cswank/kcli) - 用于检视 kafka 主题/分区/消息的命令行工具。
+- [kepfi](https://github.com/Knuspii/kepfi) - rm 的智能替代方案，带恢复回收站与存储追踪。
+- [kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker —— 用于测试 Kubernetes 的本地集群。
 - [ko](https://github.com/google/ko) - Command line tool for building and deploying Go applications on Kubernetes
 - [kool](https://github.com/kool-dev/kool) - Command line tool for managing Docker environments as an easy way.
 - [kubeblocks](https://github.com/apecloud/kubeblocks) - KubeBlocks is an open-source control plane that runs and manages databases, message queues and other data infrastructure on K8s.
