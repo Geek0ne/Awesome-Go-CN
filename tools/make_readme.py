@@ -35,6 +35,8 @@ HEADER = """<a id="awesome-go"></a>
 - 按分类浏览：见下方[目录](#contents)
 - 按热度浏览：见上游的 [Star History](https://star-history.com/#avelino/awesome-go)
 - 贡献新条目：请遵循上游的[贡献指南](#contribution)
+- **同步上游更新**：本仓库由 GitHub Actions 每日自动检查上游；
+  发现差异会开启带 `上游同步` 标签的 Issue。参与翻译请阅读 [SYNC-GUIDE.md](SYNC-GUIDE.md)
 
 ## 致谢与许可
 
