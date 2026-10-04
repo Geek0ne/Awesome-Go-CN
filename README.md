@@ -1531,38 +1531,38 @@ _用于管理和使用 Goroutine 的工具。_
 - [go-flow](https://github.com/kamildrazkiewicz/go-flow) - 控制 goroutine 的执行顺序。
 - [go-future](https://github.com/jizhuozhi/go-future) - Future/Promise 库，带泛型组合子与 DAG 执行引擎。
 - [go-tools/multithreading](https://github.com/nikhilsaraf/go-tools) - 用这个轻量库以简洁的 API 管理 goroutine 池。
-- [go-trylock](https://github.com/subchen/go-trylock) - TryLock support on read-write lock for Golang.
-- [go-waitgroup](https://github.com/pieterclaerhout/go-waitgroup) - Like `sync.WaitGroup` with error handling and concurrency control.
-- [go-workerpool](https://github.com/zenthangplus/go-workerpool) - Inspired from Java Thread Pool, Go WorkerPool aims to control heavy Go Routines.
-- [goccm](https://github.com/zenthangplus/goccm) - Go Concurrency Manager package limits the number of goroutines that allowed to run concurrently.
-- [gohive](https://github.com/loveleshsharma/gohive) - A highly performant and easy to use Goroutine pool for Go.
-- [gollback](https://github.com/vardius/gollback) - asynchronous simple function utilities, for managing execution of closures and callbacks.
-- [goscade](https://github.com/ognick/goscade) - Minimalistic lifecycle orchestrator for Go components with dependency graphs, startup sequencing, readiness coordination, and graceful shutdown.
-- [gowl](https://github.com/hamed-yousefi/gowl) - Gowl is a process management and process monitoring tool at once. An infinite worker pool gives you the ability to control the pool and processes and monitor their status.
-- [goworker](https://github.com/benmanns/goworker) - goworker is a Go-based background worker.
-- [gowp](https://github.com/xxjwxc/gowp) - gowp is concurrency limiting goroutine pool.
-- [gpool](https://github.com/Sherifabdlnaby/gpool) - manages a resizeable pool of context-aware goroutines to bound concurrency.
-- [grpool](https://github.com/ivpusic/grpool) - Lightweight Goroutine pool.
-- [hands](https://github.com/duanckham/hands) - A process controller used to control the execution and return strategies of multiple goroutines.
-- [Hunch](https://github.com/AaronJan/Hunch) - Hunch provides functions like: `All`, `First`, `Retry`, `Waterfall` etc., that makes asynchronous flow control more intuitive.
-- [kyoo](https://github.com/dirkaholic/kyoo) - Provides an unlimited job queue and concurrent worker pools.
-- [neilotoole/errgroup](https://github.com/neilotoole/errgroup) - Drop-in alternative to `sync/errgroup`, limited to a pool of N worker goroutines.
-- [nursery](https://github.com/arunsworld/nursery) - Structured concurrency in Go.
-- [oversight](https://pkg.go.dev/cirello.io/oversight) - Oversight is a complete implementation of the Erlang supervision trees.
-- [parallel-fn](https://github.com/rafaeljesus/parallel-fn) - Run functions in parallel.
-- [pond](https://github.com/alitto/pond) - Minimalistic and High-performance goroutine worker pool written in Go.
-- [pool](https://github.com/go-playground/pool) - Limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation.
-- [powerlock](https://github.com/donomii/powerlock) - Named FIFO mutexes with context cancellation, bounded wait queues, watchdog diagnostics, pprof profiles, and Prometheus metrics.
-- [rill](https://github.com/destel/rill) - Go toolkit for clean, composable, channel-based concurrency.
-- [routine](https://github.com/timandy/routine) - `routine` is a `ThreadLocal` for go library. It encapsulates and provides some easy-to-use, non-competitive, high-performance `goroutine` context access interfaces, which can help you access coroutine context information more gracefully.
-- [routine](https://github.com/x-mod/routine) - go routine control with context, support: Main, Go, Pool and some useful Executors.
-- [semaphore](https://github.com/kamilsk/semaphore) - Semaphore pattern implementation with timeout of lock/unlock operations based on channel and context.
-- [semaphore](https://github.com/marusama/semaphore) - Fast resizable semaphore implementation based on CAS (faster than channel-based semaphore implementations).
-- [stl](https://github.com/ssgreg/stl) - Software transactional locks based on Software Transactional Memory (STM) concurrency control mechanism.
-- [threadpool](https://github.com/shettyh/threadpool) - Golang threadpool implementation.
-- [tunny](https://github.com/Jeffail/tunny) - Goroutine pool for golang.
-- [worker-pool](https://github.com/vardius/worker-pool) - goworker is a Go simple async worker pool.
-- [workerpool](https://github.com/gammazero/workerpool) - Goroutine pool that limits the concurrency of task execution, not the number of tasks queued.
+- [go-trylock](https://github.com/subchen/go-trylock) - 为 Golang 读写锁提供 TryLock 支持。
+- [go-waitgroup](https://github.com/pieterclaerhout/go-waitgroup) - 类 `sync.WaitGroup`，附带错误处理与并发控制。
+- [go-workerpool](https://github.com/zenthangplus/go-workerpool) - 受 Java 线程池启发，Go WorkerPool 旨在控制重量级 goroutine。
+- [goccm](https://github.com/zenthangplus/goccm) - Go 并发管理器包，限制允许并发运行的 goroutine 数量。
+- [gohive](https://github.com/loveleshsharma/gohive) - 为 Go 打造的高性能、易用 goroutine 池。
+- [gollback](https://github.com/vardius/gollback) - 简单的异步函数工具，用于管理闭包与回调的执行。
+- [goscade](https://github.com/ognick/goscade) - 极简的 Go 组件生命周期编排器，具备依赖图、启动时序、就绪协调与优雅停机。
+- [gowl](https://github.com/hamed-yousefi/gowl) - Gowl 既是进程管理工具，也是进程监控工具。无限 worker 池让你既能控制进程池与进程，又能监控其状态。
+- [goworker](https://github.com/benmanns/goworker) - goworker 是一个基于 Go 的后台 worker。
+- [gowp](https://github.com/xxjwxc/gowp) - gowp 是带并发限制的 goroutine 池。
+- [gpool](https://github.com/Sherifabdlnaby/gpool) - 管理一组可动态调整大小的、感知上下文的 goroutine，以约束并发度。
+- [grpool](https://github.com/ivpusic/grpool) - 轻量级 goroutine 池。
+- [hands](https://github.com/duanckham/hands) - 用于控制多个 goroutine 执行与返回策略的进程控制器。
+- [Hunch](https://github.com/AaronJan/Hunch) - Hunch 提供 `All`、`First`、`Retry`、`Waterfall` 等函数，让异步流程控制更直观。
+- [kyoo](https://github.com/dirkaholic/kyoo) - 提供无限任务队列与并发 worker 池。
+- [neilotoole/errgroup](https://github.com/neilotoole/errgroup) - `sync/errgroup` 的直接替代品，限制在 N 个 worker goroutine 的池内。
+- [nursery](https://github.com/arunsworld/nursery) - Go 中的结构化并发。
+- [oversight](https://pkg.go.dev/cirello.io/oversight) - Oversight 是 Erlang 监管树的完整实现。
+- [parallel-fn](https://github.com/rafaeljesus/parallel-fn) - 并行运行函数。
+- [pond](https://github.com/alitto/pond) - 用 Go 编写的极简高性能 goroutine worker 池。
+- [pool](https://github.com/go-playground/pool) - 有限消费者 goroutine 或无限 goroutine 池，让 goroutine 处理与取消更轻松。
+- [powerlock](https://github.com/donomii/powerlock) - 具名 FIFO 互斥锁，支持上下文取消、有界等待队列、看门狗诊断、pprof 性能剖析与 Prometheus 指标。
+- [rill](https://github.com/destel/rill) - 为 Go 提供简洁、可组合、基于 channel 的并发工具包。
+- [routine](https://github.com/timandy/routine) - `routine` 是 Go 库的 `ThreadLocal`。它封装并提供若干易用、无竞争、高性能的 `goroutine` 上下文访问接口，帮助你更优雅地获取协程上下文信息。
+- [routine](https://github.com/x-mod/routine) - 带上下文的 goroutine 控制，支持 Main、Go、Pool 以及若干实用的执行器。
+- [semaphore](https://github.com/kamilsk/semaphore) - 基于 channel 与 context 的信号量模式实现，带锁/解锁操作的超时控制。
+- [semaphore](https://github.com/marusama/semaphore) - 基于 CAS 的快速可调整大小信号量实现（比基于 channel 的实现更快）。
+- [stl](https://github.com/ssgreg/stl) - 基于软件事务内存（STM）并发控制机制的软件事务锁。
+- [threadpool](https://github.com/shettyh/threadpool) - Golang 线程池实现。
+- [tunny](https://github.com/Jeffail/tunny) - 面向 golang 的 goroutine 池。
+- [worker-pool](https://github.com/vardius/worker-pool) - goworker 是一个简单的 Go 异步 worker 池。
+- [workerpool](https://github.com/gammazero/workerpool) - 限制任务执行并发度（而非排队任务数量）的 goroutine 池。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -1573,40 +1573,40 @@ _用于构建 GUI 应用的库。_
 
 _工具集_
 
-- [app](https://github.com/murlokswarm/app) - Package to create apps with GO, HTML and CSS. Supports: MacOS, Windows in progress.
-- [cimgui-go](https://github.com/AllenDang/cimgui-go) - Auto generated Go wrapper for [Dear ImGui](https://github.com/ocornut/imgui) via [cimgui](https://github.com/cimgui/cimgui).
-- [Cogent Core](https://github.com/cogentcore/core) - A framework for building 2D and 3D apps that run on macOS, Windows, Linux, iOS, Android, and the web.
-- [DarwinKit](https://github.com/progrium/darwinkit) - Build native macOS applications using Go.
-- [energy](https://github.com/energye/energy) - Cross-platform based on LCL(Native System UI Control Library) and CEF(Chromium Embedded Framework) (Windows/ macOS / Linux)
-- [fyne](https://github.com/fyne-io/fyne) - Cross platform native GUIs designed for Go based on Material Design. Supports: Linux, macOS, Windows, BSD, iOS and Android.
-- [gio](https://gioui.org) - Gio is a library for writing cross-platform immediate mode GUI-s in Go. Gio supports all the major platforms: Linux, macOS, Windows, Android, iOS, FreeBSD, OpenBSD and WebAssembly.
-- [go-gtk](https://mattn.github.io/go-gtk/) - Go bindings for GTK.
-- [go-sciter](https://github.com/sciter-sdk/go-sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development. Cross platform.
-- [Goey](https://bitbucket.org/rj/goey/src/master/) - Cross platform UI toolkit aggregator for Windows / Linux / Mac. GTK, Cocoa, Windows API
-- [gogpu/ui](https://github.com/gogpu/ui) - GPU-accelerated GUI toolkit with 22 widgets, 3 design systems (Material, Fluent, Cupertino), reactive signals, and zero CGO (part of [GoGPU](https://github.com/gogpu) ecosystem).
-- [goradd/html5tag](https://github.com/goradd/html5tag) - Library for outputting HTML5 tags.
-- [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
-- [gowd](https://github.com/dtylman/gowd) - Rapid and simple desktop UI development with GO, HTML, CSS and NW.js. Cross platform.
-- [proton](https://github.com/CzaxStudio/proton) - Pure Go immediate-mode GUI framework built on Gio with zero Cgo dependencies.
-- [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
-- [Spot](https://github.com/roblillack/spot) - Reactive, cross-platform desktop GUI toolkit.
-- [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go. Cross platform.
-- [unison](https://github.com/richardwilkes/unison) - A unified graphical user experience toolkit for Go desktop applications. macOS, Windows, and Linux are supported.
-- [Wails](https://wails.io) - Mac, Windows, Linux desktop apps with HTML UI using built-in OS HTML renderer.
-- [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
-- [webview](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
+- [app](https://github.com/murlokswarm/app) - 用 Go、HTML 与 CSS 构建应用的包。支持 macOS，Windows 开发中。
+- [cimgui-go](https://github.com/AllenDang/cimgui-go) - 通过 [cimgui](https://github.com/cimgui/cimgui) 为 [Dear ImGui](https://github.com/ocornut/imgui) 自动生成的 Go 封装。
+- [Cogent Core](https://github.com/cogentcore/core) - 用于构建可在 macOS、Windows、Linux、iOS、Android 与 Web 上运行的 2D 与 3D 应用的框架。
+- [DarwinKit](https://github.com/progrium/darwinkit) - 用 Go 构建原生 macOS 应用。
+- [energy](https://github.com/energye/energy) - 基于 LCL（原生系统 UI 控件库）与 CEF（Chromium 嵌入式框架）的跨平台方案（Windows/macOS/Linux）。
+- [fyne](https://github.com/fyne-io/fyne) - 基于 Material Design、面向 Go 设计的跨平台原生 GUI。支持 Linux、macOS、Windows、BSD、iOS 与 Android。
+- [gio](https://gioui.org) - Gio 是一个用 Go 编写跨平台即时模式 GUI 的库。Gio 支持所有主流平台：Linux、macOS、Windows、Android、iOS、FreeBSD、OpenBSD 与 WebAssembly。
+- [go-gtk](https://mattn.github.io/go-gtk/) - GTK 的 Go 绑定。
+- [go-sciter](https://github.com/sciter-sdk/go-sciter) - Sciter 的 Go 绑定 —— 面向现代桌面 UI 开发的可嵌入 HTML/CSS/脚本引擎。跨平台。
+- [Goey](https://bitbucket.org/rj/goey/src/master/) - 面向 Windows/Linux/Mac 的跨平台 UI 工具包聚合层，涵盖 GTK、Cocoa 与 Windows API。
+- [gogpu/ui](https://github.com/gogpu/ui) - GPU 加速的 GUI 工具包，含 22 个控件、3 套设计体系（Material、Fluent、Cupertino）、响应式信号，零 CGO（[GoGPU](https://github.com/gogpu) 生态的一部分）。
+- [goradd/html5tag](https://github.com/goradd/html5tag) - 用于输出 HTML5 标签的库。
+- [gotk3](https://github.com/gotk3/gotk3) - GTK3 的 Go 绑定。
+- [gowd](https://github.com/dtylman/gowd) - 借助 Go、HTML、CSS 与 NW.js 快速简便地开发桌面 UI。跨平台。
+- [proton](https://github.com/CzaxStudio/proton) - 基于 Gio 构建的纯 Go 即时模式 GUI 框架，零 Cgo 依赖。
+- [qt](https://github.com/therecipe/qt) - Go 的 Qt 绑定（支持 Windows/macOS/Linux/Android/iOS/Sailfish OS/树莓派）。
+- [Spot](https://github.com/roblillack/spot) - 响应式跨平台桌面 GUI 工具包。
+- [ui](https://github.com/andlabs/ui) - 面向 Go 的平台原生 GUI 库。跨平台。
+- [unison](https://github.com/richardwilkes/unison) - 面向 Go 桌面应用的一体化图形用户体验工具包，支持 macOS、Windows 与 Linux。
+- [Wails](https://wails.io) - 借助内置操作系统 HTML 渲染器、用 HTML 做 UI 的 Mac/Windows/Linux 桌面应用方案。
+- [walk](https://github.com/lxn/walk) - 面向 Go 的 Windows 应用开发工具包。
+- [webview](https://github.com/zserge/webview) - 跨平台 webview 窗口，带简洁的双向 JavaScript 绑定（Windows/macOS/Linux）。
 
 _交互_
 
-- [AppIndicator Go](https://github.com/gopherlibs/appindicator) - Go bindings for libappindicator3 C library.
-- [gogpu/systray](https://github.com/gogpu/systray) - Pure Go system tray library for Windows, macOS, and Linux with zero CGO (part of [GoGPU](https://github.com/gogpu) ecosystem).
-- [gosx-notifier](https://github.com/deckarep/gosx-notifier) - OSX Desktop Notifications library for Go.
-- [mac-activity-tracker](https://github.com/prashantgupta24/activity-tracker) - OSX library to notify about any (pluggable) activity on your machine.
-- [mac-sleep-notifier](https://github.com/prashantgupta24/mac-sleep-notifier) - OSX Sleep/Wake notifications in golang.
-- [robotgo](https://github.com/go-vgo/robotgo) - Go Native cross-platform GUI system automation. Control the mouse, keyboard and other.
-- [systray](https://github.com/getlantern/systray) - Cross platform Go library to place an icon and menu in the notification area.
-- [trayhost](https://github.com/shurcooL/trayhost) - Cross-platform Go library to place an icon in the host operating system's taskbar.
-- [zenity](https://github.com/ncruces/zenity) - Cross-platform Go library and CLI to create simple dialogs that interact graphically with the user.
+- [AppIndicator Go](https://github.com/gopherlibs/appindicator) - libappindicator3 C 库的 Go 绑定。
+- [gogpu/systray](https://github.com/gogpu/systray) - 面向 Windows、macOS 与 Linux 的纯 Go 系统托盘库，零 CGO（[GoGPU](https://github.com/gogpu) 生态的一部分）。
+- [gosx-notifier](https://github.com/deckarep/gosx-notifier) - Go 的 macOS 桌面通知库。
+- [mac-activity-tracker](https://github.com/prashantgupta24/activity-tracker) - macOS 库，用于通知机器上发生的任意（可插拔的）活动。
+- [mac-sleep-notifier](https://github.com/prashantgupta24/mac-sleep-notifier) - golang 中的 macOS 睡眠/唤醒通知。
+- [robotgo](https://github.com/go-vgo/robotgo) - Go 原生跨平台 GUI 系统自动化，可控制鼠标、键盘等。
+- [systray](https://github.com/getlantern/systray) - 跨平台 Go 库，在通知区域放置图标与菜单。
+- [trayhost](https://github.com/shurcooL/trayhost) - 跨平台 Go 库，在宿主操作系统的任务栏中放置图标。
+- [zenity](https://github.com/ncruces/zenity) - 跨平台 Go 库与 CLI，用于创建与用户图形化交互的简单对话框。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -1615,15 +1615,15 @@ _交互_
 
 _用于与硬件交互的库、工具与教程。_
 
-- [arduino-cli](https://github.com/arduino/arduino-cli) - Official Arduino CLI and library. Can run standalone, or be incorporated into larger Go projects.
-- [emgo](https://github.com/ziutek/emgo) - Go-like language for programming embedded systems (e.g. STM32 MCU).
-- [ghw](https://github.com/jaypipes/ghw) - Golang hardware discovery/inspection library.
-- [go-osc](https://github.com/hypebeast/go-osc) - Open Sound Control (OSC) bindings for Go.
-- [go-rpio](https://github.com/stianeikeland/go-rpio) - GPIO for Go, doesn't require cgo.
-- [goroslib](https://github.com/aler9/goroslib) - Robot Operating System (ROS) library for Go.
-- [joystick](https://github.com/0xcafed00d/joystick) - a polled API to read the state of an attached joystick.
-- [moody](https://github.com/dinakars777/moody) - Hardware event personality daemon for macOS. Monitors USB, charger, lid, and other hardware events and responds with customizable personalities.
-- [sysinfo](https://github.com/zcalusic/sysinfo) - A pure Go library providing Linux OS / kernel / hardware system information.
+- [arduino-cli](https://github.com/arduino/arduino-cli) - 官方 Arduino CLI 与库。既可独立运行，也可集成进更大的 Go 项目。
+- [emgo](https://github.com/ziutek/emgo) - 类 Go 的嵌入式系统编程语言（如 STM32 MCU）。
+- [ghw](https://github.com/jaypipes/ghw) - Golang 硬件发现/检测库。
+- [go-osc](https://github.com/hypebeast/go-osc) - Go 的 Open Sound Control (OSC) 绑定。
+- [go-rpio](https://github.com/stianeikeland/go-rpio) - Go 的 GPIO 支持，无需 cgo。
+- [goroslib](https://github.com/aler9/goroslib) - Go 的机器人操作系统（ROS）库。
+- [joystick](https://github.com/0xcafed00d/joystick) - 轮询式 API，用于读取已连接游戏手柄的状态。
+- [moody](https://github.com/dinakars777/moody) - macOS 硬件事件人格化守护进程。监控 USB、充电器、合盖等硬件事件，并以可自定义的「人格」作出响应。
+- [sysinfo](https://github.com/zcalusic/sysinfo) - 提供 Linux 操作系统/内核/硬件系统信息的纯 Go 库。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -1632,51 +1632,51 @@ _用于与硬件交互的库、工具与教程。_
 
 _用于图像处理的库。_
 
-- [bild](https://github.com/anthonynsimon/bild) - Collection of image processing algorithms in pure Go.
-- [bimg](https://github.com/h2non/bimg) - Small package for fast and efficient image processing using libvips.
-- [cameron](https://github.com/aofei/cameron) - An avatar generator for Go.
-- [canvas](https://github.com/tdewolff/canvas) - Vector graphics to PDF, SVG or rasterized image.
-- [color-extractor](https://github.com/marekm4/color-extractor) - Dominant color extractor with no external dependencies.
-- [darkroom](https://github.com/gojek/darkroom) - An image proxy with changeable storage backends and image processing engines with focus on speed and resiliency.
-- [eagle-image-api](https://github.com/nicobistolfi/eagle-image-api) - Image optimization and transformation API using libvips, deployable to AWS Lambda and CloudFront.
-- [geopattern](https://github.com/pravj/geopattern) - Create beautiful generative image patterns from a string.
-- [gg](https://github.com/fogleman/gg) - 2D rendering in pure Go.
-- [gift](https://github.com/disintegration/gift) - Package of image processing filters.
-- [gltf](https://github.com/qmuntal/gltf) - Efficient and robust glTF 2.0 reader, writer and validator.
-- [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
-- [go-gd](https://github.com/bolknote/go-gd) - Go binding for GD library.
-- [go-nude](https://github.com/koyachi/go-nude) - Nudity detection with Go.
-- [go-qrcode](https://github.com/yeqown/go-qrcode) - Generate QR codes with personalized styles, allowing adjustments to color, block size, shape, and icons.
-- [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
-- [go-webp](https://github.com/kolesa-team/go-webp) - Library for encode and decode webp pictures, using libwebp.
-- [gocv](https://github.com/hybridgroup/gocv) - Go package for computer vision using OpenCV 3.3+.
-- [gogpu/gg](https://github.com/gogpu/gg) - GPU-accelerated 2D rendering with Canvas-like API, zero CGO (part of [GoGPU](https://github.com/gogpu) pure Go graphics ecosystem).
-- [goimagehash](https://github.com/corona10/goimagehash) - Go Perceptual image hashing package.
-- [goimghdr](https://github.com/corona10/goimghdr) - The imghdr module determines the type of image contained in a file for Go.
-- [govatar](https://github.com/o1egl/govatar) - Library and CMD tool for generating funny avatars.
-- [govips](https://github.com/davidbyttow/govips) - A lightning fast image processing and resizing library for Go.
-- [gowitness](https://github.com/sensepost/gowitness) - Screenshoting webpages using go and headless chrome on command line.
-- [gridder](https://github.com/shomali11/gridder) - A Grid based 2D Graphics library.
-- [image2ascii](https://github.com/qeesung/image2ascii) - Convert image to ASCII.
-- [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
-- [imaginary](https://github.com/h2non/imaginary) - Fast and simple HTTP microservice for image resizing.
-- [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
-- [imagor](https://github.com/cshum/imagor) - Fast, secure image processing server and Go library, using libvips.
-- [img](https://github.com/hawx/img) - Selection of image manipulation tools.
-- [ln](https://github.com/fogleman/ln) - 3D line art rendering in Go.
-- [mergi](https://github.com/noelyahan/mergi) - Tool & Go library for image manipulation (Merge, Crop, Resize, Watermark, Animate).
-- [mort](https://github.com/aldor007/mort) - Storage and image processing server written in Go.
-- [mpo](https://github.com/donatj/mpo) - Decoder and conversion tool for MPO 3D Photos.
-- [nativewebp](https://github.com/HugoSmits86/nativewebp) - Go native WebP encoder with zero external dependencies.
-- [picfit](https://github.com/thoas/picfit) - An image resizing server written in Go.
-- [pt](https://github.com/fogleman/pt) - Path tracing engine written in Go.
-- [scout](https://github.com/jonoton/scout) - Scout is a standalone open source software solution for DIY video security.
-- [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes.
-- [steganography](https://github.com/auyer/steganography) - Pure Go Library for LSB steganography.
-- [stegify](https://github.com/DimitarPetrov/stegify) - Go tool for LSB steganography, capable of hiding any file within an image.
-- [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
-- [transformimgs](https://github.com/Pixboost/transformimgs) - Transformimgs resizes and optimises images for Web using next-generation formats.
-- [webp-server](https://github.com/mehdipourfar/webp-server) - Simple and minimal image server capable of storing, resizing, converting and caching images.
+- [bild](https://github.com/anthonynsimon/bild) - 纯 Go 实现的图像处理算法集合。
+- [bimg](https://github.com/h2non/bimg) - 使用 libvips 进行快速高效图像处理的小型包。
+- [cameron](https://github.com/aofei/cameron) - Go 的头像生成器。
+- [canvas](https://github.com/tdewolff/canvas) - 矢量图形转 PDF、SVG 或栅格化图像。
+- [color-extractor](https://github.com/marekm4/color-extractor) - 主色提取器，无外部依赖。
+- [darkroom](https://github.com/gojek/darkroom) - 图像代理，具备可更换的存储后端与图像处理引擎，注重速度与韧性。
+- [eagle-image-api](https://github.com/nicobistolfi/eagle-image-api) - 基于 libvips 的图像优化与转换 API，可部署到 AWS Lambda 与 CloudFront。
+- [geopattern](https://github.com/pravj/geopattern) - 从字符串生成美观的生成式图像图案。
+- [gg](https://github.com/fogleman/gg) - 纯 Go 的 2D 渲染。
+- [gift](https://github.com/disintegration/gift) - 图像处理滤镜包。
+- [gltf](https://github.com/qmuntal/gltf) - 高效稳健的 glTF 2.0 读取器、写入器与校验器。
+- [go-cairo](https://github.com/ungerik/go-cairo) - cairo 图形库的 Go 绑定。
+- [go-gd](https://github.com/bolknote/go-gd) - GD 库的 Go 绑定。
+- [go-nude](https://github.com/koyachi/go-nude) - 用 Go 实现的裸露内容检测。
+- [go-qrcode](https://github.com/yeqown/go-qrcode) - 生成个性化样式的二维码，可调整颜色、模块大小、形状与图标。
+- [go-webcolors](https://github.com/jyotiska/go-webcolors) - 把 Python 的 webcolors 库移植到 Go。
+- [go-webp](https://github.com/kolesa-team/go-webp) - 使用 libwebp 编解码 webp 图片的库。
+- [gocv](https://github.com/hybridgroup/gocv) - 基于 OpenCV 3.3+ 的 Go 计算机视觉包。
+- [gogpu/gg](https://github.com/gogpu/gg) - GPU 加速的 2D 渲染，提供类 Canvas 的 API，零 CGO（[GoGPU](https://github.com/gogpu) 纯 Go 图形生态的一部分）。
+- [goimagehash](https://github.com/corona10/goimagehash) - Go 的感知哈希（perceptual image hashing）包。
+- [goimghdr](https://github.com/corona10/goimghdr) - imghdr 模块用于判定 Go 文件中所含图像的类型。
+- [govatar](https://github.com/o1egl/govatar) - 用于生成趣味头像的库与命令行工具。
+- [govips](https://github.com/davidbyttow/govips) - 为 Go 打造的闪电般快速的图像处理与缩放库。
+- [gowitness](https://github.com/sensepost/gowitness) - 用 Go 配合命令行无头 Chrome 对网页截图。
+- [gridder](https://github.com/shomali11/gridder) - 基于网格的 2D 图形库。
+- [image2ascii](https://github.com/qeesung/image2ascii) - 把图像转换为 ASCII 字符画。
+- [imagick](https://github.com/gographics/imagick) - ImageMagick MagickWand C API 的 Go 绑定。
+- [imaginary](https://github.com/h2non/imaginary) - 快速简便的图像缩放 HTTP 微服务。
+- [imaging](https://github.com/disintegration/imaging) - 简易 Go 图像处理包。
+- [imagor](https://github.com/cshum/imagor) - 基于 libvips 的快速安全图像处理服务器与 Go 库。
+- [img](https://github.com/hawx/img) - 一组图像操作工具。
+- [ln](https://github.com/fogleman/ln) - Go 中的 3D 线稿渲染。
+- [mergi](https://github.com/noelyahan/mergi) - 图像操作工具与 Go 库（合并、裁剪、缩放、水印、动效）。
+- [mort](https://github.com/aldor007/mort) - 用 Go 编写的存储与图像处理服务器。
+- [mpo](https://github.com/donatj/mpo) - MPO 3D 照片的解码与转换工具。
+- [nativewebp](https://github.com/HugoSmits86/nativewebp) - Go 原生 WebP 编码器，零外部依赖。
+- [picfit](https://github.com/thoas/picfit) - 用 Go 编写的图像缩放服务器。
+- [pt](https://github.com/fogleman/pt) - 用 Go 编写的路径追踪引擎。
+- [scout](https://github.com/jonoton/scout) - Scout 是面向 DIY 视频监控的独立开源软件解决方案。
+- [smartcrop](https://github.com/muesli/smartcrop) - 为任意图像与裁剪尺寸寻找优质裁剪区域。
+- [steganography](https://github.com/auyer/steganography) - 用于 LSB 隐写的纯 Go 库。
+- [stegify](https://github.com/DimitarPetrov/stegify) - LSB 隐写 Go 工具，能够把任意文件隐藏在图片中。
+- [svgo](https://github.com/ajstarks/svgo) - 用于 SVG 生成的 Go 语言库。
+- [transformimgs](https://github.com/Pixboost/transformimgs) - Transformimgs 使用新一代格式为 Web 缩放与优化图片。
+- [webp-server](https://github.com/mehdipourfar/webp-server) - 简单极简的图片服务器，支持存储、缩放、转换与缓存图片。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -1685,20 +1685,20 @@ _用于图像处理的库。_
 
 _用于物联网设备编程的库。_
 
-- [connectordb](https://github.com/connectordb/connectordb) - Open-Source Platform for Quantified Self & IoT.
-- [devices](https://github.com/goiot/devices) - Suite of libraries for IoT devices, experimental for x/exp/io.
-- [ekuiper](https://github.com/lf-edge/ekuiper) - Lightweight data stream processing engine for IoT edge.
-- [eywa](https://github.com/xcodersun/eywa) - Project Eywa is essentially a connection manager that keeps track of connected devices.
-- [flogo](https://github.com/tibcosoftware/flogo) - Project Flogo is an Open Source Framework for IoT Edge Apps & Integration.
-- [gatt](https://github.com/paypal/gatt) - Gatt is a Go package for building Bluetooth Low Energy peripherals.
-- [gobot](https://github.com/hybridgroup/gobot/) - Gobot is a framework for robotics, physical computing, and the Internet of Things.
-- [huego](https://github.com/amimof/huego) - An extensive Philips Hue client library for Go.
-- [iot](https://github.com/vaelen/iot/) - IoT is a simple framework for implementing a Google IoT Core device.
-- [periph](https://periph.io/) - Peripherals I/O to interface with low-level board facilities.
-- [rulego](https://github.com/rulego/rulego) - RuleGo is a lightweight, high-performance, embedded, orchestrable component-based rule engine for IoT edge.
-- [sensorbee](https://github.com/sensorbee/sensorbee) - Lightweight stream processing engine for IoT.
-- [shifu](https://github.com/Edgenesis/shifu) - Kubernetes native IoT development framework.
-- [smart-home](https://github.com/e154/smart-home) - Software package for IoT automation.
+- [connectordb](https://github.com/connectordb/connectordb) - 面向量化自我与物联网的开源平台。
+- [devices](https://github.com/goiot/devices) - 面向物联网设备的一组库，属于实验性的 x/exp/io。
+- [ekuiper](https://github.com/lf-edge/ekuiper) - 面向物联网边缘的轻量级数据流处理引擎。
+- [eywa](https://github.com/xcodersun/eywa) - Eywa 项目本质上是一个连接管理器，用于跟踪已连接的设备。
+- [flogo](https://github.com/tibcosoftware/flogo) - Flogo 项目是面向物联网边缘应用与集成的开源框架。
+- [gatt](https://github.com/paypal/gatt) - Gatt 是用于构建蓝牙低功耗外设的 Go 包。
+- [gobot](https://github.com/hybridgroup/gobot/) - Gobot 是面向机器人、物联网与实体计算的框架。
+- [huego](https://github.com/amimof/huego) - 功能完备的 Philips Hue Go 客户端库。
+- [iot](https://github.com/vaelen/iot/) - IoT 是一个用于实现 Google IoT Core 设备的简易框架。
+- [periph](https://periph.io/) - 外设 I/O，用于对接底层板级设施。
+- [rulego](https://github.com/rulego/rulego) - RuleGo 是面向物联网边缘的轻量、高性能、可嵌入、可编排的组件化规则引擎。
+- [sensorbee](https://github.com/sensorbee/sensorbee) - 面向物联网的轻量级流处理引擎。
+- [shifu](https://github.com/Edgenesis/shifu) - Kubernetes 原生的物联网开发框架。
+- [smart-home](https://github.com/e154/smart-home) - 用于物联网自动化的软件包。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -1707,29 +1707,29 @@ _用于物联网设备编程的库。_
 
 _用于任务调度的库。_
 
-- [cdule](https://github.com/deepaksinghvi/cdule) - Job scheduler library with database support
-- [cheek](https://github.com/bart6114/cheek) - A simple crontab like scheduler that aims to offer a KISS approach to job scheduling.
-- [clockwerk](https://github.com/onatm/clockwerk) - Go package to schedule periodic jobs using a simple, fluent syntax.
-- [cronticker](https://github.com/krayzpipes/cronticker) - A ticker implementation to support cron schedules.
-- [go-cron](https://github.com/rk/go-cron) - Simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons.
-- [go-cron](https://github.com/netresearch/go-cron) - Cron job scheduler with runtime schedule updates, per-entry context, resilience middleware (retry, circuit breaker, rate limiting), and observability hooks; successor to robfig/cron.
-- [go-job](https://github.com/cybergarage/go-job) - A flexible and extensible job scheduling and execution library for Go.
-- [go-quartz](https://github.com/reugn/go-quartz) - Simple, zero-dependency scheduling library for Go.
-- [go-scheduler](https://github.com/pardnchiu/go-scheduler) - Job scheduler supporting standard cron expressions, custom descriptors, intervals, and task dependencies.
-- [gocron](https://github.com/go-co-op/gocron) - Easy and fluent Go job scheduling. This is an actively maintained fork of [jasonlvhit/gocron](https://github.com/jasonlvhit/gocron).
-- [goflow](https://github.com/fieldryand/goflow) - A simple but powerful DAG scheduler and dashboard.
-- [gron](https://github.com/roylee0704/gron) - Define time-based tasks using a simple Go API and Gron’s scheduler will run them accordingly.
-- [gronx](https://github.com/adhocore/gronx) - Cron expression parser, task runner and daemon consuming crontab like task list.
-- [JobRunner](https://github.com/bamzi/jobrunner) - Smart and featureful cron job scheduler with job queuing and live monitoring built in.
-- [leprechaun](https://github.com/kilgaloon/leprechaun) - Job scheduler that supports webhooks, crons and classic scheduling.
-- [ofelia](https://github.com/netresearch/ofelia) - Docker job scheduler (crontab for Docker); fork of mcuadros/ofelia that adds a web UI, job dependencies, retries, and job persistence.
-- [pending](https://github.com/kahoon/pending) - ID-based debounced task scheduler for deferred tasks with cancellation, graceful shutdown, and optional concurrency limits.
-- [sched](https://github.com/romshark/sched) - A job scheduler with the ability to fast-forward time.
-- [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
-- [scheduler](https://github.com/yuseferi/scheduler) - Go-native distributed job scheduler with delayed tasks, batched Redis coordination, retries, lease-based recovery, and versioned queue partitioning.
-- [tasks](https://github.com/madflojo/tasks) - An easy to use in-process scheduler for recurring tasks in Go.
-- [tickstem/cron](https://github.com/tickstem/cron) - Go client for scheduling HTTP cron jobs, with execution history, failure alerts, and tsk-local for testing handlers without live credentials.
-- [tickstem/heartbeat](https://github.com/tickstem/heartbeat) - Go client for dead-man's switch heartbeat monitoring: ping a URL after each job run and get alerted by email if pings stop arriving.
+- [cdule](https://github.com/deepaksinghvi/cdule) - 带数据库支持的作业调度库。
+- [cheek](https://github.com/bart6114/cheek) - 类 crontab 的简易调度器，力求以 KISS 理念搞定作业调度。
+- [clockwerk](https://github.com/onatm/clockwerk) - 用简单流畅的语法调度周期作业的 Go 包。
+- [cronticker](https://github.com/krayzpipes/cronticker) - 支持 cron 表达式的 ticker 实现。
+- [go-cron](https://github.com/rk/go-cron) - Go 的简易 Cron 库，可按从每秒一次到每年某月某日某时一次的不同间隔执行闭包或函数。主要面向 Web 应用与长期运行的守护进程。
+- [go-cron](https://github.com/netresearch/go-cron) - Cron 作业调度器，支持运行时更新排程、按条目隔离上下文、弹性中间件（重试、熔断、限流）与可观测性钩子；是 robfig/cron 的继任者。
+- [go-job](https://github.com/cybergarage/go-job) - 灵活可扩展的 Go 作业调度与执行库。
+- [go-quartz](https://github.com/reugn/go-quartz) - 简单、零依赖的 Go 调度库。
+- [go-scheduler](https://github.com/pardnchiu/go-scheduler) - 支持标准 cron 表达式、自定义描述符、时间间隔与任务依赖的作业调度器。
+- [gocron](https://github.com/go-co-op/gocron) - 简单易用的 Go 作业调度。这是 [jasonlvhit/gocron](https://github.com/jasonlvhit/gocron) 的活跃维护分支。
+- [goflow](https://github.com/fieldryand/goflow) - 简单却强大的 DAG 调度器与仪表盘。
+- [gron](https://github.com/roylee0704/gron) - 用简洁的 Go API 定义基于时间的任务，Gron 的调度器会据此执行。
+- [gronx](https://github.com/adhocore/gronx) - Cron 表达式解析器、任务运行器与守护进程，读取类 crontab 的任务列表。
+- [JobRunner](https://github.com/bamzi/jobrunner) - 智能且功能丰富的 cron 作业调度器，内置作业队列与实时监控。
+- [leprechaun](https://github.com/kilgaloon/leprechaun) - 支持 webhook、cron 与传统调度的作业调度器。
+- [ofelia](https://github.com/netresearch/ofelia) - Docker 作业调度器（Docker 版 crontab）；是 mcuadros/ofelia 的分支，新增 Web 界面、作业依赖、重试与作业持久化。
+- [pending](https://github.com/kahoon/pending) - 基于 ID 的防抖任务调度器，用于延迟任务，支持取消、优雅停机与可选的并发上限。
+- [sched](https://github.com/romshark/sched) - 具备时间快进能力的作业调度器。
+- [scheduler](https://github.com/carlescere/scheduler) - 让 cronjob 调度变得简单。
+- [scheduler](https://github.com/yuseferi/scheduler) - Go 原生的分布式作业调度器，支持延迟任务、批量 Redis 协调、重试、基于租约的恢复与带版本隔离的队列分区。
+- [tasks](https://github.com/madflojo/tasks) - 易于使用的 Go 进程内调度器，用于周期性任务。
+- [tickstem/cron](https://github.com/tickstem/cron) - 用于调度 HTTP cron 作业的 Go 客户端，带执行历史、失败告警，并提供 tsk-local 让你无需真实凭据即可测试处理器。
+- [tickstem/heartbeat](https://github.com/tickstem/heartbeat) - 用于「死人开关」心跳监控的 Go 客户端：每次作业运行后 ping 一个 URL，若心跳中断则通过邮件告警。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -1738,47 +1738,47 @@ _用于任务调度的库。_
 
 _用于处理 JSON 的库。_
 
-- [ajson](https://github.com/spyzhov/ajson) - Abstract JSON for golang with JSONPath support.
-- [ask](https://github.com/simonnilsson/ask) - Easy access to nested values in maps and slices. Works in combination with encoding/json and other packages that "Unmarshal" arbitrary data into Go data-types.
-- [dynjson](https://github.com/cocoonspace/dynjson) - Client-customizable JSON formats for dynamic APIs.
-- [ej](https://github.com/lucassscaravelli/ej) - Write and read JSON from different sources succinctly.
-- [epoch](https://github.com/vtopc/epoch) - Contains primitives for marshaling/unmarshalling Unix timestamp/epoch to/from build-in time.Time type in JSON.
-- [fastjson](https://github.com/valyala/fastjson) - Fast JSON parser and validator for Go. No custom structs, no code generation, no reflection.
-- [gabs](https://github.com/Jeffail/gabs) - For parsing, creating and editing unknown or dynamic JSON in Go.
-- [gjo](https://github.com/skanehira/gjo) - Small utility to create JSON objects.
-- [GJSON](https://github.com/tidwall/gjson) - Get a JSON value with one line of code.
-- [go-jsonerror](https://github.com/ddymko/go-jsonerror) - Go-JsonError is meant to allow us to easily create json response errors that follow the JsonApi spec.
-- [go-respond](https://github.com/nicklaw5/go-respond) - Go package for handling common HTTP JSON responses.
-- [gojmapr](https://github.com/limiu82214/gojmapr) - Get simple struct from complex json by json path.
-- [gojq](https://github.com/elgs/gojq) - JSON query in Golang.
-- [gojson](https://github.com/ChimeraCoder/gojson) - Automatically generate Go (golang) struct definitions from example JSON.
-- [htmljson](https://github.com/nikolaydubina/htmljson) - Rich rendering of JSON as HTML in Go.
-- [JayDiff](https://github.com/yazgazan/jaydiff) - JSON diff utility written in Go.
-- [jettison](https://github.com/wI2L/jettison) - Fast and flexible JSON encoder for Go.
-- [jscan](https://github.com/romshark/jscan) - High performance zero-allocation JSON iterator.
-- [JSON-to-Go](https://mholt.github.io/json-to-go/) - Convert JSON to Go struct.
-- [JSON-to-Proto](https://json-to-proto.github.io/) - Convert JSON to Protobuf online.
-- [json2go](https://github.com/m-zajac/json2go) - Advanced JSON to Go struct conversion. Provides package that can parse multiple JSON documents and create struct to fit them all.
-- [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) - Go bindings based on the JSON API errors reference.
-- [jsoncolor](https://github.com/neilotoole/jsoncolor) - Drop-in replacement for `encoding/json` that outputs colorized JSON.
-- [jsondiff](https://github.com/wI2L/jsondiff) - JSON diff library for Go based on RFC6902 (JSON Patch).
-- [jsonf](https://github.com/miolini/jsonf) - Console tool for highlighted formatting and struct query fetching JSON.
-- [jsongo](https://github.com/ricardolonga/jsongo) - Fluent API to make it easier to create Json objects.
-- [jsonhal](https://github.com/RichardKnop/jsonhal) - Simple Go package to make custom structs marshal into HAL compatible JSON responses.
-- [jsonhandlers](https://github.com/abusomani/jsonhandlers) - JSON library to expose simple handlers that lets you easily read and write json from various sources.
-- [jsonic](https://github.com/sinhashubham95/jsonic) - Utilities to handle and query JSON without defining structs in a type safe manner.
-- [jsonvalue](https://github.com/Andrew-M-C/go.jsonvalue) - A fast and convenient library for unstructured JSON data, replacing `encoding/json`.
-- [jzon](https://github.com/zerosnake0/jzon) - JSON library with standard compatible API/behavior.
-- [kazaam](https://github.com/Qntfy/kazaam) - API for arbitrary transformation of JSON documents.
-- [mapslice-json](https://github.com/mickep76/mapslice-json) - Go MapSlice for ordered marshal/ unmarshal of maps in JSON.
-- [marshmallow](https://github.com/PerimeterX/marshmallow) - Performant JSON unmarshalling for flexible use cases.
-- [mp](https://github.com/sanbornm/mp) - Simple cli email parser. It currently takes stdin and outputs JSON.
-- [OjG](https://github.com/ohler55/ojg) - Optimized JSON for Go is a high performance parser with a variety of additional JSON tools including JSONPath.
-- [omg.jsonparser](https://github.com/dedalqq/omg.jsonparser) - Simple JSON parser with validation by condition via golang struct fields tags.
-- [silentjson](https://github.com/GenshIv/silentjson) - Zero-allocation JSON boundary scanner and splitter utilizing AVX2 SIMD instructions.
-- [SJSON](https://github.com/tidwall/sjson) - Set a JSON value with one line of code.  
-- [ujson](https://github.com/olvrng/ujson) - Fast and minimal JSON parser and transformer that works on unstructured JSON.
-- [vjson](https://github.com/miladibra10/vjson) - Go package for validating JSON objects with declaring a JSON schema with fluent API.
+- [ajson](https://github.com/spyzhov/ajson) - 支持 JSONPath 的 Go 抽象 JSON 处理。
+- [ask](https://github.com/simonnilsson/ask) - 便捷访问 map 与 slice 中的嵌套值。可与 encoding/json 等把任意数据「反序列化」为 Go 类型的包配合使用。
+- [dynjson](https://github.com/cocoonspace/dynjson) - 面向动态 API、格式可由客户端定制的 JSON 方案。
+- [ej](https://github.com/lucassscaravelli/ej) - 简洁地从不同来源读写 JSON。
+- [epoch](https://github.com/vtopc/epoch) - 包含在 JSON 中将 Unix 时间戳/纪元时间与内置 time.Time 类型互相编解码的原语。
+- [fastjson](https://github.com/valyala/fastjson) - 快速 JSON 解析器与校验器，用 Go 编写。无需自定义结构体、无需代码生成、无需反射。
+- [gabs](https://github.com/Jeffail/gabs) - 用于在 Go 中解析、创建与编辑未知或动态 JSON。
+- [gjo](https://github.com/skanehira/gjo) - 创建 JSON 对象的小工具。
+- [GJSON](https://github.com/tidwall/gjson) - 一行代码获取一个 JSON 值。
+- [go-jsonerror](https://github.com/ddymko/go-jsonerror) - Go-JsonError 让我们能轻松创建符合 JsonApi 规范的 JSON 响应错误。
+- [go-respond](https://github.com/nicklaw5/go-respond) - 用于处理常见 HTTP JSON 响应的 Go 包。
+- [gojmapr](https://github.com/limiu82214/gojmapr) - 按 JSON 路径从复杂 JSON 中取出简单结构体。
+- [gojq](https://github.com/elgs/gojq) - Golang 中的 JSON 查询。
+- [gojson](https://github.com/ChimeraCoder/gojson) - 从示例 JSON 自动生成 Go (golang) 结构体定义。
+- [htmljson](https://github.com/nikolaydubina/htmljson) - 在 Go 中把 JSON 丰富地渲染为 HTML。
+- [JayDiff](https://github.com/yazgazan/jaydiff) - 用 Go 编写的 JSON diff 工具。
+- [jettison](https://github.com/wI2L/jettison) - 快速灵活的 Go JSON 编码器。
+- [jscan](https://github.com/romshark/jscan) - 高性能零分配 JSON 迭代器。
+- [JSON-to-Go](https://mholt.github.io/json-to-go/) - 将 JSON 转换为 Go 结构体。
+- [JSON-to-Proto](https://json-to-proto.github.io/) - 在线将 JSON 转换为 Protobuf。
+- [json2go](https://github.com/m-zajac/json2go) - 高级 JSON 到 Go 结构体转换。提供的包可解析多个 JSON 文档，并生成能同时容纳它们的结构体。
+- [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) - 基于 JSON API 错误规范的 Go 绑定。
+- [jsoncolor](https://github.com/neilotoole/jsoncolor) - `encoding/json` 的直接替代品，输出带颜色的 JSON。
+- [jsondiff](https://github.com/wI2L/jsondiff) - 基于 RFC6902（JSON Patch）的 Go JSON diff 库。
+- [jsonf](https://github.com/miolini/jsonf) - 控制台工具，提供高亮格式化与按结构体查询获取 JSON。
+- [jsongo](https://github.com/ricardolonga/jsongo) - 流畅的 API，让创建 JSON 对象更轻松。
+- [jsonhal](https://github.com/RichardKnop/jsonhal) - 简易 Go 包，让自定义结构体可序列化为兼容 HAL 的 JSON 响应。
+- [jsonhandlers](https://github.com/abusomani/jsonhandlers) - JSON 库，提供简洁的处理器，便于从各种来源读写 JSON。
+- [jsonic](https://github.com/sinhashubham95/jsonic) - 无需以类型安全方式定义结构体，即可处理与查询 JSON 的工具集。
+- [jsonvalue](https://github.com/Andrew-M-C/go.jsonvalue) - 面向非结构化 JSON 数据的快速便捷库，可替代 `encoding/json`。
+- [jzon](https://github.com/zerosnake0/jzon) - API/行为与标准兼容的 JSON 库。
+- [kazaam](https://github.com/Qntfy/kazaam) - 用于对 JSON 文档做任意变换的 API。
+- [mapslice-json](https://github.com/mickep76/mapslice-json) - Go 版 MapSlice，用于 JSON 中 map 的有序编解码。
+- [marshmallow](https://github.com/PerimeterX/marshmallow) - 面向灵活场景的高性能 JSON 反序列化。
+- [mp](https://github.com/sanbornm/mp) - 简易命令行邮件解析器。当前从 stdin 读取并输出 JSON。
+- [OjG](https://github.com/ohler55/ojg) - 面向 Go 的优化版 JSON 是一个高性能解析器，并内置 JSONPath 等多种 JSON 辅助工具。
+- [omg.jsonparser](https://github.com/dedalqq/omg.jsonparser) - 简易 JSON 解析器，支持通过 Go 结构体字段标签按条件校验。
+- [silentjson](https://github.com/GenshIv/silentjson) - 利用 AVX2 SIMD 指令实现的零分配 JSON 边界扫描与切分器。
+- [SJSON](https://github.com/tidwall/sjson) - 一行代码设置一个 JSON 值。
+- [ujson](https://github.com/olvrng/ujson) - 快速极简的 JSON 解析与转换器，可作用于非结构化 JSON。
+- [vjson](https://github.com/miladibra10/vjson) - 用于校验 JSON 对象的 Go 包，可用流畅 API 声明 JSON schema。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -1787,61 +1787,61 @@ _用于处理 JSON 的库。_
 
 _用于生成与处理日志文件的库。_
 
-- [caarlos0/log](https://github.com/caarlos0/log) - Colorful CLI logger.
-- [distillog](https://github.com/amoghe/distillog) - distilled levelled logging (think of it as stdlib + log levels).
-- [glg](https://github.com/kpango/glg) - glg is simple and fast leveled logging library for Go.
-- [glo](https://github.com/lajosbencz/glo) - PHP Monolog inspired logging facility with identical severity levels.
-- [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
-- [go-cronowriter](https://github.com/utahta/go-cronowriter) - Simple writer that rotate log files automatically based on current date and time, like cronolog.
-- [go-log](https://github.com/pieterclaerhout/go-log) - A logging library with stack traces, object dumping and optional timestamps.
-- [go-log](https://github.com/subchen/go-log) - Simple and configurable Logging in Go, with level, formatters and writers.
-- [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
-- [go-log](https://github.com/ian-kent/go-log) - Log4j implementation in Go.
-- [go-log4g](https://github.com/go-log4g/core) - Log4g provides Log4j-style configuration and pattern layouts for Go's standard log/slog logging facade.
-- [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
-- [GoLogX](https://github.com/AyoubTadlaoui/GoLogX) - Append-only, hash-chained, optionally Ed25519-signed slog handler with offline verification of tampering.
-- [gone/log](https://github.com/One-com/gone/tree/master/log) - Fast, extendable, full-featured, std-lib source compatible log library.
-- [gslog](https://github.com/maguro/gslog) - Google Cloud Logging handler for log/slog, with OpenTelemetry trace and baggage, and Kubernetes podinfo labels.
-- [httpretty](https://github.com/henvic/httpretty) - Pretty-prints your regular HTTP requests on your terminal for debugging (similar to http.DumpRequest).
-- [journald](https://github.com/ssgreg/journald) - Go implementation of systemd Journal's native API for logging.
-- [kemba](https://github.com/clok/kemba) - A tiny debug logging tool inspired by [debug](https://github.com/visionmedia/debug), great for CLI tools and applications.
-- [lazyjournal](https://github.com/Lifailon/lazyjournal) - A TUI for reading and filtering logs from journalctl, file system, Docker and Podman containers, as well Kubernetes pods.
-- [log](https://github.com/aerogo/log) - An O(1) logging system that allows you to connect one log to multiple writers (e.g. stdout, a file and a TCP connection).
-- [log](https://github.com/apex/log) - Structured logging package for Go.
-- [log](https://github.com/go-playground/log) - Simple, configurable and scalable Structured Logging for Go.
-- [log](https://github.com/teris-io/log) - Structured log interface for Go cleanly separates logging facade from its implementation.
-- [log](https://github.com/heartwilltell/log) - Simple leveled logging wrapper around standard log package.
-- [log](https://github.com/no-src/log) - A simple logging framework out of the box.
-- [log15](https://github.com/inconshreveable/log15) - Simple, powerful logging for Go.
-- [logdump](https://github.com/ewwwwwqm/logdump) - Package for multi-level logging.
-- [logex](https://github.com/chzyer/logex) - Golang log lib, supports tracking and level, wrap by standard log lib.
-- [logger](https://github.com/azer/logger) - Minimalistic logging library for Go.
-- [logo](https://github.com/mbndr/logo) - Golang logger to different configurable writers.
-- [logrus](https://github.com/Sirupsen/logrus) - Structured logger for Go.
-- [logrusiowriter](https://github.com/cabify/logrusiowriter) - `io.Writer` implementation using [logrus](https://github.com/sirupsen/logrus) logger.
-- [logrusly](https://github.com/sebest/logrusly) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a [Loggly](https://www.loggly.com/).
-- [logutils](https://github.com/hashicorp/logutils) - Utilities for slightly better logging in Go (Golang) extending the standard logger.
-- [logxi](https://github.com/mgutz/logxi) - 12-factor app logger that is fast and makes you happy.
-- [lumberjack](https://github.com/natefinch/lumberjack) - Simple rolling logger, implements io.WriteCloser.
-- [mlog](https://github.com/jbrodriguez/mlog) - Simple logging module for go, with 5 levels, an optional rotating logfile feature and stdout/stderr output.
-- [noodlog](https://github.com/gyozatech/noodlog) - Parametrized JSON logging library which lets you obfuscate sensitive data and marshal any kind of content. No more printed pointers instead of values, nor escape chars for the JSON strings.
-- [onelog](https://github.com/francoispqt/onelog) - Onelog is a dead simple but very efficient JSON logger. It is the fastest JSON logger out there in all scenarios. Also, it is one of the logger with the lowest allocation.
-- [ozzo-log](https://github.com/go-ozzo/ozzo-log) - High performance logging supporting log severity, categorization, and filtering. Can send filtered log messages to various targets (e.g. console, network, mail).
-- [phuslu/log](https://github.com/phuslu/log) - High performance structured logging.
-- [pp](https://github.com/k0kubun/pp) - Colored pretty printer for Go language.
-- [rollingwriter](https://github.com/arthurkiller/rollingWriter) - RollingWriter is an auto-rotate `io.Writer` implementation with multi policies to provide log file rotation.
-- [seelog](https://github.com/cihub/seelog) - Logging functionality with flexible dispatching, filtering, and formatting.
-- [sentry-go](https://github.com/getsentry/sentry-go) - Sentry SDK for Go. Helps monitor and track errors with real-time alerts and performance monitoring.
-- [slf4g](https://github.com/echocat/slf4g) - Simple Logging Facade for Golang: Simple structured logging; but powerful, extendable and customizable, with huge amount of learnings from decades of past logging frameworks.
-- [slog](https://github.com/gookit/slog) - Lightweight, configurable, extensible logger for Go.
-- [slog-configurator](https://github.com/psyb0t/slog-configurator) - Configures the standard library log/slog logger from environment variables: level, format, source location, and stdout/stderr split.
-- [slog-datadog](https://github.com/samber/slog-datadog) - A slog handler for Datadog.
-- [slog-formatter](https://github.com/samber/slog-formatter) - Common formatters for slog and helpers to build your own.
-- [slog-logrus](https://github.com/samber/slog-logrus) - A slog handler for Logrus.
-- [slog-loki](https://github.com/samber/slog-loki) - A slog handler for Grafana Loki.
-- [slog-multi](https://github.com/samber/slog-multi) - Chain of slog.Handler (pipeline, fanout...).
-- [slog-sentry](https://github.com/samber/slog-sentry) - A slog handler for Sentry.
-- [slog-slack](https://github.com/samber/slog-slack) - A slog handler for Slack.
+- [caarlos0/log](https://github.com/caarlos0/log) - 彩色命令行日志工具。
+- [distillog](https://github.com/amoghe/distillog) - 提炼的分级日志（可以理解为标准库 + 日志级别）。
+- [glg](https://github.com/kpango/glg) - glg 是简单快速的 Go 分级日志库。
+- [glo](https://github.com/lajosbencz/glo) - 受 PHP Monolog 启发的日志设施，严重级别完全一致。
+- [glog](https://github.com/golang/glog) - 面向 Go 的分级执行日志。
+- [go-cronowriter](https://github.com/utahta/go-cronowriter) - 简单的写入器，可依据当前日期时间自动轮转日志文件，类似 cronolog。
+- [go-log](https://github.com/pieterclaerhout/go-log) - 带堆栈追踪、对象转储与可选时间戳的日志库。
+- [go-log](https://github.com/subchen/go-log) - Go 中简单可配置的日志方案，支持级别、格式化器与写入器。
+- [go-log](https://github.com/siddontang/go-log) - 支持级别与多处理器的日志库。
+- [go-log](https://github.com/ian-kent/go-log) - 用 Go 实现的 Log4j。
+- [go-log4g](https://github.com/go-log4g/core) - Log4g 为 Go 的标准 log/slog 日志门面提供 Log4j 风格的配置与模式布局。
+- [go-logger](https://github.com/apsdehal/go-logger) - Go 程序的简易日志器，带级别处理器。
+- [GoLogX](https://github.com/AyoubTadlaoui/GoLogX) - 仅追加、哈希链式、可选 Ed25519 签名的 slog 处理器，支持离线校验是否被篡改。
+- [gone/log](https://github.com/One-com/gone/tree/master/log) - 快速可扩展、功能完整、与标准库源码兼容的日志库。
+- [gslog](https://github.com/maguro/gslog) - 面向 log/slog 的 Google Cloud Logging 处理器，集成 OpenTelemetry trace 与 baggage，以及 Kubernetes podinfo 标签。
+- [httpretty](https://github.com/henvic/httpretty) - 在终端上美化打印常规 HTTP 请求以便调试（类似 http.DumpRequest）。
+- [journald](https://github.com/ssgreg/journald) - Go 实现的 systemd Journal 原生日志 API。
+- [kemba](https://github.com/clok/kemba) - 受 [debug](https://github.com/visionmedia/debug) 启发的迷你调试日志工具，非常适合 CLI 工具与应用。
+- [lazyjournal](https://github.com/Lifailon/lazyjournal) - TUI，用于读取并过滤来自 journalctl、文件系统、Docker 与 Podman 容器以及 Kubernetes Pod 的日志。
+- [log](https://github.com/aerogo/log) - O(1) 日志系统，可将一条日志同时接入多个写入器（如标准输出、文件与 TCP 连接）。
+- [log](https://github.com/apex/log) - 面向 Go 的结构化日志包。
+- [log](https://github.com/go-playground/log) - 简单、可配置、可扩展的 Go 结构化日志方案。
+- [log](https://github.com/teris-io/log) - Go 的结构化日志接口，清晰地分离了日志门面与其实现。
+- [log](https://github.com/heartwilltell/log) - 对标准 log 包的简单分级封装。
+- [log](https://github.com/no-src/log) - 开箱即用的简易日志框架。
+- [log15](https://github.com/inconshreveable/log15) - 简单、强大的 Go 日志方案。
+- [logdump](https://github.com/ewwwwwqm/logdump) - 多级日志包。
+- [logex](https://github.com/chzyer/logex) - Golang 日志库，支持跟踪与级别控制，基于标准 log 库封装。
+- [logger](https://github.com/azer/logger) - 极简的 Go 日志库。
+- [logo](https://github.com/mbndr/logo) - 面向不同可配置写入器的 Golang 日志器。
+- [logrus](https://github.com/Sirupsen/logrus) - 面向 Go 的结构化日志器。
+- [logrusiowriter](https://github.com/cabify/logrusiowriter) - 使用 [logrus](https://github.com/sirupsen/logrus) 日志器实现的 `io.Writer`。
+- [logrusly](https://github.com/sebest/logrusly) - [logrus](https://github.com/sirupsen/logrus) 插件，将错误发送到 [Loggly](https://www.loggly.com/)。
+- [logutils](https://github.com/hashicorp/logutils) - 为改进 Go (Golang) 日志体验的工具集，扩展了标准日志器。
+- [logxi](https://github.com/mgutz/logxi) - 符合 12-factor 的应用日志器，快速且让人愉悦。
+- [lumberjack](https://github.com/natefinch/lumberjack) - 简单的滚动日志器，实现 io.WriteCloser。
+- [mlog](https://github.com/jbrodriguez/mlog) - 简单的 Go 日志模块，含 5 个级别、可选的日志轮转功能以及标准输出/错误输出。
+- [noodlog](https://github.com/gyozatech/noodlog) - 参数化的 JSON 日志库，可对敏感数据脱敏并封送任意类型的内容。不再出现打印指针而非值，也不再有 JSON 字符串的转义字符。
+- [onelog](https://github.com/francoispqt/onelog) - Onelog 是极简但极为高效的 JSON 日志器，在所有场景下都是最快的 JSON 日志器之一，同时也是分配开销最低的日志器之一。
+- [ozzo-log](https://github.com/go-ozzo/ozzo-log) - 高性能日志，支持日志严重级别、分类与过滤。可将过滤后的日志消息发往各类目标（如控制台、网络、邮件）。
+- [phuslu/log](https://github.com/phuslu/log) - 高性能结构化日志。
+- [pp](https://github.com/k0kubun/pp) - Go 语言的彩色格式化打印工具。
+- [rollingwriter](https://github.com/arthurkiller/rollingWriter) - RollingWriter 是自动轮转的 `io.Writer` 实现，支持多种策略以实现日志文件轮转。
+- [seelog](https://github.com/cihub/seelog) - 具备灵活分发、过滤与格式化能力的日志方案。
+- [sentry-go](https://github.com/getsentry/sentry-go) - Go 的 Sentry SDK。帮助你实时告警并监控追踪错误，附带性能监控。
+- [slf4g](https://github.com/echocat/slf4g) - Golang 的简易日志门面：简单的结构化日志，但强大、可扩展、可定制，融汇了数十年来历代日志框架的心血。
+- [slog](https://github.com/gookit/slog) - 轻量、可配置、可扩展的 Go 日志器。
+- [slog-configurator](https://github.com/psyb0t/slog-configurator) - 通过环境变量配置标准库 log/slog 日志器：级别、格式、源码位置以及标准输出/错误输出分流。
+- [slog-datadog](https://github.com/samber/slog-datadog) - 面向 Datadog 的 slog 处理器。
+- [slog-formatter](https://github.com/samber/slog-formatter) - 面向 slog 的常用格式化器，以及构建自定义处理器的辅助工具。
+- [slog-logrus](https://github.com/samber/slog-logrus) - 面向 Logrus 的 slog 处理器。
+- [slog-loki](https://github.com/samber/slog-loki) - 面向 Grafana Loki 的 slog 处理器。
+- [slog-multi](https://github.com/samber/slog-multi) - slog.Handler 链（管线、扇出等）。
+- [slog-sentry](https://github.com/samber/slog-sentry) - 面向 Sentry 的 slog 处理器。
+- [slog-slack](https://github.com/samber/slog-slack) - 面向 Slack 的 slog 处理器。
 - [slog-zap](https://github.com/samber/slog-zap) - A slog handler for Zap.
 - [slog-zerolog](https://github.com/samber/slog-zerolog) - A slog handler for Zerolog.
 - [slogor](https://gitlab.com/greyxor/slogor) - A colorful slog handler.
