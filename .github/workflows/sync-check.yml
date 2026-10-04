@@ -1,0 +1,88 @@
+name: 上游同步检查
+
+on:
+  schedule:
+    # 每天 06:30 (UTC+8) 跑一次
+    - cron: '30 22 * * *'
+  workflow_dispatch:      # 允许手动触发
+
+permissions:
+  contents: read
+  issues: write           # 用来开/更新 Issue
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: 比对上游差异
+        id: diff
+        run: |
+          python3 tools/sync_check.py --format json --out sync_result.json
+          echo "结果已写入 sync_result.json"
+
+      - name: 汇总结果
+        id: summary
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          r = json.load(open('sync_result.json'))
+          s = r['统计']
+          total = s['新增_待翻译'] + s['变更_待重译'] + s['删除_待处理']
+          print(f"total={total}")
+          print(f"added={s['新增_待翻译']}")
+          print(f"changed={s['变更_待重译']}")
+          print(f"removed={s['删除_待处理']}")
+          PY
+
+      - name: 生成报告正文
+        id: body
+        run: |
+          python3 tools/sync_check.py --out report.txt > /dev/null
+          {
+            echo '## 🔔 awesome-go 上游有更新'
+            echo
+            echo "检查时间：$(date -u '+%Y-%m-%d %H:%M UTC')"
+            echo
+            echo '```'
+            cat report.txt
+            echo '```'
+            echo
+            echo '### 怎么处理'
+            echo
+            echo '1. 本地运行 `python3 tools/sync_check.py` 看完整清单'
+            echo '2. 翻译 `新增` 与 `变更` 中的条目描述'
+            echo '3. 把译文写入 `entry_translations.json`（键是条目的 URL）'
+            echo '4. 更新 `upstream_snapshot.json` 为当前上游状态：'
+            echo '   `python3 tools/update_snapshot.py`'
+            echo '5. 运行 `bash build.sh` 重新生成 README，并检查验收全部通过'
+            echo '6. 提交并推送'
+          } > body.md
+
+      - name: 开或更新 Issue
+        if: steps.summary.outputs.total != '0'
+        run: |
+          # 找到已存在的上游同步 Issue
+          ISSUE=$(gh issue list --label "上游同步" --state open --json number --jq '.[0].number' || true)
+          if [ -n "$ISSUE" ]; then
+            gh issue edit "$ISSUE" --body-file body.md
+            echo "已更新 Issue #$ISSUE"
+          else
+            gh issue create \
+              --title "🔔 awesome-go 上游有更新（新增 ${{ steps.summary.outputs.added }} / 变更 ${{ steps.summary.outputs.changed }} / 删除 ${{ steps.summary.outputs.removed }}）" \
+              --body-file body.md \
+              --label "上游同步"
+            echo "已新建 Issue"
+          fi
+
+      - name: 无差异则静默
+        if: steps.summary.outputs.total == '0'
+        run: |
+          ISSUE=$(gh issue list --label "上游同步" --state open --json number --jq '.[0].number' || true)
+          [ -n "$ISSUE" ] && gh issue close "$ISSUE" --comment "上游已重新同步，无差异。关闭本 Issue。"
+          echo "✅ 与上游一致，无需处理。"
