@@ -876,106 +876,106 @@ _支持记录过期、内存分布式数据存储，或文件型数据库内存�
 - [rotom](https://github.com/xgzlucario/rotom) - 用 Golang 构建的迷你 Redis 服务器，兼容 RESP 协议。
 - [rqlite](https://github.com/rqlite/rqlite) - 基于 SQLite 构建的轻量级分布式关系数据库。
 - [tempdb](https://github.com/rafaeljesus/tempdb) - 用于临时条目的键值存储。
-- [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
-- [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
-- [unitdb](https://github.com/unit-io/unitdb) - Fast timeseries database for IoT, realtime messaging applications. Access unitdb with pubsub over tcp or websocket using github.com/unit-io/unitd application.
-- [Vasto](https://github.com/chrislusf/vasto) - A distributed high-performance key-value store. On Disk. Eventual consistent. HA. Able to grow or shrink without service interruption.
-- [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - fast, resource-effective and scalable open source time series database. May be used as long-term remote storage for Prometheus. Supports PromQL.
+- [tidb](https://github.com/pingcap/tidb) - TiDB 是一个分布式 SQL 数据库，设计灵感来自 Google F1。
+- [tiedot](https://github.com/HouzuoGuo/tiedot) - 由 Golang 驱动的你的 NoSQL 数据库。
+- [unitdb](https://github.com/unit-io/unitdb) - 面向 IoT 与实时消息应用的快速时序数据库。通过 tcp 或 websocket 配合 pubsub 访问 unitdb，可使用 github.com/unit-io/unitd 应用。
+- [Vasto](https://github.com/chrislusf/vasto) - 分布式高性能键值存储。落盘存储。最终一致性。高可用。可在服务不中断的情况下扩容或缩容。
+- [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - 快速、资源高效、可扩展的开源时序数据库。可用作 Prometheus 的长期远程存储，支持 PromQL。
 - 
 <a id="database-schema-migration"></a>
 ### 数据库模式迁移
 
-- [atlas](https://github.com/ariga/atlas) - A Database Toolkit. A CLI designed to help companies better work with their data.
-- [avro](https://github.com/khezen/avro) - Discover SQL schemas and convert them to AVRO schemas. Query SQL records into AVRO bytes.
-- [bytebase](https://github.com/bytebase/bytebase) - Safe database schema change and version control for DevOps teams.
-- [darwin](https://github.com/GuiaBolso/darwin) - Database schema evolution library for Go.
-- [db-migrator.go](https://github.com/raoptimus/db-migrator.go) - CLI for versioned database schema migrations with support for PostgreSQL, MySQL, ClickHouse, Tarantool, and Apache Iceberg.
-- [dbmate](https://github.com/amacneil/dbmate) - A lightweight, framework-agnostic database migration tool.
-- [go-fixtures](https://github.com/RichardKnop/go-fixtures) - Django style fixtures for Golang's excellent built-in database/sql library.
-- [go-pg-migrate](https://github.com/lawzava/go-pg-migrate) - CLI-friendly package for go-pg migrations management.
-- [go-pg-migrations](https://github.com/robinjoseph08/go-pg-migrations) - A Go package to help write migrations with go-pg/pg.
-- [goavro](https://github.com/linkedin/goavro) - A Go package that encodes and decodes Avro data.
-- [godfish](https://github.com/rafaelespinoza/godfish) - Database migration manager, works with native query language. Support for cassandra, mysql, postgres, sqlite3.
-- [goose](https://github.com/pressly/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
-- [gorm-seeder](https://github.com/Kachit/gorm-seeder) - Simple database seeder for Gorm ORM.
-- [gormigrate](https://github.com/go-gormigrate/gormigrate) - Database schema migration helper for Gorm ORM.
-- [libschema](https://github.com/muir/libschema) - Define your migrations separately in each library. Migrations for open source libraries. MySQL & PostgreSQL.
-- [migrate](https://github.com/golang-migrate/migrate) - Database migrations. CLI and Golang library.
-- [migrator](https://github.com/lopezator/migrator) - Dead simple Go database migration library.
-- [migrator](https://github.com/larapulse/migrator) - MySQL database migrator designed to run migrations to your features and manage database schema update with intuitive go code.
-- [schema](https://github.com/adlio/schema) - Library to embed schema migrations for database/sql-compatible databases inside your Go binaries.
-- [skeema](https://github.com/skeema/skeema) - Pure-SQL schema management system for MySQL, with support for sharding and external online schema change tools.
-- [soda](https://github.com/gobuffalo/pop/tree/master/soda) - Database migration, creation, ORM, etc... for MySQL, PostgreSQL, and SQLite.
-- [sql-migrate](https://github.com/rubenv/sql-migrate) - Database migration tool. Allows embedding migrations into the application using go-bindata.
-- [sqlize](https://github.com/sunary/sqlize) - Database migration generator. Allows generate sql migration from model and existing sql by differ them.
+- [atlas](https://github.com/ariga/atlas) - 一套数据库工具箱。为帮助企业更好地处理数据而设计的 CLI。
+- [avro](https://github.com/khezen/avro) - 发现 SQL schema 并转换为 AVRO schema。将 SQL 记录查询为 AVRO 字节流。
+- [bytebase](https://github.com/bytebase/bytebase) - 为 DevOps 团队提供安全的数据库结构变更与版本控制。
+- [darwin](https://github.com/GuiaBolso/darwin) - Go 的数据库结构演进库。
+- [db-migrator.go](https://github.com/raoptimus/db-migrator.go) - 面向版本化数据库结构迁移的 CLI，支持 PostgreSQL、MySQL、ClickHouse、Tarantool 与 Apache Iceberg。
+- [dbmate](https://github.com/amacneil/dbmate) - 轻量级、与框架无关的数据库迁移工具。
+- [go-fixtures](https://github.com/RichardKnop/go-fixtures) - 为 Golang 内置的 database/sql 库提供的 Django 风格 fixtures。
+- [go-pg-migrate](https://github.com/lawzava/go-pg-migrate) - 便于 CLI 使用的 go-pg 迁移管理包。
+- [go-pg-migrations](https://github.com/robinjoseph08/go-pg-migrations) - 帮助使用 go-pg/pg 编写迁移的 Go 包。
+- [goavro](https://github.com/linkedin/goavro) - Avro 数据的编解码 Go 包。
+- [godfish](https://github.com/rafaelespinoza/godfish) - 数据库迁移管理器，配合原生查询语言使用。支持 cassandra、mysql、postgres、sqlite3。
+- [goose](https://github.com/pressly/goose) - 数据库迁移工具。你可以通过创建增量 SQL 或 Go 脚本来管理数据库的演进。
+- [gorm-seeder](https://github.com/Kachit/gorm-seeder) - 面向 Gorm ORM 的简易数据库种子数据填充器。
+- [gormigrate](https://github.com/go-gormigrate/gormigrate) - Gorm ORM 的数据库结构迁移辅助工具。
+- [libschema](https://github.com/muir/libschema) - 在每个库中分别定义你的迁移。为开源库提供迁移。支持 MySQL 与 PostgreSQL。
+- [migrate](https://github.com/golang-migrate/migrate) - 数据库迁移。提供 CLI 与 Golang 库。
+- [migrator](https://github.com/lopezator/migrator) - 极简的 Go 数据库迁移库。
+- [migrator](https://github.com/larapulse/migrator) - MySQL 数据库迁移器，用直观的 Go 代码执行迁移并管理数据库结构更新。
+- [schema](https://github.com/adlio/schema) - 可将 schema 迁移嵌入 Go 二进制文件中、供 database/sql 兼容数据库使用的库。
+- [skeema](https://github.com/skeema/skeema) - 面向 MySQL 的纯 SQL 结构管理系统，支持分片与外部在线结构变更工具。
+- [soda](https://github.com/gobuffalo/pop/tree/master/soda) - 为 MySQL、PostgreSQL 与 SQLite 提供数据库迁移、创建、ORM 等能力。
+- [sql-migrate](https://github.com/rubenv/sql-migrate) - 数据库迁移工具。支持使用 go-bindata 将迁移嵌入应用。
+- [sqlize](https://github.com/sunary/sqlize) - 数据库迁移生成器。可通过对模型与已有 SQL 求差异来生成 SQL 迁移。
 
 <a id="database-tools"></a>
 ### 数据库工具
 
-- [chproxy](https://github.com/Vertamedia/chproxy) - HTTP proxy for ClickHouse database.
-- [clickhouse-bulk](https://github.com/nikepan/clickhouse-bulk) - Collects small inserts and sends big requests to ClickHouse servers.
-- [clickhouse-sql-parser](https://github.com/AfterShip/clickhouse-sql-parser) - Parser for ClickHouse-dialect SQL that produces a typed AST, with traversal helpers, round-trip formatting, and a CLI.
-- [database-gateway](https://github.com/kazhuravlev/database-gateway) - Running SQL in production with ACLs, logs, and shared links.
-- [dbbench](https://github.com/sj14/dbbench) - Database benchmarking tool with support for several databases and scripts.
-- [dg](https://github.com/codingconcepts/dg) - A fast data generator that produces CSV files from generated relational data.
-- [filesql](https://github.com/nao1215/filesql) - Query CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files with SQL through the database/sql API, backed by in-memory SQLite.
-- [gatewayd](https://github.com/gatewayd-io/gatewayd) - Cloud-native database gateway and framework for building data-driven applications. Like API gateways, for databases.
-- [go-mysql](https://github.com/siddontang/go-mysql) - Go toolset to handle MySQL protocol and replication.
-- [go-postgres-s3-backup](https://github.com/nicobistolfi/go-postgres-s3-backup) - Serverless PostgreSQL backups to S3 using AWS Lambda, with daily, monthly, and yearly rotation.
-- [gorm-multitenancy](https://github.com/bartventer/gorm-multitenancy) - Multi-tenancy support for GORM managed databases.
-- [GoSQLX](https://github.com/ajitpratap0/GoSQLX) - High-performance SQL parser, formatter, linter, and security scanner with multi-dialect support and WASM playground.
-- [hasql](https://golang.yandex/hasql) - Library for accessing multi-host SQL database installations.
-- [octillery](https://github.com/knocknote/octillery) - Go package for sharding databases ( Supports every ORM or raw SQL ).
-- [onedump](https://github.com/liweiyi88/onedump) - Database backup from different drivers to different destinations with one command and configuration.
-- [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling for PostgreSQL.
-- [pgrwl](https://github.com/pgrwl/pgrwl) - Cloud-native continuous backup for PostgreSQL.
-- [pgwd](https://github.com/hrodrig/pgwd) - CLI that monitors PostgreSQL connection counts (total, active, idle, stale) and notifies via Slack and/or Loki when thresholds are exceeded. Supports Kubernetes (kubectl port-forward) and optional run context in notifications.
-- [pgweb](https://github.com/sosedoff/pgweb) - Web-based PostgreSQL database browser.
-- [pgxcli](https://github.com/Balaji01-4D/pgxcli) - PostgreSQL CLI client written in Go, inspired by pgcli.
-- [prep](https://github.com/hexdigest/prep) - Use prepared SQL statements without changing your code.
-- [pREST](https://github.com/prest/prest) - Simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new.
-- [rdb](https://github.com/HDT3213/rdb) - Redis RDB file parser for secondary development and memory analysis.
-- [rwdb](https://github.com/andizzle/rwdb) - rwdb provides read replica capability for multiple database servers setup.
-- [sqly](https://github.com/nao1215/sqly) - Execute SQL against CSV, TSV, LTSV, JSON, Parquet, and Excel files in an interactive shell, backed by in-memory SQLite.
-- [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
-- [wescale](https://github.com/wesql/wescale) - WeScale is a database proxy designed to enhance the scalability, performance, security, and resilience of your applications.
-- [xsql](https://github.com/zx06/xsql) - AI-first cross-database CLI tool with read-only protection and structured JSON output.
+- [chproxy](https://github.com/Vertamedia/chproxy) - ClickHouse 数据库的 HTTP 代理。
+- [clickhouse-bulk](https://github.com/nikepan/clickhouse-bulk) - 收集小批量插入，向 ClickHouse 服务器发送大批量请求。
+- [clickhouse-sql-parser](https://github.com/AfterShip/clickhouse-sql-parser) - ClickHouse 方言 SQL 解析器，产出类型化 AST，并提供遍历辅助、往返格式化与 CLI。
+- [database-gateway](https://github.com/kazhuravlev/database-gateway) - 在生产环境运行 SQL，配备 ACL、日志与共享链接。
+- [dbbench](https://github.com/sj14/dbbench) - 数据库基准测试工具，支持多种数据库与脚本。
+- [dg](https://github.com/codingconcepts/dg) - 快速数据生成器，可从生成的关系型数据产出 CSV 文件。
+- [filesql](https://github.com/nao1215/filesql) - 通过 database/sql API 用 SQL 查询 CSV、TSV、LTSV、JSON、JSONL、Parquet、Excel、ACH 与 Fedwire 文件，由内存 SQLite 支撑。
+- [gatewayd](https://github.com/gatewayd-io/gatewayd) - 云原生数据库网关与框架，用于构建数据驱动应用。相当于数据库领域的 API 网关。
+- [go-mysql](https://github.com/siddontang/go-mysql) - 用于处理 MySQL 协议与复制的 Go 工具集。
+- [go-postgres-s3-backup](https://github.com/nicobistolfi/go-postgres-s3-backup) - 借助 AWS Lambda 将 PostgreSQL 无服务器备份到 S3，支持每日、每月与每年轮转。
+- [gorm-multitenancy](https://github.com/bartventer/gorm-multitenancy) - 为 GORM 管理的数据库提供多租户支持。
+- [GoSQLX](https://github.com/ajitpratap0/GoSQLX) - 高性能 SQL 解析器、格式化器、linter 与安全扫描器，支持多方言并附带 WASM  playground。
+- [hasql](https://golang.yandex/hasql) - 用于访问多主机 SQL 数据库安装的库。
+- [octillery](https://github.com/knocknote/octillery) - 数据库分片的 Go 包（支持任意 ORM 或原生 SQL）。
+- [onedump](https://github.com/liweiyi88/onedump) - 用一条命令与一份配置，从不同驱动备份到不同目的地。
+- [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - 面向 PostgreSQL 的高级调度。
+- [pgrwl](https://github.com/pgrwl/pgrwl) - 云原生的 PostgreSQL 持续备份方案。
+- [pgwd](https://github.com/hrodrig/pgwd) - 监控 PostgreSQL 连接数（总数、活动、空闲、陈旧）的 CLI，超过阈值时经 Slack 和/或 Loki 通知。支持 Kubernetes（kubectl port-forward），并可在通知中附带运行上下文。
+- [pgweb](https://github.com/sosedoff/pgweb) - 基于 Web 的 PostgreSQL 数据库浏览器。
+- [pgxcli](https://github.com/Balaji01-4D/pgxcli) - 用 Go 编写的 PostgreSQL CLI 客户端，灵感源自 pgcli。
+- [prep](https://github.com/hexdigest/prep) - 无需改动代码即可使用 SQL 预编译语句。
+- [pREST](https://github.com/prest/prest) - 简化并加速开发，⚡ 即时、实时、高性能，可应用于任何既有或新建的 Postgres 应用。
+- [rdb](https://github.com/HDT3213/rdb) - Redis RDB 文件解析器，用于二次开发与内存分析。
+- [rwdb](https://github.com/andizzle/rwdb) - rwdb 为多数据库服务器部署提供只读副本能力。
+- [sqly](https://github.com/nao1215/sqly) - 在交互式 shell 中对 CSV、TSV、LTSV、JSON、Parquet 与 Excel 文件执行 SQL，由内存 SQLite 支撑。
+- [vitess](https://github.com/youtube/vitess) - Vitess 提供服务器与工具，便于面向大规模 Web 服务扩展 MySQL 数据库。
+- [wescale](https://github.com/wesql/wescale) - WeScale 是一个数据库代理，旨在增强你的应用的可扩展性、性能、安全性与韧性。
+- [xsql](https://github.com/zx06/xsql) - AI 优先的跨数据库 CLI 工具，具备只读保护与结构化 JSON 输出。
 
 <a id="sql-query-builders"></a>
 ### SQL 查询构造器
 
 _用于构建和使用 SQL 的库。_
 
-- [bqb](https://github.com/nullism/bqb) - Lightweight and easy to learn query builder.
-- [buildsqlx](https://github.com/arthurkushman/buildsqlx) - Go database query builder library for PostgreSQL.
-- [builq](https://github.com/cristalhq/builq) - Easily build SQL queries in Go.
-- [dba](https://github.com/kran/dba) - SQL query builder for hand-written SQL, adding dynamic conditions, dialect-aware placeholders, and immutable chaining.
-- [dbq](https://github.com/rocketlaunchr/dbq) - Zero boilerplate database operations for Go.
-- [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use them with ease.
-- [gendry](https://github.com/didi/gendry) - Non-invasive SQL builder and powerful data binder.
-- [godbal](https://github.com/xujiajun/godbal) - Database Abstraction Layer (dbal) for go. Support SQL builder and get result easily.
-- [goqu](https://github.com/doug-martin/goqu) - Idiomatic SQL builder and query library.
-- [gosql](https://github.com/twharmon/gosql) - SQL Query builder with better null values support.
-- [Hotcoal](https://github.com/motrboat/hotcoal) - Secure your handcrafted SQL against injection.
-- [igor](https://github.com/galeone/igor) - Abstraction layer for PostgreSQL that supports advanced functionality and uses gorm-like syntax.
-- [jet](https://github.com/go-jet/jet) - Framework for writing type-safe SQL queries in Go, with ability to easily convert database query result into desired arbitrary object structure.
-- [obreron](https://github.com/profe-ajedrez/obreron) - Fast and cheap SQL builder which does only one thing, SQL building.
-- [ormlite](https://github.com/pupizoid/ormlite) - Lightweight package containing some ORM-like features and helpers for sqlite databases.
-- [ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx) - Powerful data retrieval methods as well as DB-agnostic query building capabilities.
-- [patcher](https://github.com/Jacobbrewer1/patcher) - Powerful SQL Query builder that automatically generates SQL queries from structs.
-- [qrafter](https://github.com/SennovE/qrafter) - Type-safe SQL query builder with dialect-aware rendering, schema introspection, and migration generation.
-- [qry](https://github.com/HnH/qry) - Tool that generates constants from files with raw SQL queries.
-- [relica](https://github.com/coregx/relica) - Type-safe database query builder with zero production dependencies, LRU statement cache, batch operations, and support for JOINs, subqueries, CTEs, and window functions.
-- [sg](https://github.com/go-the-way/sg) - A SQL Gen for generating standard SQLs(supports: CRUD) written in Go.
-- [sq](https://github.com/bokwoon95/go-structured-query) - Type-safe SQL builder and struct mapper for Go.
-- [sqlc](https://github.com/kyleconroy/sqlc) - Generate type-safe code from SQL.
-- [sqlf](https://github.com/leporo/sqlf) - Fast SQL query builder.
-- [sqlh](https://github.com/kirill-scherba/sqlh) - Zero-boilerplate SQL helper with struct tags and Go generics (CRUD, UPSERT, JOIN, benchmarks).
-- [sqlingo](https://github.com/lqs/sqlingo) - A lightweight DSL to build SQL in Go.
-- [sqrl](https://github.com/elgris/sqrl) - SQL query builder, fork of Squirrel with improved performance.
-- [Squalus](https://gitlab.com/qosenergy/squalus) - Thin layer over the Go SQL package that makes it easier to perform queries.
-- [Squirrel](https://github.com/Masterminds/squirrel) - Go library that helps you build SQL queries.
-- [xo](https://github.com/knq/xo) - Generate idiomatic Go code for databases based on existing schema definitions or custom queries supporting PostgreSQL, MySQL, SQLite, Oracle, and Microsoft SQL Server.
+- [bqb](https://github.com/nullism/bqb) - 轻量易学的查询构建器。
+- [buildsqlx](https://github.com/arthurkushman/buildsqlx) - 面向 PostgreSQL 的 Go 数据库查询构建库。
+- [builq](https://github.com/cristalhq/builq) - 在 Go 中轻松构建 SQL 查询。
+- [dba](https://github.com/kran/dba) - 面向手写 SQL 的查询构建器，支持动态条件、方言感知占位符与不可变链式调用。
+- [dbq](https://github.com/rocketlaunchr/dbq) - Go 的零样板数据库操作。
+- [Dotsql](https://github.com/gchaincl/dotsql) - 帮你把 sql 文件集中管理并轻松使用的 Go 库。
+- [gendry](https://github.com/didi/gendry) - 非侵入式 SQL 构建器与强大的数据绑定器。
+- [godbal](https://github.com/xujiajun/godbal) - Go 的数据库抽象层（dbal）。支持 SQL 构建并轻松获取结果。
+- [goqu](https://github.com/doug-martin/goqu) - 惯用的 SQL 构建器与查询库。
+- [gosql](https://github.com/twharmon/gosql) - 对空值支持更友好的 SQL 查询构建器。
+- [Hotcoal](https://github.com/motrboat/hotcoal) - 为手写 SQL 提供注入防护。
+- [igor](https://github.com/galeone/igor) - 面向 PostgreSQL 的抽象层，支持高级功能并使用类 gorm 语法。
+- [jet](https://github.com/go-jet/jet) - 用于在 Go 中编写类型安全 SQL 查询的框架，可轻松将数据库查询结果转换为任意目标对象结构。
+- [obreron](https://github.com/profe-ajedrez/obreron) - 快速且低成本的 SQL 构建器，只专注做一件事：构建 SQL。
+- [ormlite](https://github.com/pupizoid/ormlite) - 轻量包，为 sqlite 数据库提供部分类 ORM 特性与辅助工具。
+- [ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx) - 强大的数据获取方法，以及与数据库无关的查询构建能力。
+- [patcher](https://github.com/Jacobbrewer1/patcher) - 强大的 SQL 查询构建器，可从结构体自动生成 SQL 查询。
+- [qrafter](https://github.com/SennovE/qrafter) - 类型安全的 SQL 查询构建器，支持方言感知渲染、schema 自省与迁移生成。
+- [qry](https://github.com/HnH/qry) - 从包含原生 SQL 查询的文件生成常量的工具。
+- [relica](https://github.com/coregx/relica) - 类型安全的数据库查询构建器，零生产依赖，具备 LRU 语句缓存、批量操作，并支持 JOIN、子查询、CTE 与窗口函数。
+- [sg](https://github.com/go-the-way/sg) - 用 Go 编写的标准 SQL 生成器（支持 CRUD）。
+- [sq](https://github.com/bokwoon95/go-structured-query) - 面向 Go 的类型安全 SQL 构建器与结构体映射器。
+- [sqlc](https://github.com/kyleconroy/sqlc) - 从 SQL 生成类型安全的代码。
+- [sqlf](https://github.com/leporo/sqlf) - 快速 SQL 查询构建器。
+- [sqlh](https://github.com/kirill-scherba/sqlh) - 零样板的 SQL 辅助工具，结合结构体标签与 Go 泛型（CRUD、UPSERT、JOIN、基准测试）。
+- [sqlingo](https://github.com/lqs/sqlingo) - 在 Go 中构建 SQL 的轻量 DSL。
+- [sqrl](https://github.com/elgris/sqrl) - SQL 查询构建器，是 Squirrel 的分支，性能更优。
+- [Squalus](https://gitlab.com/qosenergy/squalus) - Go SQL 包之上的薄封装，让查询执行更轻松。
+- [Squirrel](https://github.com/Masterminds/squirrel) - 帮助你构建 SQL 查询的 Go 库。
+- [xo](https://github.com/knq/xo) - 基于既有 schema 定义或自定义查询生成惯用的 Go 数据库代码，支持 PostgreSQL、MySQL、SQLite、Oracle 与 Microsoft SQL Server。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -985,84 +985,84 @@ _用于构建和使用 SQL 的库。_
 <a id="interfaces-to-multiple-backends"></a>
 ### 多后端接口
 
-- [cayley](https://github.com/google/cayley) - Graph database with support for multiple backends.
-- [dsc](https://github.com/viant/dsc) - Datastore connectivity for SQL, NoSQL, structured files.
-- [dynamo](https://github.com/fogfish/dynamo) - A simple key-value abstraction to store algebraic and linked-data data types at AWS storage services: AWS DynamoDB and AWS S3.
-- [go-transaction-manager](https://github.com/avito-tech/go-transaction-manager) - Transaction manager with multiple adapters (sql, sqlx, gorm, mongo, ...) controls transaction boundaries.
-- [gokv](https://github.com/philippgille/gokv) - Simple key-value store abstraction and implementations for Go (Redis, Consul, etcd, bbolt, BadgerDB, LevelDB, Memcached, DynamoDB, S3, PostgreSQL, MongoDB, CockroachDB and many more).
-- [transactor](https://github.com/metalfm/transactor) - Type-safe transaction boundary abstraction with adapters for database/sql, sqlx, and pgx.
+- [cayley](https://github.com/google/cayley) - 支持多后端的图数据库。
+- [dsc](https://github.com/viant/dsc) - 面向 SQL、NoSQL 与结构化文件的数据存储连接层。
+- [dynamo](https://github.com/fogfish/dynamo) - 简单的键值抽象，用于在 AWS 存储服务（AWS DynamoDB 与 AWS S3）上存储代数数据类型与关联数据类型。
+- [go-transaction-manager](https://github.com/avito-tech/go-transaction-manager) - 带多适配器（sql、sqlx、gorm、mongo 等）的事务管理器，统一控制事务边界。
+- [gokv](https://github.com/philippgille/gokv) - Go 的简单键值存储抽象与实现（Redis、Consul、etcd、bbolt、BadgerDB、LevelDB、Memcached、DynamoDB、S3、PostgreSQL、MongoDB、CockroachDB 等等）。
+- [transactor](https://github.com/metalfm/transactor) - 类型安全的事务边界抽象，提供 database/sql、sqlx 与 pgx 适配器。
 
 <a id="relational-database-drivers"></a>
 ### 关系型数据库驱动
 
-- [avatica](https://github.com/apache/calcite-avatica-go) - Apache Avatica/Phoenix SQL driver for database/sql.
-- [bgc](https://github.com/viant/bgc) - Datastore Connectivity for BigQuery for go.
-- [firebirdsql](https://github.com/nakagami/firebirdsql) - Firebird RDBMS SQL driver for Go.
-- [go-adodb](https://github.com/mattn/go-adodb) - Microsoft ActiveX Object DataBase driver for go that uses database/sql.
-- [go-mssqldb](https://github.com/denisenkom/go-mssqldb) - Microsoft MSSQL driver for Go.
-- [go-mssqldb](https://github.com/microsoft/go-mssqldb) - Microsoft's official Go driver for SQL Server, Azure SQL, Azure Synapse, SQL database in Fabric, and Fabric Data Warehouse. Supports Azure AD, Always Encrypted, bulk operations.
-- [go-oci8](https://github.com/mattn/go-oci8) - Oracle driver for go that uses database/sql.
-- [go-rqlite](https://github.com/rqlite/gorqlite) - A Go client for rqlite, providing easy-to-use abstractions for working with the rqlite API.
-- [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
-- [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 driver for go that uses database/sql.
-- [go-sqlite3](https://github.com/ncruces/go-sqlite3) - This Go module is compatible with the database/sql driver. It allows embedding SQLite into your application, provides direct access to its C API, supports SQLite VFS, and also includes a GORM driver.
-- [godror](https://github.com/godror/godror) - Oracle driver for Go, using the ODPI-C driver.
-- [gofreetds](https://github.com/minus5/gofreetds) - Microsoft MSSQL driver. Go wrapper over [FreeTDS](https://www.freetds.org).
-- [KSQL](https://github.com/VinGarcia/ksql) - A Simple and Powerful Golang SQL Library.
-- [pgx](https://github.com/jackc/pgx) - PostgreSQL driver supporting features beyond those exposed by database/sql.
-- [pig](https://github.com/alexeyco/pig) - Simple [pgx](https://github.com/jackc/pgx) wrapper to execute and [scan](https://github.com/georgysavva/scany) query results easily.
-- [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
-- [Sqinn-Go](https://github.com/cvilsmeier/sqinn-go) - SQLite with pure Go.
-- [sqlhooks](https://github.com/qustavo/sqlhooks) - Attach hooks to any database/sql driver.
-- [sqlite](https://pkg.go.dev/modernc.org/sqlite) - Package sqlite is a sql/database driver using a CGo-free port of the C SQLite3 library.
-- [surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB Driver for Go.
-- [ydb-go-sdk](https://github.com/ydb-platform/ydb-go-sdk) - native and database/sql driver YDB (Yandex Database).
+- [avatica](https://github.com/apache/calcite-avatica-go) - 面向 database/sql 的 Apache Avatica/Phoenix SQL 驱动。
+- [bgc](https://github.com/viant/bgc) - 面向 BigQuery 的 Go 数据存储连接层。
+- [firebirdsql](https://github.com/nakagami/firebirdsql) - Firebird RDBMS 的 Go SQL 驱动。
+- [go-adodb](https://github.com/mattn/go-adodb) - 使用 database/sql 的 Microsoft ActiveX DataBase (ADO) 驱动。
+- [go-mssqldb](https://github.com/denisenkom/go-mssqldb) - 面向 Go 的 Microsoft MSSQL 驱动。
+- [go-mssqldb](https://github.com/microsoft/go-mssqldb) - 微软官方的 Go 驱动，支持 SQL Server、Azure SQL、Azure Synapse、Fabric 中的 SQL 数据库与 Fabric Data Warehouse。支持 Azure AD、Always Encrypted 与批量操作。
+- [go-oci8](https://github.com/mattn/go-oci8) - 使用 database/sql 的 Go Oracle 驱动。
+- [go-rqlite](https://github.com/rqlite/gorqlite) - rqlite 的 Go 客户端，为使用 rqlite API 提供易用的抽象。
+- [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) - 面向 Go 的 MySQL 驱动。
+- [go-sqlite3](https://github.com/mattn/go-sqlite3) - 使用 database/sql 的 Go SQLite3 驱动。
+- [go-sqlite3](https://github.com/ncruces/go-sqlite3) - 该 Go 模块兼容 database/sql 驱动。它允许将 SQLite 嵌入你的应用，提供对其 C API 的直接访问，支持 SQLite VFS，并内置 GORM 驱动。
+- [godror](https://github.com/godror/godror) - 面向 Go 的 Oracle 驱动，基于 ODPI-C 驱动实现。
+- [gofreetds](https://github.com/minus5/gofreetds) - Microsoft MSSQL 驱动。对 [FreeTDS](https://www.freetds.org) 的 Go 封装。
+- [KSQL](https://github.com/VinGarcia/ksql) - 简单而强大的 Golang SQL 库。
+- [pgx](https://github.com/jackc/pgx) - PostgreSQL 驱动，支持超出 database/sql 所暴露范围的更多特性。
+- [pig](https://github.com/alexeyco/pig) - 简单的 [pgx](https://github.com/jackc/pgx) 封装，便于执行查询并[扫描](https://github.com/georgysavva/scany)结果。
+- [pq](https://github.com/lib/pq) - 面向 database/sql 的纯 Go Postgres 驱动。
+- [Sqinn-Go](https://github.com/cvilsmeier/sqinn-go) - 以纯 Go 实现的 SQLite。
+- [sqlhooks](https://github.com/qustavo/sqlhooks) - 为任意 database/sql 驱动挂载钩子。
+- [sqlite](https://pkg.go.dev/modernc.org/sqlite) - sqlite 包是一个数据库驱动，基于 C SQLite3 库的无 CGO 移植版实现。
+- [surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB 的 Go 驱动。
+- [ydb-go-sdk](https://github.com/ydb-platform/ydb-go-sdk) - YDB（Yandex Database）的原生驱动与 database/sql 驱动。
 
 <a id="nosql-database-drivers"></a>
 ### NoSQL 数据库驱动
 
-- [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
-- [arangolite](https://github.com/solher/arangolite) - Lightweight golang driver for ArangoDB.
-- [asc](https://github.com/viant/asc) - Datastore Connectivity for Aerospike for go.
-- [forestdb](https://github.com/couchbase/goforestdb) - Go bindings for ForestDB.
-- [go-couchbase](https://github.com/couchbase/go-couchbase) - Couchbase client in Go.
-- [go-mongox](https://github.com/chenmingyong0423/go-mongox) - A Go Mongo library based on the official driver, featuring streamlined document operations, generic binding of structs to collections, built-in CRUD, aggregation, automated field updates, struct validation, hooks, and plugin-based programming.
-- [go-pilosa](https://github.com/pilosa/go-pilosa) - Go client library for Pilosa.
-- [go-rejson](https://github.com/nitishm/go-rejson) - Golang client for redislabs' ReJSON module using Redigo golang client. Store and manipulate structs as JSON objects in redis with ease.
-- [gocb](https://github.com/couchbase/gocb) - Official Couchbase Go SDK.
-- [gocosmos](https://github.com/btnguyen2k/gocosmos) - REST client and standard `database/sql` driver for Azure Cosmos DB.
-- [gocql](https://gocql.github.io) - Go language driver for Apache Cassandra.
-- [godis](https://github.com/piaohao/godis) - redis client implement by golang, inspired by jedis.
-- [godscache](https://github.com/defcronyke/godscache) - A wrapper for the Google Cloud Platform Go Datastore package that adds caching using memcached.
-- [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
-- [gomemcached](https://github.com/aliexpressru/gomemcached) - A binary Memcached client for Go with support for sharding using consistent hashing, along with SASL.
-- [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB.
-- [goriak](https://github.com/zegl/goriak) - Go language driver for Riak KV.
-- [Kivik](https://github.com/go-kivik/kivik) - Kivik provides a common Go and GopherJS client library for CouchDB, PouchDB, and similar databases.
-- [mgm](https://github.com/kamva/mgm) - MongoDB model-based ODM for Go (based on official MongoDB driver).
-- [mgo](https://github.com/globalsign/mgo) - (unmaintained) MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
-- [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) - Official MongoDB driver for the Go language.
-- [neo4j](https://github.com/cihangir/neo4j) - Neo4j Rest API Bindings for Golang.
-- [neoism](https://github.com/jmcvetta/neoism) - Neo4j client for Golang.
-- [qmgo](https://github.com/qiniu/qmgo) - The MongoDB driver for Go. It‘s based on official MongoDB driver but easier to use like Mgo.
-- [redeo](https://github.com/bsm/redeo) - Redis-protocol compatible TCP servers/services.
-- [redigo](https://github.com/gomodule/redigo) - Redigo is a Go client for the Redis database.
-- [redis](https://github.com/redis/go-redis) - Redis client for Golang.
-- [rueidis](http://github.com/rueian/rueidis) - Fast Redis RESP3 client with auto pipelining and server-assisted client side caching.
-- [xredis](https://github.com/shomali11/xredis) - Typesafe, customizable, clean & easy to use Redis client.
+- [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Go 语言实现的 Aerospike 客户端。
+- [arangolite](https://github.com/solher/arangolite) - 面向 ArangoDB 的轻量级 Golang 驱动。
+- [asc](https://github.com/viant/asc) - 面向 Aerospike 的 Go 数据存储连接层。
+- [forestdb](https://github.com/couchbase/goforestdb) - ForestDB 的 Go 绑定。
+- [go-couchbase](https://github.com/couchbase/go-couchbase) - Go 语言实现的 Couchbase 客户端。
+- [go-mongox](https://github.com/chenmingyong0423/go-mongox) - 基于官方驱动的 Go Mongo 库，提供精简的文档操作、结构体到集合的泛型绑定、内置 CRUD、聚合、自动字段更新、结构体校验、钩子与基于插件的编程。
+- [go-pilosa](https://github.com/pilosa/go-pilosa) - 面向 Pilosa 的 Go 客户端库。
+- [go-rejson](https://github.com/nitishm/go-rejson) - 使用 Redigo Golang 客户端访问 redislabs ReJSON 模块的客户端。可轻松在 Redis 中以 JSON 对象的形式存储与操作结构体。
+- [gocb](https://github.com/couchbase/gocb) - 官方 Couchbase Go SDK。
+- [gocosmos](https://github.com/btnguyen2k/gocosmos) - 面向 Azure Cosmos DB 的 REST 客户端与标准 `database/sql` 驱动。
+- [gocql](https://gocql.github.io) - Apache Cassandra 的 Go 语言驱动。
+- [godis](https://github.com/piaohao/godis) - 用 Golang 实现的 Redis 客户端，灵感源自 jedis。
+- [godscache](https://github.com/defcronyke/godscache) - 对 Google Cloud Platform Go Datastore 包的封装，额外通过 memcached 增加缓存。
+- [gomemcache](https://github.com/bradfitz/gomemcache/) - 面向 Go 编程语言的 memcache 客户端库。
+- [gomemcached](https://github.com/aliexpressru/gomemcached) - 面向 Go 的二进制 Memcached 客户端，支持使用一致性哈希分片，并支持 SASL。
+- [gorethink](https://github.com/dancannon/gorethink) - RethinkDB 的 Go 语言驱动。
+- [goriak](https://github.com/zegl/goriak) - Riak KV 的 Go 语言驱动。
+- [Kivik](https://github.com/go-kivik/kivik) - Kivik 为 CouchDB、PouchDB 等数据库提供统一的 Go 与 GopherJS 客户端库。
+- [mgm](https://github.com/kamva/mgm) - 面向 Go 的基于模型的 MongoDB ODM（基于官方 MongoDB 驱动）。
+- [mgo](https://github.com/globalsign/mgo) - （不再维护）面向 Go 语言的 MongoDB 驱动，以非常简洁的 API、遵循 Go 惯用法的方式实现了丰富且经过充分测试的特性集。
+- [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) - 面向 Go 语言的官方 MongoDB 驱动。
+- [neo4j](https://github.com/cihangir/neo4j) - Neo4j REST API 的 Golang 绑定。
+- [neoism](https://github.com/jmcvetta/neoism) - Golang 的 Neo4j 客户端。
+- [qmgo](https://github.com/qiniu/qmgo) - Go 的 MongoDB 驱动。它基于官方 MongoDB 驱动，但像 Mgo 一样更易用。
+- [redeo](https://github.com/bsm/redeo) - 兼容 Redis 协议的 TCP 服务器/服务。
+- [redigo](https://github.com/gomodule/redigo) - Redigo 是 Redis 数据库的 Go 客户端。
+- [redis](https://github.com/redis/go-redis) - Golang 的 Redis 客户端。
+- [rueidis](http://github.com/rueian/rueidis) - 快速 Redis RESP3 客户端，支持自动流水线与服务端辅助的客户端侧缓存。
+- [xredis](https://github.com/shomali11/xredis) - 类型安全、可自定义、干净且易用的 Redis 客户端。
 
 <a id="search-and-analytic-databases"></a>
 ### 搜索与分析型数据库
 
-- [clickhouse-go](https://github.com/ClickHouse/clickhouse-go/) - ClickHouse SQL client for Go with a `database/sql` compatibility.
-- [effdsl](https://github.com/sdqri/effdsl) - Elasticsearch query builder for Go.
-- [elastic](https://github.com/olivere/elastic) - Elasticsearch client for Go.
-- [elasticsql](https://github.com/cch123/elasticsql) - Convert sql to elasticsearch dsl in Go.
-- [elastigo](https://github.com/mattbaird/elastigo) - Elasticsearch client library.
-- [go-elasticsearch](https://github.com/elastic/go-elasticsearch) - Official Elasticsearch client for Go.
-- [goes](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
-- [skizze](https://github.com/skizzehq/skizze) - A probabilistic data structure service and storage.
-- [zoekt](https://github.com/sourcegraph/zoekt) - Fast trigram based code search.
+- [clickhouse-go](https://github.com/ClickHouse/clickhouse-go/) - 面向 Go 的 ClickHouse SQL 客户端，兼容 `database/sql`。
+- [effdsl](https://github.com/sdqri/effdsl) - 面向 Go 的 Elasticsearch 查询构建器。
+- [elastic](https://github.com/olivere/elastic) - 面向 Go 的 Elasticsearch 客户端。
+- [elasticsql](https://github.com/cch123/elasticsql) - 在 Go 中将 SQL 转换为 Elasticsearch DSL。
+- [elastigo](https://github.com/mattbaird/elastigo) - Elasticsearch 客户端库。
+- [go-elasticsearch](https://github.com/elastic/go-elasticsearch) - 面向 Go 的官方 Elasticsearch 客户端。
+- [goes](https://github.com/OwnLocal/goes) - 用于与 Elasticsearch 交互的库。
+- [skizze](https://github.com/skizzehq/skizze) - 一种概率型数据结构服务与存储。
+- [zoekt](https://github.com/sourcegraph/zoekt) - 基于三元组的快速代码搜索。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -1071,30 +1071,30 @@ _用于构建和使用 SQL 的库。_
 
 _用于处理日期与时间的库。_
 
-- [approx](https://github.com/goschtalt/approx) - A Duration extension supporting parsing/printing durations in days, weeks and years.
-- [carbon](https://github.com/dromara/carbon) - A simple, semantic and developer-friendly time package for golang.
-- [carbon](https://github.com/uniplaces/carbon) - Simple Time extension with a lot of util methods, ported from PHP Carbon library.
-- [cronrange](https://github.com/1set/cronrange) - Parses Cron-style time range expressions, checks if the given time is within any ranges.
-- [date](https://github.com/rickb777/date) - Augments Time for working with dates, date ranges, time spans, periods, and time-of-day.
-- [dateparse](https://github.com/araddon/dateparse) - Parse date's without knowing format in advance.
-- [durafmt](https://github.com/hako/durafmt) - Time duration formatting library for Go.
-- [feiertage](https://github.com/wlbr/feiertage) - Set of functions to calculate public holidays in Germany, incl. specialization on the states of Germany (Bundesländer). Things like Easter, Pentecost, Thanksgiving...
-- [go-anytime](https://github.com/ijt/go-anytime) - Parse dates/times like "next dec 22nd at 3pm" and ranges like "from today until next thursday" without knowing the format in advance.
-- [go-date-fns](https://github.com/chmenegatti/go-date-fns) - A comprehensive date utility library for Go, inspired by date-fns, with 140+ pure and immutable functions.
-- [go-datebin](https://github.com/deatil/go-datebin) - A simple datetime parse pkg.
-- [go-faketime](https://github.com/harkaitz/go-faketime) - A simple `time.Now()` that honors the faketime(1) utility.
-- [go-persian-calendar](https://github.com/yaa110/go-persian-calendar) - The implementation of the Persian (Solar Hijri) Calendar in Go (golang).
-- [go-str2duration](https://github.com/xhit/go-str2duration) - Convert string to duration. Support time.Duration returned string and more.
-- [go-sunrise](https://github.com/nathan-osman/go-sunrise) - Calculate the sunrise and sunset times for a given location.
-- [go-week](https://github.com/stoewer/go-week) - An efficient package to work with ISO8601 week dates.
-- [gostradamus](https://github.com/bykof/gostradamus) - A Go package for working with dates.
-- [iso8601](https://github.com/relvacode/iso8601) - Efficiently parse ISO8601 date-times without regex.
-- [kair](https://github.com/GuilhermeCaruso/kair) - Date and Time - Golang Formatting Library.
-- [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
-- [strftime](https://github.com/awoodbeck/strftime) - C99-compatible strftime formatter.
-- [timespan](https://github.com/SaidinWoT/timespan) - For interacting with intervals of time, defined as a start time and a duration.
-- [timeutil](https://github.com/leekchan/timeutil) - Useful extensions (Timedelta, Strftime, ...) to the golang's time package.
-- [tuesday](https://github.com/osteele/tuesday) - Ruby-compatible Strftime function.
+- [approx](https://github.com/goschtalt/approx) - Duration 扩展，支持以天、周、年为单位解析与格式化时长。
+- [carbon](https://github.com/dromara/carbon) - 为 Golang 打造的简单、语义化、对开发者友好的时间处理包。
+- [carbon](https://github.com/uniplaces/carbon) - 简单的时间扩展，内置大量实用方法，移植自 PHP 的 Carbon 库。
+- [cronrange](https://github.com/1set/cronrange) - 解析 Cron 风格的时间范围表达式，判断给定时间是否落在任一范围内。
+- [date](https://github.com/rickb777/date) - 扩展 time 包，支持处理日期、日期区间、时间跨度、时间周期与一天中的时段。
+- [dateparse](https://github.com/araddon/dateparse) - 无需预先了解格式即可解析日期。
+- [durafmt](https://github.com/hako/durafmt) - Go 的时间时长格式化库。
+- [feiertage](https://github.com/wlbr/feiertage) - 一组用于计算德国公共假期的函数，并对德国各联邦州（Bundesländer）做了专门处理。涵盖复活节、五旬节、感恩节等。
+- [go-anytime](https://github.com/ijt/go-anytime) - 无需预先了解格式，即可解析「next dec 22nd at 3pm」这类日期时间，以及「from today until next thursday」这类区间。
+- [go-date-fns](https://github.com/chmenegatti/go-date-fns) - 功能全面的 Go 日期工具库，灵感源自 date-fns，提供 140+ 个纯函数且不可变的函数。
+- [go-datebin](https://github.com/deatil/go-datebin) - 简单的日期时间解析包。
+- [go-faketime](https://github.com/harkaitz/go-faketime) - 简单的 `time.Now()`，兼容 faketime(1) 工具。
+- [go-persian-calendar](https://github.com/yaa110/go-persian-calendar) - 波斯（Solar Hijri）日历在 Go (golang) 中的实现。
+- [go-str2duration](https://github.com/xhit/go-str2duration) - 将字符串转换为 duration。支持由 time.Duration 返回的字符串等情况。
+- [go-sunrise](https://github.com/nathan-osman/go-sunrise) - 计算给定位置的日出与日落时间。
+- [go-week](https://github.com/stoewer/go-week) - 用于处理 ISO8601 周日期的高效包。
+- [gostradamus](https://github.com/bykof/gostradamus) - 用于处理日期的 Go 包。
+- [iso8601](https://github.com/relvacode/iso8601) - 无需正则即可高效解析 ISO8601 日期时间。
+- [kair](https://github.com/GuilhermeCaruso/kair) - 日期与时间 —— Golang 格式化库。
+- [now](https://github.com/jinzhu/now) - Now 是一套面向 Golang 的时间工具箱。
+- [strftime](https://github.com/awoodbeck/strftime) - 兼容 C99 的 strftime 格式化器。
+- [timespan](https://github.com/SaidinWoT/timespan) - 用于处理时间区间（由开始时间与时长定义）。
+- [timeutil](https://github.com/leekchan/timeutil) - 对 Golang time 包的有用扩展（Timedelta、Strftime 等）。
+- [tuesday](https://github.com/osteele/tuesday) - 兼容 Ruby 的 Strftime 函数。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -1103,74 +1103,74 @@ _用于处理日期与时间的库。_
 
 _有助于构建分布式系统的软件包。_
 
-- [arpc](https://github.com/lesismal/arpc) - More effective network communication, support two-way-calling, notify, broadcast.
-- [bedrock](https://github.com/z5labs/bedrock) - Provides a minimal, modular and composable foundation for quickly developing services and more use case specific frameworks in Go.
-- [capillaries](https://github.com/capillariesio/capillaries) - distributed batch data processing framework.
-- [circuit](https://github.com/schigh/circuit) - Circuit breaker with gradual recovery via probabilistic throttling.
-- [cmd-stream-go](https://github.com/cmd-stream/cmd-stream-go) - High-performance distributed command pattern library for Go.
-- [committer](https://github.com/vadiminshakov/committer) - A distributed transactions management system (2PC/3PC implementation).
-- [consistent](https://github.com/buraksezer/consistent) - Consistent hashing with bounded loads.
-- [consistenthash](https://github.com/mbrostami/consistenthash) - Consistent hashing with configurable replicas.
-- [dht](https://github.com/anacrolix/dht) - BitTorrent Kademlia DHT implementation.
-- [digota](https://github.com/digota/digota) - grpc ecommerce microservice.
-- [dot](https://github.com/dotchain/dot/) - distributed sync using operational transformation/OT.
-- [doublejump](https://github.com/edwingeng/doublejump) - A revamped Google's jump consistent hash.
-- [dragonboat](https://github.com/lni/dragonboat) - A feature complete and high performance multi-group Raft library in Go.
-- [Dragonfly](https://github.com/dragonflyoss/Dragonfly2) - Provide efficient, stable and secure file distribution and image acceleration based on p2p technology to be the best practice and standard solution in cloud native architectures.
-- [drmaa](https://github.com/dgruber/drmaa) - Job submission library for cluster schedulers based on the DRMAA standard.
-- [dynamolock](https://cirello.io/dynamolock) - DynamoDB-backed distributed locking implementation.
-- [dynatomic](https://github.com/tylfin/dynatomic) - A library for using DynamoDB as an atomic counter.
-- [emitter-io](https://github.com/emitter-io/emitter) - High performance, distributed, secure and low latency publish-subscribe platform built with MQTT, Websockets and love.
-- [evans](https://github.com/ktr0731/evans) - Evans: more expressive universal gRPC client.
-- [failured](https://github.com/andy2046/failured) - adaptive accrual failure detector for distributed systems.
-- [flowgraph](https://github.com/vectaport/flowgraph) - flow-based programming package.
-- [gleam](https://github.com/chrislusf/gleam) - Fast and scalable distributed map/reduce system written in pure Go and Luajit, combining Go's high concurrency with Luajit's high performance, runs standalone or distributed.
-- [glow](https://github.com/chrislusf/glow) - Easy-to-Use scalable distributed big data processing, Map-Reduce, DAG execution, all in pure Go.
-- [gmsec](https://github.com/gmsec/micro) - A Go distributed systems development framework.
-- [go-doudou](https://github.com/unionj-cloud/go-doudou) - A gossip protocol and OpenAPI 3.0 spec based decentralized microservice framework. Built-in go-doudou cli focusing on low-code and rapid dev can power up your productivity.
-- [go-eagle](https://github.com/go-eagle/eagle) - A Go framework for the API or Microservice with handy scaffolding tools.
-- [go-jump](https://github.com/dgryski/go-jump) - Port of Google's "Jump" Consistent Hash function.
-- [go-kit](https://github.com/go-kit/kit) - Microservice toolkit with support for service discovery, load balancing, pluggable transports, request tracking, etc.
-- [go-micro](https://github.com/micro/go-micro) - A distributed systems development framework.
-- [go-mysql-lock](https://github.com/sanketplus/go-mysql-lock) - MySQL based distributed lock.
-- [go-pdu](https://github.com/pdupub/go-pdu) - A decentralized identity-based social network.
-- [go-sundheit](https://github.com/AppsFlyer/go-sundheit) - A library built to provide support for defining async service health checks for golang services.
-- [go-zero](https://github.com/tal-tech/go-zero) - A web and rpc framework. It's born to ensure the stability of the busy sites with resilient design. Builtin goctl greatly improves the development productivity.
-- [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
-- [grpc-go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
-- [health](https://github.com/schigh/health) - Health checker for Go services with Kubernetes probe support.
-- [hprose](https://github.com/hprose/hprose-golang) - Very newbility RPC Library, support 25+ languages now.
-- [jsonrpc](https://github.com/osamingo/jsonrpc) - The jsonrpc package helps implement of JSON-RPC 2.0.
-- [jsonrpc](https://github.com/ybbus/jsonrpc) - JSON-RPC 2.0 HTTP client implementation.
-- [K8gb](https://github.com/k8gb-io/k8gb) - A cloud native Kubernetes Global Balancer.
-- [Kitex](https://github.com/cloudwego/kitex) - A high-performance and strong-extensibility Golang RPC framework that helps developers build microservices. If the performance and extensibility are the main concerns when you develop microservices, Kitex can be a good choice.
-- [Kratos](https://github.com/go-kratos/kratos) - A modular-designed and easy-to-use microservices framework in Go.
-- [liftbridge](https://github.com/liftbridge-io/liftbridge) - Lightweight, fault-tolerant message streams for NATS.
-- [lock](https://github.com/ubgo/lock) - Distributed lock family with one Go interface and five backends (filelock, flock, Redis, Postgres, etcd) — fencing tokens, semaphore mode, and observability hooks across all backends.
-- [lura](https://github.com/luraproject/lura) - Ultra performant API Gateway framework with middlewares.
-- [mochi mqtt](https://github.com/mochi-co/mqtt) - Fully spec compliant, embeddable high-performance MQTT v5/v3 broker for IoT, smarthome, and pubsub.
-- [NATS](https://github.com/nats-io/nats-server) - NATS is a simple, secure, and performant communications system for digital systems, services, and devices.
-- [opentelemetry-go-auto-instrumentation](https://github.com/alibaba/opentelemetry-go-auto-instrumentation) - OpenTelemetry Compile-Time Instrumentation for Golang.
-- [oras](https://github.com/oras-project/oras) - CLI and library for OCI Artifacts in container registries.
-- [outbox](https://github.com/oagudo/outbox) - Lightweight library for the transactional outbox pattern in Go, not tied to any specific relational database or broker.
-- [outboxer](https://github.com/italolelis/outboxer) - Outboxer is a go library that implements the outbox pattern.
-- [pglock](https://cirello.io/pglock) - PostgreSQL-backed distributed locking implementation.
-- [pjrpc](https://gitlab.com/pjrpc/pjrpc) - Golang JSON-RPC Server-Client with Protobuf spec.
-- [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
-- [raft](https://github.com/etcd-io/raft) - Go implementation of the Raft consensus protocol, by CoreOS.
-- [rain](https://github.com/cenkalti/rain) - BitTorrent client and library.
-- [redis-lock](https://github.com/bsm/redislock) - Simplified distributed locking implementation using Redis.
-- [resgate](https://resgate.io/) - Realtime API Gateway for building REST, real time, and RPC APIs, where all clients are synchronized seamlessly.
-- [rpcplatform](https://github.com/nexcode/rpcplatform) - Framework for microservices with service discovery, load balancing, and related features.
-- [rpcx](https://github.com/smallnest/rpcx) - Distributed pluggable RPC service framework like alibaba Dubbo.
-- [Semaphore](https://github.com/jexia/semaphore) - A straightforward (micro) service orchestrator.
-- [servicepack](https://github.com/psyb0t/servicepack) - Framework for running multiple services concurrently in a single binary, locally or distributed across machines.
-- [sleuth](https://github.com/ursiform/sleuth) - Library for master-less p2p auto-discovery and RPC between HTTP services (using [ZeroMQ](https://github.com/zeromq/libzmq)).
-- [sponge](https://github.com/zhufuyi/sponge) - A distributed development framework that integrates automatic code generation, gin and grpc frameworks, base development frameworks.
-- [Tarmac](https://github.com/tarmac-project/tarmac) - Framework for writing functions, microservices, or monoliths with WebAssembly
-- [Temporal](https://github.com/temporalio/sdk-go) - Durable execution system for making code fault-tolerant and simple.
-- [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
-- [trpc-go](https://github.com/trpc-group/trpc-go) - The Go language implementation of tRPC, which is a pluggable, high-performance RPC framework.
+- [arpc](https://github.com/lesismal/arpc) - 更有效的网络通信，支持双向调用、通知与广播。
+- [bedrock](https://github.com/z5labs/bedrock) - 在 Go 中为快速开发服务及更多专用框架提供极简、模块化、可组合的基础设施。
+- [capillaries](https://github.com/capillariesio/capillaries) - 分布式批量数据处理框架。
+- [circuit](https://github.com/schigh/circuit) - 带渐进恢复（通过概率性节流）的熔断器。
+- [cmd-stream-go](https://github.com/cmd-stream/cmd-stream-go) - 面向 Go 的高性能分布式命令模式库。
+- [committer](https://github.com/vadiminshakov/committer) - 分布式事务管理系统（2PC/3PC 实现）。
+- [consistent](https://github.com/buraksezer/consistent) - 带负载上限的一致性哈希。
+- [consistenthash](https://github.com/mbrostami/consistenthash) - 副本数可配置的一致性哈希。
+- [dht](https://github.com/anacrolix/dht) - BitTorrent Kademlia DHT 实现。
+- [digota](https://github.com/digota/digota) - gRPC 电商微服务示例。
+- [dot](https://github.com/dotchain/dot/) - 使用操作转换（OT）实现的分布式同步。
+- [doublejump](https://github.com/edwingeng/doublejump) - Google Jump 一致性哈希的改良实现。
+- [dragonboat](https://github.com/lni/dragonboat) - Go 中功能完整、高性能的多组 Raft 实现库。
+- [Dragonfly](https://github.com/dragonflyoss/Dragonfly2) - 基于 P2P 技术提供高效、稳定、安全的文件分发与镜像加速，成为云原生架构下的最佳实践与标准方案。
+- [drmaa](https://github.com/dgruber/drmaa) - 基于 DRMAA 标准的集群调度器作业提交库。
+- [dynamolock](https://cirello.io/dynamolock) - 基于 DynamoDB 的分布式锁实现。
+- [dynatomic](https://github.com/tylfin/dynatomic) - 用于将 DynamoDB 作为原子计数器的库。
+- [emitter-io](https://github.com/emitter-io/emitter) - 基于 MQTT、WebSocket 与爱构建的高性能、分布式、安全、低延迟发布订阅平台。
+- [evans](https://github.com/ktr0731/evans) - Evans：表达力更强的通用 gRPC 客户端。
+- [failured](https://github.com/andy2046/failured) - 面向分布式系统的自适应时延故障检测器。
+- [flowgraph](https://github.com/vectaport/flowgraph) - 基于流的编程包。
+- [gleam](https://github.com/chrislusf/gleam) - 用纯 Go 与 LuaJIT 编写的快速可扩展分布式 map/reduce 系统，结合 Go 的高并发与 LuaJIT 的高性能，可独立运行也可分布式运行。
+- [glow](https://github.com/chrislusf/glow) - 易用的可扩展分布式大数据处理方案，涵盖 Map-Reduce 与 DAG 执行，全部用纯 Go 实现。
+- [gmsec](https://github.com/gmsec/micro) - Go 分布式系统开发框架。
+- [go-doudou](https://github.com/unionj-cloud/go-doudou) - 基于 gossip 协议与 OpenAPI 3.0 规范的去中心化微服务框架。内置 go-doudou CLI，专注低代码与快速开发，能显著提升你的生产力。
+- [go-eagle](https://github.com/go-eagle/eagle) - 用于构建 API 或微服务的 Go 框架，配备便捷的脚手架工具。
+- [go-jump](https://github.com/dgryski/go-jump) - Google「Jump」一致性哈希函数的移植实现。
+- [go-kit](https://github.com/go-kit/kit) - 微服务工具包，支持服务发现、负载均衡、可插拔传输、请求追踪等。
+- [go-micro](https://github.com/micro/go-micro) - 分布式系统开发框架。
+- [go-mysql-lock](https://github.com/sanketplus/go-mysql-lock) - 基于 MySQL 的分布式锁。
+- [go-pdu](https://github.com/pdupub/go-pdu) - 去中心化的身份型社交网络。
+- [go-sundheit](https://github.com/AppsFlyer/go-sundheit) - 为 Go 服务定义异步健康检查提供支持的库。
+- [go-zero](https://github.com/tal-tech/go-zero) - Web 与 RPC 框架。它以弹性设计为保障高并发站点稳定性而生。内置 goctl，大幅提升开发效率。
+- [gorpc](https://github.com/valyala/gorpc) - 简单、快速、可扩展的高负载 RPC 库。
+- [grpc-go](https://github.com/grpc/grpc-go) - gRPC 的 Go 语言实现。基于 HTTP/2 的 RPC。
+- [health](https://github.com/schigh/health) - 面向 Go 服务的健康检查器，支持 Kubernetes 探针。
+- [hprose](https://github.com/hprose/hprose-golang) - 非常适合新手的 RPC 库，现已支持 25+ 种语言。
+- [jsonrpc](https://github.com/osamingo/jsonrpc) - jsonrpc 包帮助实现 JSON-RPC 2.0。
+- [jsonrpc](https://github.com/ybbus/jsonrpc) - JSON-RPC 2.0 HTTP 客户端实现。
+- [K8gb](https://github.com/k8gb-io/k8gb) - 云原生的 Kubernetes 全局负载均衡器。
+- [Kitex](https://github.com/cloudwego/kitex) - 高性能、高扩展性的 Golang RPC 框架，帮助开发者构建微服务。若在开发微服务时最看重性能与扩展性，Kitex 会是一个好选择。
+- [Kratos](https://github.com/go-kratos/kratos) - Go 中模块化设计、易于使用的微服务框架。
+- [liftbridge](https://github.com/liftbridge-io/liftbridge) - 面向 NATS 的轻量级容错消息流。
+- [lock](https://github.com/ubgo/lock) - 分布式锁家族：统一 Go 接口，五种后端（filelock、flock、Redis、Postgres、etcd），支持 fencing token、信号量模式与可观测性钩子，覆盖所有后端。
+- [lura](https://github.com/luraproject/lura) - 带中间件的超高性能 API 网关框架。
+- [mochi mqtt](https://github.com/mochi-co/mqtt) - 完全符合规范、可嵌入的高性能 MQTT v5/v3 broker，面向 IoT、智能家居与发布订阅场景。
+- [NATS](https://github.com/nats-io/nats-server) - NATS 是面向数字系统、服务与设备的简单、安全、高性能通信系统。
+- [opentelemetry-go-auto-instrumentation](https://github.com/alibaba/opentelemetry-go-auto-instrumentation) - 面向 Golang 的 OpenTelemetry 编译期埋点。
+- [oras](https://github.com/oras-project/oras) - 用于处理容器注册表中 OCI 制品的 CLI 与库。
+- [outbox](https://github.com/oagudo/outbox) - Go 中事务性发件箱（outbox）模式的轻量库，不绑定任何特定关系型数据库或消息中间件。
+- [outboxer](https://github.com/italolelis/outboxer) - Outboxer 是实现 outbox 模式的 Go 库。
+- [pglock](https://cirello.io/pglock) - 基于 PostgreSQL 的分布式锁实现。
+- [pjrpc](https://gitlab.com/pjrpc/pjrpc) - 采用 Protobuf 规范的 Golang JSON-RPC 服务端-客户端。
+- [raft](https://github.com/hashicorp/raft) - 由 HashiCorp 提供的 Raft 共识协议 Go 实现。
+- [raft](https://github.com/etcd-io/raft) - 由 CoreOS 提供的 Raft 共识协议 Go 实现。
+- [rain](https://github.com/cenkalti/rain) - BitTorrent 客户端与库。
+- [redis-lock](https://github.com/bsm/redislock) - 使用 Redis 的简化分布式锁实现。
+- [resgate](https://resgate.io/) - 实时 API 网关，用于构建 REST、实时与 RPC API，所有客户端均可无缝同步。
+- [rpcplatform](https://github.com/nexcode/rpcplatform) - 微服务框架，具备服务发现、负载均衡等相关能力。
+- [rpcx](https://github.com/smallnest/rpcx) - 类似阿里 Dubbo 的分布式可插拔 RPC 服务框架。
+- [Semaphore](https://github.com/jexia/semaphore) - 直观的（微）服务编排器。
+- [servicepack](https://github.com/psyb0t/servicepack) - 在单个二进制中并发运行多个服务的框架，可本地运行，也可跨机器分布式运行。
+- [sleuth](https://github.com/ursiform/sleuth) - 用于 HTTP 服务之间无主 P2P 自动发现与 RPC 的库（基于 [ZeroMQ](https://github.com/zeromq/libzmq)）。
+- [sponge](https://github.com/zhufuyi/sponge) - 集成了代码自动生成、gin 与 grpc 框架及基础开发框架的分布式开发框架。
+- [Tarmac](https://github.com/tarmac-project/tarmac) - 使用 WebAssembly 编写函数、微服务或单体应用的框架。
+- [Temporal](https://github.com/temporalio/sdk-go) - 持久化执行系统，让代码具备容错能力并保持简单。
+- [torrent](https://github.com/anacrolix/torrent) - BitTorrent 客户端包。
+- [trpc-go](https://github.com/trpc-group/trpc-go) - tRPC 的 Go 语言实现，这是一个可插拔的高性能 RPC 框架。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -1179,9 +1179,9 @@ _有助于构建分布式系统的软件包。_
 
 _用于更新动态 DNS 记录的工具。_
 
-- [DDNS](https://github.com/skibish/ddns) - Personal DDNS client with Digital Ocean Networking DNS as backend.
-- [dyndns](https://gitlab.com/alcastle/dyndns) - Background Go process to regularly and automatically check your IP Address and make updates to (one or many) Dynamic DNS records for Google domains whenever your address changes.
-- [GoDNS](https://github.com/timothyye/godns) - A dynamic DNS client tool, supports DNSPod & HE.net, written in Go.
+- [DDNS](https://github.com/skibish/ddns) - 以 Digital Ocean Networking DNS 为后端的个人 DDNS 客户端。
+- [dyndns](https://gitlab.com/alcastle/dyndns) - 后台 Go 进程，定期自动检查你的 IP 地址，并在地址变化时更新 Google 域名下（一条或多条）动态 DNS 记录。
+- [GoDNS](https://github.com/timothyye/godns) - 动态 DNS 客户端工具，支持 DNSPod 与 HE.net，用 Go 编写。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -1190,9 +1190,9 @@ _用于更新动态 DNS 记录的工具。_
 
 _实现邮件创建与发送的库与工具。_
 
-- [chasquid](https://blitiri.com.ar/p/chasquid) - SMTP server written in Go.
-- [douceur](https://github.com/aymerick/douceur) - CSS inliner for your HTML emails.
-- [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
+- [chasquid](https://blitiri.com.ar/p/chasquid) - 用 Go 编写的 SMTP 服务器。
+- [douceur](https://github.com/aymerick/douceur) - 为 HTML 邮件内联 CSS 的工具。
+- [email](https://github.com/jordan-wright/email) - 稳健而灵活的 Go 邮件库。
 - [email-verifier](https://github.com/AfterShip/email-verifier) - A Go library for email verification without sending any emails.
 - [go-dkim](https://github.com/toorop/go-dkim) - DKIM library, to sign & verify email.
 - [go-email-normalizer](https://github.com/dimuska139/go-email-normalizer) - Golang library for providing a canonical representation of email address.
