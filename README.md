@@ -3780,151 +3780,151 @@ _使用 Go 编写的软件。_
 - [kcli](https://github.com/cswank/kcli) - 用于检视 kafka 主题/分区/消息的命令行工具。
 - [kepfi](https://github.com/Knuspii/kepfi) - rm 的智能替代方案，带恢复回收站与存储追踪。
 - [kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker —— 用于测试 Kubernetes 的本地集群。
-- [ko](https://github.com/google/ko) - Command line tool for building and deploying Go applications on Kubernetes
-- [kool](https://github.com/kool-dev/kool) - Command line tool for managing Docker environments as an easy way.
-- [kubeblocks](https://github.com/apecloud/kubeblocks) - KubeBlocks is an open-source control plane that runs and manages databases, message queues and other data infrastructure on K8s.
-- [kubefwd](https://github.com/txn2/kubefwd) - Bulk Kubernetes port forwarding with unique IPs per service for local development.
-- [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
-- [kubeshark](https://github.com/kubeshark/kubeshark) - API traffic analyzer for Kubernetes, inspired by Wireshark, purposely built for Kubernetes.
-- [KubeVela](https://github.com/kubevela/kubevela) - Cloud native application delivery.
-- [KubeVPN](https://github.com/kubenetworks/kubevpn) - KubeVPN offers a Cloud-Native Dev Environment that seamlessly connects to your Kubernetes cluster network.
-- [KusionStack](https://github.com/KusionStack/kusion) - A unified programmable configuration techstack to deliver modern app in 'platform as code' and 'infra as code' approach.
-- [kwatch](https://github.com/abahmed/kwatch) - Monitor & detect crashes in your Kubernetes(K8s) cluster instantly.
-- [lstags](https://github.com/ivanilves/lstags) - Tool and API to sync Docker images across different registries.
-- [lwc](https://github.com/timdp/lwc) - A live-updating version of the UNIX wc command.
-- [manssh](https://github.com/xwjdsh/manssh) - manssh is a command line tool for managing your ssh alias config easily.
-- [Mantil](https://github.com/mantil-io/mantil) - Go specific framework for building serverless applications on AWS that enables you to focus on pure Go code while Mantil takes care of the infrastructure.
-- [minikube](https://github.com/kubernetes/minikube) - Run Kubernetes locally.
-- [Moby](https://github.com/moby/moby) - Collaborative project for the container ecosystem to assemble container-based systems.
-- [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
-- [mq-studio](https://github.com/amigoer/mq-studio) - Cross-platform desktop client for managing and monitoring RocketMQ, RabbitMQ, Kafka, Pulsar, Redis Stream, MQTT, NATS, and ActiveMQ clusters.
-- [ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB.
-- [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
-- [Pewpew](https://github.com/bengadbois/pewpew) - Flexible HTTP command line stress tester.
-- [pingtower](https://github.com/crleonard/pingtower) - Lightweight self-hosted uptime monitor for websites and APIs.
-- [PipeCD](https://github.com/pipe-cd/pipecd) - A GitOps-style continuous delivery platform that provides consistent deployment and operations experience for any applications.
-- [podinfo](https://github.com/stefanprodan/podinfo) - Podinfo is a tiny web application made with Go that showcases best practices of running microservices in Kubernetes. Podinfo is used by CNCF projects like Flux and Flagger for end-to-end testing and workshops.
-- [podman-tui](https://github.com/containers/podman-tui) - Terminal UI for Podman management.
-- [Pomerium](https://github.com/pomerium/pomerium) - Pomerium is an identity-aware access proxy.
-- [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
-- [s3-proxy](https://github.com/oxyno-zeta/s3-proxy) - S3 Proxy with GET, PUT and DELETE methods and authentication (OpenID Connect and Basic Auth).
-- [s3gof3r](https://github.com/rlmcpherson/s3gof3r) - Small utility/library optimized for high speed transfer of large objects into and out of Amazon S3.
-- [s5cmd](https://github.com/peak/s5cmd) - Blazing fast S3 and local filesystem execution tool.
-- [Scaleway-cli](https://github.com/scaleway/scaleway-cli) - Manage BareMetal Servers from Command Line (as easily as with Docker).
-- [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go for DevOps and system administration tasks.
-- [sg](https://github.com/ChristopherRabotin/sg) - Benchmarks a set of HTTP endpoints (like ab), with possibility to use the response code and data between each call for specific server stress based on its previous response.
-- [sigma](https://github.com/go-sigma/sigma) - OCI-native container image registry, support OCI-native artifact, scan artifact, image build etc.
-- [skm](https://github.com/TimothyYe/skm) - SKM is a simple and powerful SSH Keys Manager, it helps you to manage your multiple SSH keys easily!
-- [sortie](https://github.com/sortie-ai/sortie) - Turn tracker tickets into autonomous coding agent sessions.
-- [StatusOK](https://github.com/sanathp/statusok) - Monitor your Website and REST APIs.Get Notified through Slack, E-mail when your server is down or response time is more than expected.
-- [tau](https://github.com/taubyte/tau) - Easily build Cloud Computing Platforms with features like Serverless WebAssembly Functions, Frontend Hosting, CI/CD, Object Storage, K/V Database, and Pub-Sub Messaging.
-- [terraform-provider-openapi](https://github.com/dikhan/terraform-provider-openapi) - Terraform provider plugin that dynamically configures itself at runtime based on an OpenAPI document (formerly known as swagger file) containing the definitions of the APIs exposed.
-- [tf-profile](https://github.com/datarootsio/tf-profile) - Profiler for Terraform runs. Generate global stats, resource-level stats or visualizations.
-- [tickstem/uptime](https://github.com/tickstem/uptime) - Go client for HTTP uptime monitoring with SSL expiry alerts and configurable response assertions.
-- [tlm](https://github.com/yusufcanb/tlm) - Local cli copilot, powered by CodeLLaMa
-- [traefik](https://github.com/containous/traefik) - Reverse proxy and load balancer with support for multiple backends.
-- [trubka](https://github.com/xitonix/trubka) - A CLI tool to manage and troubleshoot Apache Kafka clusters with the ability of generically publishing/consuming protocol buffer and plain text events to/from Kafka.
-- [Updatecli](https://github.com/updatecli/updatecli) - A universal declarative update policy engine.
-- [uTask](https://github.com/ovh/utask) - Automation engine that models and executes business processes declared in yaml.
-- [Vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool and library. It's over 9000!
-- [wait-for](https://github.com/dnnrly/wait-for) - Wait for something to happen (from the command line) before continuing. Easy orchestration of Docker services and other things.
-- [Wide](https://wide.b3log.org/login) - Web-based IDE for Teams using Golang.
-- [winrm-cli](https://github.com/masterzen/winrm-cli) - Cli tool to remotely execute commands on Windows machines.
-- [zerohand](https://github.com/nilpoona/zerohand) - A simple and efficient load testing tool for Web APIs.
+- [ko](https://github.com/google/ko) - 用于在 Kubernetes 上构建与部署 Go 应用的命令行工具。
+- [kool](https://github.com/kool-dev/kool) - 轻松管理 Docker 环境的命令行工具。
+- [kubeblocks](https://github.com/apecloud/kubeblocks) - KubeBlocks 是开源控制平面，在 K8s 上运行并管理数据库、消息队列及其他数据基础设施。
+- [kubefwd](https://github.com/txn2/kubefwd) - 批量 Kubernetes 端口转发，每个服务分配独立 IP，便于本地开发。
+- [kubernetes](https://github.com/kubernetes/kubernetes) - Google 出品的容器集群管理器。
+- [kubeshark](https://github.com/kubeshark/kubeshark) - 面向 Kubernetes 的 API 流量分析器，灵感源自 Wireshark，专为 Kubernetes 而打造。
+- [KubeVela](https://github.com/kubevela/kubevela) - 云原生应用交付。
+- [KubeVPN](https://github.com/kubenetworks/kubevpn) - KubeVPN 提供云原生开发环境，可无缝接入你的 Kubernetes 集群网络。
+- [KusionStack](https://github.com/KusionStack/kusion) - 统一可编程的配置技术栈，以「平台即代码」与「基础设施即代码」的方式交付现代化应用。
+- [kwatch](https://github.com/abahmed/kwatch) - 即时监控并检测 Kubernetes(K8s) 集群中的崩溃。
+- [lstags](https://github.com/ivanilves/lstags) - 在不同镜像仓库之间同步 Docker 镜像的工具与 API。
+- [lwc](https://github.com/timdp/lwc) - UNIX wc 命令的实时更新版本。
+- [manssh](https://github.com/xwjdsh/manssh) - manssh 是一个命令行工具，用于轻松管理你的 ssh 别名配置。
+- [Mantil](https://github.com/mantil-io/mantil) - Go 专属框架，用于在 AWS 上构建无服务器应用，让你专注纯 Go 代码，基础设施交由 Mantil 处理。
+- [minikube](https://github.com/kubernetes/minikube) - 在本地运行 Kubernetes。
+- [Moby](https://github.com/moby/moby) - 面向容器生态的协作项目，用于组装基于容器的系统。
+- [Mora](https://github.com/emicklei/mora) - 用于访问 MongoDB 文档与元数据的 REST 服务器。
+- [mq-studio](https://github.com/amigoer/mq-studio) - 跨平台桌面客户端，用于管理与监控 RocketMQ、RabbitMQ、Kafka、Pulsar、Redis Stream、MQTT、NATS 与 ActiveMQ 集群。
+- [ostent](https://github.com/ostrost/ostent) - 采集并展示系统指标，并可选转发至 Graphite 和/或 InfluxDB。
+- [Packer](https://github.com/mitchellh/packer) - Packer 是一个工具，可从单一源配置为多个平台创建一致的机器镜像。
+- [Pewpew](https://github.com/bengadbois/pewpew) - 灵活的 HTTP 命令行压力测试工具。
+- [pingtower](https://github.com/crleonard/pingtower) - 面向网站与 API 的轻量自托管可用性监控。
+- [PipeCD](https://github.com/pipe-cd/pipecd) - GitOps 风格的持续交付平台，为任意应用提供一致的部署与运维体验。
+- [podinfo](https://github.com/stefanprodan/podinfo) - Podinfo 是用 Go 编写的小型 Web 应用，展示在 Kubernetes 中运行微服务的最佳实践。Flux 与 Flagger 等 CNCF 项目使用 Podinfo 进行端到端测试与工作坊演示。
+- [podman-tui](https://github.com/containers/podman-tui) - 用于管理 Podman 的终端 UI。
+- [Pomerium](https://github.com/pomerium/pomerium) - Pomerium 是身份感知访问代理。
+- [Rodent](https://github.com/alouche/rodent) - Rodent 帮助你管理 Go 版本、项目并追踪依赖。
+- [s3-proxy](https://github.com/oxyno-zeta/s3-proxy) - S3 代理，支持 GET、PUT 与 DELETE 方法以及认证（OpenID Connect 与 Basic Auth）。
+- [s3gof3r](https://github.com/rlmcpherson/s3gof3r) - 小型工具/库，针对大对象进出 Amazon S3 的高速传输做了优化。
+- [s5cmd](https://github.com/peak/s5cmd) - 疾速飞快的 S3 与本地文件系统执行工具。
+- [Scaleway-cli](https://github.com/scaleway/scaleway-cli) - 像操作 Docker 一样轻松地从命令行管理裸金属服务器。
+- [script](https://github.com/bitfield/script) - 让用 Go 编写类 shell 脚本变得轻松，服务于 DevOps 与系统管理任务。
+- [sg](https://github.com/ChristopherRabotin/sg) - 对一组 HTTP 端点做基准测试（类似 ab），并可依据上一次响应使用响应码与数据为每次调用定制压测策略。
+- [sigma](https://github.com/go-sigma/sigma) - OCI 原生容器镜像注册表，支持 OCI 原生产物、产物扫描、镜像构建等。
+- [skm](https://github.com/TimothyYe/skm) - SKM 是简单强大的 SSH 密钥管理器，帮你轻松管理多个 SSH 密钥！
+- [sortie](https://github.com/sortie-ai/sortie) - 把追踪器工单转为自主的编码智能体会话。
+- [StatusOK](https://github.com/sanathp/statusok) - 监控你的网站与 REST API。当服务器宕机或响应时间超出预期时，通过 Slack、邮件通知你。
+- [tau](https://github.com/taubyte/tau) - 轻松构建云计算平台，具备无服务器 WebAssembly 函数、前端托管、CI/CD、对象存储、K/V 数据库与发布订阅消息等特性。
+- [terraform-provider-openapi](https://github.com/dikhan/terraform-provider-openapi) - Terraform provider 插件，可根据描述所暴露 API 定义的 OpenAPI 文档（原 swagger 文件）在运行时动态配置自身。
+- [tf-profile](https://github.com/datarootsio/tf-profile) - Terraform 运行剖析器。生成全局统计、资源级统计或可视化图表。
+- [tickstem/uptime](https://github.com/tickstem/uptime) - 用于 HTTP 可用性监控的 Go 客户端，支持 SSL 过期告警与可配置的响应断言。
+- [tlm](https://github.com/yusufcanb/tlm) - 本地命令行副驾驶，由 CodeLLaMa 驱动。
+- [traefik](https://github.com/containous/traefik) - 支持多后端的反向代理与负载均衡器。
+- [trubka](https://github.com/xitonix/trubka) - 管理与排查 Apache Kafka 集群的 CLI 工具，并可通用地以协议缓冲区或纯文本事件形式向 Kafka 发布/消费。
+- [Updatecli](https://github.com/updatecli/updatecli) - 通用的声明式更新策略引擎。
+- [uTask](https://github.com/ovh/utask) - 自动化引擎，对以 yaml 声明的业务流程进行建模与执行。
+- [Vegeta](https://github.com/tsenart/vegeta) - HTTP 负载测试工具与库。它已经超过 9000 了！
+- [wait-for](https://github.com/dnnrly/wait-for) - 在继续之前等待某件事发生（命令行层面）。便于编排 Docker 服务及其他事物。
+- [Wide](https://wide.b3log.org/login) - 使用 Golang 为团队打造的 Web 版 IDE。
+- [winrm-cli](https://github.com/masterzen/winrm-cli) - 用于在 Windows 机器上远程执行命令的 CLI 工具。
+- [zerohand](https://github.com/nilpoona/zerohand) - 面向 Web API 的简单高效负载测试工具。
 
 **[⬆ 回到顶部](#contents)**
 
 <a id="other-software"></a>
 ### 其他软件
 
-- [Backrest](https://github.com/garethgeorge/backrest) - Web-based UI and orchestrator for restic backup.
-- [Better Go Playground](https://goplay.tools) - Go playground with syntax highlight, code completion and other features.
-- [blocky](https://github.com/0xERR0R/blocky) - Fast and lightweight DNS proxy as ad-blocker for local network with many features.
-- [bluetuith](https://github.com/bluetuith-org/bluetuith) - TUI Bluetooth manager for Linux.
-- [borg](https://github.com/crufter/borg) - Terminal based search engine for bash snippets.
-- [boxed](https://github.com/tejo/boxed) - Dropbox based blog engine.
-- [Chapar](https://github.com/chapar-rest/chapar) - Chapar is a cross-platform Postman alternative built with go, aims to help developers to test their api endpoints. it support http and grpc protocols.
-- [Cherry](https://github.com/rafael-santiago/cherry) - Tiny webchat server in Go.
-- [chicha-isotope-map](https://github.com/matveynator/chicha-isotope-map) - Self-hosted public radiation map for importing, analyzing, and visualizing measurement tracks.
-- [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
-- [Comcast](https://github.com/tylertreat/Comcast) - Simulate bad network connections.
-- [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
-- [crawley](https://github.com/s0rg/crawley) - Web scraper/crawler for cli.
-- [croc](https://github.com/schollz/croc) - Easily and securely send files or folders from one computer to another.
-- [CrunchyCleaner](https://github.com/Knuspii/CrunchyCleaner) - A lightweight, software cache cleanup tool for Windows & Linux.
-- [dispositio](https://github.com/tsraveling/dispositio) - Terminal tool for planning large projects in simple markdown.
-- [Documize](https://github.com/documize/community) - Modern wiki software that integrates data from SaaS tools.
-- [dp](https://github.com/scryinfo/dp) - Through SDK for data exchange with blockchain, developers can get easy access to DAPP development.
-- [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline.
-- [Duplicacy](https://github.com/gilbertchen/duplicacy) - A cross-platform network and cloud backup tool based on the idea of lock-free deduplication.
-- [fjira](https://github.com/mk-5/fjira) - A fuzzy-search based terminal UI application for Attlasian Jira
-- [Gebug](https://github.com/moshebe/gebug) - A tool that makes debugging of Dockerized Go applications super easy by enabling Debugger and Hot-Reload features, seamlessly.
-- [gfile](https://github.com/Antonito/gfile) - Securely transfer files between two computers, without any third party, over WebRTC.
-- [Go Package Store](https://github.com/shurcooL/Go-Package-Store) - App that displays updates for the Go packages in your GOPATH.
-- [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - Video streaming torrent client.
-- [goblin](https://goblin.run) - Cloud builder for CLI's written in go lang
-- [GoBoy](https://github.com/Humpheh/goboy) - Nintendo Game Boy Color emulator written in Go.
-- [gocc](https://github.com/goccmack/gocc) - Gocc is a compiler kit for Go written in Go.
-- [GoDocTooltip](https://github.com/diankong/GoDocTooltip) - Chrome extension for Go Doc sites, which shows function description as tooltip at function list.
-- [Gokapi](https://github.com/Forceu/gokapi) - Lightweight server to share files, which expire after a set amount of downloads or days. Similar to Firefox Send, but without public upload.
-- [GoLand](https://jetbrains.com/go) - Full featured cross-platform Go IDE.
-- [GoNB](https://github.com/janpfeifer/gonb) - Interactive Go programming with Jupyter Notebooks (also works in VSCode, Binder and Google's Colab).
-- [GooseForum](https://github.com/leancodebox/GooseForum) - Self-hosted forum platform built with Go, Vue, and Tailwind CSS.
-- [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
-- [Guora](https://github.com/meloalright/guora) - A self-hosted Quora like web application written in Go.
-- [GURL](https://github.com/matveynator/gurl) - When CURL says your SSL library is too old — use GURL. One file. Zero SSL dependencies.
-- [hoofli](https://github.com/dnnrly/hoofli) - Generate PlantUML diagrams from Chrome or Firefox network inspections.
-- [hotswap](https://github.com/edwingeng/hotswap) - A complete solution to reload your go code without restarting your server, interrupting or blocking any ongoing procedure.
-- [hugo](https://gohugo.io/) - Fast and Modern Static Website Engine.
-- [ide](https://github.com/thestrukture/ide) - Browser accessible IDE. Designed for Go with Go.
-- [joincap](https://github.com/assafmo/joincap) - Command-line utility for merging multiple pcap files together.
-- [JuiceFS](https://github.com/juicedata/juicefs) - Distributed POSIX file system built on top of Redis and AWS S3.
-- [Juju](https://jujucharms.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
-- [KeibiDrop](https://github.com/KeibiSoft/KeibiDrop) - On-demand peer-to-peer filesystem that mounts a remote folder and hides link latency with read-ahead, end-to-end encrypted with hybrid X25519 and ML-KEM-1024.
-- [Layli](https://layli.app) - Draw pretty layout diagrams as code.
-- [Leaps](https://github.com/jeffail/leaps) - Pair programming service using Operational Transforms.
-- [lgo](https://github.com/yunabe/lgo) - Interactive Go programming with Jupyter. It supports code completion, code inspection and 100% Go compatibility.
-- [LightCMS](https://github.com/jonradoff/lightcms) - Self-hosted content management system with static page generation, role-based access control, and an MCP server for agent-driven content operations.
-- [limetext](https://limetext.github.io) - Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
-- [LiteIDE](https://github.com/visualfc/liteide) - LiteIDE is a simple, open source, cross-platform Go IDE.
-- [mac-cleanup-go](https://github.com/2ykwang/mac-cleanup-go) - Preview-first TUI for cleaning macOS caches, logs, and temporary files.
-- [mdv](https://github.com/Allra-Fintech/mdv) - CLI tool that renders Markdown files in the browser with live reload, GFM, syntax highlighting, Mermaid diagrams, and PDF export.
-- [mockingjay](https://github.com/quii/mockingjay-server) - Fake HTTP servers and consumer driven contracts from one configuration file. You can also make the server randomly misbehave to help do more realistic performance tests.
-- [myLG](https://github.com/mehrdadrad/mylg) - Command Line Network Diagnostic tool written in Go.
-- [naclpipe](https://github.com/unix4fun/naclpipe) - Simple NaCL EC25519 based crypto pipe tool written in Go.
-- [Neo-cowsay](https://github.com/Code-Hex/Neo-cowsay) - 🐮 cowsay is reborn. for a New Era.
-- [nes](https://github.com/fogleman/nes) - Nintendo Entertainment System (NES) emulator written in Go.
-- [onWatch](https://github.com/onllm-dev/onWatch) - Monitor AI API quotas across providers locally with historical tracking, alerts, and a web dashboard to avoid surprise throttling and budget overruns.
-- [Orbit](https://github.com/gulien/orbit) - A simple tool for running commands and generating files from templates.
-- [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
-- [Plakar](https://github.com/PlakarKorp/plakar) - An encrypted, deduplicated, verifiable, and scalable backup engine with no vendor lock-in.
-- [Plik](https://github.com/root-gg/plik) - Plik is a temporary file upload system (Wetransfer like) in Go.
-- [portal](https://github.com/SpatiumPortae/portal) - Portal is a quick and easy command-line file transfer utility from any computer to another.
-- [restic](https://github.com/restic/restic) - De-duplicating backup program.
-- [sake](https://github.com/alajmo/sake) - sake is a command runner for local and remote hosts.
-- [scc](https://github.com/boyter/scc) - Sloc Cloc and Code, a very fast accurate code counter with complexity calculations and COCOMO estimates.
-- [ScheduleGate](https://github.com/gjunqueira-sys/ScheduleGate) - DCMA 14-point schedule assessment CLI for MS Project Excel/CSV exports.
-- [Seaweed File System](https://github.com/chrislusf/seaweedfs) - Fast, Simple and Scalable Distributed File System with O(1) disk seek.
-- [shell2http](https://github.com/msoap/shell2http) - Executing shell commands via http server (for prototyping or remote control).
-- [Snitch](https://github.com/lucasgomide/snitch) - Simple way to notify your team and many tools when someone has deployed any application via Tsuru.
-- [sonic](https://github.com/go-sonic/sonic) - Sonic is a Go Blogging Platform. Simple and Powerful.
-- [spotify-screensaver](https://github.com/benzjeremy/spotify-screensaver) - Desktop screensaver for Spotify with digital OLED clock, canvas audio visualizer, and MPRIS controls.
-- [Stack Up](https://github.com/pressly/sup) - Stack Up, a super simple deployment tool - just Unix - think of it like 'make' for a network of servers.
-- [stew](https://github.com/marwanhawari/stew) - An independent package manager for compiled binaries.
-- [syncthing](https://syncthing.net/) - Open, decentralized file synchronization tool and protocol.
-- [tcpdog](https://github.com/mehrdadrad/tcpdog) - eBPF based TCP observability.
-- [tinycare-tui](https://github.com/DMcP89/tinycare-tui) - Small terminal app that shows git commits from the last 24 hours and week, current weather, some self care advice, a joke, and you current todo list tasks.
-- [tldx](https://github.com/brandonyoungdev/tldx) - Bulk domain availability checker using RDAP, DNS, and WHOIS fallback with keyword permutation generation.
-- [toxiproxy](https://github.com/shopify/toxiproxy) - Proxy to simulate network and system conditions for automated tests.
-- [tsuru](https://tsuru.io/) - Extensible and open source Platform as a Service software.
-- [vaku](https://github.com/lingrino/vaku) - CLI & API for folder-based functions in Vault like copy, move, and search.
-- [vFlow](https://github.com/VerizonDigital/vflow) - High-performance, scalable and reliable IPFIX, sFlow and Netflow collector.
-- [untis-go](https://github.com/benzjeremy/untis-go) - Fast, native WebUntis desktop client for students and teachers. Sidebar navigation, timetables, homework, absences & messages. AES-256-GCM encrypted credentials, SQLite cache-first, random port security.
-- [Wave Terminal](https://waveterm.dev) - Wave is an open-source, AI-native terminal built for seamless developer workflows with inline rendering, a modern UI, and persistent sessions.
-- [wellington](https://github.com/wellington/wellington) - Sass project management tool, extends the language with sprite functions (like Compass).
-- [woke](https://github.com/get-woke/woke) - Detect non-inclusive language in your source code.
-- [yai](https://github.com/ekkinox/yai) - AI powered terminal assistant.
-- [zs](https://git.mills.io/prologic/zs) - an extremely minimal static site generator.
+- [Backrest](https://github.com/garethgeorge/backrest) - 面向 restic 备份的 Web 版界面与编排工具。
+- [Better Go Playground](https://goplay.tools) - Go 游乐场，带语法高亮、代码补全等特性。
+- [blocky](https://github.com/0xERR0R/blocky) - 快速轻量的 DNS 代理兼广告拦截器，面向局域网，具备诸多特性。
+- [bluetuith](https://github.com/bluetuith-org/bluetuith) - 面向 Linux 的 TUI 蓝牙管理器。
+- [borg](https://github.com/crufter/borg) - 基于终端的 bash 片段搜索引擎。
+- [boxed](https://github.com/tejo/boxed) - 基于 Dropbox 的博客引擎。
+- [Chapar](https://github.com/chapar-rest/chapar) - Chapar 是用 Go 构建的跨平台 Postman 替代方案，旨在帮助开发者测试 API 端点。支持 http 与 grpc 协议。
+- [Cherry](https://github.com/rafael-santiago/cherry) - Go 编写的小型 webchat 服务器。
+- [chicha-isotope-map](https://github.com/matveynator/chicha-isotope-map) - 自托管的公开辐射图，用于导入、分析与可视化测量轨迹。
+- [Circuit](https://github.com/gocircuit/circuit) - Circuit 是可编程的平台即服务（PaaS）和/或基础设施即服务（IaaS）平台，用于管理、发现、同步与编排构成云应用的服务与主机。
+- [Comcast](https://github.com/tylertreat/Comcast) - 模拟不良网络连接。
+- [confd](https://github.com/kelseyhightower/confd) - 借助模板以及 etcd 或 consul 的数据管理本地应用配置文件。
+- [crawley](https://github.com/s0rg/crawley) - 面向 cli 的网页抓取器/爬虫。
+- [croc](https://github.com/schollz/croc) - 轻松且安全地在两台计算机之间发送文件或文件夹。
+- [CrunchyCleaner](https://github.com/Knuspii/CrunchyCleaner) - 面向 Windows 与 Linux 的轻量软件缓存清理工具。
+- [dispositio](https://github.com/tsraveling/dispositio) - 用简单 markdown 规划大型项目的终端工具。
+- [Documize](https://github.com/documize/community) - 集成 SaaS 工具数据的现代化 wiki 软件。
+- [dp](https://github.com/scryinfo/dp) - 通过 SDK 与区块链进行数据交换，开发者可便捷地开展 DAPP 开发。
+- [drive](https://github.com/odeke-em/drive) - 面向命令行的 Google Drive 客户端。
+- [Duplicacy](https://github.com/gilbertchen/duplicacy) - 基于无锁去重理念的跨平台网络与云备份工具。
+- [fjira](https://github.com/mk-5/fjira) - 面向 Attlasian Jira 的基于模糊搜索的终端 UI 应用。
+- [Gebug](https://github.com/moshebe/gebug) - 通过启用调试器与热重载特性，让 Docker 化 Go 应用的调试变得轻而易举、无缝衔接。
+- [gfile](https://github.com/Antonito/gfile) - 通过 WebRTC 在两台计算机之间安全传输文件，无需任何第三方。
+- [Go Package Store](https://github.com/shurcooL/Go-Package-Store) - 显示你 GOPATH 中 Go 包更新的应用。
+- [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - 视频流 torrent 客户端。
+- [goblin](https://goblin.run) - 为用 Go 语言编写的 CLI 打造的云构建器。
+- [GoBoy](https://github.com/Humpheh/goboy) - 用 Go 编写的任天堂 Game Boy Color 模拟器。
+- [gocc](https://github.com/goccmack/gocc) - Gocc 是用 Go 编写的 Go 语言编译器套件。
+- [GoDocTooltip](https://github.com/diankong/GoDocTooltip) - 面向 Go Doc 站点的 Chrome 扩展，在函数列表中以提示气泡显示函数说明。
+- [Gokapi](https://github.com/Forceu/gokapi) - 轻量文件共享服务器，文件在达到设定下载次数或天数后过期。类似 Firefox Send，但不支持公开上传。
+- [GoLand](https://jetbrains.com/go) - 功能完备的跨平台 Go IDE。
+- [GoNB](https://github.com/janpfeifer/gonb) - 用 Jupyter Notebook 进行交互式 Go 编程（同样适用于 VSCode、Binder 与 Google 的 Colab）。
+- [GooseForum](https://github.com/leancodebox/GooseForum) - 用 Go、Vue 与 Tailwind CSS 构建的自托管论坛平台。
+- [Gor](https://github.com/buger/gor) - HTTP 流量复制工具，可实时把流量从生产环境重放到 stage/dev 环境。
+- [Guora](https://github.com/meloalright/guora) - 用 Go 编写的自托管类 Quora Web 应用。
+- [GURL](https://github.com/matveynator/gurl) - 当 CURL 说你的 SSL 库太旧时 —— 用 GURL。一个文件，零 SSL 依赖。
+- [hoofli](https://github.com/dnnrly/hoofli) - 从 Chrome 或 Firefox 的网络检查结果生成 PlantUML 图。
+- [hotswap](https://github.com/edwingeng/hotswap) - 完整方案让你在不重启服务器、不中断、不阻塞任何进行中流程的前提下重新加载 Go 代码。
+- [hugo](https://gohugo.io/) - 快速、现代化的静态网站引擎。
+- [ide](https://github.com/thestrukture/ide) - 浏览器可访问的 IDE。为 Go 而生，由 Go 而生。
+- [joincap](https://github.com/assafmo/joincap) - 把多个 pcap 文件合并到一起的命令行工具。
+- [JuiceFS](https://github.com/juicedata/juicefs) - 构建在 Redis 与 AWS S3 之上的分布式 POSIX 文件系统。
+- [Juju](https://jujucharms.com/) - 云无关的服务部署与编排 —— 支持 EC2、Azure、Openstack、MAAS 等。
+- [KeibiDrop](https://github.com/KeibiSoft/KeibiDrop) - 按需的点对点文件系统，挂载远程文件夹，并通过预读隐藏链路延迟，采用 X25519 与 ML-KEM-1024 混合端到端加密。
+- [Layli](https://layli.app) - 以代码绘制漂亮的布局图。
+- [Leaps](https://github.com/jeffail/leaps) - 使用操作转换（Operational Transforms）的结对编程服务。
+- [lgo](https://github.com/yunabe/lgo) - 用 Jupyter 进行交互式 Go 编程。支持代码补全、代码检视与 100% Go 兼容。
+- [LightCMS](https://github.com/jonradoff/lightcms) - 自托管内容管理系统，具备静态页面生成、基于角色的访问控制，以及供智能体驱动内容操作的 MCP 服务器。
+- [limetext](https://limetext.github.io) - Lime Text 是一款强大而优雅的文本编辑器，主要以 Go 开发，力求成为 Sublime Text 的自由开源继任者。
+- [LiteIDE](https://github.com/visualfc/liteide) - LiteIDE 是简单、开源、跨平台的 Go IDE。
+- [mac-cleanup-go](https://github.com/2ykwang/mac-cleanup-go) - 预览优先的 TUI，用于清理 macOS 缓存、日志与临时文件。
+- [mdv](https://github.com/Allra-Fintech/mdv) - 命令行工具，在浏览器中渲染 Markdown 文件，支持实时刷新、GFM、语法高亮、Mermaid 图表与 PDF 导出。
+- [mockingjay](https://github.com/quii/mockingjay-server) - 从一份配置文件生成虚假 HTTP 服务器与消费者驱动契约。你还可以让服务器随机异常，以完成更真实的性能测试。
+- [myLG](https://github.com/mehrdadrad/mylg) - 用 Go 编写的命令行网络诊断工具。
+- [naclpipe](https://github.com/unix4fun/naclpipe) - 用 Go 编写的基于 NaCL EC25519 的简易加密管道工具。
+- [Neo-cowsay](https://github.com/Code-Hex/Neo-cowsay) - 🐮 cowsay 重生了。属于新时代。
+- [nes](https://github.com/fogleman/nes) - 用 Go 编写的任天堂 Entertainment System (NES) 模拟器。
+- [onWatch](https://github.com/onllm-dev/onWatch) - 在本地跨服务商监控 AI API 配额，含历史追踪、告警与 Web 仪表盘，避免意外限流与预算超支。
+- [Orbit](https://github.com/gulien/orbit) - 用于运行命令并从模板生成文件的简单工具。
+- [peg](https://github.com/pointlander/peg) - Peg（Parsing Expression Grammar，解析表达式文法）是 Packrat 解析器生成器的一种实现。
+- [Plakar](https://github.com/PlakarKorp/plakar) - 加密、去重、可验证且可扩展的备份引擎，无厂商锁定。
+- [Plik](https://github.com/root-gg/plik) - Plik 是用 Go 编写的临时文件上传系统（类 WeTransfer）。
+- [portal](https://github.com/SpatiumPortae/portal) - Portal 是一个快速简便的命令行文件传输工具，可在任意两台计算机之间传输。
+- [restic](https://github.com/restic/restic) - 具备去重能力的备份程序。
+- [sake](https://github.com/alajmo/sake) - sake 是面向本地与远程主机的命令运行器。
+- [scc](https://github.com/boyter/scc) - Sloc、Cloc 与 Code，一款非常快速精确的代码统计器，带复杂度计算与 COCOMO 估算。
+- [ScheduleGate](https://github.com/gjunqueira-sys/ScheduleGate) - DCMA 14 点进度评估命令行工具，支持 MS Project 的 Excel/CSV 导出。
+- [Seaweed File System](https://github.com/chrislusf/seaweedfs) - 快速、简单且可扩展的分布式文件系统，磁盘寻道为 O(1)。
+- [shell2http](https://github.com/msoap/shell2http) - 通过 HTTP 服务器执行 shell 命令（用于原型验证或远程控制）。
+- [Snitch](https://github.com/lucasgomide/snitch) - 当有人通过 Tsuru 部署了应用时，轻松通知你的团队与众多工具。
+- [sonic](https://github.com/go-sonic/sonic) - Sonic 是一个 Go 博客平台。简单而强大。
+- [spotify-screensaver](https://github.com/benzjeremy/spotify-screensaver) - 面向 Spotify 的桌面屏保，带数字 OLED 时钟、canvas 音频可视化与 MPRIS 控制。
+- [Stack Up](https://github.com/pressly/sup) - Stack Up，一个超级简单的部署工具 —— 纯 Unix —— 把它想成服务器网络里的「make」。
+- [stew](https://github.com/marwanhawari/stew) - 面向已编译二进制的独立包管理器。
+- [syncthing](https://syncthing.net/) - 开放、去中心化的文件同步工具与协议。
+- [tcpdog](https://github.com/mehrdadrad/tcpdog) - 基于 eBPF 的 TCP 可观测性方案。
+- [tinycare-tui](https://github.com/DMcP89/tinycare-tui) - 小型终端应用，展示过去 24 小时与一周的 git 提交、当前天气、一些自我关照建议、一个笑话，以及你当前的待办任务列表。
+- [tldx](https://github.com/brandonyoungdev/tldx) - 基于 RDAP、DNS 与 WHOIS 回退的批量域名可用性检查器，支持关键词排列组合生成。
+- [toxiproxy](https://github.com/shopify/toxiproxy) - 用于模拟网络与系统条件以进行自动化测试的代理。
+- [tsuru](https://tsuru.io/) - 可扩展的开源平台即服务（PaaS）软件。
+- [vaku](https://github.com/lingrino/vaku) - 面向 Vault 中基于文件夹的函数（如复制、移动、搜索）的 CLI 与 API。
+- [vFlow](https://github.com/VerizonDigital/vflow) - 高性能、可扩展且可靠的 IPFIX、sFlow 与 Netflow 采集器。
+- [untis-go](https://github.com/benzjeremy/untis-go) - 面向师生的高速原生 WebUntis 桌面客户端。侧边栏导航、课程表、作业、缺勤与消息。凭据经 AES-256-GCM 加密，SQLite 缓存优先，随机端口保障安全。
+- [Wave Terminal](https://waveterm.dev) - Wave 是开源、AI 原生的终端，为无缝开发者工作流而打造，具备内联渲染、现代化 UI 与持久化会话。
+- [wellington](https://github.com/wellington/wellington) - Sass 项目管理工具，以 sprite 函数（类似 Compass）扩展该语言。
+- [woke](https://github.com/get-woke/woke) - 检测源码中的非包容性（non-inclusive）语言。
+- [yai](https://github.com/ekkinox/yai) - AI 驱动的终端助手。
+- [zs](https://git.mills.io/prologic/zs) - 极其精简的静态站点生成器。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -3938,43 +3938,43 @@ _发现新 Go 库的地方。_
 <a id="benchmarks"></a>
 ## 性能基准测试
 
-- [autobench](https://github.com/davecheney/autobench) - Framework to compare the performance between different Go versions.
-- [go-benchmark-app](https://github.com/mrLSD/go-benchmark-app) - Powerful HTTP-benchmark tool mixed with Аb, Wrk, Siege tools. Gathering statistics and various parameters for benchmarks and comparison results.
-- [go-benchmarks](https://github.com/tylertreat/go-benchmarks) - Few miscellaneous Go microbenchmarks. Compare some language features to alternative approaches.
-- [go-http-routing-benchmark](https://github.com/julienschmidt/go-http-routing-benchmark) - Go HTTP request router benchmark and comparison.
-- [go-json-benchmark](https://github.com/zerosnake0/go-json-benchmark) - Go JSON benchmark.
-- [go-ml-benchmarks](https://github.com/nikolaydubina/go-ml-benchmarks) - benchmarks for machine learning inference in Go.
-- [go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark) - Go web framework benchmark.
-- [go_serialization_benchmarks](https://github.com/alecthomas/go_serialization_benchmarks) - Benchmarks of Go serialization methods.
-- [gocostmodel](https://github.com/PuerkitoBio/gocostmodel) - Benchmarks of common basic operations for the Go language.
-- [golang-benchmarks](https://github.com/SimonWaldherr/golang-benchmarks) - a collection of golang benchmarks.
-- [gospeed](https://github.com/feyeleanor/GoSpeed) - Go micro-benchmarks for calculating the speed of language constructs.
-- [kvbench](https://github.com/jimrobinson/kvbench) - Key/Value database benchmark.
-- [skynet](https://github.com/atemerev/skynet) - Skynet 1M threads microbenchmark.
-- [speedtest-resize](https://github.com/fawick/speedtest-resize) - Compare various Image resize algorithms for the Go language.
-- [vizb](https://github.com/goptics/vizb) - A CLI tool to visualize Go benchmark data in 4D.
+- [autobench](https://github.com/davecheney/autobench) - 用于比较不同 Go 版本性能的框架。
+- [go-benchmark-app](https://github.com/mrLSD/go-benchmark-app) - 强大的 HTTP 基准测试工具，融合了 Аb、Wrk、Siege 等工具。收集统计数据与各类参数，用于基准测试与对比结果。
+- [go-benchmarks](https://github.com/tylertreat/go-benchmarks) - 若干 Go 微基准测试。把一些语言特性与替代方案做对比。
+- [go-http-routing-benchmark](https://github.com/julienschmidt/go-http-routing-benchmark) - Go HTTP 请求路由器基准测试与对比。
+- [go-json-benchmark](https://github.com/zerosnake0/go-json-benchmark) - Go JSON 基准测试。
+- [go-ml-benchmarks](https://github.com/nikolaydubina/go-ml-benchmarks) - Go 中机器学习推理的基准测试。
+- [go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark) - Go Web 框架基准测试。
+- [go_serialization_benchmarks](https://github.com/alecthomas/go_serialization_benchmarks) - Go 序列化方法的基准测试。
+- [gocostmodel](https://github.com/PuerkitoBio/gocostmodel) - Go 语言常用基础操作的基准测试。
+- [golang-benchmarks](https://github.com/SimonWaldherr/golang-benchmarks) - 一组 golang 基准测试。
+- [gospeed](https://github.com/feyeleanor/GoSpeed) - 计算语言构造速度的 Go 微基准测试。
+- [kvbench](https://github.com/jimrobinson/kvbench) - 键值数据库基准测试。
+- [skynet](https://github.com/atemerev/skynet) - Skynet 100 万线程微基准测试。
+- [speedtest-resize](https://github.com/fawick/speedtest-resize) - 比较 Go 语言中各种图像缩放算法。
+- [vizb](https://github.com/goptics/vizb) - 以 4D 方式可视化 Go 基准测试数据的命令行工具。
 
 **[⬆ 回到顶部](#contents)**
 
 <a id="conferences"></a>
 ## 会议
 
-- [GoCon](https://gocon.connpass.com/) - Tokyo, Japan.
-- [GoDays](https://www.godays.io/) - Berlin, Germany.
-- [GoLab](https://golab.io/) - Florence, Italy.
-- [GopherCon](https://www.gophercon.com/) - Varied Locations Each Year, USA.
-- [GopherCon Africa](https://gophercon.africa/) - Nairobi, Kenya.
-- [GopherCon Australia](https://gophercon.com.au/) - Sydney, Australia.
-- [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, Brazil.
-- [GopherCon China](https://gophercon.com.cn) - Shanghai, China.
-- [GopherCon Europe](https://gophercon.eu/) - Berlin, Germany.
-- [GopherCon India](https://gopherconindia.org/) - Pune, India.
-- [GopherCon Israel](https://www.gophercon.org.il/) - Tel Aviv, Israel.
-- [GopherCon Russia](https://www.gophercon-russia.ru) - Moscow, Russia.
-- [GopherCon Singapore](https://gophercon.sg) - Mapletree Business City, Singapore.
-- [GopherCon UK](https://www.gophercon.co.uk/) - London, UK.
-- [GopherCon Vietnam](https://gophercon.vn/) - Ho Chi Minh City, Vietnam.
-- [GoWest Conference](https://www.gowestconf.com/) - Lehi, USA.
+- [GoCon](https://gocon.connpass.com/) - 日本东京。
+- [GoDays](https://www.godays.io/) - 德国柏林。
+- [GoLab](https://golab.io/) - 意大利佛罗伦萨。
+- [GopherCon](https://www.gophercon.com/) - 美国，每年不同地点。
+- [GopherCon Africa](https://gophercon.africa/) - 肯尼亚内罗毕。
+- [GopherCon Australia](https://gophercon.com.au/) - 澳大利亚悉尼。
+- [GopherCon Brazil](https://gopherconbr.org) - 巴西弗洛里亚诺波利斯。
+- [GopherCon China](https://gophercon.com.cn) - 中国上海。
+- [GopherCon Europe](https://gophercon.eu/) - 德国柏林。
+- [GopherCon India](https://gopherconindia.org/) - 印度浦那。
+- [GopherCon Israel](https://www.gophercon.org.il/) - 以色列特拉维夫。
+- [GopherCon Russia](https://www.gophercon-russia.ru) - 俄罗斯莫斯科。
+- [GopherCon Singapore](https://gophercon.sg) - 新加坡枫树商业城。
+- [GopherCon UK](https://www.gophercon.co.uk/) - 英国伦敦。
+- [GopherCon Vietnam](https://gophercon.vn/) - 越南胡志明市。
+- [GoWest Conference](https://www.gowestconf.com/) - 美国莱希。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -3985,36 +3985,36 @@ _发现新 Go 库的地方。_
 ### 付费电子书
 
 - [100 Go Mistakes: How to Avoid Them](https://www.manning.com/books/100-go-mistakes-how-to-avoid-them)
-- [Black Hat Go](https://nostarch.com/blackhatgo) - Go programming for hackers and pentesters.
+- [Black Hat Go](https://nostarch.com/blackhatgo) - 面向黑客与渗透测试者的 Go 编程。
 - [Build an Orchestrator in Go](https://www.manning.com/books/build-an-orchestrator-in-go)
-- [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) - This practical guide to continuous delivery shows you how to rapidly establish an automated pipeline that will improve your testing, code quality, and final product.
-- [Creative DIY Microcontroller Project With TinyGo and WebAssembly](https://www.packtpub.com/product/creative-diy-microcontroller-projects-with-tinygo-and-webassembly/9781800560208) - An introduction into the TinyGo compiler with projects involving Arduino and WebAssembly.
-- [Effective Go: Elegant, efficient, and testable code](https://www.manning.com/books/effective-go) - Unlock Go’s unique perspective on program design, and start writing simple, maintainable, and testable Go code.
-- [For the Love of Go](https://bitfieldconsulting.com/books/love) - An introductory book for Go beginners.
-- [Go in Practice, Second Edition](https://www.manning.com/books/go-in-practice-second-edition) - Your practical guide on the ins-and-outs of Go development, covering the standard library and the most important tools from Go’s powerful ecosystem.
-- [Know Go: Generics](https://bitfieldconsulting.com/books/generics) - A guide to understanding and using generics in Go.
-- [Lets-Go](https://lets-go.alexedwards.net) - A step-by-step guide to creating fast, secure and maintanable web applications with Go.
-- [Lets-Go-Further](https://lets-go-further.alexedwards.net) - Advanced patterns for building APIs and web applications in Go.
-- [The Power of Go: Tests](https://bitfieldconsulting.com/books/tests) - A guide to testing in Go.
-- [The Power of Go: Tools](https://bitfieldconsulting.com/books/tools) - A guide to writing command-line tools in Go.
+- [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) - 这份持续交付实用指南，会教你如何迅速搭建一条自动化流水线，改善你的测试、代码质量与最终产品。
+- [Creative DIY Microcontroller Project With TinyGo and WebAssembly](https://www.packtpub.com/product/creative-diy-microcontroller-projects-with-tinygo-and-webassembly/9781800560208) - TinyGo 编译器入门，含涉及 Arduino 与 WebAssembly 的项目。
+- [Effective Go: Elegant, efficient, and testable code](https://www.manning.com/books/effective-go) - 解锁 Go 在程序设计上的独特视角，开始编写简单、可维护、可测试的 Go 代码。
+- [For the Love of Go](https://bitfieldconsulting.com/books/love) - 面向 Go 初学者的入门书籍。
+- [Go in Practice, Second Edition](https://www.manning.com/books/go-in-practice-second-edition) - Go 开发里里外外的实用指南，涵盖标准库以及 Go 强大生态中最重要的工具。
+- [Know Go: Generics](https://bitfieldconsulting.com/books/generics) - 理解并使用 Go 泛型的指南。
+- [Lets-Go](https://lets-go.alexedwards.net) - 一步步教你用 Go 创建快速、安全且可维护的 Web 应用。
+- [Lets-Go-Further](https://lets-go-further.alexedwards.net) - 在 Go 中构建 API 与 Web 应用的高级模式。
+- [The Power of Go: Tests](https://bitfieldconsulting.com/books/tests) - Go 测试指南。
+- [The Power of Go: Tools](https://bitfieldconsulting.com/books/tools) - 用 Go 编写命令行工具的指南。
 - [Writing A Compiler In Go](https://compilerbook.com)
-- [Writing An Interpreter In Go](https://interpreterbook.com) - Book that introduces dozens of techniques for writing idiomatic, expressive, and efficient Go code that avoids common pitfalls.
+- [Writing An Interpreter In Go](https://interpreterbook.com) - 本书介绍数十种技巧，帮助你写出惯用、表达力强且高效的 Go 代码，并避开常见陷阱。
 
 <a id="free-e-books"></a>
 ### 免费电子书
 
 - [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
 - [An Introduction to Programming in Go](http://www.golang-book.com/)
-- [Build a blockchain from scratch in Go with gRPC](https://github.com/volodymyrprokopyuk/go-blockchain) - The foundational and practical guide for effectively learning and progressively building a blockchain from scratch in Go with gRPC.
+- [Build a blockchain from scratch in Go with gRPC](https://github.com/volodymyrprokopyuk/go-blockchain) - 使用 gRPC 从零有效学习并逐步构建区块链的入门与实用指南。
 - [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
 - [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
-- [Go 101](https://go101.org) - A book focusing on Go syntax/semantics and all kinds of details.
-- [Go AST Book (Chinese)](https://github.com/chai2010/go-ast-book) - A book focusing on Go `go/*` packages.
-- [Go Faster](https://leanpub.com/gofaster) - This book seeks to shorten your learning curve and help you become a proficient Go programmer, faster.
-- [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - in Persian.
-- [Go with the domain](https://threedots.tech/go-with-the-domain/) - A book showing how to apply DDD, Clean Architecture, and CQRS by practical refactoring.
-- [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books.
-- [How To Code in Go eBook](https://www.digitalocean.com/community/books/how-to-code-in-go-ebook) - A 600 page introduction to Go aimed at first time developers.
+- [Go 101](https://go101.org) - 聚焦 Go 语法/语义与各类细节的书籍。
+- [Go AST Book (Chinese)](https://github.com/chai2010/go-ast-book) - 聚焦 Go `go/*` 包的书籍。
+- [Go Faster](https://leanpub.com/gofaster) - 本书力图缩短你的学习曲线，帮助你更快成长为一名熟练的 Go 程序员。
+- [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - 波斯语版。
+- [Go with the domain](https://threedots.tech/go-with-the-domain/) - 通过实际重构讲解如何应用 DDD、整洁架构与 CQRS 的书籍。
+- [GoBooks](https://github.com/dariubs/GoBooks) - 精选 Go 书籍列表。
+- [How To Code in Go eBook](https://www.digitalocean.com/community/books/how-to-code-in-go-ebook) - 面向初学开发者的 600 页 Go 入门书。
 - [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 - [Network Programming With Go](https://jan.newmarch.name/golang/)
 - [Practical Go Lessons](https://www.practical-go-lessons.com/)
@@ -4029,17 +4029,17 @@ _发现新 Go 库的地方。_
 <a id="gophers"></a>
 ## Gopher 社区
 
-- [Free Gophers Pack](https://github.com/MariaLetta/free-gophers-pack) - Gopher graphics pack by Maria Letta with illustrations and emotional characters in vector and raster.
-- [Go-gopher-Vector](https://github.com/keygx/Go-gopher-Vector) - Go gopher Vector Data [.ai, .svg].
-- [gopher-logos](https://github.com/GolangUA/gopher-logos) - adorable gopher logos.
+- [Free Gophers Pack](https://github.com/MariaLetta/free-gophers-pack) - Maria Letta 出品的 Gopher 图形素材包，含插画与情感化角色，提供矢量与位图格式。
+- [Go-gopher-Vector](https://github.com/keygx/Go-gopher-Vector) - Go gopher 矢量数据 [.ai, .svg]。
+- [gopher-logos](https://github.com/GolangUA/gopher-logos) - 超可爱的 gopher 徽标。
 - [gopher-stickers](https://github.com/tenntenn/gopher-stickers)
 - [gophericons](https://github.com/shalakhin/gophericons)
-- [gopherize.me](https://github.com/matryer/gopherize.me) - Gopherize yourself.
-- [gophers](https://github.com/ashleymcnamara/gophers) - Gopher artworks by Ashley McNamara.
-- [gophers](https://github.com/egonelbre/gophers) - Free gophers.
-- [gophers](https://github.com/rogeralsing/gophers) - random gopher graphics.
-- [gophers](https://github.com/sillecelik/go-gopher) - Gopher amigurumi toy pattern.
-- [gophers](https://github.com/scraly/gophers) - Gophers by Aurélie Vache.
+- [gopherize.me](https://github.com/matryer/gopherize.me) - 把自己 Gopher 化。
+- [gophers](https://github.com/ashleymcnamara/gophers) - Ashley McNamara 创作的 Gopher 艺术作品。
+- [gophers](https://github.com/egonelbre/gophers) - 免费 gopher 素材。
+- [gophers](https://github.com/rogeralsing/gophers) - 随机 gopher 图形。
+- [gophers](https://github.com/sillecelik/go-gopher) - Gopher 钩针玩偶图纸。
+- [gophers](https://github.com/scraly/gophers) - Aurélie Vache 绘制的 Gophers。
 
 **[⬆ 回到顶部](#contents)**
 
@@ -4154,38 +4154,38 @@ _在这里添加你所在城市/国家的分会（请提交 **PR**）_
 <a id="websites"></a>
 ## 网站
 
-- [Awesome Go @LibHunt](https://go.libhunt.com) - Your go-to Go Toolbox.
-- [Awesome Golang Workshops](https://github.com/amit-davidson/awesome-golang-workshops) - A curated list of awesome golang workshops.
-- [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job) - Curated list of awesome remote jobs. A lot of them are looking for Go hackers.
-- [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - List of other amazingly awesome lists.
-- [awesome-go-extra](https://github.com/xwjdsh/awesome-go-extra) - Parse awesome-go README file and generate a new README file with repo info.
-- [Code with Mukesh](https://codewithmukesh.com/categories/golang) - Software Engineer and Blogs @ codewithmukesh.com.
-- [Coding Mystery](https://codingmystery.com) - Solve exciting escape-room-inspired programming challenges using Go.
-- [CodinGame](https://www.codingame.com/) - Learn Go by solving interactive tasks using small games as practical examples.
-- [Go Blog](https://blog.golang.org) - The official Go blog.
-- [Go Code Club](https://www.youtube.com/watch?v=nvoIPQYdx9g&list=PLEcwzBXTPUE_YQR7R0BRtHBYJ0LN3Y0i3) - A group of Gophers read and discuss a different Go project every week.
-- [Go Community on Hashnode](https://hashnode.com/n/go) - Community of Gophers on Hashnode.
-- [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
-- [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki.
-- [Go Proverbs](https://go-proverbs.github.io/) - Go Proverbs by Rob Pike.
-- [Go Report Card](https://goreportcard.com) - A report card for your Go package.
-- [go.dev](https://go.dev/) - A hub for Go developers.
-- [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - Collection of Go projects that needs help. Good place to start your open-source way in Go.
-- [Golang Developer Jobs](https://golangjob.xyz) - Developer Jobs exclusively for Golang related Roles.
-- [Golang News](https://golangnews.com) - Links and news about Go programming.
-- [Golang Nugget](https://golangnugget.com) - A weekly roundup of the best Go content, delivered to your inbox every Monday.
-- [Golang Weekly](https://discu.eu/weekly/golang/) - Each monday projects, tutorials and articles about Go.
-- [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list.
-- [Gopher Community Chat](https://invite.slack.golangbridge.org) - Join Our New Slack Community For Gophers ([Understand how it came](https://blog.gopheracademy.com/gophers-slack-community/)).
-- [Gophercises](https://gophercises.com/) - Free coding exercises for budding gophers.
-- [json2go](https://m-zajac.github.io/json2go) - Advanced JSON to Go struct conversion - online tool.
-- [justforfunc](https://www.youtube.com/c/justforfunc) - Youtube channel dedicated to Go programming language tips and tricks, hosted by Francesc Campoy [@francesc](https://twitter.com/francesc).
-- [Learn Go Programming](https://blog.learngoprogramming.com) - Learn Go concepts with illustrations.
-- [Libs.tech](https://libs.tech/go) – Awesome Go libraries and hidden gems
+- [Awesome Go @LibHunt](https://go.libhunt.com) - 你的 Go 工具箱首选。
+- [Awesome Golang Workshops](https://github.com/amit-davidson/awesome-golang-workshops) - 精选的精彩 Go 语言研讨会合集。
+- [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job) - 精选的优质远程职位合集，其中不少在招 Go 工程师。
+- [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - 其他那些同样精彩的列表合集。
+- [awesome-go-extra](https://github.com/xwjdsh/awesome-go-extra) - 解析 awesome-go 的 README 文件，并生成一份带仓库信息的新 README。
+- [Code with Mukesh](https://codewithmukesh.com/categories/golang) - 软件工程师，博客见 codewithmukesh.com。
+- [Coding Mystery](https://codingmystery.com) - 用 Go 解决基于密室逃脱的趣味编程挑战。
+- [CodinGame](https://www.codingame.com/) - 通过用小游戏作实践示例、解决交互式任务来学习 Go。
+- [Go Blog](https://blog.golang.org) - Go 官方博客。
+- [Go Code Club](https://www.youtube.com/watch?v=nvoIPQYdx9g&list=PLEcwzBXTPUE_YQR7R0BRtHBYJ0LN3Y0i3) - 一群 Gopher 每周阅读并讨论一个不同的 Go 项目。
+- [Go Community on Hashnode](https://hashnode.com/n/go) - Hashnode 上的 Gopher 社区。
+- [Go Forum](https://forum.golangbridge.org) - 讨论 Go 的论坛。
+- [Go Projects](https://github.com/golang/go/wiki/Projects) - Go 社区 wiki 上的项目列表。
+- [Go Proverbs](https://go-proverbs.github.io/) - Rob Pike 的 Go 箴言。
+- [Go Report Card](https://goreportcard.com) - 给你的 Go 包打一张成绩单。
+- [go.dev](https://go.dev/) - Go 开发者的集散地。
+- [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - 需要帮助的 Go 项目合集。是开启 Go 开源之路的好起点。
+- [Golang Developer Jobs](https://golangjob.xyz) - 专为 Golang 相关岗位提供的开发者职位。
+- [Golang News](https://golangnews.com) - 关于 Go 编程的链接与资讯。
+- [Golang Nugget](https://golangnugget.com) - 每周一投递到你邮箱的 Go 最佳内容精选汇总。
+- [Golang Weekly](https://discu.eu/weekly/golang/) - 每周一发布的 Go 项目、教程与文章。
+- [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go 邮件列表。
+- [Gopher Community Chat](https://invite.slack.golangbridge.org) - 加入我们为 Gopher 开设的新 Slack 社区（[了解它的由来](https://blog.gopheracademy.com/gophers-slack-community/)）。
+- [Gophercises](https://gophercises.com/) - 为崭露头角的 gopher 提供的免费编程练习。
+- [json2go](https://m-zajac.github.io/json2go) - 高级 JSON 到 Go 结构体转换 —— 在线工具。
+- [justforfunc](https://www.youtube.com/c/justforfunc) - 专注 Go 编程语言技巧与窍门的 YouTube 频道，由 Francesc Campoy [@francesc](https://twitter.com/francesc) 主持。
+- [Learn Go Programming](https://blog.learngoprogramming.com) - 借助图解学习 Go 概念。
+- [Libs.tech](https://libs.tech/go) – 精彩的 Go 库与隐藏瑰宝。
 - [Made with Golang](https://madewithgolang.com/?ref=awesome-go)
-- [pkg.go.dev](https://pkg.go.dev/) - Documentation for open source Go packages.
-- [studygolang](https://studygolang.com) - The community of studygolang in China.
-- [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
+- [pkg.go.dev](https://pkg.go.dev/) - Go 开源包的文档。
+- [studygolang](https://studygolang.com) - 中国的 studygolang 学习社区。
+- [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - 寻找新 Go 库的好地方。
 - [TutorialEdge - Golang](https://tutorialedge.net/course/golang/)
 
 **[⬆ 回到顶部](#contents)**
@@ -4193,27 +4193,27 @@ _在这里添加你所在城市/国家的分会（请提交 **PR**）_
 <a id="tutorials"></a>
 ### 教程
 
-- [50 Shades of Go](https://golang50shades.github.io/) - Traps, Gotchas, and Common Mistakes for New Golang Devs.
-- [A Comprehensive Guide to Structured Logging in Go](https://betterstack.com/community/guides/logging/logging-in-go/) - Delve deep into the world of structured logging in Go with a specific focus on recently accepted slog proposal which aims to bring high performance structured logging with levels to the standard library.
-- [A Guide to Golang E-Commerce](https://snipcart.com/blog/golang-ecommerce-ponzu-cms-demo?utm_term=golang-ecommerce-ponzu-cms-demo) - Building a Golang site for e-commerce (demo included).
-- [A Tour of Go](https://tour.golang.org/) - Interactive tour of Go.
-- [Build a Database in 1000 lines of code](https://link.medium.com/O9YQlx89Htb) - Build a NoSQL Database From Zero in 1000 Lines of Code.
-- [Build web application with Golang](https://github.com/astaxie/build-web-application-with-golang) - Golang ebook intro how to build a web app with golang.
-- [Building and Testing a REST API in Go with Gorilla Mux and PostgreSQL](https://semaphoreci.com/community/tutorials/building-and-testing-a-rest-api-in-go-with-gorilla-mux-and-postgresql) - We’ll write an API with the help of the powerful Gorilla Mux.
-- [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin) - Get familiar with Gin and find out how it can help you reduce boilerplate code and build a request handling pipeline.
-- [Caching Slow Database Queries](https://medium.com/@rocketlaunchr.cloud/caching-slow-database-queries-1085d308a0c9) - How to cache slow database queries.
-- [Canceling MySQL](https://medium.com/@rocketlaunchr.cloud/canceling-mysql-in-go-827ed8f83b30) - How to cancel MySQL queries.
-- [CodeCrafters Golang Track](https://app.codecrafters.io/tracks/go) - Achieve mastery in advanced Go by building your own Redis, Docker, Git, and SQLite. Featuring goroutines, systems programming, file I/O, and more.
-- [Design Patterns in Go](https://github.com/shubhamzanwar/design-patterns) - Collection of programming design patterns implemented in Go.
-- [Games With Go](https://www.youtube.com/watch?v=9D4yH7e_ea8&list=PLDZujg-VgQlZUy1iCqBbe5faZLMkA3g2x) - A video series teaching programming and game development.
-- [Go By Example](https://gobyexample.com/) - Hands-on introduction to Go using annotated example programs.
-- [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet) - Go's reference card.
-- [Go database/sql tutorial](http://go-database-sql.org/) - Introduction to database/sql.
-- [Go in 7 days](https://github.com/harrytran103/7_days_of_go) - Learn everything about Go in 7 days (from a Nodejs developer).
-- [Go Language Tutorial](https://www.javatpoint.com/go-tutorial) - Learn Go language Tutorial.
-- [Go Tutorial](https://www.tutorialspoint.com/go/index.htm) - Learn Go programming.
+- [50 Shades of Go](https://golang50shades.github.io/) - 面向 Go 新手的陷阱、坑与常见错误。
+- [A Comprehensive Guide to Structured Logging in Go](https://betterstack.com/community/guides/logging/logging-in-go/) - 深入 Go 的结构化日志世界，重点聚焦近期被接受的 slog 提案——它力求把带级别的高性能结构化日志带入标准库。
+- [A Guide to Golang E-Commerce](https://snipcart.com/blog/golang-ecommerce-ponzu-cms-demo?utm_term=golang-ecommerce-ponzu-cms-demo) - 为 Golang 构建电商站点（含演示）。
+- [A Tour of Go](https://tour.golang.org/) - Go 交互式导览。
+- [Build a Database in 1000 lines of code](https://link.medium.com/O9YQlx89Htb) - 用 1000 行代码从零构建一个 NoSQL 数据库。
+- [Build web application with Golang](https://github.com/astaxie/build-web-application-with-golang) - Golang 电子书入门：如何用 Golang 构建 Web 应用。
+- [Building and Testing a REST API in Go with Gorilla Mux and PostgreSQL](https://semaphoreci.com/community/tutorials/building-and-testing-a-rest-api-in-go-with-gorilla-mux-and-postgresql) - 借助强大的 Gorilla Mux 编写一个 API。
+- [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin) - 熟悉 Gin，并了解它如何帮你减少样板代码、构建请求处理管线。
+- [Caching Slow Database Queries](https://medium.com/@rocketlaunchr.cloud/caching-slow-database-queries-1085d308a0c9) - 如何缓存缓慢的数据库查询。
+- [Canceling MySQL](https://medium.com/@rocketlaunchr.cloud/canceling-mysql-in-go-827ed8f83b30) - 如何取消 MySQL 查询。
+- [CodeCrafters Golang Track](https://app.codecrafters.io/tracks/go) - 通过亲手构建你自己的 Redis、Docker、Git 与 SQLite 精通进阶 Go。涵盖 goroutine、系统编程、文件 I/O 等。
+- [Design Patterns in Go](https://github.com/shubhamzanwar/design-patterns) - 以 Go 实现的各种编程设计模式合集。
+- [Games With Go](https://www.youtube.com/watch?v=9D4yH7e_ea8&list=PLDZujg-VgQlZUy1iCqBbe5faZLMkA3g2x) - 教授编程与游戏开发的视频系列。
+- [Go By Example](https://gobyexample.com/) - 通过带注释的示例程序动手入门 Go。
+- [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet) - Go 参考速查卡。
+- [Go database/sql tutorial](http://go-database-sql.org/) - database/sql 入门。
+- [Go in 7 days](https://github.com/harrytran103/7_days_of_go) - 7 天学完 Go（面向 Node.js 开发者）。
+- [Go Language Tutorial](https://www.javatpoint.com/go-tutorial) - Go 语言教程。
+- [Go Tutorial](https://www.tutorialspoint.com/go/index.htm) - 学习 Go 编程。
 - [Go WebAssembly Tutorial - Building a Simple Calculator](https://tutorialedge.net/golang/go-webassembly-tutorial/)
-- [go-clean-template](https://github.com/evrone/go-clean-template) - Clean Architecture template for Golang services.
+- [go-clean-template](https://github.com/evrone/go-clean-template) - 面向 Golang 服务的整洁架构模板。
 - [go-patterns](https://github.com/tmrts/go-patterns) - Curated list of Go design patterns, recipes and idioms.
 - [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) - Examples of Golang compared to Node.js for learning.
 - [Golang Tutorial Guide](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/) - A List of Free Courses to Learn the Go Programming Language.
