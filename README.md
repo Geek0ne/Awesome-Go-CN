@@ -4214,42 +4214,42 @@ _在这里添加你所在城市/国家的分会（请提交 **PR**）_
 - [Go Tutorial](https://www.tutorialspoint.com/go/index.htm) - 学习 Go 编程。
 - [Go WebAssembly Tutorial - Building a Simple Calculator](https://tutorialedge.net/golang/go-webassembly-tutorial/)
 - [go-clean-template](https://github.com/evrone/go-clean-template) - 面向 Golang 服务的整洁架构模板。
-- [go-patterns](https://github.com/tmrts/go-patterns) - Curated list of Go design patterns, recipes and idioms.
-- [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) - Examples of Golang compared to Node.js for learning.
-- [Golang Tutorial Guide](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/) - A List of Free Courses to Learn the Go Programming Language.
-- [golang-examples](https://github.com/SimonWaldherr/golang-examples) - Many examples to learn Golang.
-- [Golangbot](https://golangbot.com/learn-golang-series/) - Tutorials to get started with programming in Go.
-- [GopherCoding](https://gophercoding.com/) - Collection of code snippets and tutorials to help tackle every day issues.
-- [GopherSnippets](https://gophersnippets.com/) - Code snippets with tests and testable examples for the Go programming language.
-- [Gosamples](https://gosamples.dev/) - Collection of code snippets that let you solve everyday code problems.
-- [GraphQL with Go](https://hasura.io/learn/graphql/backend-stack/languages/go/) - Learn how to create a Go GraphQL server and client with code generation. Also includes creating REST endpoints.
-- [Hackr.io](https://hackr.io/tutorials/learn-golang) - Learn Go from the best online golang tutorials submitted & voted by the golang programming community.
-- [Hex Monscape](https://github.com/Haraj-backend/hex-monscape) - Getting started guidelines in writing maintainable code using Hexagonal Architecture.
-- [How to Benchmark: dbq vs sqlx vs GORM](https://medium.com/@rocketlaunchr.cloud/how-to-benchmark-dbq-vs-sqlx-vs-gorm-e814caacecb5) - Learn how to benchmark in Go. As a case-study, we will benchmark dbq, sqlx and GORM.
-- [How To Deploy a Go Web Application with Docker](https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker) - Learn how to use Docker for Go development and how to build production Docker images.
-- [How to Implement Role-Based Access Control (RBAC) Authorization in Golang](https://www.permit.io/blog/role-based-access-control-rbac-authorization-in-golang) - A guide to implementing Role-Based Access Control (RBAC) in Golang, including code examples, covering various methods to secure app endpoints with role-based authorization.
-- [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Get started with Godog - a Behavior-driven development framework for building and testing Go applications.
-- [Learn Go with 1000+ Exercises](https://github.com/inancgumus/learngo) - Learn Go with thousands of examples, exercises, and quizzes.
-- [Learn Go with TDD](https://github.com/quii/learn-go-with-tests) - Learn Go with test-driven development.
-- [Learning Go by examples](https://dev.to/aurelievache/learning-go-by-examples-introduction-448n) - Series of articles in order to learn Golang language by concrete applications as example.
-- [Microservices with Go](https://www.youtube.com/playlist?list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_) - Dive deep into building microservices using Go, including gRPC.
-- [package main](https://www.youtube.com/packagemain) - YouTube channel about Programming in Go.
-- [Programming with Google Go](https://www.coursera.org/specializations/google-golang) - Coursera Specialization to learn about Go from scratch.
-- [Scaling Go Applications](https://betterstack.com/community/guides/scaling-go/) - Everything about building, deploying and scaling Go applications in production.
+- [go-patterns](https://github.com/tmrts/go-patterns) - 精选的 Go 设计模式、实践配方与惯用法合集。
+- [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) - Golang 与 Node.js 的对比示例，便于学习。
+- [Golang Tutorial Guide](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/) - 学习 Go 编程语言的免费课程列表。
+- [golang-examples](https://github.com/SimonWaldherr/golang-examples) - 大量用于学习 Golang 的示例。
+- [Golangbot](https://golangbot.com/learn-golang-series/) - Go 编程入门教程。
+- [GopherCoding](https://gophercoding.com/) - 代码片段与教程合集，帮助解决日常各类问题。
+- [GopherSnippets](https://gophersnippets.com/) - 面向 Go 编程语言的代码片段，附带测试与可测试示例。
+- [Gosamples](https://gosamples.dev/) - 代码片段合集，帮你解决日常编码问题。
+- [GraphQL with Go](https://hasura.io/learn/graphql/backend-stack/languages/go/) - 学习如何借助代码生成创建 Go 的 GraphQL 服务器与客户端。同时包含创建 REST 端点。
+- [Hackr.io](https://hackr.io/tutorials/learn-golang) - 从 Go 社区投稿并投票产生的最佳 Go 在线教程中学习 Go。
+- [Hex Monscape](https://github.com/Haraj-backend/hex-monscape) - 使用六边形架构编写可维护代码的入门指南。
+- [How to Benchmark: dbq vs sqlx vs GORM](https://medium.com/@rocketlaunchr.cloud/how-to-benchmark-dbq-vs-sqlx-vs-gorm-e814caacecb5) - 学习如何在 Go 中做基准测试。作为案例研究，我们将对 dbq、sqlx 与 GORM 进行基准测试。
+- [How To Deploy a Go Web Application with Docker](https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker) - 学习如何为 Go 开发使用 Docker，以及如何构建生产级 Docker 镜像。
+- [How to Implement Role-Based Access Control (RBAC) Authorization in Golang](https://www.permit.io/blog/role-based-access-control-rbac-authorization-in-golang) - 在 Golang 中实现基于角色的访问控制（RBAC）的指南，含代码示例，涵盖用基于角色的授权保护应用端点的各种方法。
+- [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - 从 Godog 入门 —— 一个用于构建与测试 Go 应用的行为驱动开发框架。
+- [Learn Go with 1000+ Exercises](https://github.com/inancgumus/learngo) - 通过数千个示例、练习与测验学习 Go。
+- [Learn Go with TDD](https://github.com/quii/learn-go-with-tests) - 用测试驱动开发的方式学习 Go。
+- [Learning Go by examples](https://dev.to/aurelievache/learning-go-by-examples-introduction-448n) - 以具体应用为范例、按序学习 Golang 语言的系列文章。
+- [Microservices with Go](https://www.youtube.com/playlist?list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_) - 深入探讨用 Go 构建微服务，涵盖 gRPC。
+- [package main](https://www.youtube.com/packagemain) - 关于 Go 编程的 YouTube 频道。
+- [Programming with Google Go](https://www.coursera.org/specializations/google-golang) - Coursera 专项课程，从零开始学习 Go。
+- [Scaling Go Applications](https://betterstack.com/community/guides/scaling-go/) - 关于在生产环境中构建、部署与扩展 Go 应用的一切。
 - [The world’s easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
-- [Understanding Go in a visual way](https://dev.to/aurelievache/series/26234) - Learn Go visually
-- [W3basic Go Tutorials](https://www.w3basic.com/golang/) - W3Basic provides an in-depth tutorial and well-organized content to learn Golang programming.
-- [Your basic Go](https://yourbasic.org/golang) - Huge collection of tutorials and how to's.
+- [Understanding Go in a visual way](https://dev.to/aurelievache/series/26234) - 以可视化方式学习 Go。
+- [W3basic Go Tutorials](https://www.w3basic.com/golang/) - W3Basic 提供深入浅出的教程与组织良好的内容，帮助学习 Golang 编程。
+- [Your basic Go](https://yourbasic.org/golang) - 海量教程与操作指南合集。
 
 **[⬆ 回到顶部](#contents)**
 
 <a id="guided-learning"></a>
 ### 引导式学习
 
-- [The Go Developer Roadmap](https://roadmap.sh/golang) - A visual roadmap that new Go developers can follow through to help them learn Go.
-- [The Go Interview Practice](https://github.com/RezaSi/go-interview-practice) - A GitHub repository offering coding challenges for Go technical interview preparation.
-- [The Go Learning Path](https://tutorialedge.net/paths/golang/) - A guided learning path containing a mix of free and premium resources.
-- [The Go Skill Tree](https://labex.io/skilltrees/go) - A structured learning path that combines both free and premium resources.
+- [The Go Developer Roadmap](https://roadmap.sh/golang) - 一份可视化路线图，新手 Go 开发者可照此路径学习 Go。
+- [The Go Interview Practice](https://github.com/RezaSi/go-interview-practice) - 提供 Go 技术面试备战编码挑战的 GitHub 仓库。
+- [The Go Learning Path](https://tutorialedge.net/paths/golang/) - 一条引导式学习路径，混合了免费与付费资源。
+- [The Go Skill Tree](https://labex.io/skilltrees/go) - 一条结构化学习路径，融合免费与付费资源。
 
 **[⬆ 回到顶部](#contents)**
 
