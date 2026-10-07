@@ -65,6 +65,8 @@ jobs:
           } > body.md
 
       - name: 开或更新 Issue
+        env:
+          GH_TOKEN: ${{ github.token }}
         if: steps.summary.outputs.total != '0'
         run: |
           # 找到已存在的上游同步 Issue
@@ -81,6 +83,8 @@ jobs:
           fi
 
       - name: 无差异则静默
+        env:
+          GH_TOKEN: ${{ github.token }}
         if: steps.summary.outputs.total == '0'
         run: |
           ISSUE=$(gh issue list --label "上游同步" --state open --json number --jq '.[0].number' || true)
